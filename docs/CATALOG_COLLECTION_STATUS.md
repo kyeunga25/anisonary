@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第 652 批接續《動物朋友2》第1–12話原播、輪替片尾及插曲。 |
+| 下批位置 | 第663批接續2019冬日本TV名冊的其餘跨季作品。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 651 批已在本機驗收，相對第 638 批正式基線有 136 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `429d759517e10bd7055969fdd92e41ec9d828f73`／[batch638-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch638-japanese-tv)。本機資料驗收到第 651 批。 |
-| 發布提交 | [PR #315](https://github.com/kyeunga25/anisonary/pull/315) 固定候選 `85905c4`。正式 Workers 版本 `bf0c694a-d71b-4b55-88c2-db15205a6eaf`，預覽版本 `270b6559-259e-410d-b54d-73d6b4ddd9f5`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 662 批已在本機驗收，相對第 651 批正式基線有 102 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `5b44683c91c88d162c15f92cb9544f4d964e5c07`／[batch651-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch651-japanese-tv)。本機資料驗收到第 662 批。 |
+| 發布提交 | [PR #316](https://github.com/kyeunga25/anisonary/pull/316) 固定候選 `bd8c352`。正式 Workers 版本 `1c6c8865-2f63-47a9-8bca-f9836d06b0a5`，預覽版本 `8e69ac2e-2b27-4d05-a056-c5e31642a371`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -19973,4 +19973,75 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 - 兩作37個用途、29首曲。第二系列第23話無片頭、第24話無常規片尾，NHK於4月14日連播兩話。以角色及實際鋼琴家、指揮和樂團分辨決賽與練習雙鋼琴，同一首作品同一樂章共用歌曲ID；〈茶色の小瓶〉採終話管弦版。港版Netflix譯《琴絃森林》，台版《琴之森》。第13話作品25-10、第18話〈Lacrimosa〉、第24話作品27-2及其他尚未確認演奏署名的片段留待分集掛字。京都動畫確認《弦音》第10話〈風のソルフェ〉在2018年12月23日原播，次年1月重播另計；主題曲跨入2019冬。兩作對帳港、日、台Apple Music曲目，按地區保留，另有3個官方MV。[動畫逐話演奏曲表](https://piano-anime.jp/story.html) · [日本哥倫比亞逐軌名義](https://columbia.jp/pianonomori/release.html) · [京都動畫音樂](https://tsurune.com/tv/music/)
 - 本批用途：`piano-no-mori-2-op-1`、`piano-no-mori-2-ed-1`、`piano-no-mori-2-in-1`、`piano-no-mori-2-in-2`、`piano-no-mori-2-in-3`、`piano-no-mori-2-in-4`、`piano-no-mori-2-in-5`、`piano-no-mori-2-in-6`、`piano-no-mori-2-in-7`、`piano-no-mori-2-in-8`、`piano-no-mori-2-in-9`、`piano-no-mori-2-in-10`、`piano-no-mori-2-in-11`、`piano-no-mori-2-in-12`、`piano-no-mori-2-in-13`、`piano-no-mori-2-in-14`、`piano-no-mori-2-in-15`、`piano-no-mori-2-in-16`、`piano-no-mori-2-in-17`、`piano-no-mori-2-in-18`、`piano-no-mori-2-in-19`、`piano-no-mori-2-in-20`、`piano-no-mori-2-in-21`、`piano-no-mori-2-in-22`、`piano-no-mori-2-in-23`、`piano-no-mori-2-in-24`、`piano-no-mori-2-in-25`、`piano-no-mori-2-in-26`、`piano-no-mori-2-in-27`、`piano-no-mori-2-in-28`、`piano-no-mori-2-in-29`、`piano-no-mori-2-in-30`、`piano-no-mori-2-in-31`、`piano-no-mori-2-in-32`、`tsurune-kazemai-koukou-kyuudoubu-op-1`、`tsurune-kazemai-koukou-kyuudoubu-ed-1`、`tsurune-kazemai-koukou-kyuudoubu-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第652批　《動物朋友2》十二話原播、輪替片尾及PPP插曲
+
+- 東京電視台首週為紀念特番，正篇第1至12話由1月14日至4月1日節目日播出。第6話起更換片尾，第12話另用「ただいま ver.」。日本唱片公司列為新錄的終話版收於合輯第17軌。第8、11話使用PPP插曲，Rap詞另署らっぷびと。5首歌曲共28個錄音，香港及日本的數位版、單曲、原聲帶或合輯曲序、AWA曲目及官方影片按歌曲掛載。ViuTV 99台節目表確認香港片名。[東京電視台原播](https://www.tv-tokyo.co.jp/anime/kemono-friends2/onair/) · [Victor唱片曲目](https://www.jvcmusic.co.jp/kemono-friends/cd/) · [香港節目表](https://static.viu.tv/Wgr7Ixu0x0A9w_ah.pdf)
+- 本批用途：`kemono-friends-2-op-1`、`kemono-friends-2-ed-1`、`kemono-friends-2-ed-2`、`kemono-friends-2-ed-3`、`kemono-friends-2-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第653批　《W'z》與《粉彩回憶》日本原播、角色合唱及特殊片尾
+
+- 兩作共7個用途、6首歌及16個音源。《W'z》正篇第1話無片頭片尾，第13話無片尾；第7話沿用手綱與小代理的角色合唱，另核對第0話的後來電視播映。《粉彩回憶》第1話以片頭曲收尾，第7話改用8bit版，第12話插入原作遊戲二重唱。第2話曾於日本原播，後續停止配信，藍光盒收第1、3至12話。香港與日本的唱片曲序、串流及下載購買按錄音分列。[Frontier Works](https://www.fwinc.co.jp/news/49417/) · [第0話電視資料](https://www.tbs.co.jp/tbs-ch/item/a0393/) · [配信與影碟更動](https://pasumemotv.com/news/778/) · [片尾錄音及曲序](https://pasumemotv.com/products/256/) · [FuRyu原作歌曲](https://www.furyu.jp/news/2017/10/pastelmemories.html)
+- 本批用途：`w-z-op-1`、`w-z-ed-1`、`w-z-in-1`、`pastel-memories-op-1`、`pastel-memories-ed-1`、`pastel-memories-ed-2`、`pastel-memories-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第654批　《格林筆記 The Animation》首末話插曲與《環戰公主》合唱、六種獨唱錄音
+
+- 兩部5用途、5首歌。TBS及SQUARE ENIX稱〈英雄の詩篇〉為插曲，首末話片末使用；通常ED只用於第2–11話，終話原播延至26:00。〈Circle-Lets Friends!〉只有六人合唱版用於片尾，單曲另收六種個人版及伴奏。已分開記錄港、台、日Apple Music串流、日本iTunes Store數位單購、Spotify、AWA、OTOTOY、現場版、TV剪輯及實體版曲序。[TBS原聲帶](https://www.tbs.co.jp/anime/grimmsnotes/music/music03.html) · [TBS映像版](https://www.tbs.co.jp/anime/grimmsnotes/disc/) · [栗林みな実官方商品目錄](https://www.asmart.jp/shop/minami/product/10019705) · [DMM pictures](https://pictures.dmm.com/lineup/cirpri/)
+- 本批用途：`grimms-notes-the-animation-op-1`、`grimms-notes-the-animation-ed-1`、`grimms-notes-the-animation-in-1`、`circlet-princess-op-1`、`circlet-princess-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第655批　《3D彼女 リアルガール》兩季原播、第24話片尾與卡式單曲
+
+- 兩季5個用途、4首歌曲。第1季第1話實播於4月3日節目日26:04，較常規時段遲5分鐘。第2季第13–23話用〈破顔〉作結，第24話片尾回用首季片頭〈だいじなこと〉，沿用同一歌曲ID。該曲的卡式單曲A面演唱、B面伴奏及數位專輯混音分列。〈HiDE the BLUE〉另收2018橫濱Arena現場CD；兩種BiSH精選輯碟序與數位發行逐區核對。授權曲目包括香港及日本Apple Music、日本AWA；動畫首播與Hulu等平台配信分列。[動畫官網音樂](https://www.vap.co.jp/3dkanojo-anime/goods/music.html) · [團方卡式單曲資料](https://www.quruli.net/news/daijinakoto/) · [第24話用曲](https://www.mau2.com/anime/3dkanojorealgirl-2/ep/24)
+- 本批用途：`3d-kanojo-real-girl-op-1`、`3d-kanojo-real-girl-ed-1`、`3d-kanojo-real-girl-2-op-1`、`3d-kanojo-real-girl-2-ed-1`、`3d-kanojo-real-girl-2-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第656批　《BanG Dream! 2nd Season》十三話輪替主題曲、劇中演出及重播特別片尾
+
+- 2019年原播有36項用途，包括Poppin’Party與Roselia輪替的主題曲、13話的安可及片尾、第11話花園多惠獨唱〈Returns〉、第12話戶山香澄彈唱〈Dreamers Go!〉及第13話的樂團演出。2021年重播第7–12話的《約束》特別片尾另列在2021冬。合計38個用途、33首歌、82個錄音，10首沿用第三季歌曲ID。香港與日本各核96條數位曲目連結，另有24段官方影片。第7話〈Don't be afraid!〉的劇中演奏者與第11話〈きらきら星〉、第12話〈Dreamers Go!〉角色演出的獨立發行仍待權利方確認。[動畫製作組及分集](https://anime.bang-dream.com/2nd/story/) · [第二、三季原聲帶](https://bang-dream.com/discographies/1393/) · [原播當晚的第13話演出紀錄](https://mirikai.hatenadiary.jp/entry/2019/03/29/003405) · [2021重播特別片尾公告](https://roselia-movie.bang-dream.com/news/20210123/post-6)
+- 本批用途：`bang-dream-2nd-season-op-1`、`bang-dream-2nd-season-op-2`、`bang-dream-2nd-season-ed-1`、`bang-dream-2nd-season-ed-2`、`bang-dream-2nd-season-ed-3`、`bang-dream-2nd-season-ed-4`、`bang-dream-2nd-season-ed-5`、`bang-dream-2nd-season-in-1`、`bang-dream-2nd-season-in-2`、`bang-dream-2nd-season-in-3`、`bang-dream-2nd-season-in-4`、`bang-dream-2nd-season-in-5`、`bang-dream-2nd-season-in-6`、`bang-dream-2nd-season-in-7`、`bang-dream-2nd-season-in-8`、`bang-dream-2nd-season-in-9`、`bang-dream-2nd-season-in-10`、`bang-dream-2nd-season-in-11`、`bang-dream-2nd-season-in-12`、`bang-dream-2nd-season-in-13`、`bang-dream-2nd-season-in-14`、`bang-dream-2nd-season-in-15`、`bang-dream-2nd-season-in-16`、`bang-dream-2nd-season-in-17`、`bang-dream-2nd-season-in-18`、`bang-dream-2nd-season-in-19`、`bang-dream-2nd-season-in-20`、`bang-dream-2nd-season-in-21`、`bang-dream-2nd-season-in-22`、`bang-dream-2nd-season-in-23`、`bang-dream-2nd-season-in-24`、`bang-dream-2nd-season-in-25`、`bang-dream-2nd-season-in-26`、`bang-dream-2nd-season-in-27`、`bang-dream-2nd-season-in-28`、`bang-dream-2nd-season-in-29`、`bang-dream-2nd-season-in-30`、`bang-dream-2nd-season-in-31`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 651 批正式驗收
+
+第 639–651 批涵蓋 24 部日本電視作品與 136 筆不同歌曲用途。預覽候選 `bd8c352` 及正式提交 `5b44683` 的 CI、Workers 建置均通過。兩個環境各有 4,521 個 CI 產物與固定候選逐位元一致，各驗收 176 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,409 個用途。[PR #316](https://github.com/kyeunga25/anisonary/pull/316) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch651-japanese-tv)
+
+## 第657批　《Dimensionハイスクール》動畫與真人共用主題曲及《バーチャルさんはみている》兩段原播片頭
+
+- 兩部5用途、5首歌。《Dimension》原播全12話，片頭四人合唱、日本單曲4個角色獨唱、伴奏和TV剪輯分列。片尾保留香港串流的通常與TV剪輯。第12話為含即興表演的番外篇，該話片頭片尾仍待直接掛字。《バーチャルさん》核對第1–6、7–12話兩段片頭、通常片尾、六位後期片頭演唱者及同步、延時點播。終話舞蹈的長剪輯曲名、第5及6話節目內兩首歌待權利方用曲表或原片。曾提供終話的正版限時影片現為私人。MV及Art Track依官方標題登記。[Asmik Ace](https://www.asmik-ace.co.jp/works/lineup/4203/) · [日本古倫美亞](https://columbia.jp/dimension-hs/release.html) · [動畫官方曲表](https://virtualsan-looking.jp/music/) · [動畫原播表](https://virtualsan-looking.jp/onair/) · [HIMEHINA發行資料](https://old.himehina.jp/musics/9662)
+- 本批用途：`dimension-high-school-op-1`、`dimension-high-school-ed-1`、`virtual-san-wa-miteiru-op-1`、`virtual-san-wa-miteiru-op-2`、`virtual-san-wa-miteiru-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第658批　《屁屁偵探》首三期日本首播與第四期共用片頭的發行版
+
+- 首期第1–3話由NHK Eテレ在2018年5月3–5日連播，第4–10話在暑假首播。第二期以12月1日第11話開始，跨入2019年冬；4月起為重播。第三期第27–39話自7月6日起首播。首三期共用同一首片頭曲，沿用第四期原有songId，並為第四期補回已查明的音源。電視原唱、八人兒童合唱、伴奏、電影改編及2025年音頭分列。香港可查原聲帶及電影改編曲目，日本另有原曲、伴奏和音頭串流。電視剪輯與香港兒童合唱的直接曲目仍待具名發行。[東映片頭曲名義](https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/) · [出版社原播公告](https://www.poplar.co.jp/topics/46377.html) · [官方重播說明](https://oshiri-tantei.com/news/2019021301.html) · [日本古倫美亞迷你專輯](https://columbia.jp/prod-info/COCX-40382/)
+- 本批用途：`oshiri-tantei-op-1`、`oshiri-tantei-2-op-1`、`oshiri-tantei-3-op-1`、`oshiri-tantei-4-op-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第659批　《強風吹拂》兩段原播輪替與《火之丸相撲》跨季主題曲、火ノ丸盤曲序差異
+
+- 兩部8用途、8首歌。《強風吹拂》第1–11、第12–23話分別使用兩組OP／ED，日本電視台常規25:29，首話25:34、終話25:35，終話當晚BS日テレ播第22話。《火之丸相撲》第1–14話前期曲跨秋冬，第15–24話改用後期曲。〈桜咲け〉吉田山田盤第3軌為鋼琴版，火ノ丸盤第1碟第3軌依歌手商品公告與平台曲表更正為伴奏，電視剪輯另有數位單曲。兩作均核對港台日曲目、追溯日本實體版、官方影片及現場錄音。〈道〉的編曲署名待原發行名單明列。[公式曲表與原聲帶](https://kazetsuyo-anime.com/music/) · [《火之丸相撲》公式唱片](https://hinomaru-zumou.com/cd.html) · [歌手核定雙版本曲序](https://yoshidayamada.com/contents/219184) · [Q-MHz原作者](https://akihata.jp/works/q-mhz/25467/)
+- 本批用途：`kaze-ga-tsuyoku-fuiteiru-op-1`、`kaze-ga-tsuyoku-fuiteiru-op-2`、`kaze-ga-tsuyoku-fuiteiru-ed-1`、`kaze-ga-tsuyoku-fuiteiru-ed-2`、`hinomaru-zumou-op-1`、`hinomaru-zumou-op-2`、`hinomaru-zumou-ed-1`、`hinomaru-zumou-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第660批　《魔法禁書目錄Ⅲ》最終話與《關於我轉生變成史萊姆這檔事》逐話原播
+
+- 2018秋跨2019冬《魔法禁書目錄 Ⅲ》《關於我轉生變成史萊姆這檔事》共10個用途、9首歌。收錄兩組片頭與片尾各自的實播話數、史萊姆第1話片末〈Nameless Story〉與第23話TRUE插曲〈僕の中の君へ〉。第24.5話〈閑話：ヴェルドラ日記〉續用第二組OP及ED。《禁書目錄》第26話於4月5日原播，無OP或ED；春季名冊登記作品，四首歌曲依實播留在秋冬。
+- 對齊單曲、動畫盤TV版、伴奏、原聲帶Blue mix及Tender mix、初回特典DJ混音與TRUE演唱會BD，補Apple香港／日本及Spotify獨立曲目與權利方影片。香港區尚缺井口裕香兩首片尾與TRUE插曲的地區曲目；待出現香港正版獨立音源及供應記錄。DJ混音特典曲序待正式索引，未把官網列舉順序寫作軌號。
+- 本批用途：`toaru-majutsu-no-index-iii-op-1`、`toaru-majutsu-no-index-iii-op-2`、`toaru-majutsu-no-index-iii-ed-1`、`toaru-majutsu-no-index-iii-ed-2`、`tensei-shitara-slime-datta-ken-op-1`、`tensei-shitara-slime-datta-ken-op-2`、`tensei-shitara-slime-datta-ken-ed-1`、`tensei-shitara-slime-datta-ken-ed-2`、`tensei-shitara-slime-datta-ken-ed-3`、`tensei-shitara-slime-datta-ken-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第661批　《逆轉裁判》第二季雙A面、跨年一小時特別篇與最終話音樂
+
+- 第1–12話與第13–23話分別使用山下智久的兩首片頭曲，初回A與B盤曲序相反，兩盤各另收伴奏。halca與コアラモード．的兩首片尾及其伴奏可由香港及日本正版曲目查閱。第6、17話收錄〈シグナルザムライの唄〉，個別歌唱待原播掛字。第23話三首具名器樂各可查遊戲原聲版本，動畫實際使用的剪輯及演奏仍待授權曲表。
+- 本批用途：`gyakuten-saiban-season-2-op-1`、`gyakuten-saiban-season-2-op-2`、`gyakuten-saiban-season-2-ed-1`、`gyakuten-saiban-season-2-ed-2`、`gyakuten-saiban-season-2-in-1`、`gyakuten-saiban-season-2-in-2`、`gyakuten-saiban-season-2-in-3`、`gyakuten-saiban-season-2-in-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第662批　《刀劍神域 Alicization》前半原播24話、特別片末、同曲跨作與分區發行
+
+- 《刀劍神域 Alicization》原播2018秋至2019冬，3月30日播完第24話。第13話沿用前期曲，第14話起換曲。第1、23話片末各播當期片頭影像。〈虹の彼方に〉共用一個歌曲ID，第19話特別片尾與第24話插曲分列。第5話車內〈longing〉沿用後續作既有歌曲及錄音ID。資料含港台日正版曲目、三種單曲盤、TV剪輯、伴奏、現場及重混。總集篇18.5及車內播放的具體剪輯待取得單話原播曲表。角色歌〈Waking the belief〉和合唱〈Blazing the future〉已核特典盤，第1–24話內播放尚待證實。[作品原播分集](https://sao-alicization.net/1st/story/) · [ReoNa證實第19話片末](https://www.lisani.jp/0000134746/2/) · [作品官方插曲](https://sao-alicization.net/news/?article_id=51194) · [Sony唱片曲序與原作者](https://www.sonymusic.co.jp/artist/ReoNa/info/502881)
+- 本批用途：`sword-art-online-alicization-op-1`、`sword-art-online-alicization-op-2`、`sword-art-online-alicization-ed-1`、`sword-art-online-alicization-ed-2`、`sword-art-online-alicization-ed-3`、`sword-art-online-alicization-in-1`、`sword-art-online-alicization-in-2`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。

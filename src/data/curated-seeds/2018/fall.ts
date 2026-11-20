@@ -20198,4 +20198,25359 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       }
     ]
   },
+  {
+    "id": "curated-132694",
+    "anilistId": 132694,
+    "slug": "oshiri-tantei-2",
+    "titleJa": "おしりたんてい (第2シリーズ)",
+    "titleRomaji": "Oshiri Tantei 2",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "startDate": "2018-12-01",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "09:00",
+    "broadcastLabel": "NHK Eテレ自2018年12月1日週六09:00 JST開始常規播映。12月首播第11–13話，第14–26話跨入2019年冬。2019年4月6日起重播早期集數。",
+    "status": "finished",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "officialSiteUrl": "https://oshiri-tantei.com/",
+    "anilistUrl": "https://anilist.co/anime/132694",
+    "imageSourceUrl": "https://anilist.co/anime/132694",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132694-JFmd06Nfjoaa.jpg",
+    "sourceReferenceUrls": [
+      "https://oshiri-tantei.com/",
+      "https://anilist.co/anime/132694"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://corp.toei-anim.co.jp/ja/press/press-2630364728101456403.html",
+        "label": "東映：電視原播及12月常規編成",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.poplar.co.jp/topics/46377.html",
+        "label": "Poplar：NHK第11至13話的首播日期",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://oshiri-tantei.com/news/2019021301.html",
+        "label": "動畫官網：四月起重播第1–13話",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://oshiri-tantei.com/news/",
+        "label": "動畫官網：逐話消息與播映季度",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://modappweb1.chtmod.tv/modweb/product/524557.do?cs=2",
+        "label": "中華電信MOD：正版繁中作品名稱",
+        "language": "zh-Hant",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.lanovelibrary.com/oshiri-tantei/",
+        "label": "日本分期及話數交叉資料",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "oshiri-tantei-2-op-1",
+        "songId": "oshiri-tantei-4-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ププッとフムッとかいけつダンス",
+        "artistDisplayName": "伊勢大貴",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "日本電視第2期（全作第11–26話）的常規片頭。",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+            "label": "動畫製作方東映：片頭正式曲名、演唱及詞曲編",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-40382/",
+            "label": "日本古倫美亞：迷你專輯第1、2軌與八名兒童合唱者",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lanovelibrary.com/oshiri-tantei/",
+            "label": "日本分期及話數交叉資料",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://corp.toei-anim.co.jp/ja/press/press-2630364728101456403.html",
+            "label": "東映：電視原播及12月常規編成",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.poplar.co.jp/topics/46377.html",
+            "label": "Poplar：NHK第11至13話的首播日期",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/2019021301.html",
+            "label": "動畫官網：四月起重播第1–13話",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/",
+            "label": "動畫官網：逐話消息與播映季度",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/goods/dvd/cd01.html",
+            "label": "動畫官網：主題歌迷你專輯製作及曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-41245/",
+            "label": "日本古倫美亞：原聲帶第2軌演唱版",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-movie.com/shiriarty/modal/staff.html",
+            "label": "電影官網：長篇電影片尾改編名義",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/2025071101.html",
+            "label": "動畫官網：音頭改編者、主唱及配信公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song",
+            "label": "Apple 香港：正版數位曲目、曲序、可串流狀態",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song",
+            "label": "Apple 香港：正版數位曲目、曲序、可串流狀態",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/a15a93632a4d6e3ed217",
+            "label": "AWA：音頭錄音官方曲目",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_fhJiPPrjDg",
+            "label": "東映アニメーション公式YouTubeチャンネル：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=QQtADXMLz2Y",
+            "label": "Daiki Ise - Topic：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0JmetSDHV8k",
+            "label": "Daiki Ise - Topic：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nroWmm0qfoQ",
+            "label": "とうあにパーク【東映アニメーション公式キッズチャンネル】：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zlFYS-_aIQI",
+            "label": "東映映画チャンネル：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://www.lanovelibrary.com/oshiri-tantei/",
+              "https://corp.toei-anim.co.jp/ja/press/press-2630364728101456403.html",
+              "https://www.poplar.co.jp/topics/46377.html",
+              "https://oshiri-tantei.com/news/2019021301.html",
+              "https://oshiri-tantei.com/news/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://oshiri-tantei.com/goods/dvd/cd01.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://columbia.jp/prod-info/COCX-41245/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-tantei.com/goods/dvd/cd01.html",
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-kids"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-movie.com/shiriarty/modal/staff.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-film"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-tantei.com/news/2025071101.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-ondo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://oshiri-tantei.com/goods/dvd/cd01.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "cocx-40382"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-41245/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "cocx-41245"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1557891252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1557891257"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1613843017"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1613843021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1317253827"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1317253832"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1443710491"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1443710492"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1557891252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1557891257"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1613843017"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1613843021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1826670393"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1826670394"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/a15a93632a4d6e3ed217"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/a15a93632a4d6e3ed217"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_fhJiPPrjDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "_fhJiPPrjDg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=QQtADXMLz2Y"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "QQtADXMLz2Y"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=0JmetSDHV8k"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "0JmetSDHV8k"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nroWmm0qfoQ"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "nroWmm0qfoQ"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=zlFYS-_aIQI"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zlFYS-_aIQI"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "伊勢大貴"
+          },
+          {
+            "role": "lyrics",
+            "name": "藤本記子"
+          },
+          {
+            "role": "composition",
+            "name": "小杉保夫"
+          },
+          {
+            "role": "arrangement",
+            "name": "高木洋"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1557891257",
+            "label": "ププッとフムッとかいけつダンス｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-hk-1557891252",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1613843021",
+            "label": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu)｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "oshiri-tantei-4-op-1-song-film",
+            "releaseId": "apple-hk-1613843017",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1317253832",
+            "label": "ププッとフムッとかいけつダンス｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-jp-1317253827",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1443710492",
+            "label": "ププッとフムッとかいけつダンス(カラオケ)｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-karaoke",
+            "releaseId": "apple-jp-1443710491",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1557891257",
+            "label": "ププッとフムッとかいけつダンス｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-jp-1557891252",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1613843021",
+            "label": "ププッとフムッとかいけつダンス (Produced by 福山雅治)｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-film",
+            "releaseId": "apple-jp-1613843017",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1826670394",
+            "label": "おしりたんてい音頭～ププッとフムッとかいけつダンス～｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-ondo",
+            "releaseId": "apple-jp-1826670393",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/a15a93632a4d6e3ed217",
+            "label": "おしりたんてい音頭｜日本曲目",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-ondo",
+            "availability": "unknown",
+            "linkType": "direct_track",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oshiri-tantei-4-op-1-song-original",
+            "title": "ププッとフムッとかいけつダンス",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-karaoke",
+            "title": "ププッとフムッとかいけつダンス（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-kids",
+            "title": "ププッとフムッとかいけつダンス ～こどもコーラスバージョン～",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "田口乙葉"
+              },
+              {
+                "role": "vocals",
+                "name": "後本萌葉"
+              },
+              {
+                "role": "vocals",
+                "name": "黒嵜菜々子"
+              },
+              {
+                "role": "vocals",
+                "name": "三浦瑚都"
+              },
+              {
+                "role": "vocals",
+                "name": "小泉柚奈"
+              },
+              {
+                "role": "vocals",
+                "name": "只野維織"
+              },
+              {
+                "role": "vocals",
+                "name": "山本幸輝"
+              },
+              {
+                "role": "vocals",
+                "name": "佐久間玲駈"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-film",
+            "title": "ププッとフムッとかいけつダンス（Produced by 福山雅治）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              },
+              {
+                "role": "arrangement",
+                "name": "福山雅治"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-ondo",
+            "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              },
+              {
+                "role": "arrangement",
+                "name": "長谷川智樹"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "cocx-40382",
+            "title": "おしりたんてい 主題歌ミニアルバム",
+            "artistDisplayName": "伊勢大貴ほか",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "日本迷你專輯CD",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              },
+              {
+                "title": "ププッとフムッとかいけつダンス ～こどもコーラスバージョン～",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-kids"
+              }
+            ],
+            "catalogNumber": "COCX-40382",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "cocx-41245",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶CD",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "COCX-41245",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "apple-hk-1557891252",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1613843017",
+            "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu) - Single",
+            "artistDisplayName": "Daiki Ise",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2022-03-18",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-film"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1317253827",
+            "title": "ププッとフムッとかいけつダンス - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2017-12-08",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1443710491",
+            "title": "ププッとフムッとかいけつダンス(カラオケ) - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス(カラオケ)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1557891252",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1613843017",
+            "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu) - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2022-03-18",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス (Produced by 福山雅治)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-film"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1826670393",
+            "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～ - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2025-07-19",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-ondo"
+              }
+            ]
+          }
+        ],
+        "versionLabel": "東映登記的電視片頭由伊勢大貴演唱、高木洋編曲。另收兒童合唱、伴奏、福山雅治為電影片尾改編的錄音，以及長谷川智樹改編的音頭。",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_links"
+            ],
+            "note": "香港原聲帶第2軌及福山雅治改編版已有可串流曲目。電視剪輯及迷你專輯兒童合唱的香港獨立曲目待核。",
+            "resumeWhen": "權利方具名發行TV尺寸，或香港平台公開兒童合唱的可播放曲目頁時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=_fhJiPPrjDg"
+      }
+    ],
+    "titleZhHant": "屁屁偵探"
+  },
+  {
+    "anilistId": 101903,
+    "anilistUrl": "https://anilist.co/anime/101903",
+    "id": "curated-101903",
+    "slug": "kaze-ga-tsuyoku-fuiteiru",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "startDate": "2018-10-02",
+    "titleJa": "風が強く吹いている",
+    "titleZhHant": "強風吹拂",
+    "titleRomaji": "Kaze ga Tsuyoku Fuiteiru",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "25:29",
+    "broadcastLabel": "Production I.G製作。日本テレビ於2018年10月2日至2019年3月26日每週二深夜原播，全23話。通常25:29 JST，首話25:34，終話25:35。終話當晚BS日テレ24:00仍播上一話。2019年1月8日第12話起更換兩首主題曲。日本另由Hulu與dアニメストア等平台提供點播。",
+    "officialSiteUrl": "https://kazetsuyo-anime.com/",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://kazetsuyo-anime.com/music/",
+      "https://kazetsuyo-anime.com/onair/",
+      "https://kazetsuyo-anime.com/news/news_0923.html",
+      "https://kazetsuyo-anime.com/story/23.html",
+      "https://ani.gamer.com.tw/animeVideo.php?sn=11446",
+      "https://lp.p.pia.jp/article/news/15930/index.html",
+      "https://sportspirits-fd.net/archives/277"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://kazetsuyo-anime.com/music/",
+        "label": "動畫官方｜兩期四首主題曲、首期單曲、兩碟原聲帶及曲序",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://kazetsuyo-anime.com/onair/",
+        "label": "動畫官方｜第二期電視及上架平台",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://kazetsuyo-anime.com/news/news_0923.html",
+        "label": "動畫官方｜日本首播時間",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://kazetsuyo-anime.com/story/23.html",
+        "label": "動畫官方｜第23話終話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=11446",
+        "label": "動畫瘋Ani-One台灣授權版｜繁中名稱、分集及配音",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1545305324",
+        "label": "Animate Times｜第二期原播、製作及配信",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/101903",
+        "label": "AniList｜日本TV動畫識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://lp.p.pia.jp/article/news/15930/index.html",
+        "label": "首播前一日公告｜10月2日25:34與常規時段",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://sportspirits-fd.net/archives/277",
+        "label": "終話當晚原作官方公告引文｜日本テレビ與BS日テレ不同集數",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "kaze-ga-tsuyoku-fuiteiru-op-1",
+        "songId": "kaze-ga-tsuyoku-fuiteiru-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Catch up, latency",
+        "artistDisplayName": "UNISON SQUARE GARDEN",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "第1–11話片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "斎藤宏介"
+          },
+          {
+            "role": "lyrics",
+            "name": "田淵智也"
+          },
+          {
+            "role": "composition",
+            "name": "田淵智也"
+          },
+          {
+            "role": "arrangement",
+            "name": "UNISON SQUARE GARDEN"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kazetsuyo-anime.com/music/",
+            "label": "動畫官方｜兩期四首主題曲、首期單曲、兩碟原聲帶及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5088",
+            "label": "しょぼいカレンダー｜各期集數與歌曲作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kazegatuyokufuiteiru",
+            "label": "逐話觀影曲表｜第1至23話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ntv.co.jp/buzzrhythm/live2018/",
+            "label": "日本電視台｜2018年樂團成員與主唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1440580724&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1440580724&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1440580724&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1531418208&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1531418208&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1531418208&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=l1eVUmtD7T0",
+            "label": "TOHO animation チャンネル｜アニメ『 風が強く吹いている』第１クール ノンクレジットOP／♪：「Catch up, latency」UNISON SQUARE GARDEN",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2EtybhJbC-4",
+            "label": "unisonsgofficial｜UNISON SQUARE GARDEN「Catch up, latency」MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.ntv.co.jp/buzzrhythm/live2018/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tfcc-89663"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tfcc-89664"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440580724&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1440580724"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440580724&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/album/catch-up-latency/1440580724?i=1440580725&app=itunes"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440580724&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1440580724"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440580724&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/album/catch-up-latency/1440580724?i=1440580725&app=itunes"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440580724&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1440580724"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440580724&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/catch-up-latency/1440580724?i=1440580725&app=itunes"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1531418208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1531418208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1531418208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1531418212"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1531418208&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1531418208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1531418208&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1531418212"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1531418208&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1531418208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1531418208&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1531418212"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60236"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=l1eVUmtD7T0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "l1eVUmtD7T0"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=2EtybhJbC-4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "2EtybhJbC-4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal",
+            "title": "Catch up, latency",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-op-1-song-tv",
+            "title": "Catch up, latency (TV Size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "tfcc-89663",
+            "title": "Catch up, latency",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "edition": "初回限定盤 CD＋2 LIVE CD",
+            "tracks": [
+              {
+                "title": "Catch up, latency",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "TFCC-89663"
+          },
+          {
+            "id": "tfcc-89664",
+            "title": "Catch up, latency",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "Catch up, latency",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "TFCC-89664"
+          },
+          {
+            "id": "apple-hk-1440580724",
+            "title": "Catch Up, Latency - Single",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Catch up, latency",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1440580724",
+            "title": "Catch Up, Latency - Single",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Catch up, latency",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1440580724",
+            "title": "Catch Up, Latency - Single",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Catch up, latency",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1531418208",
+            "title": "Patrick Vegee",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-09-30",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Catch Up, Latency",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1531418208",
+            "title": "Patrick Vegee",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-09-30",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Catch Up, Latency",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1531418208",
+            "title": "Patrick Vegee",
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-30",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Catch up, latency",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60236",
+            "title": "TVアニメ「風が強く吹いている」オリジナルサウンドトラック",
+            "artistDisplayName": "林ゆうき",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-19",
+              "precision": "day"
+            },
+            "edition": "日本雙CD",
+            "tracks": [
+              {
+                "title": "Catch up, latency (TV Size)",
+                "position": 25,
+                "disc": 2,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-tv"
+              }
+            ],
+            "catalogNumber": "THCA-60236"
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/hk/album/catch-up-latency/1440580724?i=1440580725&app=itunes",
+            "label": "香港｜Catch up, latency",
+            "region": "HK",
+            "linkType": "digital_purchase",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal",
+            "releaseId": "apple-hk-1440580724",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/tw/album/catch-up-latency/1440580724?i=1440580725&app=itunes",
+            "label": "台灣｜Catch up, latency",
+            "region": "TW",
+            "linkType": "digital_purchase",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal",
+            "releaseId": "apple-tw-1440580724",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/catch-up-latency/1440580724?i=1440580725&app=itunes",
+            "label": "日本｜Catch up, latency",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal",
+            "releaseId": "apple-jp-1440580724",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1531418212",
+            "label": "香港｜Catch Up, Latency",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal",
+            "releaseId": "apple-hk-1531418208",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1531418212",
+            "label": "台灣｜Catch Up, Latency",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal",
+            "releaseId": "apple-tw-1531418208",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1531418212",
+            "label": "日本｜Catch up, latency",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-1-song-vocal",
+            "releaseId": "apple-jp-1531418208",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kaze-ga-tsuyoku-fuiteiru-ed-1",
+        "songId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "リセット",
+        "artistDisplayName": "向井太一",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "第1–11話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "向井太一"
+          },
+          {
+            "role": "lyrics",
+            "name": "向井太一"
+          },
+          {
+            "role": "composition",
+            "name": "向井太一"
+          },
+          {
+            "role": "composition",
+            "name": "CELSIOR COUPE"
+          },
+          {
+            "role": "arrangement",
+            "name": "CELSIOR COUPE"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kazetsuyo-anime.com/music/",
+            "label": "動畫官方｜兩期四首主題曲、首期單曲、兩碟原聲帶及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5088",
+            "label": "しょぼいカレンダー｜各期集數與歌曲作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kazegatuyokufuiteiru",
+            "label": "逐話觀影曲表｜第1至23話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/taichimukai/disco/2654",
+            "label": "TOY’S FACTORY｜兩首片尾及精選輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551586009&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551586009&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551586009&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551590122&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551590122&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551590122&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551591309&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551591309&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1709592851&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1709592851&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1709592851&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/744405",
+            "label": "OTOTOY｜日本授權數位單曲〈リセット〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=oTH0s0iRA0g",
+            "label": "向井太一 / TAIL｜向井太一 / リセット (Official Music Video)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5088",
+              "https://kazetsuyo-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/taichimukai/disco/2654"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586009&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586009&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1551586009"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586009&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1551586021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586009&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1551586009"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586009&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1551586021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586009&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1551586009"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586009&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1551586021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590122&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1551590122"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590122&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1551590131"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590122&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1551590122"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590122&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1551590131"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590122&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1551590122"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590122&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1551590131"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1551591309"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1551591528"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1551591309"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1551591528"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1551591309"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1551591528"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1709592851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1709592852"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1709592851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1709592852"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1709592851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1709592852"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60236"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/744405"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://ototoy.jp/_/default/p/744405"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=oTH0s0iRA0g"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oTH0s0iRA0g"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "title": "リセット",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019",
+            "title": "リセット (Live at Zepp Tokyo 2019.11.14)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-tv",
+            "title": "リセット (TV Size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1551586009",
+            "title": "リセット - Single",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1551586009",
+            "title": "リセット - Single",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1551586009",
+            "title": "リセット - Single",
+            "artistDisplayName": "向井太一",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1551590122",
+            "title": "PURE",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1551590122",
+            "title": "PURE",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1551590122",
+            "title": "PURE",
+            "artistDisplayName": "向井太一",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1551591309",
+            "title": "SAVAGE TOUR 2019",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-06-17",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "リセット (Live at Zepp Tokyo 2019.11.14)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1551591309",
+            "title": "SAVAGE TOUR 2019",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-06-17",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "リセット (Live at Zepp Tokyo 2019.11.14)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1551591309",
+            "title": "SAVAGE TOUR 2019",
+            "artistDisplayName": "向井太一",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-06-17",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "リセット (Live at Zepp Tokyo 2019.11.14)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1709592851",
+            "title": "THE LAST",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1709592851",
+            "title": "THE LAST",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1709592851",
+            "title": "THE LAST",
+            "artistDisplayName": "向井太一",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "リセット",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60236",
+            "title": "TVアニメ「風が強く吹いている」オリジナルサウンドトラック",
+            "artistDisplayName": "林ゆうき",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-19",
+              "precision": "day"
+            },
+            "edition": "日本雙CD",
+            "tracks": [
+              {
+                "title": "リセット (TV Size)",
+                "position": 26,
+                "disc": 2,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "THCA-60236"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1551586021",
+            "label": "香港｜リセット",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-hk-1551586009",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1551586021",
+            "label": "台灣｜リセット",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-tw-1551586009",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1551586021",
+            "label": "日本｜リセット",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-jp-1551586009",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1551590131",
+            "label": "香港｜リセット",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-hk-1551590122",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1551590131",
+            "label": "台灣｜リセット",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-tw-1551590122",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1551590131",
+            "label": "日本｜リセット",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-jp-1551590122",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1551591528",
+            "label": "香港｜リセット (Live at Zepp Tokyo 2019.11.14)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019",
+            "releaseId": "apple-hk-1551591309",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1551591528",
+            "label": "台灣｜リセット (Live at Zepp Tokyo 2019.11.14)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019",
+            "releaseId": "apple-tw-1551591309",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1551591528",
+            "label": "日本｜リセット (Live at Zepp Tokyo 2019.11.14)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-live-zepp-2019",
+            "releaseId": "apple-jp-1551591309",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1709592852",
+            "label": "香港｜リセット",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-hk-1709592851",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1709592852",
+            "label": "台灣｜リセット",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-tw-1709592851",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1709592852",
+            "label": "日本｜リセット",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "releaseId": "apple-jp-1709592851",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/744405",
+            "label": "OTOTOY｜リセット",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kaze-ga-tsuyoku-fuiteiru-op-2",
+        "songId": "kaze-ga-tsuyoku-fuiteiru-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "風強く、君熱く。",
+        "artistDisplayName": "Q-MHz feat. 日高光啓 a.k.a. SKY-HI",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第12–23話片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "日高光啓 a.k.a. SKY-HI"
+          },
+          {
+            "role": "lyrics",
+            "name": "Q-MHz"
+          },
+          {
+            "role": "lyrics",
+            "name": "日高光啓"
+          },
+          {
+            "role": "composition",
+            "name": "Q-MHz"
+          },
+          {
+            "role": "arrangement",
+            "name": "Q-MHz"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kazetsuyo-anime.com/music/",
+            "label": "動畫官方｜兩期四首主題曲、首期單曲、兩碟原聲帶及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5088",
+            "label": "しょぼいカレンダー｜各期集數與歌曲作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kazegatuyokufuiteiru",
+            "label": "逐話觀影曲表｜第1至23話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/q-mhz/25467/",
+            "label": "作者畑亜貴｜Q-MHz名義與作詞、作曲、編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1448974953&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1448974953&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1448974953&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=hM4fNvLyEQ0",
+            "label": "TOHO animation チャンネル｜アニメ『 風が強く吹いている』第２クール ノンクレジットOP／♪：「風強く、君熱く。」Q-MHz feat. 日高光啓 a.k.a. SKY-HI",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/q-mhz/25467/",
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448974953&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448974953&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1448974953"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448974953&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1448974955"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448974953&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1448974953"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448974953&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1448974955"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448974953&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1448974953"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448974953&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1448974955"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=hM4fNvLyEQ0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hM4fNvLyEQ0"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal",
+            "title": "風強く、君熱く。",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1448974953",
+            "title": "Kaze Tsuyoku, Kimi Atsuku.- Single",
+            "artistDisplayName": "Q-MHz (feat. 日高光啓 a.k.a. SKY-HI)",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-23",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Kaze Tsuyoku, Kimi Atsuku.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1448974953",
+            "title": "Kaze Tsuyoku, Kimi Atsuku.- Single",
+            "artistDisplayName": "Q-MHz (feat. 日高光啓 a.k.a. SKY-HI)",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-23",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Kaze Tsuyoku, Kimi Atsuku.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1448974953",
+            "title": "Kaze Tsuyoku, Kimi Atsuku.- Single",
+            "artistDisplayName": "Q-MHz (feat. 日高光啓 a.k.a. SKY-HI)",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-23",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "風強く、君熱く。",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1448974955",
+            "label": "香港｜Kaze Tsuyoku, Kimi Atsuku.",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal",
+            "releaseId": "apple-hk-1448974953",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1448974955",
+            "label": "台灣｜Kaze Tsuyoku, Kimi Atsuku.",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal",
+            "releaseId": "apple-tw-1448974953",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1448974955",
+            "label": "日本｜風強く、君熱く。",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-op-2-song-vocal",
+            "releaseId": "apple-jp-1448974953",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kaze-ga-tsuyoku-fuiteiru-ed-2",
+        "songId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "道",
+        "artistDisplayName": "向井太一",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第12–23話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "向井太一"
+          },
+          {
+            "role": "lyrics",
+            "name": "向井太一"
+          },
+          {
+            "role": "composition",
+            "name": "向井太一"
+          },
+          {
+            "role": "composition",
+            "name": "CELSIOR COUPE"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kazetsuyo-anime.com/music/",
+            "label": "動畫官方｜兩期四首主題曲、首期單曲、兩碟原聲帶及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5088",
+            "label": "しょぼいカレンダー｜各期集數與歌曲作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kazegatuyokufuiteiru",
+            "label": "逐話觀影曲表｜第1至23話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/taichimukai/disco/2654",
+            "label": "TOY’S FACTORY｜兩首片尾及精選輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551586675&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551586675&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551586675&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551590137&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551590137&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551590137&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551591309&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1551591309&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1709592851&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1709592851&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1709592851&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/744424",
+            "label": "OTOTOY｜日本授權數位EP〈道〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=33-ncrZApl0",
+            "label": "向井太一 / TAIL｜TVアニメ「風が強く吹いている」第2クールエンディング映像（エンディングテーマ：向井太一「道」)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=sGx2zKTxWQA",
+            "label": "向井太一 / TAIL｜向井太一 / 道 (Official Live Video) from LIVE ALBUM「SAVAGE TOUR 2019」",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kazetsuyo-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5088",
+              "https://www.mau2.com/anime/kazegatuyokufuiteiru"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5088",
+              "https://kazetsuyo-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/taichimukai/disco/2654"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586675&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586675&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1551586675"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586675&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1551586676"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586675&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1551586675"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586675&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1551586676"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586675&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1551586675"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551586675&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1551586676"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590137&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1551590137"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590137&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1551590149"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590137&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1551590137"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590137&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1551590149"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590137&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1551590137"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551590137&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1551590149"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1551591309"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1551591730"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1551591309"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1551591730"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1551591309"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1551591309&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1551591730"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1709592851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1709593071"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1709592851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1709593071"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1709592851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1709592851&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1709593071"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/744424"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://ototoy.jp/_/default/p/744424"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=33-ncrZApl0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "33-ncrZApl0"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=sGx2zKTxWQA"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sGx2zKTxWQA"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "title": "道",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019",
+            "title": "道 (Live at Zepp Tokyo 2019.11.14)",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1551586675",
+            "title": "道 - Single",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-01",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1551586675",
+            "title": "道 - Single",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-01",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1551586675",
+            "title": "道 - Single",
+            "artistDisplayName": "向井太一",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-01",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1551590137",
+            "title": "SAVAGE",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-09-18",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1551590137",
+            "title": "SAVAGE",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-09-18",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1551590137",
+            "title": "SAVAGE",
+            "artistDisplayName": "向井太一",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-18",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1551591309",
+            "title": "SAVAGE TOUR 2019",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-06-17",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "道 (Live at Zepp Tokyo 2019.11.14)",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1551591309",
+            "title": "SAVAGE TOUR 2019",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-06-17",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "道 (Live at Zepp Tokyo 2019.11.14)",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1551591309",
+            "title": "SAVAGE TOUR 2019",
+            "artistDisplayName": "向井太一",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-06-17",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "道 (Live at Zepp Tokyo 2019.11.14)",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1709592851",
+            "title": "THE LAST",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1709592851",
+            "title": "THE LAST",
+            "artistDisplayName": "Taichi Mukai",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1709592851",
+            "title": "THE LAST",
+            "artistDisplayName": "向井太一",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "道",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1551586676",
+            "label": "香港｜道",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-hk-1551586675",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1551586676",
+            "label": "台灣｜道",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-tw-1551586675",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1551586676",
+            "label": "日本｜道",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-jp-1551586675",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1551590149",
+            "label": "香港｜道",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-hk-1551590137",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1551590149",
+            "label": "台灣｜道",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-tw-1551590137",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1551590149",
+            "label": "日本｜道",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-jp-1551590137",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1551591730",
+            "label": "香港｜道 (Live at Zepp Tokyo 2019.11.14)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019",
+            "releaseId": "apple-hk-1551591309",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1551591730",
+            "label": "台灣｜道 (Live at Zepp Tokyo 2019.11.14)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019",
+            "releaseId": "apple-tw-1551591309",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1551591730",
+            "label": "日本｜道 (Live at Zepp Tokyo 2019.11.14)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-live-zepp-2019",
+            "releaseId": "apple-jp-1551591309",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1709593071",
+            "label": "香港｜道",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-hk-1709592851",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1709593071",
+            "label": "台灣｜道",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-tw-1709592851",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1709593071",
+            "label": "日本｜道",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "releaseId": "apple-jp-1709592851",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/744424",
+            "label": "OTOTOY｜道",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kaze-ga-tsuyoku-fuiteiru-ed-2-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "basic_evidence"
+            ],
+            "note": "曲目署名已確認作詞與作曲。雙碟原聲帶列有〈箱根の山は天下の険〉等場景配樂。",
+            "resumeWhen": "音樂方列明編曲者或權利方提供本篇具名演唱與集數時，再補相應欄位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 100990,
+    "anilistUrl": "https://anilist.co/anime/100990",
+    "id": "curated-100990",
+    "slug": "hinomaru-zumou",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "startDate": "2018-10-05",
+    "titleJa": "火ノ丸相撲",
+    "titleZhHant": "火之丸相撲",
+    "titleRomaji": "Hinomaru-Zumou",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "22:00",
+    "broadcastLabel": "GONZO製作。TOKYO MX於2018年10月5日至2019年3月29日每週五22:00 JST原播，共24話。AbemaTV同時串流。第13、14話播於2019年1月，1月25日第15話才更換片頭片尾。",
+    "officialSiteUrl": "https://hinomaru-zumou.com/",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://www.gonzo.co.jp/works/hinomaru-zumou/",
+      "https://hinomaru-zumou.com/onair.html",
+      "https://hinomaru-zumou.com/story.html",
+      "https://yoshidayamada.com/discography/single",
+      "https://www.youtube.com/watch?v=WkFLUj5WRro"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.gonzo.co.jp/works/hinomaru-zumou/",
+        "label": "GONZO｜日本TV動畫的製作與原播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://hinomaru-zumou.com/onair.html",
+        "label": "動畫官方｜原播與AbemaTV同步",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://hinomaru-zumou.com/story.html",
+        "label": "動畫官方｜全24話及終話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://yoshidayamada.com/discography/single",
+        "label": "吉田山田｜2019年1月25日更換兩首主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=WkFLUj5WRro",
+        "label": "LiTV立視線上影視｜台灣正版預告及繁中片名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5058/time",
+        "label": "日本原播逐話時間｜秋季與1月前兩話共用前期曲",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/100990",
+        "label": "AniList｜日本TV動畫識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "hinomaru-zumou-op-1",
+        "songId": "hinomaru-zumou-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "FIRE GROUND",
+        "artistDisplayName": "Official髭男dism",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第1–14話片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "藤原聡"
+          },
+          {
+            "role": "lyrics",
+            "name": "藤原聡"
+          },
+          {
+            "role": "composition",
+            "name": "藤原聡"
+          },
+          {
+            "role": "arrangement",
+            "name": "Official髭男dism"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hinomaru-zumou.com/cd.html",
+            "label": "動畫官網｜四首主題曲、日本盤型、曲序與樂團演唱成員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5058",
+            "label": "しょぼいカレンダー｜集數及製作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hinomaruzumou",
+            "label": "逐話觀影曲表｜第1至24話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://yoshidayamada.com/discography/single",
+            "label": "吉田山田｜2019年1月25日更換兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=sem3UU-EQJs",
+            "label": "Official髭男dism｜Official髭男dism - FIRE GROUND［Official Video］",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004717",
+            "label": "PONY CANYON｜日本通常盤曲序與發行日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1437217545&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1437217545&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1437217545&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1479397582&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1479397582&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1479397582&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1496713496&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1496713496&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1496713496&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://hgdn.lnk.to/FIREGROUND",
+            "label": "Official髭男dism｜歌曲串流及購買管道",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5058",
+              "https://hinomaru-zumou.com/cd.html",
+              "https://www.youtube.com/watch?v=sem3UU-EQJs"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004717"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004717"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04716"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004717"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04717"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437217545&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1437217545"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437217545&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1437217547"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437217545&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1437217545"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437217545&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1437217547"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437217545&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1437217545"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437217545&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1437217547"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479397582&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1479397582"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479397582&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1479397867"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479397582&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1479397582"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479397582&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1479397867"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479397582&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1479397582"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479397582&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1479397867"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496713496&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-op-1-song-live-budokan-2019"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496713496&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1496713496"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496713496&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1496713510"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496713496&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1496713496"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496713496&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1496713510"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496713496&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1496713496"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496713496&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1496713510"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=sem3UU-EQJs"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sem3UU-EQJs"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://hgdn.lnk.to/FIREGROUND"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://hgdn.lnk.to/FIREGROUND"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hinomaru-zumou-op-1-song-vocal",
+            "title": "FIRE GROUND",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "hinomaru-zumou-op-1-song-live-budokan-2019",
+            "title": "Fire Ground (Live)",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04716",
+            "title": "Stand By You EP",
+            "artistDisplayName": "Official髭男dism",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "edition": "初回限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "FIRE GROUND",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-04716"
+          },
+          {
+            "id": "pcca-04717",
+            "title": "Stand By You EP",
+            "artistDisplayName": "Official髭男dism",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "FIRE GROUND",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-04717"
+          },
+          {
+            "id": "apple-hk-1437217545",
+            "title": "Stand By You EP",
+            "artistDisplayName": "Official鬍子男dism",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Fire Ground",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1437217545",
+            "title": "Stand By You EP",
+            "artistDisplayName": "Official鬍子男dism",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Fire Ground",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1437217545",
+            "title": "Stand By You EP",
+            "artistDisplayName": "Official髭男dism",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "FIRE GROUND",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1479397582",
+            "title": "Traveler",
+            "artistDisplayName": "Official鬍子男dism",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Fire Ground",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1479397582",
+            "title": "Traveler",
+            "artistDisplayName": "Official鬍子男dism",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Fire Ground",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1479397582",
+            "title": "Traveler",
+            "artistDisplayName": "Official髭男dism",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "FIRE GROUND",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1496713496",
+            "title": "Official髭男dism one-man tour 2019@日本武道館",
+            "artistDisplayName": "Official鬍子男dism",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Fire Ground (Live)",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "hinomaru-zumou-op-1-song-live-budokan-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1496713496",
+            "title": "Official髭男dism one-man tour 2019@日本武道館",
+            "artistDisplayName": "Official鬍子男dism",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Fire Ground (Live)",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "hinomaru-zumou-op-1-song-live-budokan-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1496713496",
+            "title": "Official髭男dism one-man tour 2019@日本武道館",
+            "artistDisplayName": "Official髭男dism",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "FIRE GROUND (LIVE)",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "hinomaru-zumou-op-1-song-live-budokan-2019"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1437217547",
+            "label": "香港｜Fire Ground",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-vocal",
+            "releaseId": "apple-hk-1437217545",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1437217547",
+            "label": "台灣｜Fire Ground",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-vocal",
+            "releaseId": "apple-tw-1437217545",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1437217547",
+            "label": "日本｜FIRE GROUND",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-vocal",
+            "releaseId": "apple-jp-1437217545",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1479397867",
+            "label": "香港｜Fire Ground",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-vocal",
+            "releaseId": "apple-hk-1479397582",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1479397867",
+            "label": "台灣｜Fire Ground",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-vocal",
+            "releaseId": "apple-tw-1479397582",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1479397867",
+            "label": "日本｜FIRE GROUND",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-vocal",
+            "releaseId": "apple-jp-1479397582",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1496713510",
+            "label": "香港｜Fire Ground (Live)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-live-budokan-2019",
+            "releaseId": "apple-hk-1496713496",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1496713510",
+            "label": "台灣｜Fire Ground (Live)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-live-budokan-2019",
+            "releaseId": "apple-tw-1496713496",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1496713510",
+            "label": "日本｜FIRE GROUND (LIVE)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-1-song-live-budokan-2019",
+            "releaseId": "apple-jp-1496713496",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Official髭男dism",
+            "url": "https://hgdn.lnk.to/FIREGROUND",
+            "label": "Official髭男dism｜FIRE GROUND",
+            "region": "UNKNOWN",
+            "linkType": "official_landing_page",
+            "recordingId": "hinomaru-zumou-op-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "hinomaru-zumou-ed-1",
+        "songId": "hinomaru-zumou-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "日出ズル場所",
+        "artistDisplayName": "オメでたい頭でなにより",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第1–14話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "赤飯"
+          },
+          {
+            "role": "vocals",
+            "name": "ぽにきんぐだむ"
+          },
+          {
+            "role": "lyrics",
+            "name": "赤飯"
+          },
+          {
+            "role": "lyrics",
+            "name": "ぽにきんぐだむ"
+          },
+          {
+            "role": "composition",
+            "name": "324"
+          },
+          {
+            "role": "arrangement",
+            "name": "オメでたい頭でなにより"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hinomaru-zumou.com/cd.html",
+            "label": "動畫官網｜四首主題曲、日本盤型、曲序與樂團演唱成員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5058",
+            "label": "しょぼいカレンダー｜集數及製作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hinomaruzumou",
+            "label": "逐話觀影曲表｜第1至24話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://yoshidayamada.com/discography/single",
+            "label": "吉田山田｜2019年1月25日更換兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1436797268&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1436797268&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1436797268&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1446515060&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1446515060&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1446515060&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7ElHaXy5Jp8",
+            "label": "赤飯(旧オメでたい頭でなにより公式)｜オメでたい頭でなにより - 「日出ズル場所」 Music Video | “The Land of Sunrise”",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5058",
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04702"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04703"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-1-song-tv-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-1-song-tv-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436797268&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1436797268"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436797268&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1436797543"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436797268&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1436797268"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436797268&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1436797543"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436797268&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1436797268"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436797268&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1436797543"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446515060&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1446515060"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446515060&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1446515064"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446515060&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1446515060"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446515060&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1446515064"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446515060&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1446515060"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446515060&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1446515064"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7ElHaXy5Jp8"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "7ElHaXy5Jp8"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hinomaru-zumou-ed-1-song-vocal",
+            "title": "日出ズル場所",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "hinomaru-zumou-ed-1-song-tv",
+            "title": "日出ズル場所 TV Ver.",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "hinomaru-zumou-ed-1-song-tv-inst",
+            "title": "日出ズル場所 TV Ver.（Inst.）",
+            "kind": "instrumental",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04702",
+            "title": "日出ズル場所",
+            "artistDisplayName": "オメでたい頭でなにより",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "日出ズル場所",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-04702"
+          },
+          {
+            "id": "pcca-04703",
+            "title": "日出ズル場所",
+            "artistDisplayName": "オメでたい頭でなにより",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "edition": "火ノ丸盤 CD",
+            "tracks": [
+              {
+                "title": "日出ズル場所",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              },
+              {
+                "title": "日出ズル場所 TV Ver.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-tv"
+              },
+              {
+                "title": "日出ズル場所 TV Ver.（Inst.）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-tv-inst"
+              }
+            ],
+            "catalogNumber": "PCCA-04703"
+          },
+          {
+            "id": "apple-hk-1436797268",
+            "title": "日出ズル場所 - Single",
+            "artistDisplayName": "Omedetai Atama de Naniyori",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Hi Izuru Basho",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1436797268",
+            "title": "日出ズル場所 - Single",
+            "artistDisplayName": "Omedetai Atama de Naniyori",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Hi Izuru Basho",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1436797268",
+            "title": "日出ズル場所 - Single",
+            "artistDisplayName": "オメでたい頭でなにより",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "日出ズル場所",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1446515060",
+            "title": "オメでたい頭でなにより1",
+            "artistDisplayName": "Omedetai Atama de Naniyori",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "The Land of Sunrise",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1446515060",
+            "title": "オメでたい頭でなにより1",
+            "artistDisplayName": "Omedetai Atama de Naniyori",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "The Land of Sunrise",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1446515060",
+            "title": "オメでたい頭でなにより1",
+            "artistDisplayName": "オメでたい頭でなにより",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "日出ズル場所",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1436797543",
+            "label": "香港｜Hi Izuru Basho",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-1-song-vocal",
+            "releaseId": "apple-hk-1436797268",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1436797543",
+            "label": "台灣｜Hi Izuru Basho",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-1-song-vocal",
+            "releaseId": "apple-tw-1436797268",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1436797543",
+            "label": "日本｜日出ズル場所",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-1-song-vocal",
+            "releaseId": "apple-jp-1436797268",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1446515064",
+            "label": "香港｜The Land of Sunrise",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-1-song-vocal",
+            "releaseId": "apple-hk-1446515060",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1446515064",
+            "label": "台灣｜The Land of Sunrise",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-1-song-vocal",
+            "releaseId": "apple-tw-1446515060",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1446515064",
+            "label": "日本｜日出ズル場所",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-1-song-vocal",
+            "releaseId": "apple-jp-1446515060",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "hinomaru-zumou-op-2",
+        "songId": "hinomaru-zumou-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "Be the NAKED",
+        "artistDisplayName": "Lead",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第15–24話片頭。SHINYA負責Rap詞。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "谷内伸也"
+          },
+          {
+            "role": "vocals",
+            "name": "古屋敬多"
+          },
+          {
+            "role": "vocals",
+            "name": "鍵本輝"
+          },
+          {
+            "role": "lyrics",
+            "name": "佐伯youthK"
+          },
+          {
+            "role": "lyrics",
+            "name": "SHINYA"
+          },
+          {
+            "role": "composition",
+            "name": "Obi Mhondera"
+          },
+          {
+            "role": "composition",
+            "name": "Kyler Niko"
+          },
+          {
+            "role": "composition",
+            "name": "Coach & Sendo"
+          },
+          {
+            "role": "arrangement",
+            "name": "Coach & Sendo"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hinomaru-zumou.com/cd.html",
+            "label": "動畫官網｜四首主題曲、日本盤型、曲序與樂團演唱成員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5058",
+            "label": "しょぼいカレンダー｜集數及製作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hinomaruzumou",
+            "label": "逐話觀影曲表｜第1至24話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://yoshidayamada.com/discography/single",
+            "label": "吉田山田｜2019年1月25日更換兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://lead-fc.jp/discography/detail/30/",
+            "label": "Lead官方｜日本單曲與版本",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Dc16-RQ6eE4",
+            "label": "LeadOfficialCh｜Be the NAKED / Lead【Music Video】",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449122698&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449122698&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449122698&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501679780&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501679780&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501679780&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/2OoouMVnepTNQoyUbtKOY8",
+            "label": "Spotify｜Lead的原唱曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5058",
+              "https://lead-fc.jp/discography/detail/30/",
+              "https://www.youtube.com/watch?v=Dc16-RQ6eE4"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04744"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04745"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-70536"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04746"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449122698&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1449122698"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449122698&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1449122699"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449122698&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1449122698"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449122698&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1449122699"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449122698&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1449122698"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449122698&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449122699"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501679780&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1501679780"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501679780&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1501679784"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501679780&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1501679780"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501679780&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1501679784"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501679780&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1501679780"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501679780&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1501679784"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Dc16-RQ6eE4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "Dc16-RQ6eE4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/2OoouMVnepTNQoyUbtKOY8"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/2OoouMVnepTNQoyUbtKOY8"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hinomaru-zumou-op-2-song-vocal",
+            "title": "Be the NAKED",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04744",
+            "title": "Be the NAKED",
+            "artistDisplayName": "Lead",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "edition": "初回限定盤A CD＋DVD",
+            "tracks": [
+              {
+                "title": "Be the NAKED",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-04744"
+          },
+          {
+            "id": "pcca-04745",
+            "title": "Be the NAKED",
+            "artistDisplayName": "Lead",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "edition": "初回限定盤B CD＋DVD",
+            "tracks": [
+              {
+                "title": "Be the NAKED",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-04745"
+          },
+          {
+            "id": "pcca-70536",
+            "title": "Be the NAKED",
+            "artistDisplayName": "Lead",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "edition": "初回限定盤C CD＋冊子",
+            "tracks": [
+              {
+                "title": "Be the NAKED",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-70536"
+          },
+          {
+            "id": "pcca-04746",
+            "title": "Be the NAKED",
+            "artistDisplayName": "Lead",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "Be the NAKED",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-04746"
+          },
+          {
+            "id": "apple-hk-1449122698",
+            "title": "Be the NAKED - Single",
+            "artistDisplayName": "LEAD",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Be the Naked",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1449122698",
+            "title": "Be the NAKED - Single",
+            "artistDisplayName": "LEAD",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Be the Naked",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1449122698",
+            "title": "Be the NAKED - Single",
+            "artistDisplayName": "Lead",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Be the NAKED",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1501679780",
+            "title": "SINGULARITY",
+            "artistDisplayName": "LEAD",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Be the Naked",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1501679780",
+            "title": "SINGULARITY",
+            "artistDisplayName": "LEAD",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Be the Naked",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1501679780",
+            "title": "SINGULARITY",
+            "artistDisplayName": "Lead",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Be the NAKED",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-op-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1449122699",
+            "label": "香港｜Be the Naked",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-2-song-vocal",
+            "releaseId": "apple-hk-1449122698",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1449122699",
+            "label": "台灣｜Be the Naked",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-2-song-vocal",
+            "releaseId": "apple-tw-1449122698",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1449122699",
+            "label": "日本｜Be the NAKED",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-2-song-vocal",
+            "releaseId": "apple-jp-1449122698",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1501679784",
+            "label": "香港｜Be the Naked",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-2-song-vocal",
+            "releaseId": "apple-hk-1501679780",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1501679784",
+            "label": "台灣｜Be the Naked",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-2-song-vocal",
+            "releaseId": "apple-tw-1501679780",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1501679784",
+            "label": "日本｜Be the NAKED",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-2-song-vocal",
+            "releaseId": "apple-jp-1501679780",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/2OoouMVnepTNQoyUbtKOY8",
+            "label": "Spotify｜Be the NAKED",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-op-2-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "hinomaru-zumou-ed-2",
+        "songId": "hinomaru-zumou-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "桜咲け",
+        "artistDisplayName": "吉田山田",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第15–24話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "吉田結威"
+          },
+          {
+            "role": "vocals",
+            "name": "山田義孝"
+          },
+          {
+            "role": "lyrics",
+            "name": "吉田結威"
+          },
+          {
+            "role": "composition",
+            "name": "吉田結威"
+          },
+          {
+            "role": "arrangement",
+            "name": "涌井啓一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hinomaru-zumou.com/cd.html",
+            "label": "動畫官網｜四首主題曲、日本盤型、曲序與樂團演唱成員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5058",
+            "label": "しょぼいカレンダー｜集數及製作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hinomaruzumou",
+            "label": "逐話觀影曲表｜第1至24話片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://yoshidayamada.com/discography/single",
+            "label": "吉田山田｜2019年1月25日更換兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://yoshidayamada.com/contents/219184",
+            "label": "吉田山田｜火ノ丸盤與吉田山田盤的不同第三軌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://tresen.fmyokohama.jp/10611/",
+            "label": "FM橫濱｜兩名原唱介紹本作單曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451779065&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451779065&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451779065&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451781871&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451781871&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451781871&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449110646&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449110646&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449110646&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1484615090&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1484615090&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1484615090&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=lhSJc2GPjRc",
+            "label": "yoshiyamaofficial｜桜咲け / 吉田山田【MUSIC VIDEO】",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hinomaru-zumou.com/cd.html",
+              "https://cal.syoboi.jp/tid/5058",
+              "https://www.mau2.com/anime/hinomaruzumou",
+              "https://yoshidayamada.com/discography/single"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5058",
+              "https://yoshidayamada.com/discography/single",
+              "https://yoshidayamada.com/contents/219184",
+              "https://tresen.fmyokohama.jp/10611/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://yoshidayamada.com/contents/219184"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://yoshidayamada.com/contents/219184"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-70537"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://yoshidayamada.com/contents/219184"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04750"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://yoshidayamada.com/contents/219184"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song-pf"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1451779065"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1451779066"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1451779065"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1451779066"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1451779065"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1451779066"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1451779069"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1451779069"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451779065&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1451779069"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://yoshidayamada.com/contents/219184"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1451781871"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1451781872"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1451781871"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1451781872"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1451781871"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1451781872"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1451781874"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1451781874"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451781871&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1451781874"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1449110646"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1449110647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1449110646"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1449110647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hinomaru-zumou-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1449110646"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449110646&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449110647"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1484615090&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1484615090"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1484615090&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1484615094"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1484615090&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1484615090"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1484615090&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1484615094"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1484615090&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1484615090"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1484615090&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1484615094"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=lhSJc2GPjRc"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lhSJc2GPjRc"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hinomaru-zumou-ed-2-song-vocal",
+            "title": "桜咲け",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "hinomaru-zumou-ed-2-song-pf",
+            "title": "桜咲け -pf ver.-",
+            "kind": "rearrangement",
+            "format": "unknown"
+          },
+          {
+            "id": "hinomaru-zumou-ed-2-song-inst",
+            "title": "桜咲け (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "hinomaru-zumou-ed-2-song-tv",
+            "title": "Sakura Sake - TV Edit -",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-70537",
+            "title": "桜咲け",
+            "artistDisplayName": "吉田山田",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "吉田山田盤 CD",
+            "tracks": [
+              {
+                "title": "桜咲け",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "桜咲け -pf ver.-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-pf"
+              }
+            ],
+            "catalogNumber": "PCCA-70537"
+          },
+          {
+            "id": "pcca-04750",
+            "title": "桜咲け",
+            "artistDisplayName": "吉田山田",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "火ノ丸盤 2CD",
+            "tracks": [
+              {
+                "title": "桜咲け",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "桜咲け (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-inst"
+              }
+            ],
+            "catalogNumber": "PCCA-04750"
+          },
+          {
+            "id": "apple-hk-1451779065",
+            "title": "桜咲け (吉田山田盤) - Single",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "Sakura Sake (Pf Ver.)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-pf"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1451779065",
+            "title": "桜咲け (吉田山田盤) - Single",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "Sakura Sake (Pf Ver.)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-pf"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1451779065",
+            "title": "桜咲け (吉田山田盤) - Single",
+            "artistDisplayName": "吉田山田",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "桜咲け",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "桜咲け (pf ver.)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-pf"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1451781871",
+            "title": "桜咲け (火ノ丸盤) - Single",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "Sakura Sake (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1451781871",
+            "title": "桜咲け (火ノ丸盤) - Single",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "Sakura Sake (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1451781871",
+            "title": "桜咲け (火ノ丸盤) - Single",
+            "artistDisplayName": "吉田山田",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "桜咲け",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              },
+              {
+                "title": "桜咲け (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1449110646",
+            "title": "桜咲け -TV Edit- - Single",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake - TV Edit -",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1449110646",
+            "title": "桜咲け -TV Edit- - Single",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake - TV Edit -",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1449110646",
+            "title": "桜咲け -TV Edit- - Single",
+            "artistDisplayName": "吉田山田",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "桜咲け -TV Edit-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1484615090",
+            "title": "証命",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1484615090",
+            "title": "証命",
+            "artistDisplayName": "Yoshida Yamada",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Sakura Sake",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1484615090",
+            "title": "証命",
+            "artistDisplayName": "吉田山田",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "桜咲け",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hinomaru-zumou-ed-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1451779066",
+            "label": "香港｜Sakura Sake",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-hk-1451779065",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1451779066",
+            "label": "台灣｜Sakura Sake",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-tw-1451779065",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1451779066",
+            "label": "日本｜桜咲け",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-jp-1451779065",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1451779069",
+            "label": "香港｜Sakura Sake (Pf Ver.)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-pf",
+            "releaseId": "apple-hk-1451779065",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1451779069",
+            "label": "台灣｜Sakura Sake (Pf Ver.)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-pf",
+            "releaseId": "apple-tw-1451779065",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1451779069",
+            "label": "日本｜桜咲け (pf ver.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-pf",
+            "releaseId": "apple-jp-1451779065",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1451781872",
+            "label": "香港｜Sakura Sake",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-hk-1451781871",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1451781872",
+            "label": "台灣｜Sakura Sake",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-tw-1451781871",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1451781872",
+            "label": "日本｜桜咲け",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-jp-1451781871",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1451781874",
+            "label": "香港｜Sakura Sake (Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-inst",
+            "releaseId": "apple-hk-1451781871",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1451781874",
+            "label": "台灣｜Sakura Sake (Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-inst",
+            "releaseId": "apple-tw-1451781871",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1451781874",
+            "label": "日本｜桜咲け (Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-inst",
+            "releaseId": "apple-jp-1451781871",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1449110647",
+            "label": "香港｜Sakura Sake - TV Edit -",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-tv",
+            "releaseId": "apple-hk-1449110646",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1449110647",
+            "label": "台灣｜Sakura Sake - TV Edit -",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-tv",
+            "releaseId": "apple-tw-1449110646",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1449110647",
+            "label": "日本｜桜咲け -TV Edit-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-tv",
+            "releaseId": "apple-jp-1449110646",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1484615094",
+            "label": "香港｜Sakura Sake",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-hk-1484615090",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1484615094",
+            "label": "台灣｜Sakura Sake",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-tw-1484615090",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1484615094",
+            "label": "日本｜桜咲け",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hinomaru-zumou-ed-2-song-vocal",
+            "releaseId": "apple-jp-1484615090",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curated-100185",
+    "anilistId": 100185,
+    "anilistUrl": "https://anilist.co/anime/100185",
+    "slug": "toaru-majutsu-no-index-iii",
+    "titleJa": "とある魔術の禁書目録Ⅲ",
+    "titleZhHant": "魔法禁書目錄 Ⅲ",
+    "titleRomaji": "Toaru Majutsu no Index III",
+    "startDate": "2018-10-05",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter",
+      "2019-spring"
+    ],
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "22:00",
+    "broadcastLabel": "AT-X自2018年10月5日週五22:00首播，TOKYO MX及BS11於同一節目日24:30播出。第1–13話在秋季，第14–25話在冬季，第26話〈神の子〉於2019年4月5日播出，無片頭曲或片尾曲。AbemaTV及dアニメストア等另提供日本串流。",
+    "status": "finished",
+    "officialSiteUrl": "https://toaru-project.com/index_3/",
+    "metadataVerifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-20",
+    "sourceReferenceUrls": [
+      "https://toaru-project.com/index_3/news/index00120000.html",
+      "https://toaru-project.com/index_3/onair/",
+      "https://toaru-project.com/index_3/story/26.html",
+      "https://cal.syoboi.jp/tid/5050/time",
+      "https://www.mau2.com/anime/toarumajutunoindex-3/ep/26",
+      "https://ani.gamer.com.tw/animeVideo.php?sn=10840"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://toaru-project.com/index_3/news/index00120000.html",
+        "label": "動畫官網｜AT-X與日本地上波、BS首播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://toaru-project.com/index_3/onair/",
+        "label": "動畫官網｜日本授權串流服務",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://toaru-project.com/index_3/story/26.html",
+        "label": "動畫官網｜最終第26話〈神の子〉",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5050/time",
+        "label": "日本逐話電視時間表｜AT-X原播及第26話首播日期",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.mau2.com/anime/toarumajutunoindex-3/ep/26",
+        "label": "日本逐話記錄｜第26話〈神の子〉無片頭曲及片尾曲",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=10840",
+        "label": "巴哈姆特動畫瘋｜台灣授權播映名稱及分集",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "toaru-majutsu-no-index-iii-op-1",
+        "songId": "toaru-majutsu-no-index-iii-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Gravitation",
+        "artistDisplayName": "黒崎真音",
+        "usageLabel": "第1–5、7、8、10–13、15話片頭。秋季用至12月28日第13話，冬季僅第15話。",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://toaru-project.com/index_3/music/",
+            "label": "動畫官網｜四首主題曲、詞曲編、不同單曲規格及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050",
+            "label": "日本播映記錄｜兩組主題曲各自的實際使用話數及停用話數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/toarumajutunoindex-3",
+            "label": "日本逐話配音與歌曲記錄｜全26話及OP、ED使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050/time",
+            "label": "日本逐話電視時間表｜AT-X原播及第26話首播日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://maonkurosaki.jp/discography/",
+            "label": "黑崎真音官網｜兩版《Beloved One》、專輯曲序及特典連續DJ混音",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1804665095",
+            "label": "Apple HK｜Gravitation",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1804665092&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1804999337",
+            "label": "Apple HK｜Gravitation",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1804999336&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1804999492",
+            "label": "Apple HK｜Gravitation<instrumental>",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1805002596",
+            "label": "Apple HK｜Gravitation",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1805002594&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1804665095",
+            "label": "Apple JP｜Gravitation",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1804665092&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1804999337",
+            "label": "Apple JP｜Gravitation",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1804999336&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1804999492",
+            "label": "Apple JP｜Gravitation<instrumental>",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1805002596",
+            "label": "Apple JP｜Gravitation",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1805002594&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ThaBIzmzfa0",
+            "label": "黒崎真音 Official YouTube Channel｜黒崎真音「Gravitation」Official MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=E485l1hCmI0",
+            "label": "とあるプロジェクト公式toaru.project｜TVアニメ「とある魔術の禁書目録Ⅲ」OP映像（黒崎真音／Gravitation）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://toaru-project.com/index_3/special/pv.html",
+            "label": "動畫官網｜前後期四段OP與ED影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-1-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-0545"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-0546"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-0547"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://maonkurosaki.jp/discography/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-1-song-djmix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://maonkurosaki.jp/discography/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-1538"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://maonkurosaki.jp/discography/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-1539"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804665092&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1804665092"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1804665095"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804665095"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804665092&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804665095"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804999336&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1804999336"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1804999337"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804999337"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804999336&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804999337"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1804999492"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804999492"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804999336&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804999492"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1805002594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1805002596"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805002596"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805002596"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804665092&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1804665092"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1804665095"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804665095"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804665092&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804665095"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804999336&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1804999336"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1804999337"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804999337"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804999336&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804999337"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1804999492"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804999492"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804999336&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804999492"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1805002594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1805002596"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805002596"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805002596"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ThaBIzmzfa0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "ThaBIzmzfa0"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=E485l1hCmI0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "E485l1hCmI0"
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "label": "Gravitation｜HK",
+            "url": "https://music.apple.com/hk/song/1804665095",
+            "region": "HK",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original",
+            "releaseId": "apple-hk-1804665092"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gravitation｜HK",
+            "url": "https://music.apple.com/hk/song/1804999337",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original",
+            "releaseId": "apple-hk-1804999336"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gravitation<instrumental>｜HK",
+            "url": "https://music.apple.com/hk/song/1804999492",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-instr",
+            "releaseId": "apple-hk-1804999336"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gravitation｜HK",
+            "url": "https://music.apple.com/hk/song/1805002596",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original",
+            "releaseId": "apple-hk-1805002594"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Gravitation｜JP",
+            "url": "https://music.apple.com/jp/song/1804665095",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original",
+            "releaseId": "apple-jp-1804665092"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gravitation｜JP",
+            "url": "https://music.apple.com/jp/song/1804999337",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original",
+            "releaseId": "apple-jp-1804999336"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gravitation<instrumental>｜JP",
+            "url": "https://music.apple.com/jp/song/1804999492",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-instr",
+            "releaseId": "apple-jp-1804999336"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gravitation｜JP",
+            "url": "https://music.apple.com/jp/song/1805002596",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original",
+            "releaseId": "apple-jp-1805002594"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "黒崎真音"
+          },
+          {
+            "role": "lyrics",
+            "name": "川田まみ"
+          },
+          {
+            "role": "composition",
+            "name": "中沢伴行"
+          },
+          {
+            "role": "arrangement",
+            "name": "中沢伴行"
+          },
+          {
+            "role": "arrangement",
+            "name": "尾崎武士"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "toaru-majutsu-no-index-iii-op-1-song-original",
+            "title": "Gravitation（黒崎真音）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-op-1-song-instr",
+            "title": "Gravitation（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-op-1-song-tv",
+            "title": "Gravitation（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-op-1-song-djmix",
+            "title": "Gravitation（とある魔術の精霊讃歌 ～DJmix～，黒崎真音）",
+            "kind": "remix",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-gnca-0545",
+            "title": "Gravitation",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "藝人盤CD＋DVD",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Gravitation〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-instr"
+              }
+            ],
+            "catalogNumber": "GNCA-0545"
+          },
+          {
+            "id": "jp-gnca-0546",
+            "title": "Gravitation",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "動畫盤CD＋DVD",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Gravitation（TVサイズ）",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-tv"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "Gravitation〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-instr"
+              }
+            ],
+            "catalogNumber": "GNCA-0546"
+          },
+          {
+            "id": "jp-gnca-0547",
+            "title": "Gravitation",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Gravitation〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-instr"
+              }
+            ],
+            "catalogNumber": "GNCA-0547"
+          },
+          {
+            "id": "jp-gnca-1538",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "初回限定2CD，第二碟連續DJ混音另收本曲",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "GNCA-1538"
+          },
+          {
+            "id": "jp-gnca-1539",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "GNCA-1539"
+          },
+          {
+            "id": "apple-hk-1804665092",
+            "title": "Gravitation - Single",
+            "type": "single",
+            "artistDisplayName": "Maon Kurosaki",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2018-10-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1804999336",
+            "title": "Gravitation - EP",
+            "type": "ep",
+            "artistDisplayName": "Maon Kurosaki",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Gravitation<instrumental>",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-instr"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1805002594",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "Maon Kurosaki",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1804665092",
+            "title": "Gravitation - Single",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-10-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1804999336",
+            "title": "Gravitation - EP",
+            "type": "ep",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Gravitation<instrumental>",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-instr"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1805002594",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "Gravitation",
+                "recordingId": "toaru-majutsu-no-index-iii-op-1-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=ThaBIzmzfa0"
+      },
+      {
+        "id": "toaru-majutsu-no-index-iii-op-2",
+        "songId": "toaru-majutsu-no-index-iii-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "ROAR",
+        "artistDisplayName": "黒崎真音",
+        "usageLabel": "第18–20、22、23、25話片頭。第26話無片頭曲。",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://toaru-project.com/index_3/music/",
+            "label": "動畫官網｜四首主題曲、詞曲編、不同單曲規格及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050",
+            "label": "日本播映記錄｜兩組主題曲各自的實際使用話數及停用話數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/toarumajutunoindex-3",
+            "label": "日本逐話配音與歌曲記錄｜全26話及OP、ED使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050/time",
+            "label": "日本逐話電視時間表｜AT-X原播及第26話首播日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://maonkurosaki.jp/discography/",
+            "label": "黑崎真音官網｜兩版《Beloved One》、專輯曲序及特典連續DJ混音",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1804675506",
+            "label": "Apple HK｜ROAR",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1804675494&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1805000707",
+            "label": "Apple HK｜ROAR",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1805000704&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1805000936",
+            "label": "Apple HK｜ROAR (Instrumental)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1805003002",
+            "label": "Apple HK｜ROAR",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1805002594&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1804675506",
+            "label": "Apple JP｜ROAR",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1804675494&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1805000707",
+            "label": "Apple JP｜ROAR",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1805000704&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1805000936",
+            "label": "Apple JP｜ROAR<instrumental>",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1805003002",
+            "label": "Apple JP｜ROAR",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1805002594&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=y_Pzm4K0aFU",
+            "label": "黒崎真音 Official YouTube Channel｜黒崎真音「ROAR」Official MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=RfPKGubnA7Y",
+            "label": "とあるプロジェクト公式toaru.project｜TVアニメ「とある魔術の禁書目録Ⅲ」新OP映像（黒崎真音／ROAR）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://toaru-project.com/index_3/special/pv.html",
+            "label": "動畫官網｜前後期四段OP與ED影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-2-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-2-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-0560"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-0561"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-0562"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://maonkurosaki.jp/discography/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-op-2-song-djmix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://maonkurosaki.jp/discography/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-1538"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://maonkurosaki.jp/discography/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-gnca-1539"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804675494&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1804675494"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1804675506"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804675506"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804675494&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1804675506"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805000704&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1805000704"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1805000707"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805000707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805000704&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805000707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1805000936"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805000936"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805000704&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805000936"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1805002594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1805003002"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805003002"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1805003002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804675494&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1804675494"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1804675506"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804675506"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1804675494&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1804675506"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805000704&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1805000704"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1805000707"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805000707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805000704&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805000707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1805000936"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805000936"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805000704&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805000936"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1805002594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1805003002"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805003002"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1805002594&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1805003002"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=y_Pzm4K0aFU"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "y_Pzm4K0aFU"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=RfPKGubnA7Y"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "RfPKGubnA7Y"
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "label": "ROAR｜HK",
+            "url": "https://music.apple.com/hk/song/1804675506",
+            "region": "HK",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original",
+            "releaseId": "apple-hk-1804675494"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ROAR｜HK",
+            "url": "https://music.apple.com/hk/song/1805000707",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original",
+            "releaseId": "apple-hk-1805000704"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ROAR (Instrumental)｜HK",
+            "url": "https://music.apple.com/hk/song/1805000936",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-instr",
+            "releaseId": "apple-hk-1805000704"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ROAR｜HK",
+            "url": "https://music.apple.com/hk/song/1805003002",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original",
+            "releaseId": "apple-hk-1805002594"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "ROAR｜JP",
+            "url": "https://music.apple.com/jp/song/1804675506",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original",
+            "releaseId": "apple-jp-1804675494"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ROAR｜JP",
+            "url": "https://music.apple.com/jp/song/1805000707",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original",
+            "releaseId": "apple-jp-1805000704"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ROAR<instrumental>｜JP",
+            "url": "https://music.apple.com/jp/song/1805000936",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-instr",
+            "releaseId": "apple-jp-1805000704"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ROAR｜JP",
+            "url": "https://music.apple.com/jp/song/1805003002",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original",
+            "releaseId": "apple-jp-1805002594"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "黒崎真音"
+          },
+          {
+            "role": "lyrics",
+            "name": "黒崎真音"
+          },
+          {
+            "role": "composition",
+            "name": "中沢伴行"
+          },
+          {
+            "role": "arrangement",
+            "name": "中沢伴行"
+          },
+          {
+            "role": "arrangement",
+            "name": "尾崎武士"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "toaru-majutsu-no-index-iii-op-2-song-original",
+            "title": "ROAR（黒崎真音）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-op-2-song-instr",
+            "title": "ROAR（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-op-2-song-tv",
+            "title": "ROAR（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-op-2-song-djmix",
+            "title": "ROAR（とある魔術の精霊讃歌 ～DJmix～，黒崎真音）",
+            "kind": "remix",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-gnca-0560",
+            "title": "ROAR",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "藝人盤CD＋DVD",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "ROAR〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-instr"
+              }
+            ],
+            "catalogNumber": "GNCA-0560"
+          },
+          {
+            "id": "jp-gnca-0561",
+            "title": "ROAR",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "動畫盤CD＋DVD",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "ROAR（TVサイズ）",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-tv"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "ROAR〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-instr"
+              }
+            ],
+            "catalogNumber": "GNCA-0561"
+          },
+          {
+            "id": "jp-gnca-0562",
+            "title": "ROAR",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "ROAR〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-instr"
+              }
+            ],
+            "catalogNumber": "GNCA-0562"
+          },
+          {
+            "id": "jp-gnca-1538",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "初回限定2CD，第二碟連續DJ混音另收本曲",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              }
+            ],
+            "catalogNumber": "GNCA-1538"
+          },
+          {
+            "id": "jp-gnca-1539",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              }
+            ],
+            "catalogNumber": "GNCA-1539"
+          },
+          {
+            "id": "apple-hk-1804675494",
+            "title": "ROAR - Single",
+            "type": "single",
+            "artistDisplayName": "Maon Kurosaki",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-02-09",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1805000704",
+            "title": "ROAR - EP",
+            "type": "ep",
+            "artistDisplayName": "Maon Kurosaki",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "ROAR (Instrumental)",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-instr"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1805002594",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "Maon Kurosaki",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1804675494",
+            "title": "ROAR - Single",
+            "type": "single",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-02-09",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1805000704",
+            "title": "ROAR - EP",
+            "type": "ep",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "ROAR<instrumental>",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-instr"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1805002594",
+            "title": "Beloved One",
+            "type": "album",
+            "artistDisplayName": "黒崎真音",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-06-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "ROAR",
+                "recordingId": "toaru-majutsu-no-index-iii-op-2-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=y_Pzm4K0aFU"
+      },
+      {
+        "id": "toaru-majutsu-no-index-iii-ed-1",
+        "songId": "toaru-majutsu-no-index-iii-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "革命前夜",
+        "artistDisplayName": "井口裕香",
+        "usageLabel": "第1–8、10–12、14、15話片尾，冬季沿用於第14、15話。",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://toaru-project.com/index_3/music/",
+            "label": "動畫官網｜四首主題曲、詞曲編、不同單曲規格及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050",
+            "label": "日本播映記錄｜兩組主題曲各自的實際使用話數及停用話數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/toarumajutunoindex-3",
+            "label": "日本逐話配音與歌曲記錄｜全26話及OP、ED使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050/time",
+            "label": "日本逐話電視時間表｜AT-X原播及第26話首播日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1436920407",
+            "label": "Apple JP｜革命前夜 -とある魔術の禁書目録Ⅲ ED-",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1436920237&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1440553665",
+            "label": "Apple JP｜革命前夜",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1440553664&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1440553668",
+            "label": "Apple JP｜革命前夜  (Instrumental)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1522410358",
+            "label": "Apple JP｜革命前夜",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1522410351&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xFgzWyESqDs",
+            "label": "とあるプロジェクト公式toaru.project｜TVアニメ「とある魔術の禁書目録Ⅲ」ED映像（井口裕香／革命前夜）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://toaru-project.com/index_3/special/pv.html",
+            "label": "動畫官網｜前後期四段OP與ED影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-1-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-1000735132"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-1000735133"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-1000735134"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436920237&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1436920237"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1436920407"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1436920407"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436920237&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1436920407"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440553664&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1440553664"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1440553665"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440553665"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440553664&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440553665"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1440553668"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440553668"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440553664&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440553668"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522410351&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1522410351"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1522410358"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1522410358"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522410351&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1522410358"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xFgzWyESqDs"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "xFgzWyESqDs"
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "label": "革命前夜 -とある魔術の禁書目録Ⅲ ED-｜JP",
+            "url": "https://music.apple.com/jp/song/1436920407",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original",
+            "releaseId": "apple-jp-1436920237"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "革命前夜｜JP",
+            "url": "https://music.apple.com/jp/song/1440553665",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original",
+            "releaseId": "apple-jp-1440553664"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "革命前夜  (Instrumental)｜JP",
+            "url": "https://music.apple.com/jp/song/1440553668",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-instr",
+            "releaseId": "apple-jp-1440553664"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "革命前夜｜JP",
+            "url": "https://music.apple.com/jp/song/1522410358",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original",
+            "releaseId": "apple-jp-1522410351"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "井口裕香"
+          },
+          {
+            "role": "lyrics",
+            "name": "zopp"
+          },
+          {
+            "role": "composition",
+            "name": "高橋克行"
+          },
+          {
+            "role": "composition",
+            "name": "伽羅奢"
+          },
+          {
+            "role": "arrangement",
+            "name": "佐々木裕"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "toaru-majutsu-no-index-iii-ed-1-song-original",
+            "title": "革命前夜（井口裕香）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-ed-1-song-instr",
+            "title": "革命前夜（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-ed-1-song-tv",
+            "title": "革命前夜（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-1000735132",
+            "title": "革命前夜",
+            "type": "single",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "藝人盤CD＋DVD",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "革命前夜",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "革命前夜〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-instr"
+              }
+            ],
+            "catalogNumber": "1000735132"
+          },
+          {
+            "id": "jp-1000735133",
+            "title": "革命前夜",
+            "type": "single",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "動畫盤CD＋DVD",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "革命前夜",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "革命前夜（TVサイズ）",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-tv"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "革命前夜〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-instr"
+              }
+            ],
+            "catalogNumber": "1000735133"
+          },
+          {
+            "id": "jp-1000735134",
+            "title": "革命前夜",
+            "type": "single",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "革命前夜",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "革命前夜〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-instr"
+              }
+            ],
+            "catalogNumber": "1000735134"
+          },
+          {
+            "id": "apple-jp-1436920237",
+            "title": "革命前夜 -とある魔術の禁書目録Ⅲ ED- - Single",
+            "type": "single",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "革命前夜 -とある魔術の禁書目録Ⅲ ED-",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1440553664",
+            "title": "革命前夜 -とある魔術の禁書目録Ⅲ ED- - EP",
+            "type": "ep",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "革命前夜",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "革命前夜  (Instrumental)",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-instr"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1522410351",
+            "title": "clearly",
+            "type": "album",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 7,
+                "title": "革命前夜",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-1-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=xFgzWyESqDs",
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核日本曲目；香港區尚待原藝人的獨立授權曲目。",
+            "resumeWhen": "香港正版商店提供可核身分及供應狀態的單曲或專輯曲目時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "toaru-majutsu-no-index-iii-ed-2",
+        "songId": "toaru-majutsu-no-index-iii-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "終わらない歌",
+        "artistDisplayName": "井口裕香",
+        "usageLabel": "第16、18–20、23話片尾。第17、21、22、24–26話無片尾曲。",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://toaru-project.com/index_3/music/",
+            "label": "動畫官網｜四首主題曲、詞曲編、不同單曲規格及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050",
+            "label": "日本播映記錄｜兩組主題曲各自的實際使用話數及停用話數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/toarumajutunoindex-3",
+            "label": "日本逐話配音與歌曲記錄｜全26話及OP、ED使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5050/time",
+            "label": "日本逐話電視時間表｜AT-X原播及第26話首播日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1449235878",
+            "label": "Apple JP｜終わらない歌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449235877&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1449235881",
+            "label": "Apple JP｜終わらない歌 (TV Size)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1449235882",
+            "label": "Apple JP｜終わらない歌 (Instrumental)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1522410364",
+            "label": "Apple JP｜終わらない歌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1522410351&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/07WBBIX74D8FvlAAdkcFLH",
+            "label": "Spotify｜終わらない歌（井口裕香）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/album/6TSCj68wJS4tMZvqLy0vkp",
+            "label": "Spotify｜官方曲目名單與演出者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/3vmy2sGVBnu70cxUCTKndn",
+            "label": "Spotify｜終わらない歌（TV size）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/5ABIcxfpfdiXZ2JpoMm12z",
+            "label": "Spotify｜終わらない歌（Instrumental）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xU7MNzpFu64",
+            "label": "とあるプロジェクト公式toaru.project｜TVアニメ「とある魔術の禁書目録Ⅲ」新ED映像（井口裕香／終わらない歌）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://toaru-project.com/index_3/special/pv.html",
+            "label": "動畫官網｜前後期四段OP與ED影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/",
+              "https://cal.syoboi.jp/tid/5050",
+              "https://www.mau2.com/anime/toarumajutunoindex-3",
+              "https://cal.syoboi.jp/tid/5050/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-2-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-2-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "toaru-majutsu-no-index-iii-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-1000739880"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-1000739881"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://toaru-project.com/index_3/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-1000739882"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449235877&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1449235877"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1449235878"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449235878"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449235877&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449235878"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1449235881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449235881"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449235877&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449235881"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1449235882"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449235882"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449235877&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449235882"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522410351&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1522410351"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1522410364"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1522410364"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522410351&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1522410364"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/07WBBIX74D8FvlAAdkcFLH"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/07WBBIX74D8FvlAAdkcFLH"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/3vmy2sGVBnu70cxUCTKndn"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/3vmy2sGVBnu70cxUCTKndn"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/5ABIcxfpfdiXZ2JpoMm12z"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5ABIcxfpfdiXZ2JpoMm12z"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xU7MNzpFu64"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "xU7MNzpFu64"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "終わらない歌｜JP",
+            "url": "https://music.apple.com/jp/song/1449235878",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original",
+            "releaseId": "apple-jp-1449235877"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "終わらない歌 (TV Size)｜JP",
+            "url": "https://music.apple.com/jp/song/1449235881",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-tv",
+            "releaseId": "apple-jp-1449235877"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "終わらない歌 (Instrumental)｜JP",
+            "url": "https://music.apple.com/jp/song/1449235882",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-instr",
+            "releaseId": "apple-jp-1449235877"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "終わらない歌｜JP",
+            "url": "https://music.apple.com/jp/song/1522410364",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original",
+            "releaseId": "apple-jp-1522410351"
+          },
+          {
+            "platform": "Spotify",
+            "label": "終わらない歌（井口裕香）",
+            "url": "https://open.spotify.com/track/07WBBIX74D8FvlAAdkcFLH",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original"
+          },
+          {
+            "platform": "Spotify",
+            "label": "終わらない歌（TV size）",
+            "url": "https://open.spotify.com/track/3vmy2sGVBnu70cxUCTKndn",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-tv"
+          },
+          {
+            "platform": "Spotify",
+            "label": "終わらない歌（Instrumental）",
+            "url": "https://open.spotify.com/track/5ABIcxfpfdiXZ2JpoMm12z",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-instr"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "井口裕香"
+          },
+          {
+            "role": "lyrics",
+            "name": "zopp"
+          },
+          {
+            "role": "composition",
+            "name": "佐藤厚仁"
+          },
+          {
+            "role": "arrangement",
+            "name": "華原大輔"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "toaru-majutsu-no-index-iii-ed-2-song-original",
+            "title": "終わらない歌（井口裕香）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-ed-2-song-instr",
+            "title": "終わらない歌（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "toaru-majutsu-no-index-iii-ed-2-song-tv",
+            "title": "終わらない歌（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-1000739880",
+            "title": "終わらない歌",
+            "type": "single",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "藝人盤CD＋DVD",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "終わらない歌",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "終わらない歌〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-instr"
+              }
+            ],
+            "catalogNumber": "1000739880"
+          },
+          {
+            "id": "jp-1000739881",
+            "title": "終わらない歌",
+            "type": "single",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "動畫盤CD＋DVD",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "終わらない歌",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "終わらない歌（TVサイズ）",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-tv"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "終わらない歌〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-instr"
+              }
+            ],
+            "catalogNumber": "1000739881"
+          },
+          {
+            "id": "jp-1000739882",
+            "title": "終わらない歌",
+            "type": "single",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "終わらない歌",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "終わらない歌〈Instrumental〉",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-instr"
+              }
+            ],
+            "catalogNumber": "1000739882"
+          },
+          {
+            "id": "apple-jp-1449235877",
+            "title": "終わらない歌 -とある魔術の禁書目録Ⅲ 新ED-",
+            "type": "ep",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "終わらない歌",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "終わらない歌 (TV Size)",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-tv"
+              },
+              {
+                "disc": 1,
+                "position": 5,
+                "title": "終わらない歌 (Instrumental)",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-instr"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1522410351",
+            "title": "clearly",
+            "type": "album",
+            "artistDisplayName": "井口裕香",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "終わらない歌",
+                "recordingId": "toaru-majutsu-no-index-iii-ed-2-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=xU7MNzpFu64",
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核日本曲目；香港區尚待原藝人的獨立授權曲目。",
+            "resumeWhen": "香港正版商店提供可核身分及供應狀態的單曲或專輯曲目時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curated-101280",
+    "anilistId": 101280,
+    "anilistUrl": "https://anilist.co/anime/101280",
+    "slug": "tensei-shitara-slime-datta-ken",
+    "titleJa": "転生したらスライムだった件",
+    "titleZhHant": "關於我轉生變成史萊姆這檔事",
+    "titleRomaji": "Tensei Shitara Slime Datta Ken",
+    "startDate": "2018-10-01",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "24:00",
+    "broadcastLabel": "TOKYO MX及BS11自2018年10月1日節目日週一24:00開播，曆日為10月2日零時。第13話後跨年休播，第14話於1月7日節目日播出。3月11日第23話為本篇結局，3月18日第24話為外傳，3月25日另播總集篇〈閑話：ヴェルドラ日記〉，正版平台編為第24.5話。同期亦在dアニメストア等日本平台配信。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.ten-sura.com/anime/tensura",
+    "metadataVerifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-20",
+    "sourceReferenceUrls": [
+      "https://www.ten-sura.com/news/anime/tensura/onair/post/1577",
+      "https://www.ten-sura.com/news/anime/tensura/news/post/748",
+      "https://cal.syoboi.jp/tid/5048/time",
+      "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421",
+      "https://ani.gamer.com.tw/animeVideo.php?sn=11285",
+      "https://www.ten-sura.com/news/anime/tensura/onair/post/668"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.ten-sura.com/news/anime/tensura/onair/post/1577",
+        "label": "動畫製作委員會｜TOKYO MX與BS11節目日首播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.ten-sura.com/news/anime/tensura/news/post/748",
+        "label": "動畫製作委員會｜第23話本篇結局、第24話外傳及另播閑話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5048/time",
+        "label": "日本逐話播出表｜首播、跨年停播及3月特別節目節目日",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421",
+        "label": "d動畫商城｜正版分集標為第24.5話〈閑話：ヴェルドラ日記〉",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=11285",
+        "label": "巴哈姆特動畫瘋｜台灣授權播映名稱及分集",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.ten-sura.com/news/anime/tensura/onair/post/668",
+        "label": "動畫製作委員會｜日本同期串流與限時重播安排",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "tensei-shitara-slime-datta-ken-op-1",
+        "songId": "tensei-shitara-slime-datta-ken-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Nameless Story",
+        "artistDisplayName": "寺島拓篤",
+        "usageLabel": "第2–14話片頭。第14話於2019年1月7日節目日播出。",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://takuma-terashima.lantis.jp/news/942/",
+            "label": "寺島拓篤／Lantis｜首支片頭曲兩款單曲、詞曲編與曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048",
+            "label": "日本播映記錄｜第1話片末、四首主題曲交接及第23話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+            "label": "日本逐話聲優及歌曲記錄｜第1期歌唱名義及使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048/time",
+            "label": "日本逐話播出表｜首播、跨年停播及3月特別節目節目日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://catalog.bandainamcomusiclive.co.jp/release/69769/",
+            "label": "Bandai Namco Music Live｜LACA-15897 第27–30軌收錄第一期四首TV size",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ten-sura.com/goods_event/goods/cd/post/2751",
+            "label": "動畫官網｜第一期原聲帶雙碟、兩首主題曲改編及插曲曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1838422404",
+            "label": "Apple HK｜Nameless Story",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838422240&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1437780155",
+            "label": "Apple JP｜Nameless Story",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1437780153&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1455311345",
+            "label": "Apple JP｜Nameless story (Blue mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1455311225&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1502376421",
+            "label": "Apple JP｜Nameless Story",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1502376413&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1585612143",
+            "label": "Apple JP｜Nameless Story (TV size)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1838422404",
+            "label": "Apple JP｜Nameless Story",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838422240&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/0DR2YxEHLwmb3ZLcqHbjN2",
+            "label": "Spotify｜Nameless Story（寺島拓篤）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/playlist/37i9dQZF1DX1PCNEM81iS6",
+            "label": "Spotify｜官方曲目名單與演出者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=X4tLc5DrlDU",
+            "label": "isekai channel @バンダイナムコフィルムワークス｜TVアニメ『転生したらスライムだった件』オープニング「Nameless Story」",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ten-sura.com/anime/tensura/movie",
+            "label": "動畫官網｜第一期四段片頭與片尾影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-1-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-lacm-34798"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-lacm-14798"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-15897"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ten-sura.com/goods_event/goods/cd/post/2751"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-1-song-ost-mix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.ten-sura.com/goods_event/goods/cd/post/2751"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-9669"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1838422240"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1838422404"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838422404"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838422404"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437780153&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1437780153"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1437780155"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1437780155"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437780153&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1437780155"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1455311225&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1455311225"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502376413&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1502376413"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1502376421"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1502376421"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502376413&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1502376421"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1585611905"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1585612143"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612143"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612143"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1838422240"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1838422404"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838422404"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838422404"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/0DR2YxEHLwmb3ZLcqHbjN2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/0DR2YxEHLwmb3ZLcqHbjN2"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=X4tLc5DrlDU"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "X4tLc5DrlDU"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Nameless Story｜HK",
+            "url": "https://music.apple.com/hk/song/1838422404",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original",
+            "releaseId": "apple-hk-1838422240"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Nameless Story｜JP",
+            "url": "https://music.apple.com/jp/song/1437780155",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original",
+            "releaseId": "apple-jp-1437780153"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Nameless Story｜JP",
+            "url": "https://music.apple.com/jp/song/1502376421",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original",
+            "releaseId": "apple-jp-1502376413"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Nameless Story (TV size)｜JP",
+            "url": "https://music.apple.com/jp/song/1585612143",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-tv",
+            "releaseId": "apple-jp-1585611905"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Nameless Story｜JP",
+            "url": "https://music.apple.com/jp/song/1838422404",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original",
+            "releaseId": "apple-jp-1838422240"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Nameless Story（寺島拓篤）",
+            "url": "https://open.spotify.com/track/0DR2YxEHLwmb3ZLcqHbjN2",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "寺島拓篤"
+          },
+          {
+            "role": "lyrics",
+            "name": "寺島拓篤"
+          },
+          {
+            "role": "composition",
+            "name": "上松範康"
+          },
+          {
+            "role": "arrangement",
+            "name": "藤田淳平"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tensei-shitara-slime-datta-ken-op-1-song-original",
+            "title": "Nameless Story（寺島拓篤）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-op-1-song-instr",
+            "title": "Nameless Story（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-op-1-song-tv",
+            "title": "Nameless Story（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-op-1-song-ost-mix",
+            "title": "Nameless story (Blue mix)",
+            "kind": "rearrangement",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-lacm-34798",
+            "title": "Nameless Story",
+            "type": "single",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "初回限定CD＋DVD",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Nameless Story",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "Nameless Story (Instrumental)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-instr"
+              }
+            ],
+            "catalogNumber": "LACM-34798"
+          },
+          {
+            "id": "jp-lacm-14798",
+            "title": "Nameless Story",
+            "type": "single",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Nameless Story",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "Nameless Story (Instrumental)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-instr"
+              }
+            ],
+            "catalogNumber": "LACM-14798"
+          },
+          {
+            "id": "jp-laca-15897",
+            "title": "転生したら音楽だった件２",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁（Elements Garden）",
+            "region": "JP",
+            "edition": "日本原聲帶CD",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 27,
+                "title": "Nameless Story (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15897"
+          },
+          {
+            "id": "jp-laca-9669",
+            "title": "転生したら音楽（サントラ）だった件",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁（Elements Garden）、Various Artists",
+            "region": "JP",
+            "edition": "日本雙CD原聲帶",
+            "date": {
+              "value": "2019-03-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 27,
+                "title": "Nameless story (Blue mix)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-ost-mix"
+              }
+            ],
+            "catalogNumber": "LACA-9669"
+          },
+          {
+            "id": "apple-hk-1838422240",
+            "title": "LAYERING",
+            "type": "album",
+            "artistDisplayName": "寺島拓篤",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2022-05-11",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 11,
+                "title": "Nameless Story",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1437780153",
+            "title": "Nameless Story - Single",
+            "type": "single",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-10-17",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Nameless Story",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1455311225",
+            "title": "TVアニメ『転生したらスライムだった件』転生したら音楽だった件",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-03-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 27,
+                "title": "Nameless story (Blue mix)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-ost-mix"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1502376413",
+            "title": "ASSEMBLE",
+            "type": "album",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 7,
+                "title": "Nameless Story",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1585611905",
+            "title": "TVアニメ『転生したらスライムだった件 第2期』転生したら音楽だった件2",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間 仁 (Elements Garden)",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 27,
+                "title": "Nameless Story (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1838422240",
+            "title": "LAYERING",
+            "type": "album",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2022-05-11",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 11,
+                "title": "Nameless Story",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-1-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=X4tLc5DrlDU"
+      },
+      {
+        "id": "tensei-shitara-slime-datta-ken-op-2",
+        "songId": "tensei-shitara-slime-datta-ken-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "メグルモノ",
+        "artistDisplayName": "寺島拓篤",
+        "usageLabel": "第15–24話及總集篇第24.5話〈閑話：ヴェルドラ日記〉片頭。",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4cddvd%E3%80%91/",
+            "label": "寺島拓篤／Lantis｜後期片頭初回盤、詞曲編與曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048",
+            "label": "日本播映記錄｜第1話片末、四首主題曲交接及第23話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+            "label": "日本逐話聲優及歌曲記錄｜第1期歌唱名義及使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048/time",
+            "label": "日本逐話播出表｜首播、跨年停播及3月特別節目節目日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+            "label": "日本逐話記錄｜〈閑話：ヴェルドラ日記〉片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421",
+            "label": "d動畫商城｜正版分集標為第24.5話〈閑話：ヴェルドラ日記〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://catalog.bandainamcomusiclive.co.jp/release/69769/",
+            "label": "Bandai Namco Music Live｜LACA-15897 第27–30軌收錄第一期四首TV size",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E9%80%9A%E5%B8%B8%E7%9B%A4%E3%80%91/",
+            "label": "寺島拓篤／Lantis｜後期片頭通常盤及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1838422405",
+            "label": "Apple HK｜メグルモノ",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838422240&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1452751446",
+            "label": "Apple JP｜メグルモノ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1452751445&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1502376726",
+            "label": "Apple JP｜メグルモノ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1502376413&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1585612145",
+            "label": "Apple JP｜メグルモノ (TV size)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1838422405",
+            "label": "Apple JP｜メグルモノ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838422240&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/4ssMX3TcBfOlyWRvQxJywV",
+            "label": "Spotify｜メグルモノ（寺島拓篤）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/playlist/37i9dQZF1DX1PCNEM81iS6",
+            "label": "Spotify｜官方曲目名單與演出者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=CO8nEyRfNfk",
+            "label": "isekai channel @バンダイナムコフィルムワークス｜TVアニメ『転生したらスライムだった件』 オープニング 第2弾「メグルモノ」",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ten-sura.com/anime/tensura/movie",
+            "label": "動畫官網｜第一期四段片頭與片尾影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4cddvd%E3%80%91/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4cddvd%E3%80%91/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4cddvd%E3%80%91/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4cddvd%E3%80%91/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4cddvd%E3%80%91/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-2-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4cddvd%E3%80%91/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-lacm-34838"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/discography/%E3%83%A1%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%8E%E3%80%90%E9%80%9A%E5%B8%B8%E7%9B%A4%E3%80%91/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-lacm-14838"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-15897"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1838422240"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1838422405"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838422405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838422405"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1452751445&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1452751445"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1452751446"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1452751446"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1452751445&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1452751446"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502376413&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1502376413"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1502376726"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1502376726"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502376413&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1502376726"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1585611905"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1585612145"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612145"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612145"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1838422240"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1838422405"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838422405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838422240&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838422405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/4ssMX3TcBfOlyWRvQxJywV"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/4ssMX3TcBfOlyWRvQxJywV"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=CO8nEyRfNfk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "CO8nEyRfNfk"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "メグルモノ｜HK",
+            "url": "https://music.apple.com/hk/song/1838422405",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original",
+            "releaseId": "apple-hk-1838422240"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "メグルモノ｜JP",
+            "url": "https://music.apple.com/jp/song/1452751446",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original",
+            "releaseId": "apple-jp-1452751445"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "メグルモノ｜JP",
+            "url": "https://music.apple.com/jp/song/1502376726",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original",
+            "releaseId": "apple-jp-1502376413"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "メグルモノ (TV size)｜JP",
+            "url": "https://music.apple.com/jp/song/1585612145",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-tv",
+            "releaseId": "apple-jp-1585611905"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "メグルモノ｜JP",
+            "url": "https://music.apple.com/jp/song/1838422405",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original",
+            "releaseId": "apple-jp-1838422240"
+          },
+          {
+            "platform": "Spotify",
+            "label": "メグルモノ（寺島拓篤）",
+            "url": "https://open.spotify.com/track/4ssMX3TcBfOlyWRvQxJywV",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "寺島拓篤"
+          },
+          {
+            "role": "lyrics",
+            "name": "寺島拓篤"
+          },
+          {
+            "role": "composition",
+            "name": "桑原聖"
+          },
+          {
+            "role": "arrangement",
+            "name": "酒井拓也"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tensei-shitara-slime-datta-ken-op-2-song-original",
+            "title": "メグルモノ（寺島拓篤）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-op-2-song-instr",
+            "title": "メグルモノ（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-op-2-song-tv",
+            "title": "メグルモノ（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-lacm-34838",
+            "title": "メグルモノ",
+            "type": "single",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "初回限定CD＋DVD",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "メグルモノ",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "メグルモノ (Instrumental)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-instr"
+              }
+            ],
+            "catalogNumber": "LACM-34838"
+          },
+          {
+            "id": "jp-lacm-14838",
+            "title": "メグルモノ",
+            "type": "single",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "メグルモノ",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "メグルモノ (Instrumental)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-instr"
+              }
+            ],
+            "catalogNumber": "LACM-14838"
+          },
+          {
+            "id": "jp-laca-15897",
+            "title": "転生したら音楽だった件２",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁（Elements Garden）",
+            "region": "JP",
+            "edition": "日本原聲帶CD",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 29,
+                "title": "メグルモノ (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15897"
+          },
+          {
+            "id": "apple-hk-1838422240",
+            "title": "LAYERING",
+            "type": "album",
+            "artistDisplayName": "寺島拓篤",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2022-05-11",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 12,
+                "title": "メグルモノ",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1452751445",
+            "title": "メグルモノ - Single",
+            "type": "single",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "メグルモノ",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1502376413",
+            "title": "ASSEMBLE",
+            "type": "album",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 11,
+                "title": "メグルモノ",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1585611905",
+            "title": "TVアニメ『転生したらスライムだった件 第2期』転生したら音楽だった件2",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間 仁 (Elements Garden)",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 29,
+                "title": "メグルモノ (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1838422240",
+            "title": "LAYERING",
+            "type": "album",
+            "artistDisplayName": "寺島拓篤",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2022-05-11",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 12,
+                "title": "メグルモノ",
+                "recordingId": "tensei-shitara-slime-datta-ken-op-2-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=CO8nEyRfNfk"
+      },
+      {
+        "id": "tensei-shitara-slime-datta-ken-ed-1",
+        "songId": "tensei-shitara-slime-datta-ken-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Another colony",
+        "artistDisplayName": "TRUE",
+        "usageLabel": "第2–13話片尾，最後一集於2018年12月24日節目日原播。",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://true.lantis.jp/discography/another-colony/",
+            "label": "TRUE／Lantis｜第一期首支片尾及伴奏單曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048",
+            "label": "日本播映記錄｜第1話片末、四首主題曲交接及第23話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+            "label": "日本逐話聲優及歌曲記錄｜第1期歌唱名義及使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048/time",
+            "label": "日本逐話播出表｜首播、跨年停播及3月特別節目節目日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://catalog.bandainamcomusiclive.co.jp/release/69769/",
+            "label": "Bandai Namco Music Live｜LACA-15897 第27–30軌收錄第一期四首TV size",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ten-sura.com/goods_event/goods/cd/post/2751",
+            "label": "動畫官網｜第一期原聲帶雙碟、兩首主題曲改編及插曲曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://lantis.jp/title/tensura/news_1626350397.html",
+            "label": "Lantis｜TRUE兩版《コトバアソビ》、第23話插曲及演唱會特典",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1792109797",
+            "label": "Apple HK｜Another colony",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1792109557&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/6820091653",
+            "label": "Apple HK｜Another colony",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6820091652&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1455311346",
+            "label": "Apple JP｜Another colony (Tender mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1455311225&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1579284326",
+            "label": "Apple JP｜Another colony",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1579284323&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1585612144",
+            "label": "Apple JP｜Another colony (TV size)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1792109797",
+            "label": "Apple JP｜Another colony",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1792109557&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/6820091653",
+            "label": "Apple JP｜Another colony",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6820091652&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/3pJIBjrTwknFm7orJJM3YH",
+            "label": "Spotify｜Another colony（TRUE）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/playlist/37i9dQZF1DX1PCNEM81iS6",
+            "label": "Spotify｜官方曲目名單與演出者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/2ANTgaEugX2BS5NFEdStfu",
+            "label": "Spotify｜Another colony（TRUE）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/album/6lLjLTD2mRzNzXaiJTHDwW",
+            "label": "Spotify｜官方曲目名單與演出者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/6Z5XX0nS0JQg8XXBczs3lW",
+            "label": "Spotify｜Another colony (Tender mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=X_H6L9M5Ov0",
+            "label": "isekai channel @バンダイナムコフィルムワークス｜TVアニメ『転生したらスライムだった件』エンディング「Another colony」",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ten-sura.com/anime/tensura/movie",
+            "label": "動畫官網｜第一期四段片頭與片尾影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://true.lantis.jp/discography/another-colony/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://true.lantis.jp/discography/another-colony/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://true.lantis.jp/discography/another-colony/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://true.lantis.jp/discography/another-colony/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://true.lantis.jp/discography/another-colony/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-1-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://true.lantis.jp/discography/another-colony/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-lacm-14799"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-15897"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ten-sura.com/goods_event/goods/cd/post/2751"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-1-song-ost-mix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.ten-sura.com/goods_event/goods/cd/post/2751"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-9669"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-1-song-progress-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-35886"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-15886"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1792109557&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1792109557"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1792109797"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1792109797"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1792109557&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1792109797"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6820091652&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-6820091652"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/6820091653"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6820091653"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6820091652&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6820091653"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1455311225&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1455311225"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1579284323&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1579284323"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1579284326"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1579284326"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1579284323&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1579284326"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1585611905"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1585612144"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612144"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612144"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1792109557&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1792109557"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1792109797"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1792109797"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1792109557&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1792109797"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6820091652&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-6820091652"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/6820091653"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6820091653"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6820091652&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6820091653"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/3pJIBjrTwknFm7orJJM3YH"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/3pJIBjrTwknFm7orJJM3YH"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/2ANTgaEugX2BS5NFEdStfu"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/2ANTgaEugX2BS5NFEdStfu"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/6Z5XX0nS0JQg8XXBczs3lW"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/6Z5XX0nS0JQg8XXBczs3lW"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=X_H6L9M5Ov0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "X_H6L9M5Ov0"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Another colony｜HK",
+            "url": "https://music.apple.com/hk/song/1792109797",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original",
+            "releaseId": "apple-hk-1792109557"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Another colony｜HK",
+            "url": "https://music.apple.com/hk/song/6820091653",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original",
+            "releaseId": "apple-hk-6820091652"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Another colony｜JP",
+            "url": "https://music.apple.com/jp/song/1579284326",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original",
+            "releaseId": "apple-jp-1579284323"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Another colony (TV size)｜JP",
+            "url": "https://music.apple.com/jp/song/1585612144",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-tv",
+            "releaseId": "apple-jp-1585611905"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Another colony｜JP",
+            "url": "https://music.apple.com/jp/song/1792109797",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original",
+            "releaseId": "apple-jp-1792109557"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Another colony｜JP",
+            "url": "https://music.apple.com/jp/song/6820091653",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original",
+            "releaseId": "apple-jp-6820091652"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Another colony（TRUE）",
+            "url": "https://open.spotify.com/track/3pJIBjrTwknFm7orJJM3YH",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Another colony（TRUE）",
+            "url": "https://open.spotify.com/track/2ANTgaEugX2BS5NFEdStfu",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Another colony (Tender mix)",
+            "url": "https://open.spotify.com/track/6Z5XX0nS0JQg8XXBczs3lW",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-ost-mix"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "TRUE"
+          },
+          {
+            "role": "lyrics",
+            "name": "唐沢美帆"
+          },
+          {
+            "role": "composition",
+            "name": "中野領太"
+          },
+          {
+            "role": "arrangement",
+            "name": "BBC"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-1-song-original",
+            "title": "Another colony（TRUE）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-1-song-instr",
+            "title": "Another colony（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-1-song-tv",
+            "title": "Another colony（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-1-song-ost-mix",
+            "title": "Another colony (Tender mix)",
+            "kind": "rearrangement",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-1-song-progress-live",
+            "title": "Another colony（TRUE Live Sound! vol.4 ～Progress～）",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-lacm-14799",
+            "title": "Another colony",
+            "type": "single",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "日本單曲CD",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Another colony (Instrumental)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-instr"
+              }
+            ],
+            "catalogNumber": "LACM-14799"
+          },
+          {
+            "id": "jp-laca-15897",
+            "title": "転生したら音楽だった件２",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁（Elements Garden）",
+            "region": "JP",
+            "edition": "日本原聲帶CD",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 28,
+                "title": "Another colony (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15897"
+          },
+          {
+            "id": "jp-laca-9669",
+            "title": "転生したら音楽（サントラ）だった件",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁（Elements Garden）、Various Artists",
+            "region": "JP",
+            "edition": "日本雙CD原聲帶",
+            "date": {
+              "value": "2019-03-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 28,
+                "title": "Another colony (Tender mix)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-ost-mix"
+              }
+            ],
+            "catalogNumber": "LACA-9669"
+          },
+          {
+            "id": "jp-laca-35886",
+            "title": "コトバアソビ",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "初回限定CD＋BD",
+            "date": {
+              "value": "2021-08-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              },
+              {
+                "disc": 2,
+                "position": 3,
+                "title": "Another colony（中野サンプラザ，2021年1月17日公演BD）",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-progress-live"
+              }
+            ],
+            "catalogNumber": "LACA-35886"
+          },
+          {
+            "id": "jp-laca-15886",
+            "title": "コトバアソビ",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2021-08-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              }
+            ],
+            "catalogNumber": "LACA-15886"
+          },
+          {
+            "id": "apple-hk-1792109557",
+            "title": "TRUE the BEST",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2025-02-26",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 2,
+                "position": 3,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-6820091652",
+            "title": "Another colony - Single",
+            "type": "single",
+            "artistDisplayName": "TRUE",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1455311225",
+            "title": "TVアニメ『転生したらスライムだった件』転生したら音楽だった件",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-03-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 28,
+                "title": "Another colony (Tender mix)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-ost-mix"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1579284323",
+            "title": "コトバアソビ",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2021-08-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1585611905",
+            "title": "TVアニメ『転生したらスライムだった件 第2期』転生したら音楽だった件2",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間 仁 (Elements Garden)",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 28,
+                "title": "Another colony (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1792109557",
+            "title": "TRUE the BEST",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2025-02-26",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 2,
+                "position": 3,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-6820091652",
+            "title": "Another colony - Single",
+            "type": "single",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-11-07",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Another colony",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-1-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=X_H6L9M5Ov0"
+      },
+      {
+        "id": "tensei-shitara-slime-datta-ken-ed-2",
+        "songId": "tensei-shitara-slime-datta-ken-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "リトルソルジャー",
+        "artistDisplayName": "田所あずさ",
+        "usageLabel": "第14–24話及總集篇第24.5話〈閑話：ヴェルドラ日記〉片尾。歌曲弦樂編曲由山口たこ擔任。",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://azusatadokoro.lantis.jp/news/news-release/258/",
+            "label": "田所あずさ／Lantis｜第二首片尾兩款單曲、詞曲編與弦樂編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048",
+            "label": "日本播映記錄｜第1話片末、四首主題曲交接及第23話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+            "label": "日本逐話聲優及歌曲記錄｜第1期歌唱名義及使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048/time",
+            "label": "日本逐話播出表｜首播、跨年停播及3月特別節目節目日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+            "label": "日本逐話記錄｜〈閑話：ヴェルドラ日記〉片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421",
+            "label": "d動畫商城｜正版分集標為第24.5話〈閑話：ヴェルドラ日記〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://catalog.bandainamcomusiclive.co.jp/release/69769/",
+            "label": "Bandai Namco Music Live｜LACA-15897 第27–30軌收錄第一期四首TV size",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1823809318",
+            "label": "Apple HK｜リトルソルジャー",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1823809308&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1446534519",
+            "label": "Apple JP｜リトルソルジャー",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1446534518&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1585612146",
+            "label": "Apple JP｜リトルソルジャー (TV size)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1823809318",
+            "label": "Apple JP｜リトルソルジャー",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1823809308&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/4ESR8uG70TFcWKqtePEJpo",
+            "label": "Spotify｜リトルソルジャー（田所あずさ）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/playlist/37i9dQZF1DX1PCNEM81iS6",
+            "label": "Spotify｜官方曲目名單與演出者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=F4QC7Hzh-uo",
+            "label": "isekai channel @バンダイナムコフィルムワークス｜TVアニメ『転生したらスライムだった件』エンディング 第2弾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ten-sura.com/anime/tensura/movie",
+            "label": "動畫官網｜第一期四段片頭與片尾影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://azusatadokoro.lantis.jp/news/news-release/258/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://azusatadokoro.lantis.jp/news/news-release/258/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://azusatadokoro.lantis.jp/news/news-release/258/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://azusatadokoro.lantis.jp/news/news-release/258/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/25",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22421025&workId=22421"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-2-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://azusatadokoro.lantis.jp/news/news-release/258/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-2-song-instr"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://azusatadokoro.lantis.jp/news/news-release/258/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-lacm-14821"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://azusatadokoro.lantis.jp/news/news-release/258/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-lacm-14822"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://catalog.bandainamcomusiclive.co.jp/release/69769/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-15897"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1823809308&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1823809308"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1823809318"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1823809318"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1823809308&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1823809318"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446534518&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1446534518"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1446534519"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1446534519"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1446534518&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1446534519"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1585611905"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1585612146"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612146"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1585611905&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1585612146"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1823809308&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1823809308"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1823809318"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1823809318"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1823809308&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1823809318"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/4ESR8uG70TFcWKqtePEJpo"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/4ESR8uG70TFcWKqtePEJpo"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=F4QC7Hzh-uo"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "F4QC7Hzh-uo"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "リトルソルジャー｜HK",
+            "url": "https://music.apple.com/hk/song/1823809318",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original",
+            "releaseId": "apple-hk-1823809308"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "リトルソルジャー｜JP",
+            "url": "https://music.apple.com/jp/song/1446534519",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original",
+            "releaseId": "apple-jp-1446534518"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "リトルソルジャー (TV size)｜JP",
+            "url": "https://music.apple.com/jp/song/1585612146",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-tv",
+            "releaseId": "apple-jp-1585611905"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "リトルソルジャー｜JP",
+            "url": "https://music.apple.com/jp/song/1823809318",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original",
+            "releaseId": "apple-jp-1823809308"
+          },
+          {
+            "platform": "Spotify",
+            "label": "リトルソルジャー（田所あずさ）",
+            "url": "https://open.spotify.com/track/4ESR8uG70TFcWKqtePEJpo",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "田所あずさ"
+          },
+          {
+            "role": "lyrics",
+            "name": "きみコ"
+          },
+          {
+            "role": "composition",
+            "name": "新田目駿"
+          },
+          {
+            "role": "arrangement",
+            "name": "堀江晶太"
+          },
+          {
+            "role": "other",
+            "name": "山口たこ"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-2-song-original",
+            "title": "リトルソルジャー（田所あずさ）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-2-song-instr",
+            "title": "リトルソルジャー（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "tensei-shitara-slime-datta-ken-ed-2-song-tv",
+            "title": "リトルソルジャー（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-lacm-14821",
+            "title": "リトルソルジャー",
+            "type": "single",
+            "artistDisplayName": "田所あずさ",
+            "region": "JP",
+            "edition": "日本藝人盤CD",
+            "date": {
+              "value": "2019-01-23",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "リトルソルジャー",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original"
+              }
+            ],
+            "catalogNumber": "LACM-14821"
+          },
+          {
+            "id": "jp-lacm-14822",
+            "title": "リトルソルジャー",
+            "type": "single",
+            "artistDisplayName": "田所あずさ",
+            "region": "JP",
+            "edition": "日本動畫盤CD",
+            "date": {
+              "value": "2019-01-23",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "リトルソルジャー",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "リトルソルジャー (Off Vocal)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-instr"
+              }
+            ],
+            "catalogNumber": "LACM-14822"
+          },
+          {
+            "id": "jp-laca-15897",
+            "title": "転生したら音楽だった件２",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁（Elements Garden）",
+            "region": "JP",
+            "edition": "日本原聲帶CD",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 30,
+                "title": "リトルソルジャー (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15897"
+          },
+          {
+            "id": "apple-hk-1823809308",
+            "title": "AZUSA TADOKORO 10th Anniversary Best Album HARE",
+            "type": "album",
+            "artistDisplayName": "Azusa Tadokoro",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2025-07-30",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 9,
+                "title": "リトルソルジャー",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1446534518",
+            "title": "リトルソルジャー - Single",
+            "type": "single",
+            "artistDisplayName": "田所あずさ",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-01-23",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "リトルソルジャー",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1585611905",
+            "title": "TVアニメ『転生したらスライムだった件 第2期』転生したら音楽だった件2",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間 仁 (Elements Garden)",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2021-09-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 30,
+                "title": "リトルソルジャー (TV size)",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1823809308",
+            "title": "AZUSA TADOKORO 10th Anniversary Best Album HARE",
+            "type": "album",
+            "artistDisplayName": "田所あずさ",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2025-07-30",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 9,
+                "title": "リトルソルジャー",
+                "recordingId": "tensei-shitara-slime-datta-ken-ed-2-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=F4QC7Hzh-uo"
+      },
+      {
+        "id": "tensei-shitara-slime-datta-ken-ed-3",
+        "songId": "tensei-shitara-slime-datta-ken-op-1-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "Nameless Story",
+        "artistDisplayName": "寺島拓篤",
+        "usageLabel": "第1話無片頭，片頭歌曲與動畫在片末播放。",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://takuma-terashima.lantis.jp/news/942/",
+            "label": "寺島拓篤／Lantis｜首支片頭曲兩款單曲、詞曲編與曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048",
+            "label": "日本播映記錄｜第1話片末、四首主題曲交接及第23話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+            "label": "日本逐話聲優及歌曲記錄｜第1期歌唱名義及使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048/time",
+            "label": "日本逐話播出表｜首播、跨年停播及3月特別節目節目日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/1",
+            "label": "日本逐話記錄｜第1話用片頭歌曲作片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/1"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken/ep/1"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://takuma-terashima.lantis.jp/news/942/"
+            ],
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "links": [],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "寺島拓篤"
+          },
+          {
+            "role": "lyrics",
+            "name": "寺島拓篤"
+          },
+          {
+            "role": "composition",
+            "name": "上松範康"
+          },
+          {
+            "role": "arrangement",
+            "name": "藤田淳平"
+          }
+        ]
+      },
+      {
+        "id": "tensei-shitara-slime-datta-ken-in-1",
+        "songId": "tensei-shitara-slime-datta-ken-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "僕の中の君へ",
+        "artistDisplayName": "TRUE",
+        "usageLabel": "第23話本篇最終話〈救われる魂〉插曲。",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://lantis.jp/title/tensura/news_1626350397.html",
+            "label": "Lantis｜TRUE兩版《コトバアソビ》、第23話插曲及演唱會特典",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048",
+            "label": "日本播映記錄｜第1話片末、四首主題曲交接及第23話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+            "label": "日本逐話聲優及歌曲記錄｜第1期歌唱名義及使用集數",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5048/time",
+            "label": "日本逐話播出表｜首播、跨年停播及3月特別節目節目日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ten-sura.com/goods_event/goods/cd/post/2751",
+            "label": "動畫官網｜第一期原聲帶雙碟、兩首主題曲改編及插曲曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1455311377",
+            "label": "Apple JP｜僕の中の君へ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1455311225&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1579284333",
+            "label": "Apple JP｜僕の中の君へ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1579284323&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜曲序、演出名義及分區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/3wMmoc9CTIuIs9SIiywRQy",
+            "label": "Spotify｜僕の中の君へ（TRUE）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/playlist/37i9dQZF1DX1PCNEM81iS6",
+            "label": "Spotify｜官方曲目名單與演出者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2lD53pXtdqo",
+            "label": "TRUE - Topic｜僕の中の君へ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html",
+              "https://cal.syoboi.jp/tid/5048",
+              "https://www.mau2.com/anime/tenseisitaraslimedattaken",
+              "https://cal.syoboi.jp/tid/5048/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tensei-shitara-slime-datta-ken-in-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.ten-sura.com/goods_event/goods/cd/post/2751"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-9669"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-35886"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/title/tensura/news_1626350397.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-laca-15886"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1455311225&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1455311225"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1579284323&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1579284323"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1579284333"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1579284333"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1579284323&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1579284333"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/3wMmoc9CTIuIs9SIiywRQy"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/3wMmoc9CTIuIs9SIiywRQy"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=2lD53pXtdqo"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "2lD53pXtdqo"
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "label": "僕の中の君へ｜JP",
+            "url": "https://music.apple.com/jp/song/1579284333",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-in-1-song-original",
+            "releaseId": "apple-jp-1579284323"
+          },
+          {
+            "platform": "Spotify",
+            "label": "僕の中の君へ（TRUE）",
+            "url": "https://open.spotify.com/track/3wMmoc9CTIuIs9SIiywRQy",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "tensei-shitara-slime-datta-ken-in-1-song-original"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "TRUE"
+          },
+          {
+            "role": "lyrics",
+            "name": "唐沢美帆"
+          },
+          {
+            "role": "composition",
+            "name": "山下洋介"
+          },
+          {
+            "role": "arrangement",
+            "name": "山下洋介"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tensei-shitara-slime-datta-ken-in-1-song-original",
+            "title": "僕の中の君へ（TRUE）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-laca-9669",
+            "title": "転生したら音楽（サントラ）だった件",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁（Elements Garden）、Various Artists",
+            "region": "JP",
+            "edition": "日本雙CD原聲帶",
+            "date": {
+              "value": "2019-03-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 2,
+                "position": 31,
+                "title": "僕の中の君へ",
+                "recordingId": "tensei-shitara-slime-datta-ken-in-1-song-original"
+              }
+            ],
+            "catalogNumber": "LACA-9669"
+          },
+          {
+            "id": "jp-laca-35886",
+            "title": "コトバアソビ",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "初回限定CD＋BD",
+            "date": {
+              "value": "2021-08-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 10,
+                "title": "僕の中の君へ",
+                "recordingId": "tensei-shitara-slime-datta-ken-in-1-song-original"
+              }
+            ],
+            "catalogNumber": "LACA-35886"
+          },
+          {
+            "id": "jp-laca-15886",
+            "title": "コトバアソビ",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "通常盤CD",
+            "date": {
+              "value": "2021-08-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 10,
+                "title": "僕の中の君へ",
+                "recordingId": "tensei-shitara-slime-datta-ken-in-1-song-original"
+              }
+            ],
+            "catalogNumber": "LACA-15886"
+          },
+          {
+            "id": "apple-jp-1455311225",
+            "title": "TVアニメ『転生したらスライムだった件』転生したら音楽だった件",
+            "type": "soundtrack",
+            "artistDisplayName": "藤間仁",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-03-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 2,
+                "position": 31,
+                "title": "僕の中の君へ",
+                "recordingId": "tensei-shitara-slime-datta-ken-in-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1579284323",
+            "title": "コトバアソビ",
+            "type": "album",
+            "artistDisplayName": "TRUE",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2021-08-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 10,
+                "title": "僕の中の君へ",
+                "recordingId": "tensei-shitara-slime-datta-ken-in-1-song-original"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=2lD53pXtdqo",
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核日本曲目；香港區尚待原藝人的獨立授權曲目。",
+            "resumeWhen": "香港正版商店提供可核身分及供應狀態的單曲或專輯曲目時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 101313,
+    "anilistUrl": "https://anilist.co/anime/101313",
+    "id": "curated-101313",
+    "slug": "gyakuten-saiban-season-2",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "startDate": "2018-10-06",
+    "titleJa": "逆転裁判 ～その「真実」、異議あり！～ Season2",
+    "titleZhHant": "逆轉裁判 ～對這個「真相」，有異議！～Season 2",
+    "titleRomaji": "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari! Season 2",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "17:30",
+    "broadcastLabel": "讀賣電視台與CloverWorks製作。讀賣電視台・日本電視網於2018年10月6日至2019年3月30日每週六17:30 JST首播，全23話。2019年1月19日第13話為17:30至18:30的一小時特別篇，兩首主題曲自此更換。",
+    "officialSiteUrl": "https://www.ytv.co.jp/animegyakuten/",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://www.ytv.co.jp/animegyakuten/",
+      "https://cloverworks.co.jp/works/gyakusai2/",
+      "https://www.ytv.co.jp/animegyakuten/news/index.html",
+      "https://www.ytv.co.jp/animegyakuten/story/23.html",
+      "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.ytv.co.jp/animegyakuten/",
+        "label": "讀賣電視台｜日本原播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cloverworks.co.jp/works/gyakusai2/",
+        "label": "CloverWorks｜日本動畫與製作署名",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.ytv.co.jp/animegyakuten/news/index.html",
+        "label": "讀賣電視台｜第13話一小時特別編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.ytv.co.jp/animegyakuten/story/23.html",
+        "label": "讀賣電視台｜最終話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/",
+        "label": "台灣索尼｜繁中動畫名與雙A面通常盤",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.mau2.com/anime/gyakutensaiban-2",
+        "label": "逐話曲表｜第1至23話主題曲及插曲",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/101313",
+        "label": "AniList｜作品識別資料",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "gyakuten-saiban-season-2-op-1",
+        "songId": "gyakuten-saiban-season-2-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Never Lose",
+        "artistDisplayName": "山下智久",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "第1–12話片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "山下智久"
+          },
+          {
+            "role": "lyrics",
+            "name": "MiNE"
+          },
+          {
+            "role": "composition",
+            "name": "FURUTA"
+          },
+          {
+            "role": "composition",
+            "name": "Dr.Lilcom"
+          },
+          {
+            "role": "arrangement",
+            "name": "久保田真悟"
+          },
+          {
+            "role": "arrangement",
+            "name": "山下智久"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/music/",
+            "label": "讀賣電視台｜後期片頭片尾與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/",
+            "label": "台灣索尼｜繁中動畫名與雙A面通常盤",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2",
+            "label": "逐話曲表｜第1至23話主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/262966/",
+            "label": "歌ネット｜山下智久與創作者署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.suruga-ya.jp/product/detail/120127468",
+            "label": "駿河屋｜初回A盤的伴奏及品番",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/",
+            "label": "台灣索尼｜初回A盤主題曲及伴奏曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704",
+            "label": "Tower Records｜日本單曲A、B、通常盤",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/",
+            "label": "台灣索尼｜初回B盤曲序、伴奏及MV",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/",
+              "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/262966/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2401-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/",
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2401-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2403-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2403-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/",
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2403-4"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2405"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/",
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2405"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-1-song-vocal"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gyakuten-saiban-season-2-op-1-song-vocal",
+            "title": "Never Lose",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "gyakuten-saiban-season-2-op-1-song-inst",
+            "title": "Never Lose -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "secl-2401-2",
+            "title": "Reason/Never Lose",
+            "artistDisplayName": "山下智久",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤A CD＋DVD",
+            "tracks": [
+              {
+                "title": "Never Lose",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-1-song-vocal"
+              },
+              {
+                "title": "Never Lose -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "SECL-2401/2"
+          },
+          {
+            "id": "secl-2403-4",
+            "title": "Never Lose/Reason",
+            "artistDisplayName": "山下智久",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤B CD＋DVD",
+            "tracks": [
+              {
+                "title": "Never Lose",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-1-song-vocal"
+              },
+              {
+                "title": "Never Lose -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "SECL-2403/4"
+          },
+          {
+            "id": "secl-2405",
+            "title": "Reason/Never Lose",
+            "artistDisplayName": "山下智久",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "Never Lose",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "SECL-2405"
+          }
+        ],
+        "links": [],
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對雙A面實體盤及伴奏。",
+            "resumeWhen": "香港或日本區出現可按曲辨識的原唱正版播放頁時補列。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "gyakuten-saiban-season-2-op-2",
+        "songId": "gyakuten-saiban-season-2-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "Reason",
+        "artistDisplayName": "山下智久",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第13–23話片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "山下智久"
+          },
+          {
+            "role": "lyrics",
+            "name": "JUN"
+          },
+          {
+            "role": "lyrics",
+            "name": "WAKE"
+          },
+          {
+            "role": "lyrics",
+            "name": "Tomohisa Yamashita"
+          },
+          {
+            "role": "composition",
+            "name": "UTA"
+          },
+          {
+            "role": "composition",
+            "name": "JUN"
+          },
+          {
+            "role": "arrangement",
+            "name": "UTA for TinyVoice,Production"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/music/",
+            "label": "讀賣電視台｜後期片頭片尾與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/",
+            "label": "台灣索尼｜繁中動畫名與雙A面通常盤",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2",
+            "label": "逐話曲表｜第1至23話主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.suruga-ya.jp/product/detail/120127468",
+            "label": "駿河屋｜初回A盤的伴奏及品番",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/",
+            "label": "台灣索尼｜初回A盤主題曲及伴奏曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704",
+            "label": "Tower Records｜日本單曲A、B、通常盤",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/",
+            "label": "台灣索尼｜初回B盤曲序、伴奏及MV",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/",
+              "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2401-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/",
+              "https://www.suruga-ya.jp/product/detail/120127468"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2401-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-reason-never-lose-cddvd-a/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2403-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2403-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/",
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2403-4"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.com.tw/album/%E5%B1%B1%E4%B8%8B%E6%99%BA%E4%B9%85-never-lose-reason-cddvd-b/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2405"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/",
+              "https://cdfront.tower.jp/article/feature_item/2018/12/26/0704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2405"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sonymusic.com.tw/album/tomohisa-yamashita-reason-never-lose-standard-edition/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-op-2-song-vocal"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gyakuten-saiban-season-2-op-2-song-vocal",
+            "title": "Reason",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "gyakuten-saiban-season-2-op-2-song-inst",
+            "title": "Reason -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "secl-2401-2",
+            "title": "Reason/Never Lose",
+            "artistDisplayName": "山下智久",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤A CD＋DVD",
+            "tracks": [
+              {
+                "title": "Reason",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-2-song-vocal"
+              },
+              {
+                "title": "Reason -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "SECL-2401/2"
+          },
+          {
+            "id": "secl-2403-4",
+            "title": "Never Lose/Reason",
+            "artistDisplayName": "山下智久",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤B CD＋DVD",
+            "tracks": [
+              {
+                "title": "Reason",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-2-song-vocal"
+              },
+              {
+                "title": "Reason -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "SECL-2403/4"
+          },
+          {
+            "id": "secl-2405",
+            "title": "Reason/Never Lose",
+            "artistDisplayName": "山下智久",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-13",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "Reason",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-op-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "SECL-2405"
+          }
+        ],
+        "links": [],
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對雙A面實體盤及伴奏。",
+            "resumeWhen": "香港或日本區出現可按曲辨識的原唱正版播放頁時補列。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "gyakuten-saiban-season-2-ed-1",
+        "songId": "gyakuten-saiban-season-2-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "スターティングブルー",
+        "artistDisplayName": "halca",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "第1–12話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "halca"
+          },
+          {
+            "role": "lyrics",
+            "name": "宮嶋淳子"
+          },
+          {
+            "role": "composition",
+            "name": "哥丸雄貴"
+          },
+          {
+            "role": "arrangement",
+            "name": "哥丸雄貴"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.sonymusic.co.jp/artist/halca/discography/VVCL-1313",
+            "label": "Sony Music｜halca單曲與伴奏曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2",
+            "label": "逐話曲表｜第1至23話主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1d4LWW9cvKg",
+            "label": "halca Official YouTube Channel｜halca 『スターティングブルー』Music Video (テレビアニメ『逆転裁判 〜その「真実」、異議あり！〜 Season 2』エンディング・テーマ)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286151&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286151&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537905013&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537905013&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/halca/info/499692",
+            "label": "Sony Music｜完整版先行數位發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=icluYKhNaAI",
+            "label": "halca Official YouTube Channel｜スターティングブルー",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/discography/VVCL-1313",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/discography/VVCL-1313",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=1d4LWW9cvKg"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/discography/VVCL-1313"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/discography/VVCL-1313"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1313-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286151&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538286151"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286151&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286152"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286151&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538286151"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286151&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286152"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/discography/VVCL-1313"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286151&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286155"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286151&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286155"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537905013&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537905013"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537905013&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537905023"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537905013&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537905013"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537905013&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537905023"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/info/499692"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-1-song-vocal"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=1d4LWW9cvKg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "1d4LWW9cvKg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=icluYKhNaAI"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "icluYKhNaAI"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gyakuten-saiban-season-2-ed-1-song-vocal",
+            "title": "スターティングブルー",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "gyakuten-saiban-season-2-ed-1-song-inst",
+            "title": "スターティングブルー instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1313-4",
+            "title": "スターティングブルー",
+            "artistDisplayName": "halca",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "スターティングブルー",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal"
+              },
+              {
+                "title": "スターティングブルー instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1313/4"
+          },
+          {
+            "id": "apple-hk-1538286151",
+            "title": "スターティングブルー - EP",
+            "artistDisplayName": "halca",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "スターティングブルー",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal"
+              },
+              {
+                "title": "スターティングブルー instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538286151",
+            "title": "スターティングブルー - EP",
+            "artistDisplayName": "halca",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "スターティングブルー",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal"
+              },
+              {
+                "title": "スターティングブルー instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537905013",
+            "title": "Assortrip",
+            "artistDisplayName": "halca",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "スターティングブルー",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537905013",
+            "title": "Assortrip",
+            "artistDisplayName": "halca",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "スターティングブルー",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286152",
+            "label": "香港｜スターティングブルー",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal",
+            "releaseId": "apple-hk-1538286151",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286152",
+            "label": "日本｜スターティングブルー",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal",
+            "releaseId": "apple-jp-1538286151",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286155",
+            "label": "香港｜スターティングブルー instrumental",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-1-song-inst",
+            "releaseId": "apple-hk-1538286151",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286155",
+            "label": "日本｜スターティングブルー instrumental",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-1-song-inst",
+            "releaseId": "apple-jp-1538286151",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537905023",
+            "label": "香港｜スターティングブルー",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal",
+            "releaseId": "apple-hk-1537905013",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537905023",
+            "label": "日本｜スターティングブルー",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-1-song-vocal",
+            "releaseId": "apple-jp-1537905013",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "gyakuten-saiban-season-2-ed-2",
+        "songId": "gyakuten-saiban-season-2-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "ビューティフルデイズ",
+        "artistDisplayName": "コアラモード．",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第13–23話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "あんにゅ"
+          },
+          {
+            "role": "lyrics",
+            "name": "あんにゅ"
+          },
+          {
+            "role": "lyrics",
+            "name": "小幡康裕"
+          },
+          {
+            "role": "composition",
+            "name": "あんにゅ"
+          },
+          {
+            "role": "arrangement",
+            "name": "小幡康裕"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/music/",
+            "label": "讀賣電視台｜後期片頭片尾與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2",
+            "label": "逐話曲表｜第1至23話主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/coalamode/info/502206",
+            "label": "Sony Music｜片尾單曲版別及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1535983726&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1535983726&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1712080264&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1712080264&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536027142&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536027142&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=P1AW1mi-IIg",
+            "label": "COALAMODE. - Topic｜ビューティフルデイズ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/coalamode/info/502206"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/coalamode/info/502206"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bvcl-954-5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/coalamode/info/502206"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bvcl-956"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535983726&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1535983726"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535983726&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1535983727"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535983726&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1535983726"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535983726&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1535983727"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/coalamode/info/502206"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-ed-2-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535983726&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1535983730"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535983726&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1535983730"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1712080264&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1712080264"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1712080264&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1712080461"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1712080264&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1712080264"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1712080264&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1712080461"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536027142&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1536027142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536027142&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536027145"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536027142&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1536027142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536027142&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%83%87%E3%82%A4%E3%82%BA/1536027142?i=1536027145&app=itunes"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=P1AW1mi-IIg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "P1AW1mi-IIg"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gyakuten-saiban-season-2-ed-2-song-vocal",
+            "title": "ビューティフルデイズ",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "gyakuten-saiban-season-2-ed-2-song-inst",
+            "title": "ビューティフルデイズ Instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bvcl-954-5",
+            "title": "ビューティフルデイズ",
+            "artistDisplayName": "コアラモード．",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              },
+              {
+                "title": "ビューティフルデイズ Instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-inst"
+              }
+            ],
+            "catalogNumber": "BVCL-954/5"
+          },
+          {
+            "id": "bvcl-956",
+            "title": "ビューティフルデイズ",
+            "artistDisplayName": "コアラモード．",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              },
+              {
+                "title": "ビューティフルデイズ Instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-inst"
+              }
+            ],
+            "catalogNumber": "BVCL-956"
+          },
+          {
+            "id": "apple-hk-1535983726",
+            "title": "ビューティフルデイズ - EP",
+            "artistDisplayName": "COALAMODE.",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              },
+              {
+                "title": "ビューティフルデイズ Instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1535983726",
+            "title": "ビューティフルデイズ - EP",
+            "artistDisplayName": "コアラモード.",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              },
+              {
+                "title": "ビューティフルデイズ Instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1712080264",
+            "title": "COALAMODE.3 ～Blue Moment～",
+            "artistDisplayName": "COALAMODE.",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1712080264",
+            "title": "COALAMODE.3 ～Blue Moment～",
+            "artistDisplayName": "コアラモード.",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-10-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1536027142",
+            "title": "ビューティフルデイズ - Single",
+            "artistDisplayName": "COALAMODE.",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1536027142",
+            "title": "ビューティフルデイズ - Single",
+            "artistDisplayName": "コアラモード.",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ビューティフルデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1535983727",
+            "label": "香港｜ビューティフルデイズ",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal",
+            "releaseId": "apple-hk-1535983726",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1535983727",
+            "label": "日本｜ビューティフルデイズ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal",
+            "releaseId": "apple-jp-1535983726",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1535983730",
+            "label": "香港｜ビューティフルデイズ Instrumental",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-inst",
+            "releaseId": "apple-hk-1535983726",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1535983730",
+            "label": "日本｜ビューティフルデイズ Instrumental",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-inst",
+            "releaseId": "apple-jp-1535983726",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1712080461",
+            "label": "香港｜ビューティフルデイズ",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal",
+            "releaseId": "apple-hk-1712080264",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1712080461",
+            "label": "日本｜ビューティフルデイズ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal",
+            "releaseId": "apple-jp-1712080264",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536027145",
+            "label": "香港｜ビューティフルデイズ",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal",
+            "releaseId": "apple-hk-1536027142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%83%87%E3%82%A4%E3%82%BA/1536027142?i=1536027145&app=itunes",
+            "label": "日本｜ビューティフルデイズ",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "gyakuten-saiban-season-2-ed-2-song-vocal",
+            "releaseId": "apple-jp-1536027142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "gyakuten-saiban-season-2-in-1",
+        "songId": "gyakuten-saiban-season-2-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "シグナルザムライの唄",
+        "artistDisplayName": "歌唱未確認",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第6、17話劇中歌。第6話御剣從收音機聽到這首歌。",
+        "credits": [],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/story/06.html",
+            "label": "讀賣電視台｜第6話收音機播放歌曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2",
+            "label": "逐話曲表｜第1至23話主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/story/17.html",
+            "label": "讀賣電視台｜第17話劇情",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/story/06.html",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/story/06.html",
+              "https://www.ytv.co.jp/animegyakuten/story/17.html",
+              "https://www.mau2.com/anime/gyakutensaiban-2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-1"
+          }
+        ],
+        "links": [],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "lyrics",
+              "composition",
+              "platform_links"
+            ],
+            "note": "兩話的歌唱、詞曲署名及商業錄音待核。",
+            "resumeWhen": "取得該兩話的原播掛字或製作方具名曲表後核對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "gyakuten-saiban-season-2-in-2",
+        "songId": "gyakuten-saiban-season-2-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "ゴドー ～珈琲は闇色の薫り",
+        "artistDisplayName": "岩垂徳行（遊戲原聲帶名義）",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第23話具名器樂插曲。公開曲目連結收錄遊戲《逆転裁判3》原聲帶版本，電視播出的演奏與剪輯待核。",
+        "credits": [],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2/ep/23",
+            "label": "最終話曲表｜兩首主題曲與三首劇中音樂",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/story/23.html",
+            "label": "讀賣電視台｜最終話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song",
+              "https://www.mau2.com/anime/gyakutensaiban-2/ep/23"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/story/23.html",
+              "https://www.mau2.com/anime/gyakutensaiban-2/ep/23"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-2-song-game-ost"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-136823837"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/136824674"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-136823837"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/136824674"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gyakuten-saiban-season-2-in-2-song-game-ost",
+            "title": "ゴドー 〜珈琲は闇色(やみいろ)の薫り",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-136823837",
+            "title": "逆転裁判3 オリジナル・サウンドトラック",
+            "artistDisplayName": "岩垂徳行",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2004-03-31",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ゴドー 〜珈琲は闇色(やみいろ)の薫り",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-in-2-song-game-ost"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-136823837",
+            "title": "逆転裁判3 オリジナル・サウンドトラック",
+            "artistDisplayName": "岩垂徳行",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2004-03-31",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ゴドー 〜珈琲は闇色(やみいろ)の薫り",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-in-2-song-game-ost"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/136824674",
+            "label": "香港｜ゴドー 〜珈琲は闇色(やみいろ)の薫り",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-in-2-song-game-ost",
+            "releaseId": "apple-hk-136823837",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/136824674",
+            "label": "日本｜ゴドー 〜珈琲は闇色(やみいろ)の薫り",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-in-2-song-game-ost",
+            "releaseId": "apple-jp-136823837",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "composition"
+            ],
+            "note": "香港及日本商業發行均署名岩垂徳行。",
+            "resumeWhen": "取得動畫原播逐曲製作或母帶授權紀錄後補實際使用版本與製作名單。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "gyakuten-saiban-season-2-in-3",
+        "songId": "gyakuten-saiban-season-2-in-3-song",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "追憶 ～おぼろ橋の見える風景",
+        "artistDisplayName": "岩垂徳行（遊戲原聲帶名義）",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第23話具名器樂插曲。公開曲目連結收錄遊戲《逆転裁判3》原聲帶版本，電視播出的演奏與剪輯待核。",
+        "credits": [],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2/ep/23",
+            "label": "最終話曲表｜兩首主題曲與三首劇中音樂",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/story/23.html",
+            "label": "讀賣電視台｜最終話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song",
+              "https://www.mau2.com/anime/gyakutensaiban-2/ep/23"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/story/23.html",
+              "https://www.mau2.com/anime/gyakutensaiban-2/ep/23"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-3"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-3-song-game-ost"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-136823837"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/136825051"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-136823837"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/136825051"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gyakuten-saiban-season-2-in-3-song-game-ost",
+            "title": "追憶 〜おぼろ橋の見える風景",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-136823837",
+            "title": "逆転裁判3 オリジナル・サウンドトラック",
+            "artistDisplayName": "岩垂徳行",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2004-03-31",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "追憶 〜おぼろ橋の見える風景",
+                "position": 26,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-in-3-song-game-ost"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-136823837",
+            "title": "逆転裁判3 オリジナル・サウンドトラック",
+            "artistDisplayName": "岩垂徳行",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2004-03-31",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "追憶 〜おぼろ橋の見える風景",
+                "position": 26,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-in-3-song-game-ost"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/136825051",
+            "label": "香港｜追憶 〜おぼろ橋の見える風景",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-in-3-song-game-ost",
+            "releaseId": "apple-hk-136823837",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/136825051",
+            "label": "日本｜追憶 〜おぼろ橋の見える風景",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-in-3-song-game-ost",
+            "releaseId": "apple-jp-136823837",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "composition"
+            ],
+            "note": "香港及日本商業發行均署名岩垂徳行。",
+            "resumeWhen": "取得動畫原播逐曲製作或母帶授權紀錄後補實際使用版本與製作名單。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "gyakuten-saiban-season-2-in-4",
+        "songId": "gyakuten-saiban-season-2-in-4-song",
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "追憶 ～真実の苦い味がする",
+        "artistDisplayName": "岩垂徳行（遊戲原聲帶名義）",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第23話具名器樂插曲。公開曲目連結收錄遊戲《逆転裁判3》原聲帶版本，電視播出的演奏與剪輯待核。",
+        "credits": [],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/gyakutensaiban-2/ep/23",
+            "label": "最終話曲表｜兩首主題曲與三首劇中音樂",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ytv.co.jp/animegyakuten/story/23.html",
+            "label": "讀賣電視台｜最終話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song",
+              "https://www.mau2.com/anime/gyakutensaiban-2/ep/23"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/animegyakuten/story/23.html",
+              "https://www.mau2.com/anime/gyakutensaiban-2/ep/23"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-4"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gyakuten-saiban-season-2-in-4-song-game-ost"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-136823837"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/136825189"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-136823837"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=136823837&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/136825189"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gyakuten-saiban-season-2-in-4-song-game-ost",
+            "title": "追憶 〜真実の苦い味がする",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-136823837",
+            "title": "逆転裁判3 オリジナル・サウンドトラック",
+            "artistDisplayName": "岩垂徳行",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2004-03-31",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "追憶 〜真実の苦い味がする",
+                "position": 30,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-in-4-song-game-ost"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-136823837",
+            "title": "逆転裁判3 オリジナル・サウンドトラック",
+            "artistDisplayName": "岩垂徳行",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2004-03-31",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "追憶 〜真実の苦い味がする",
+                "position": 30,
+                "disc": 1,
+                "recordingId": "gyakuten-saiban-season-2-in-4-song-game-ost"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/136825189",
+            "label": "香港｜追憶 〜真実の苦い味がする",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-in-4-song-game-ost",
+            "releaseId": "apple-hk-136823837",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/136825189",
+            "label": "日本｜追憶 〜真実の苦い味がする",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gyakuten-saiban-season-2-in-4-song-game-ost",
+            "releaseId": "apple-jp-136823837",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "composition"
+            ],
+            "note": "香港及日本商業發行均署名岩垂徳行。",
+            "resumeWhen": "取得動畫原播逐曲製作或母帶授權紀錄後補實際使用版本與製作名單。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 100182,
+    "anilistUrl": "https://anilist.co/anime/100182",
+    "id": "curated-100182",
+    "slug": "sword-art-online-alicization",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "startDate": "2018-10-06",
+    "titleJa": "ソードアート・オンライン アリシゼーション",
+    "titleZhHant": "刀劍神域 Alicization",
+    "titleRomaji": "Sword Art Online: Alicization",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "24:00",
+    "broadcastLabel": "日本於2018年10月6日至2019年3月30日按週六深夜24:00 JST編排，TOKYO MX等台首播，AbemaTV同步。第1話為一小時特別篇。2019年1月5日第13話沿用前期主題曲，第14話起換曲。2月16日另播總集篇第18.5話〈リコレクション〉。第24話結束前半，續篇於同年10月另播。",
+    "officialSiteUrl": "https://sao-alicization.net/1st/",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://sao-alicization.net/1st/onair/",
+      "https://sao-alicization.net/1st/story/",
+      "https://sao-alicization.net/1st/story/?id=ep24",
+      "https://www.sonymusic.co.jp/artist/lisa/info/498851",
+      "https://abematv.co.jp/posts/5136623",
+      "https://ani.gamer.com.tw/animeVideo.php?sn=32776",
+      "https://www.aniplex.co.jp/news/detail/?id=51612",
+      "https://sao-alicization.net/1st/bddvd/07.html",
+      "https://sao-alicization.net/1st/bddvd/08.html"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://sao-alicization.net/1st/onair/",
+        "label": "動畫官方｜日本電視及網絡時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://sao-alicization.net/1st/story/",
+        "label": "動畫官方｜秋冬分集表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://sao-alicization.net/1st/story/?id=ep24",
+        "label": "動畫官方｜前半最終第24話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.sonymusic.co.jp/artist/lisa/info/498851",
+        "label": "LiSA官方｜首話一小時特別播出與開始日",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://abematv.co.jp/posts/5136623",
+        "label": "AbemaTV｜地上波同時及其他點播窗口",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=32776",
+        "label": "巴哈姆特動畫瘋｜木棉花台灣版繁中名及分集",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.aniplex.co.jp/news/detail/?id=51612",
+        "label": "Aniplex｜10月另播特別編",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5049/time",
+        "label": "しょぼいカレンダー｜日本各台初播日曆",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/100182",
+        "label": "AniList｜日本TV系列識別",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://sao-alicization.net/1st/bddvd/07.html",
+        "label": "動畫官方｜第七卷特典角色歌及演唱",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://sao-alicization.net/1st/bddvd/08.html",
+        "label": "動畫官方｜第八卷特典合唱及演唱",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "sword-art-online-alicization-op-1",
+        "songId": "sword-art-online-alicization-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ADAMAS",
+        "artistDisplayName": "LiSA",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第2–13話片頭。第1話於片末播出片頭影像，掛字沿用片頭曲名義。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "LiSA"
+          },
+          {
+            "role": "lyrics",
+            "name": "LiSA"
+          },
+          {
+            "role": "composition",
+            "name": "カヨコ"
+          },
+          {
+            "role": "arrangement",
+            "name": "堀江晶太"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sao-alicization.net/1st/music/op.html",
+            "label": "作品官方｜第一期片頭",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049",
+            "label": "しょぼいカレンダー｜前後期及單話調動、創作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3/ep/1",
+            "label": "逐話曲表｜第1話原掛字、歌曲及播放位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049/time",
+            "label": "しょぼいカレンダー｜日本各台初播日曆",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/lisa/info/501643",
+            "label": "Sony Music｜LiSA單曲三盤及編號、曲序、作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537901555&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537901555&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537901555&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537907555&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537907555&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537907555&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1529543131&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1529543131&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1529543131&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1679880956&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1679880956&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1679880956&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=v2tmzEuVEz8",
+            "label": "LiSA Official YouTube｜LiSA『ADAMAS』-MUSiC CLiP-（TVアニメ「ソードアート・オンライン アリシゼーション」オープニングテーマ）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/op.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/op.html",
+              "https://cal.syoboi.jp/tid/5049",
+              "https://www.mau2.com/anime/swordartonline-3/ep/1",
+              "https://cal.syoboi.jp/tid/5049/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/op.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1370-1371"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1372"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1373-1374"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/lisa/info/501643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537901555&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537901555"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537901555&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537901887"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537901555&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537901555"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537901555&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537901887"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537901555&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537901555"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537901555&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537901887"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907555&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537907555"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907555&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537907858"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907555&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537907555"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907555&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537907858"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907555&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537907555"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907555&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/adamas/1537907555?i=1537907858&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529543131&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1-song-leo-nine"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529543131&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1529543131"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529543131&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1529543506"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529543131&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1529543131"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529543131&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1529543506"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529543131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1529543131"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529543131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1529543506"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679880956&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-1-song-the-birth-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679880956&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1679880956"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679880956&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1679881081"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679880956&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1679880956"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679880956&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1679881081"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679880956&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1679880956"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679880956&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1679881081"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=v2tmzEuVEz8"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "v2tmzEuVEz8"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sword-art-online-alicization-op-1-song-vocal",
+            "title": "ADAMAS",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-op-1-song-inst",
+            "title": "ADAMAS -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-op-1-song-tv",
+            "title": "ADAMAS -TV ver.-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "sword-art-online-alicization-op-1-song-leo-nine",
+            "title": "ADAMAS (LEO-NiNE Version)",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-op-1-song-the-birth-live",
+            "title": "ADAMAS -the Birth Live ver.-",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1370-1371",
+            "title": "赤い罠(who loves it?) / ADAMAS",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-12",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1370/1371"
+          },
+          {
+            "id": "vvcl-1372",
+            "title": "赤い罠(who loves it?) / ADAMAS",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-12",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1372"
+          },
+          {
+            "id": "vvcl-1373-1374",
+            "title": "ADAMAS / 赤い罠(who loves it?)",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-12",
+              "precision": "day"
+            },
+            "edition": "期間生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              },
+              {
+                "title": "ADAMAS -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-inst"
+              },
+              {
+                "title": "ADAMAS -TV ver.-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-tv"
+              }
+            ],
+            "catalogNumber": "VVCL-1373/1374"
+          },
+          {
+            "id": "apple-hk-1537901555",
+            "title": "赤い罠(who loves it?) / ADAMAS - EP",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-12-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537901555",
+            "title": "赤い罠(who loves it?) / ADAMAS - EP",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-12-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537901555",
+            "title": "赤い罠(who loves it?) / ADAMAS - EP",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537907555",
+            "title": "ADAMAS - Single",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-10-08",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537907555",
+            "title": "ADAMAS - Single",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-10-08",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537907555",
+            "title": "ADAMAS - Single",
+            "artistDisplayName": "LiSA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-08",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1529543131",
+            "title": "LEO-NiNE",
+            "artistDisplayName": "LiSA",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-10-14",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS (LEO-NiNE Version)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-leo-nine"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1529543131",
+            "title": "LEO-NiNE",
+            "artistDisplayName": "LiSA",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-10-14",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS (LEO-NiNE Version)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-leo-nine"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1529543131",
+            "title": "LEO-NiNE",
+            "artistDisplayName": "LiSA",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-10-14",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS (LEO-NiNE ver.)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-leo-nine"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1679880956",
+            "title": "LiVE is Smile Always～Eve&Birth～「the Birth」 at 日本武道館",
+            "artistDisplayName": "LiSA",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2022-10-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS -the Birth Live ver.-",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-the-birth-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1679880956",
+            "title": "LiVE is Smile Always～Eve&Birth～「the Birth」 at 日本武道館",
+            "artistDisplayName": "LiSA",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2022-10-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS -the Birth Live ver.-",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-the-birth-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1679880956",
+            "title": "LiVE is Smile Always～Eve&Birth～「the Birth」 at 日本武道館",
+            "artistDisplayName": "LiSA",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-10-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ADAMAS -the Birth Live ver.-",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-1-song-the-birth-live"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537901887",
+            "label": "香港｜ADAMAS",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-vocal",
+            "releaseId": "apple-hk-1537901555",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537901887",
+            "label": "台灣｜ADAMAS",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-vocal",
+            "releaseId": "apple-tw-1537901555",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537901887",
+            "label": "日本｜ADAMAS",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-vocal",
+            "releaseId": "apple-jp-1537901555",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537907858",
+            "label": "香港｜ADAMAS",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-vocal",
+            "releaseId": "apple-hk-1537907555",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537907858",
+            "label": "台灣｜ADAMAS",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-vocal",
+            "releaseId": "apple-tw-1537907555",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/adamas/1537907555?i=1537907858&app=itunes",
+            "label": "日本｜ADAMAS",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "sword-art-online-alicization-op-1-song-vocal",
+            "releaseId": "apple-jp-1537907555",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1529543506",
+            "label": "香港｜ADAMAS (LEO-NiNE Version)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-leo-nine",
+            "releaseId": "apple-hk-1529543131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1529543506",
+            "label": "台灣｜ADAMAS (LEO-NiNE Version)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-leo-nine",
+            "releaseId": "apple-tw-1529543131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1529543506",
+            "label": "日本｜ADAMAS (LEO-NiNE ver.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-leo-nine",
+            "releaseId": "apple-jp-1529543131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1679881081",
+            "label": "香港｜ADAMAS -the Birth Live ver.-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-the-birth-live",
+            "releaseId": "apple-hk-1679880956",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1679881081",
+            "label": "台灣｜ADAMAS -the Birth Live ver.-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-the-birth-live",
+            "releaseId": "apple-tw-1679880956",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1679881081",
+            "label": "日本｜ADAMAS -the Birth Live ver.-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-1-song-the-birth-live",
+            "releaseId": "apple-jp-1679880956",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "sword-art-online-alicization-ed-1",
+        "songId": "sword-art-online-alicization-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "アイリス",
+        "artistDisplayName": "藍井エイル",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第2–13話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "藍井エイル"
+          },
+          {
+            "role": "lyrics",
+            "name": "Eir"
+          },
+          {
+            "role": "composition",
+            "name": "ArmySlick"
+          },
+          {
+            "role": "composition",
+            "name": "Lauren Kaori"
+          },
+          {
+            "role": "arrangement",
+            "name": "ArmySlick"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sao-alicization.net/1st/music/ed.html",
+            "label": "作品官方｜第一期片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049",
+            "label": "しょぼいカレンダー｜前後期及單話調動、創作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3",
+            "label": "逐話曲表｜原播主題曲及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049/time",
+            "label": "しょぼいカレンダー｜日本各台初播日曆",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/aoieir/info/499384",
+            "label": "Sony Music｜藍井エイル三個單曲版別及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285912&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285912&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285912&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538287016&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538287016&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538287016&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Pn4zz6ZdEU0",
+            "label": "藍井エイル Official YouTube Channel｜藍井エイル「アイリス」 Music Video",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/ed.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/ed.html",
+              "https://cal.syoboi.jp/tid/5049",
+              "https://www.mau2.com/anime/swordartonline-3",
+              "https://cal.syoboi.jp/tid/5049/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/ed.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1350"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1353"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1354"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-1-song-tv"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/499384"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538285912"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538285914"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538285912"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538285914"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538285912"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538285914"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286307"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286307"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285912&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286307"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538287016&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538287016"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538287016&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538287025"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538287016&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538287016"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538287016&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538287025"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538287016&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538287016"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538287016&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538287025"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Pn4zz6ZdEU0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "Pn4zz6ZdEU0"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sword-art-online-alicization-ed-1-song-vocal",
+            "title": "アイリス",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-ed-1-song-inst",
+            "title": "アイリス -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-ed-1-song-tv",
+            "title": "アイリス -TV size ver.-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1350",
+            "title": "アイリス",
+            "artistDisplayName": "藍井エイル",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-24",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD＋寫真冊",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              },
+              {
+                "title": "アイリス -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1350"
+          },
+          {
+            "id": "vvcl-1353",
+            "title": "アイリス",
+            "artistDisplayName": "藍井エイル",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-24",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              },
+              {
+                "title": "アイリス -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1353"
+          },
+          {
+            "id": "vvcl-1354",
+            "title": "アイリス",
+            "artistDisplayName": "藍井エイル",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-24",
+              "precision": "day"
+            },
+            "edition": "期間生產限定盤 CD",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              },
+              {
+                "title": "アイリス -TV size ver.-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "VVCL-1354"
+          },
+          {
+            "id": "apple-hk-1538285912",
+            "title": "アイリス - EP",
+            "artistDisplayName": "藍井艾露",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-10-24",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              },
+              {
+                "title": "アイリス -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538285912",
+            "title": "アイリス - EP",
+            "artistDisplayName": "藍井艾露",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-10-24",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              },
+              {
+                "title": "アイリス -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538285912",
+            "title": "アイリス - EP",
+            "artistDisplayName": "藍井エイル",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-24",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              },
+              {
+                "title": "アイリス -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538287016",
+            "title": "FRAGMENT (Special Edition)",
+            "artistDisplayName": "藍井艾露",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-04-17",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538287016",
+            "title": "FRAGMENT (Special Edition)",
+            "artistDisplayName": "藍井艾露",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-04-17",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538287016",
+            "title": "FRAGMENT (Special Edition)",
+            "artistDisplayName": "藍井エイル",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-04-17",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "アイリス",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538285914",
+            "label": "香港｜アイリス",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-vocal",
+            "releaseId": "apple-hk-1538285912",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538285914",
+            "label": "台灣｜アイリス",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-vocal",
+            "releaseId": "apple-tw-1538285912",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538285914",
+            "label": "日本｜アイリス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-vocal",
+            "releaseId": "apple-jp-1538285912",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286307",
+            "label": "香港｜アイリス -Instrumental-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-inst",
+            "releaseId": "apple-hk-1538285912",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286307",
+            "label": "台灣｜アイリス -Instrumental-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-inst",
+            "releaseId": "apple-tw-1538285912",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286307",
+            "label": "日本｜アイリス -Instrumental-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-inst",
+            "releaseId": "apple-jp-1538285912",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538287025",
+            "label": "香港｜アイリス",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-vocal",
+            "releaseId": "apple-hk-1538287016",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538287025",
+            "label": "台灣｜アイリス",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-vocal",
+            "releaseId": "apple-tw-1538287016",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538287025",
+            "label": "日本｜アイリス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-1-song-vocal",
+            "releaseId": "apple-jp-1538287016",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "sword-art-online-alicization-op-2",
+        "songId": "sword-art-online-alicization-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "RESISTER",
+        "artistDisplayName": "ASCA",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第14–22、24話片頭。第23話於片末播出片頭影像，掛字沿用片頭曲名義。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ASCA"
+          },
+          {
+            "role": "lyrics",
+            "name": "ASCA"
+          },
+          {
+            "role": "lyrics",
+            "name": "重永亮介"
+          },
+          {
+            "role": "composition",
+            "name": "重永亮介"
+          },
+          {
+            "role": "arrangement",
+            "name": "重永亮介"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sao-alicization.net/1st/music/op02.html",
+            "label": "作品官方｜第二期片頭",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049",
+            "label": "しょぼいカレンダー｜前後期及單話調動、創作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/sao-alicization/news/detail/?id=49159",
+            "label": "Aniplex｜1月第二期兩首主題曲及歌手",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3/ep/23",
+            "label": "逐話曲表｜第23話原掛字、歌曲及播放位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3/ep/24",
+            "label": "逐話曲表｜第24話原掛字、歌曲及播放位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/asca/info/503069",
+            "label": "Sony Music｜ASCA三個單曲版別的伴奏及電視音源",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/asca/info/502874",
+            "label": "Sony Music｜ASCA單曲版本與唱片編號",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537907910&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537907910&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537907910&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537908460&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286877&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286877&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286877&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543156621&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543156621&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543156621&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1651201824&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1651201824&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1651201824&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1591357516&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1591357516&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1591357516&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=RPZwWt6_unE",
+            "label": "ASCA Official YouTube Channel｜ASCA 「RESISTER」 Music Video FULL (Anime \"Sword Art Online Alicization\" OP)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=q_bcQk7AuGA",
+            "label": "THE FIRST TAKE｜ASCA - RESISTER / THE FIRST TAKE",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ResETj_SaQI",
+            "label": "Aniplex｜第18.5話原播預告及節目原題",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3",
+            "label": "逐話曲表｜原播主題曲及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/op02.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/op02.html",
+              "https://cal.syoboi.jp/tid/5049",
+              "https://www.aniplex.co.jp/lineup/sao-alicization/news/detail/?id=49159",
+              "https://www.mau2.com/anime/swordartonline-3/ep/23",
+              "https://www.mau2.com/anime/swordartonline-3/ep/24"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/op02.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/503069"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/503069"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1404-1405"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/503069"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/503069"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1406"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/503069"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1407-1408"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/503069"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/503069"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/502874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1404-1405"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/502874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1406"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/asca/info/502874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1407-1408"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537907910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537907913"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537907910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537907913"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537907910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537907910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/resister/1537907910?i=1537907913&app=itunes"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537908460&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537908460"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537908460&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537908461"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537908460&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537908464"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286877&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538286877"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286877&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286880"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286877&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538286877"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286877&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286880"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286877&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538286877"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286877&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286880"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543156621&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song-first-take"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543156621&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1543156621"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543156621&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1543156807"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543156621&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1543156621"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543156621&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1543156807"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543156621&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543156621"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543156621&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543156807"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1651201824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song-jvna-remix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1651201824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1651201824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1651201824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1651201834"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1651201824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1651201824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1651201824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1651201834"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1651201824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1651201824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1651201824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1651201834"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1591357516&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2-song-weird-genius-remix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1591357516&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1591357516"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1591357516&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1591357517"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1591357516&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1591357516"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1591357516&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1591357517"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1591357516&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1591357516"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1591357516&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1591357517"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=RPZwWt6_unE"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "RPZwWt6_unE"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=q_bcQk7AuGA"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "q_bcQk7AuGA"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ResETj_SaQI",
+              "https://www.mau2.com/anime/swordartonline-3"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-op-2"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sword-art-online-alicization-op-2-song-vocal",
+            "title": "RESISTER",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-op-2-song-inst",
+            "title": "RESISTER -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-op-2-song-tv",
+            "title": "RESISTER -TV ver.-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "sword-art-online-alicization-op-2-song-first-take",
+            "title": "RESISTER - From THE FIRST TAKE",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-op-2-song-jvna-remix",
+            "title": "RESISTER (JVNA Remix) - SACRA BEATS Singles",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-op-2-song-weird-genius-remix",
+            "title": "RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+            "kind": "remix",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1404-1405",
+            "title": "RESISTER",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              },
+              {
+                "title": "RESISTER -Instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1404/1405"
+          },
+          {
+            "id": "vvcl-1406",
+            "title": "RESISTER",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              },
+              {
+                "title": "RESISTER -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1406"
+          },
+          {
+            "id": "vvcl-1407-1408",
+            "title": "RESISTER",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "edition": "期間生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              },
+              {
+                "title": "RESISTER -TV ver.-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-tv"
+              }
+            ],
+            "catalogNumber": "VVCL-1407/1408"
+          },
+          {
+            "id": "apple-hk-1537907910",
+            "title": "RESISTER - Single",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-13",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537907910",
+            "title": "RESISTER - Single",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-13",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537907910",
+            "title": "RESISTER - Single",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-13",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537908460",
+            "title": "RESISTER (Special Edition) - EP",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              },
+              {
+                "title": "RESISTER -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538286877",
+            "title": "百歌繚乱",
+            "artistDisplayName": "ASCA",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538286877",
+            "title": "百歌繚乱",
+            "artistDisplayName": "ASCA",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538286877",
+            "title": "百歌繚乱",
+            "artistDisplayName": "ASCA",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "RESISTER",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1543156621",
+            "title": "RESISTER - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "RESISTER - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-first-take"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1543156621",
+            "title": "RESISTER - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "RESISTER - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-first-take"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543156621",
+            "title": "RESISTER - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ASCA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "RESISTER - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-first-take"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1651201824",
+            "title": "RESISTER (JVNA Remix) - SACRA BEATS Singles - Single",
+            "artistDisplayName": "ASCA & JVNA",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2022-11-04",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "RESISTER (JVNA Remix) - SACRA BEATS Singles",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-jvna-remix"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1651201824",
+            "title": "RESISTER (JVNA Remix) - SACRA BEATS Singles - Single",
+            "artistDisplayName": "ASCA & JVNA",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2022-11-04",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "RESISTER (JVNA Remix) - SACRA BEATS Singles",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-jvna-remix"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1651201824",
+            "title": "RESISTER (JVNA Remix) - SACRA BEATS Singles - Single",
+            "artistDisplayName": "ASCA & JVNA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2022-11-04",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "RESISTER (JVNA Remix) - SACRA BEATS Singles",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-jvna-remix"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1591357516",
+            "title": "RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+            "artistDisplayName": "ASCA & Weird Genius",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2021-11-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-weird-genius-remix"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1591357516",
+            "title": "RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+            "artistDisplayName": "ASCA & Weird Genius",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2021-11-05",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-weird-genius-remix"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1591357516",
+            "title": "RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+            "artistDisplayName": "ASCA & Weird Genius",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2021-11-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-op-2-song-weird-genius-remix"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537907913",
+            "label": "香港｜RESISTER",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-vocal",
+            "releaseId": "apple-hk-1537907910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537907913",
+            "label": "台灣｜RESISTER",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-vocal",
+            "releaseId": "apple-tw-1537907910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/resister/1537907910?i=1537907913&app=itunes",
+            "label": "日本｜RESISTER",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "sword-art-online-alicization-op-2-song-vocal",
+            "releaseId": "apple-jp-1537907910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537908461",
+            "label": "日本｜RESISTER",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-vocal",
+            "releaseId": "apple-jp-1537908460",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537908464",
+            "label": "日本｜RESISTER -Instrumental-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-inst",
+            "releaseId": "apple-jp-1537908460",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286880",
+            "label": "香港｜RESISTER",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-vocal",
+            "releaseId": "apple-hk-1538286877",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286880",
+            "label": "台灣｜RESISTER",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-vocal",
+            "releaseId": "apple-tw-1538286877",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286880",
+            "label": "日本｜RESISTER",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-vocal",
+            "releaseId": "apple-jp-1538286877",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1543156807",
+            "label": "香港｜RESISTER - From THE FIRST TAKE",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-first-take",
+            "releaseId": "apple-hk-1543156621",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1543156807",
+            "label": "台灣｜RESISTER - From THE FIRST TAKE",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-first-take",
+            "releaseId": "apple-tw-1543156621",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543156807",
+            "label": "日本｜RESISTER - From THE FIRST TAKE",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-first-take",
+            "releaseId": "apple-jp-1543156621",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1651201834",
+            "label": "香港｜RESISTER (JVNA Remix) - SACRA BEATS Singles",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-jvna-remix",
+            "releaseId": "apple-hk-1651201824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1651201834",
+            "label": "台灣｜RESISTER (JVNA Remix) - SACRA BEATS Singles",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-jvna-remix",
+            "releaseId": "apple-tw-1651201824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1651201834",
+            "label": "日本｜RESISTER (JVNA Remix) - SACRA BEATS Singles",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-jvna-remix",
+            "releaseId": "apple-jp-1651201824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1591357517",
+            "label": "香港｜RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-weird-genius-remix",
+            "releaseId": "apple-hk-1591357516",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1591357517",
+            "label": "台灣｜RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-weird-genius-remix",
+            "releaseId": "apple-tw-1591357516",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1591357517",
+            "label": "日本｜RESISTER (Weird Genius Remix) - SACRA BEATS Singles",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-op-2-song-weird-genius-remix",
+            "releaseId": "apple-jp-1591357516",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "第18.5話總集篇另有官方預告及分集曲表，片頭與片尾的剪接和掛字仍待原播版核對。",
+            "resumeWhen": "取得2月16日總集篇原播錄像掛字或電視台單話曲單時，更新總集篇用曲。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "sword-art-online-alicization-ed-2",
+        "songId": "sword-art-online-alicization-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "forget-me-not",
+        "artistDisplayName": "ReoNa",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第14–18、20–22、24話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ReoNa"
+          },
+          {
+            "role": "lyrics",
+            "name": "ハヤシケイ"
+          },
+          {
+            "role": "composition",
+            "name": "rui"
+          },
+          {
+            "role": "arrangement",
+            "name": "毛蟹"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sao-alicization.net/1st/music/ed02.html",
+            "label": "作品官方｜第二期片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049",
+            "label": "しょぼいカレンダー｜前後期及單話調動、創作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/sao-alicization/news/detail/?id=49159",
+            "label": "Aniplex｜1月第二期兩首主題曲及歌手",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3",
+            "label": "逐話曲表｜原播主題曲及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3/ep/24",
+            "label": "逐話曲表｜第24話原掛字、歌曲及播放位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/502881",
+            "label": "Sony Music｜ReoNa單曲三個日本盤型及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/501874",
+            "label": "Sony Music｜ReoNa單曲作者及唱片編號",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1532050852&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1532050852&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1532050852&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KpzX87czSY4",
+            "label": "Sony Music (Japan)｜ReoNa 『forget-me-not』-Music Video YouTube EDIT ver.-",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/ed02.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/ed02.html",
+              "https://cal.syoboi.jp/tid/5049",
+              "https://www.aniplex.co.jp/lineup/sao-alicization/news/detail/?id=49159",
+              "https://www.mau2.com/anime/swordartonline-3",
+              "https://www.mau2.com/anime/swordartonline-3/ep/24"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/1st/music/ed02.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1388-1389"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1388-1389"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1390"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1390"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1391-1392"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1391-1392"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286825"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286825"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286825"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286828"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286828"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286828"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1532050852&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2-song-unknown-mix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1532050852&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1532050852"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1532050852&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1532050856"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1532050852&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1532050852"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1532050852&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1532050856"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1532050852&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1532050852"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1532050852&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1532050856"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-2-song-pilgrim-2023"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1700176686"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1700176686"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1700176686"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=KpzX87czSY4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "KpzX87czSY4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sword-art-online-alicization-ed-2-song-vocal",
+            "title": "forget-me-not",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-ed-2-song-inst",
+            "title": "forget-me-not -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-ed-2-song-tv",
+            "title": "forget-me-not -TV ver.-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "sword-art-online-alicization-ed-2-song-unknown-mix",
+            "title": "forget-me-not (unknown mix)",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-ed-2-song-pilgrim-2023",
+            "title": "forget-me-not (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1388-1389",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "forget-me-not",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-vocal"
+              },
+              {
+                "title": "forget-me-not -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1388/1389"
+          },
+          {
+            "id": "vvcl-1390",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "forget-me-not",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-vocal"
+              },
+              {
+                "title": "forget-me-not -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1390"
+          },
+          {
+            "id": "vvcl-1391-1392",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "期間生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "forget-me-not",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-vocal"
+              },
+              {
+                "title": "forget-me-not -TV ver.-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-tv"
+              }
+            ],
+            "catalogNumber": "VVCL-1391/1392"
+          },
+          {
+            "id": "apple-hk-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-vocal"
+              },
+              {
+                "title": "forget-me-not -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-vocal"
+              },
+              {
+                "title": "forget-me-not -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-vocal"
+              },
+              {
+                "title": "forget-me-not -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1532050852",
+            "title": "unknown",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-10-07",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not (unknown mix)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-unknown-mix"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1532050852",
+            "title": "unknown",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-10-07",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not (unknown mix)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-unknown-mix"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1532050852",
+            "title": "unknown",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-10-07",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not -unknown mix-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-unknown-mix"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "forget-me-not (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-ed-2-song-pilgrim-2023"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286825",
+            "label": "香港｜forget-me-not",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-vocal",
+            "releaseId": "apple-hk-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286825",
+            "label": "台灣｜forget-me-not",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-vocal",
+            "releaseId": "apple-tw-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286825",
+            "label": "日本｜forget-me-not",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-vocal",
+            "releaseId": "apple-jp-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286828",
+            "label": "香港｜forget-me-not -Instrumental-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-inst",
+            "releaseId": "apple-hk-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286828",
+            "label": "台灣｜forget-me-not -Instrumental-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-inst",
+            "releaseId": "apple-tw-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286828",
+            "label": "日本｜forget-me-not -Instrumental-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-inst",
+            "releaseId": "apple-jp-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1532050856",
+            "label": "香港｜forget-me-not (unknown mix)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-unknown-mix",
+            "releaseId": "apple-hk-1532050852",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1532050856",
+            "label": "台灣｜forget-me-not (unknown mix)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-unknown-mix",
+            "releaseId": "apple-tw-1532050852",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1532050856",
+            "label": "日本｜forget-me-not -unknown mix-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-unknown-mix",
+            "releaseId": "apple-jp-1532050852",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1700176686",
+            "label": "香港｜forget-me-not (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-pilgrim-2023",
+            "releaseId": "apple-hk-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1700176686",
+            "label": "台灣｜forget-me-not (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-pilgrim-2023",
+            "releaseId": "apple-tw-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1700176686",
+            "label": "日本｜forget-me-not (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-ed-2-song-pilgrim-2023",
+            "releaseId": "apple-jp-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "sword-art-online-alicization-in-1",
+        "songId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "longing",
+        "artistDisplayName": "ユナ（CV：神田沙也加）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "第5話車內收音機插曲。原聲帶與電影版均有發行，該話實際使用的剪輯版本待查。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "神田沙也加"
+          },
+          {
+            "role": "lyrics",
+            "name": "梶浦由記"
+          },
+          {
+            "role": "composition",
+            "name": "梶浦由記"
+          },
+          {
+            "role": "arrangement",
+            "name": "梶浦由記"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sao-movie.net/staffcast/music.html",
+            "label": "劇場版官網｜原唱及創作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049",
+            "label": "しょぼいカレンダー｜前後期及單話調動、創作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://sao-alicization.net/1st/story/?id=ep5",
+            "label": "動畫官方｜第5話場景與故事",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3/ep/5",
+            "label": "逐話曲表｜第5話原掛字、歌曲及播放位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mharayaruo.blog.fc2.com/blog-entry-291.html",
+            "label": "同期觀影記錄｜第5話車內收音機用曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/longing/1535636405?i=1535636848",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1535636405",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1535636848",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://sao-movie.net/sp/bddvd/bddvd.html",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1535636405&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1535636405&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Eppci-N4UOs",
+            "label": "Sayaka Kanda - Topic｜Longing",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sao-movie.net/staffcast/music.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sao-movie.net/staffcast/music.html",
+              "https://cal.syoboi.jp/tid/5049",
+              "https://sao-alicization.net/1st/story/?id=ep5",
+              "https://www.mau2.com/anime/swordartonline-3/ep/5",
+              "https://mharayaruo.blog.fc2.com/blog-entry-291.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sao-movie.net/staffcast/music.html",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sao-movie.net/staffcast/music.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://sao-movie.net/staffcast/music.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "svwc-70255-70256"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1535636848"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1535636848"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/longing/1535636405?i=1535636848",
+              "https://music.apple.com/hk/album/1535636405"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1535636405"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sao-movie.net/sp/bddvd/bddvd.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-movie-ver"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://sao-movie.net/sp/bddvd/bddvd.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "anzx-14001-14002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535636405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1535636405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535636405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1535636848"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535636405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1535636405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535636405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1535636848"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Eppci-N4UOs"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "Eppci-N4UOs"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack",
+            "title": "longing",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-movie-ver",
+            "title": "longing -movie ver.-",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "svwc-70255-70256",
+            "title": "劇場版 ソードアート・オンライン -オーディナル・スケール- Original Soundtrack",
+            "type": "soundtrack",
+            "date": {
+              "value": "2017-02-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "梶浦由記",
+            "edition": "日本2CD一般發行",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "longing",
+                "position": 2,
+                "disc": 2,
+                "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack"
+              }
+            ],
+            "label": "Aniplex",
+            "catalogNumber": "SVWC-70255-70256"
+          },
+          {
+            "id": "apple-hk-1535636405",
+            "title": "劇場版 ソードアート・オンライン -オーディナル・スケール- Original Soundtrack",
+            "type": "soundtrack",
+            "date": {
+              "value": "2017-02-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "梶浦由記",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "longing",
+                "position": 52,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack"
+              }
+            ],
+            "label": "Aniplex"
+          },
+          {
+            "id": "anzx-14001-14002",
+            "title": "劇場版 ソードアート・オンライン -オーディナル・スケール- 特典CD",
+            "type": "soundtrack",
+            "date": {
+              "value": "2017-09-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ユナ（CV：神田沙也加）",
+            "edition": "完全生産限定Blu-ray特典CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "longing -movie ver.-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-movie-ver"
+              }
+            ],
+            "label": "Aniplex",
+            "catalogNumber": "ANZX-14001-14002"
+          },
+          {
+            "id": "apple-tw-1535636405",
+            "title": "劇場版 ソードアート・オンライン -オーディナル・スケール- Original Soundtrack",
+            "artistDisplayName": "梶浦由記",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2017-02-18",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "longing",
+                "position": 52,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1535636405",
+            "title": "劇場版 ソードアート・オンライン -オーディナル・スケール- Original Soundtrack",
+            "artistDisplayName": "梶浦由記",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2017-02-18",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "longing",
+                "position": 52,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "longing｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1535636848",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1535636405",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1535636848",
+            "label": "台灣｜longing",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack",
+            "releaseId": "apple-tw-1535636405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1535636848",
+            "label": "日本｜longing",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-war-of-underworld-part-2-longing-song-ordinal-scale-original-soundtrack",
+            "releaseId": "apple-jp-1535636405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "第5話收音機段落的製品或播出剪輯尚待比對。",
+            "resumeWhen": "日本原播音樂表標出錄音版本或權利方提供該段音源資料時再比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "sword-art-online-alicization-in-2",
+        "songId": "sword-art-online-alicization-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "虹の彼方に",
+        "artistDisplayName": "ReoNa",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第24話插曲。第19話片末使用同一首歌。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ReoNa"
+          },
+          {
+            "role": "lyrics",
+            "name": "ハヤシケイ"
+          },
+          {
+            "role": "composition",
+            "name": "毛蟹"
+          },
+          {
+            "role": "arrangement",
+            "name": "毛蟹"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sao-alicization.net/news/?article_id=51194",
+            "label": "動畫官方｜ReoNa演唱的動畫插曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049",
+            "label": "しょぼいカレンダー｜前後期及單話調動、創作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3/ep/24",
+            "label": "逐話曲表｜第24話原掛字、歌曲及播放位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://sao-alicization.net/1st/story/?id=ep24",
+            "label": "動畫官方｜前半最終第24話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lisani.jp/0000134746/2/",
+            "label": "LisAni! ReoNa訪談｜本人說明第19話特別片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/502881",
+            "label": "Sony Music｜ReoNa單曲三個日本盤型及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/501874",
+            "label": "Sony Music｜ReoNa單曲作者及唱片編號",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543390509&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543390509&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=U6LRQGeTQYk",
+            "label": "reona - Topic｜虹の彼方に - From THE FIRST TAKE",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/news/?article_id=51194",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/news/?article_id=51194",
+              "https://cal.syoboi.jp/tid/5049",
+              "https://www.mau2.com/anime/swordartonline-3/ep/24",
+              "https://sao-alicization.net/1st/story/?id=ep24",
+              "https://www.lisani.jp/0000134746/2/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/news/?article_id=51194",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1388-1389"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1388-1389"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1390"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1390"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1391-1392"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1391-1392"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286827"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286827"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286827"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1700176996"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1700176996"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1700176996"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song-first-take"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1543390509"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1543390524"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1543390509"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1543390524"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543390509"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543390524"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=U6LRQGeTQYk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "U6LRQGeTQYk"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sword-art-online-alicization-in-2-song-vocal",
+            "title": "虹の彼方に",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-in-2-song-first-take",
+            "title": "虹の彼方に - From THE FIRST TAKE",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1388-1389",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1388/1389"
+          },
+          {
+            "id": "vvcl-1390",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1390"
+          },
+          {
+            "id": "vvcl-1391-1392",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "期間生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1391/1392"
+          },
+          {
+            "id": "apple-hk-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1543390509",
+            "title": "虹の彼方に - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-first-take"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1543390509",
+            "title": "虹の彼方に - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-first-take"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543390509",
+            "title": "虹の彼方に - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-first-take"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286827",
+            "label": "香港｜虹の彼方に",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-vocal",
+            "releaseId": "apple-hk-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286827",
+            "label": "台灣｜虹の彼方に",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-vocal",
+            "releaseId": "apple-tw-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286827",
+            "label": "日本｜虹の彼方に",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-vocal",
+            "releaseId": "apple-jp-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1700176996",
+            "label": "香港｜虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "releaseId": "apple-hk-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1700176996",
+            "label": "台灣｜虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "releaseId": "apple-tw-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1700176996",
+            "label": "日本｜虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "releaseId": "apple-jp-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1543390524",
+            "label": "香港｜虹の彼方に - From THE FIRST TAKE",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-first-take",
+            "releaseId": "apple-hk-1543390509",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1543390524",
+            "label": "台灣｜虹の彼方に - From THE FIRST TAKE",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-first-take",
+            "releaseId": "apple-tw-1543390509",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543390524",
+            "label": "日本｜虹の彼方に - From THE FIRST TAKE",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-first-take",
+            "releaseId": "apple-jp-1543390509",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "sword-art-online-alicization-ed-3",
+        "songId": "sword-art-online-alicization-in-2-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "虹の彼方に",
+        "artistDisplayName": "ReoNa",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第19話特別片尾。原唱ReoNa訪談說明片末的使用，動畫官方亦將本曲列為插曲。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ReoNa"
+          },
+          {
+            "role": "lyrics",
+            "name": "ハヤシケイ"
+          },
+          {
+            "role": "composition",
+            "name": "毛蟹"
+          },
+          {
+            "role": "arrangement",
+            "name": "毛蟹"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sao-alicization.net/news/?article_id=51194",
+            "label": "動畫官方｜ReoNa演唱的動畫插曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5049",
+            "label": "しょぼいカレンダー｜前後期及單話調動、創作名單",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/502881",
+            "label": "Sony Music｜ReoNa單曲三個日本盤型及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/501874",
+            "label": "Sony Music｜ReoNa單曲作者及唱片編號",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543390509&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543390509&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lisani.jp/0000134746/2/",
+            "label": "LisAni! ReoNa訪談｜本人說明第19話特別片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/swordartonline-3/ep/19",
+            "label": "逐話曲表｜第19話原掛字、歌曲及播放位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=U6LRQGeTQYk",
+            "label": "reona - Topic｜虹の彼方に - From THE FIRST TAKE",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/news/?article_id=51194",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sao-alicization.net/news/?article_id=51194",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1388-1389"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1388-1389"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1390"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1390"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1391-1392"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/501874"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1391-1392"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/502881"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286827"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286827"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538286824"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286824&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286827"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1700176996"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1700176996"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1700176676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1700176676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1700176996"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-in-2-song-first-take"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1543390509"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1543390524"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1543390509"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1543390524"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543390509"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543390509&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543390524"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000134746/2/",
+              "https://sao-alicization.net/news/?article_id=51194",
+              "https://www.mau2.com/anime/swordartonline-3/ep/19",
+              "https://cal.syoboi.jp/tid/5049"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "sword-art-online-alicization-ed-3"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=U6LRQGeTQYk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "U6LRQGeTQYk"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sword-art-online-alicization-in-2-song-vocal",
+            "title": "虹の彼方に",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "sword-art-online-alicization-in-2-song-first-take",
+            "title": "虹の彼方に - From THE FIRST TAKE",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1388-1389",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "初回生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1388/1389"
+          },
+          {
+            "id": "vvcl-1390",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1390"
+          },
+          {
+            "id": "vvcl-1391-1392",
+            "title": "forget-me-not",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "期間生產限定盤 CD＋DVD",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VVCL-1391/1392"
+          },
+          {
+            "id": "apple-hk-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538286824",
+            "title": "forget-me-not - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1700176676",
+            "title": "ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～",
+            "artistDisplayName": "ReoNa",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-09-13",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1543390509",
+            "title": "虹の彼方に - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-first-take"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1543390509",
+            "title": "虹の彼方に - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-first-take"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543390509",
+            "title": "虹の彼方に - From THE FIRST TAKE - Single",
+            "artistDisplayName": "ReoNa",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2020-12-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "虹の彼方に - From THE FIRST TAKE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sword-art-online-alicization-in-2-song-first-take"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286827",
+            "label": "香港｜虹の彼方に",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-vocal",
+            "releaseId": "apple-hk-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286827",
+            "label": "台灣｜虹の彼方に",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-vocal",
+            "releaseId": "apple-tw-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286827",
+            "label": "日本｜虹の彼方に",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-vocal",
+            "releaseId": "apple-jp-1538286824",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1700176996",
+            "label": "香港｜虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "releaseId": "apple-hk-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1700176996",
+            "label": "台灣｜虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "releaseId": "apple-tw-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1700176996",
+            "label": "日本｜虹の彼方に (ReoNa ONE-MAN Concert 2023「ピルグリム」～3.6 day 逃げて逢おうね～)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-pilgrim-2023",
+            "releaseId": "apple-jp-1700176676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1543390524",
+            "label": "香港｜虹の彼方に - From THE FIRST TAKE",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-first-take",
+            "releaseId": "apple-hk-1543390509",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1543390524",
+            "label": "台灣｜虹の彼方に - From THE FIRST TAKE",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-first-take",
+            "releaseId": "apple-tw-1543390509",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543390524",
+            "label": "日本｜虹の彼方に - From THE FIRST TAKE",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "sword-art-online-alicization-in-2-song-first-take",
+            "releaseId": "apple-jp-1543390509",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "尤吉歐獨唱〈Waking the belief〉收於第七卷，桐人、尤吉歐、愛麗絲合唱〈Blazing the future〉收於第八卷特典CD。兩首在本篇第1–24話內的播放位置尚待權利方列明。",
+            "resumeWhen": "取得特定集數的具名掛字或日本原播音樂表後，另登實際角色歌用途。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];

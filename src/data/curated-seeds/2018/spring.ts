@@ -8980,7 +8980,2482 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
         "verifiedAt": "2026-11-16"
       }
     ]
-  }
+  },
+  {
+    "id": "curated-100526",
+    "anilistId": 100526,
+    "slug": "3d-kanojo-real-girl",
+    "titleJa": "3D彼女 リアルガール",
+    "titleRomaji": "3D Kanojo: Real Girl",
+    "seasonIds": [
+      "2018-spring"
+    ],
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "25:59",
+    "startDate": "2018-04-03",
+    "broadcastLabel": "日本フッズエンタテインメント製作。日本電視台AnichU週二常規25:59 JST。第一季首集為4月3日節目日26:04（4月4日02:04），日テレオンデマンド先於同節目日24:00上架。第12話在6月19日節目日26:09播出。",
+    "officialSiteUrl": "https://www.vap.co.jp/3dkanojo-anime/",
+    "status": "finished",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "anilistUrl": "https://anilist.co/anime/100526",
+    "imageSourceUrl": "https://anilist.co/anime/100526",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100526-Hw6U34Hw2TDb.jpg",
+    "sourceReferenceUrls": [
+      "https://www.vap.co.jp/3dkanojo-anime/",
+      "https://anilist.co/anime/100526"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.vap.co.jp/3dkanojo-anime/caststaff/",
+        "label": "動畫官網：日本フッズエンタテインメント與製作名義",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.vap.co.jp/3dkanojo-anime/",
+        "label": "VAP：動畫兩季作品資料",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1521712010",
+        "label": "同期媒體：第一季日本電視台常規時段與製作資料",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.cy.netgamebm.com/animation/view/5669/",
+        "label": "日本同期節目資料：第一季電視播出與網路服務時間",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/4871/time",
+        "label": "日本電視台第一季逐話時刻與主題曲資料",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "3d-kanojo-real-girl-op-1",
+        "songId": "3d-kanojo-real-girl-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "だいじなこと",
+        "artistDisplayName": "くるり",
+        "usageLabel": "日本TV第1–12話片頭。",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.vap.co.jp/3dkanojo-anime/goods/music.html",
+            "label": "動畫製作組：兩季主題曲及歌手訪問",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A012067/VISL-37404.html",
+            "label": "Speedstar：限量卡式單曲、A面及B面曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/3dkanojorealgirl/ep/1",
+            "label": "第1話片頭片尾名義",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/3dkanojorealgirl/ep/12",
+            "label": "第12話片頭片尾名義",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4871/time",
+            "label": "日本電視台第一季逐話時刻與主題曲資料",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.quruli.net/news/daijinakoto/",
+            "label": "くるり：卡式單曲內原唱及伴奏曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413641821&country=jp&entity=song",
+            "label": "Apple 日本：數位版曲名、碟序、版本及授權串流",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1397294166&country=hk&entity=song",
+            "label": "Apple 香港：數位版曲名、碟序、版本及授權串流",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413641821&country=hk&entity=song",
+            "label": "Apple 香港：數位版曲名、碟序、版本及授權串流",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1397294166&country=jp&entity=song",
+            "label": "Apple 日本：數位版曲名、碟序、版本及授權串流",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/52dd9627f80f01604c34",
+            "label": "AWA：日本授權曲目及演出者",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.vap.co.jp/3dkanojo-anime/goods/music.html",
+              "https://www.jvcmusic.co.jp/-/Discography/A012067/VISL-37404.html",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/1",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/12",
+              "https://cal.syoboi.jp/tid/4871/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.vap.co.jp/3dkanojo-anime/goods/music.html",
+              "https://www.jvcmusic.co.jp/-/Discography/A012067/VISL-37404.html",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/1",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/12",
+              "https://cal.syoboi.jp/tid/4871/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A012067/VISL-37404.html",
+              "https://cal.syoboi.jp/tid/4871/time"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A012067/VISL-37404.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A012067/VISL-37404.html",
+              "https://www.quruli.net/news/daijinakoto/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-op-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413641821&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-op-1-song-album-mix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A012067/VISL-37404.html",
+              "https://www.quruli.net/news/daijinakoto/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "visl-37404"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1397294166&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1397294166"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1397294166&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1397294599"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413641821&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1413641821"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413641821&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1413642293"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1397294166&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1397294166"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1397294166&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1397294599"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413641821&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1413641821"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413641821&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1413642293"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/52dd9627f80f01604c34"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/52dd9627f80f01604c34"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "3d-kanojo-real-girl-op-1-song-vocal",
+            "title": "だいじなこと",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "3d-kanojo-real-girl-op-1-song-inst",
+            "title": "だいじなこと (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "3d-kanojo-real-girl-op-1-song-album-mix",
+            "title": "だいじなこと (Album mix)",
+            "kind": "remix",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "visl-37404",
+            "title": "だいじなこと／忘れないように",
+            "artistDisplayName": "くるり",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "限量卡式單曲（A／B兩面各自編序）",
+            "tracks": [
+              {
+                "title": "だいじなこと",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "3d-kanojo-real-girl-op-1-song-vocal"
+              },
+              {
+                "title": "だいじなこと (Instrumental)",
+                "disc": 2,
+                "position": 1,
+                "recordingId": "3d-kanojo-real-girl-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VISL-37404"
+          },
+          {
+            "id": "apple-hk-1397294166",
+            "title": "Daijinakoto / Wasurenaiyoni - Single",
+            "artistDisplayName": "團團轉樂團",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "Daijinakoto",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "3d-kanojo-real-girl-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1413641821",
+            "title": "songline",
+            "artistDisplayName": "團團轉樂團",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-09-19",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "Daijinakoto (songline Mix)",
+                "disc": 1,
+                "position": 8,
+                "recordingId": "3d-kanojo-real-girl-op-1-song-album-mix"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1397294166",
+            "title": "Daijinakoto / Wasurenaiyoni - Single",
+            "artistDisplayName": "くるり",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "だいじなこと",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "3d-kanojo-real-girl-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1413641821",
+            "title": "songline",
+            "artistDisplayName": "くるり",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-19",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "だいじなこと (Album mix)",
+                "disc": 1,
+                "position": 8,
+                "recordingId": "3d-kanojo-real-girl-op-1-song-album-mix"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1397294599",
+            "label": "Daijinakoto｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "3d-kanojo-real-girl-op-1-song-vocal",
+            "releaseId": "apple-hk-1397294166",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1413642293",
+            "label": "Daijinakoto (songline Mix)｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "3d-kanojo-real-girl-op-1-song-album-mix",
+            "releaseId": "apple-hk-1413641821",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1397294599",
+            "label": "だいじなこと｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "3d-kanojo-real-girl-op-1-song-vocal",
+            "releaseId": "apple-jp-1397294166",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1413642293",
+            "label": "だいじなこと (Album mix)｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "3d-kanojo-real-girl-op-1-song-album-mix",
+            "releaseId": "apple-jp-1413641821",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/52dd9627f80f01604c34",
+            "region": "JP",
+            "label": "だいじなこと (Album mix)｜日本曲目",
+            "recordingId": "3d-kanojo-real-girl-op-1-song-album-mix",
+            "availability": "unknown",
+            "linkType": "direct_track",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "lyrics",
+            "name": "岸田繁"
+          },
+          {
+            "role": "composition",
+            "name": "岸田繁"
+          },
+          {
+            "role": "arrangement",
+            "name": "くるり"
+          },
+          {
+            "role": "other",
+            "name": "三浦秀秋",
+            "groupName": "管編曲補"
+          }
+        ],
+        "versionLabel": "卡式單曲A面首軌為演唱版，B面首軌為伴奏。數位專輯《ソングライン》第8軌另標Album mix。"
+      },
+      {
+        "id": "3d-kanojo-real-girl-ed-1",
+        "songId": "3d-kanojo-real-girl-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "HiDE the BLUE",
+        "artistDisplayName": "BiSH",
+        "usageLabel": "日本TV第1–12話片尾。",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.vap.co.jp/3dkanojo-anime/goods/music.html",
+            "label": "動畫製作組：兩季主題曲及歌手訪問",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.bish.tokyo/en/discography/detail.php?id=1015732",
+            "label": "BiSH：雙A面單曲各版本的曲目、品番與動畫用途",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/3dkanojorealgirl/ep/1",
+            "label": "第1話片頭片尾名義",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/3dkanojorealgirl/ep/12",
+            "label": "第12話片頭片尾名義",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4871/time",
+            "label": "日本電視台第一季逐話時刻與主題曲資料",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.bish.tokyo/discography/detail.php?id=1015916",
+            "label": "BiSH：橫濱Arena演出的現場CD曲目",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.bish.tokyo/discography/detail.php?id=1019806",
+            "label": "BiSH：精選輯不同版別、碟別與曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1367041193&country=hk&entity=song",
+            "label": "Apple 香港：數位版曲名、碟序、版本及授權串流",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1385341760&country=hk&entity=song",
+            "label": "Apple 香港：數位版曲名、碟序、版本及授權串流",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1692715228&country=hk&entity=song",
+            "label": "Apple 香港：數位版曲名、碟序、版本及授權串流",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1367041193&country=jp&entity=song",
+            "label": "Apple 日本：數位版曲名、碟序、版本及授權串流",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1385341760&country=jp&entity=song",
+            "label": "Apple 日本：數位版曲名、碟序、版本及授權串流",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1692715228&country=jp&entity=song",
+            "label": "Apple 日本：數位版曲名、碟序、版本及授權串流",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/bd75ba6f8ea79e823e31",
+            "label": "AWA：日本授權曲目及演出者",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JPxNUx8ie8w",
+            "label": "BiSH：官方影片頁標題及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.vap.co.jp/3dkanojo-anime/goods/music.html",
+              "https://www.bish.tokyo/en/discography/detail.php?id=1015732",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/1",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/12",
+              "https://cal.syoboi.jp/tid/4871/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.vap.co.jp/3dkanojo-anime/goods/music.html",
+              "https://www.bish.tokyo/en/discography/detail.php?id=1015732",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/1",
+              "https://www.mau2.com/anime/3dkanojorealgirl/ep/12",
+              "https://cal.syoboi.jp/tid/4871/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/en/discography/detail.php?id=1015732",
+              "https://cal.syoboi.jp/tid/4871/time"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/en/discography/detail.php?id=1015732"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/en/discography/detail.php?id=1015732"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "avcd-94076"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/en/discography/detail.php?id=1015732"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "avcd-94077"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/en/discography/detail.php?id=1015732"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "avcd-94078"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/discography/detail.php?id=1015916"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "3d-kanojo-real-girl-ed-1-song-yokohama"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/discography/detail.php?id=1015916"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "avxd-92703"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/discography/detail.php?id=1019806"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "avcd-63460-1"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/discography/detail.php?id=1019806"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "avcd-63462-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.bish.tokyo/discography/detail.php?id=1019806"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "avcd-63464-5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1367041193&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1367041193"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1367041193&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1367041194"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1385341760&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1385341760"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1385341760&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1385341765"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1692715228&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1692715228"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1692715228&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1692715396"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1367041193&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1367041193"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1367041193&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1367041194"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1385341760&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1385341760"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1385341760&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1385341765"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1692715228&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1692715228"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1692715228&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1692715396"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/bd75ba6f8ea79e823e31"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/bd75ba6f8ea79e823e31"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=JPxNUx8ie8w"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "JPxNUx8ie8w"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "title": "HiDE the BLUE",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "3d-kanojo-real-girl-ed-1-song-yokohama",
+            "title": "HiDE the BLUE（2018.05.22 横浜アリーナ）",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "avcd-94076",
+            "title": "Life is beautiful / HiDE the BLUE",
+            "artistDisplayName": "BiSH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "初回限定8cm CD＋Blu-ray",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "AVCD-94076/BC"
+          },
+          {
+            "id": "avcd-94077",
+            "title": "Life is beautiful / HiDE the BLUE",
+            "artistDisplayName": "BiSH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD盤",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "AVCD-94077/B"
+          },
+          {
+            "id": "avcd-94078",
+            "title": "Life is beautiful / HiDE the BLUE",
+            "artistDisplayName": "BiSH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "通常CD盤",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "AVCD-94078"
+          },
+          {
+            "id": "avxd-92703",
+            "title": "BiSH “TO THE END”",
+            "artistDisplayName": "BiSH",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "初回限定Blu-ray＋現場2CD",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE（2018.05.22 横浜アリーナ）",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-yokohama"
+              }
+            ],
+            "catalogNumber": "AVXD-92703/BC"
+          },
+          {
+            "id": "avcd-63460-1",
+            "title": "BiSH THE BEST",
+            "artistDisplayName": "BiSH",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-06-28",
+              "precision": "day"
+            },
+            "edition": "日本CD＋Blu-ray盤",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 2,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "AVCD-63460～1/B"
+          },
+          {
+            "id": "avcd-63462-3",
+            "title": "BiSH THE BEST",
+            "artistDisplayName": "BiSH",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-06-28",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD盤",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 2,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "AVCD-63462～3/B"
+          },
+          {
+            "id": "avcd-63464-5",
+            "title": "BiSH THE BEST",
+            "artistDisplayName": "BiSH",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-06-28",
+              "precision": "day"
+            },
+            "edition": "日本CD盤",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 2,
+                "position": 7,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "AVCD-63464～5"
+          },
+          {
+            "id": "apple-hk-1367041193",
+            "title": "HiDE the BLUE - Single",
+            "artistDisplayName": "BiSH",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-04-11",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1385341760",
+            "title": "Life is beautiful / HiDE the BLUE - Single",
+            "artistDisplayName": "BiSH",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-28",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1692715228",
+            "title": "BiSH THE BEST",
+            "artistDisplayName": "BiSH",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-06-28",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 2,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1367041193",
+            "title": "HiDE the BLUE - Single",
+            "artistDisplayName": "BiSH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-11",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1385341760",
+            "title": "Life is beautiful / HiDE the BLUE - Single",
+            "artistDisplayName": "BiSH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-28",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1692715228",
+            "title": "BiSH THE BEST",
+            "artistDisplayName": "BiSH",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-06-28",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "HiDE the BLUE",
+                "disc": 2,
+                "position": 2,
+                "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1367041194",
+            "label": "HiDE the BLUE｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "releaseId": "apple-hk-1367041193",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1385341765",
+            "label": "HiDE the BLUE｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "releaseId": "apple-hk-1385341760",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1692715396",
+            "label": "HiDE the BLUE｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "releaseId": "apple-hk-1692715228",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1367041194",
+            "label": "HiDE the BLUE｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "releaseId": "apple-jp-1367041193",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1385341765",
+            "label": "HiDE the BLUE｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "releaseId": "apple-jp-1385341760",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1692715396",
+            "label": "HiDE the BLUE｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "releaseId": "apple-jp-1692715228",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/bd75ba6f8ea79e823e31",
+            "region": "JP",
+            "label": "HiDE the BLUE｜日本曲目",
+            "recordingId": "3d-kanojo-real-girl-ed-1-song-vocal",
+            "availability": "unknown",
+            "linkType": "direct_track",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "lyrics",
+            "name": "beat mints boyz"
+          },
+          {
+            "role": "composition",
+            "name": "松隈ケンタ"
+          },
+          {
+            "role": "arrangement",
+            "name": "SCRAMBLES"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=JPxNUx8ie8w"
+      }
+    ],
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100526-the6isOYqR8S.jpg"
+  },
+  {
+    "id": "curated-100790",
+    "anilistId": 100790,
+    "slug": "oshiri-tantei",
+    "titleJa": "おしりたんてい",
+    "titleZhHant": "屁屁偵探",
+    "titleRomaji": "Oshiri Tantei",
+    "seasonIds": [
+      "2018-spring",
+      "2018-summer"
+    ],
+    "startDate": "2018-05-03",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "09:00",
+    "broadcastLabel": "NHK Eテレ在2018年5月3–5日09:00 JST連續三天首播第1–3話，7月14日起改為週六09:00，連續七週播第4–10話。",
+    "status": "finished",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "officialSiteUrl": "https://oshiri-tantei.com/",
+    "anilistUrl": "https://anilist.co/anime/100790",
+    "imageSourceUrl": "https://anilist.co/anime/100790",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100790-2fDgKG7PWaWD.jpg",
+    "sourceReferenceUrls": [
+      "https://oshiri-tantei.com/",
+      "https://anilist.co/anime/100790"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.poplar.co.jp/topics/44248.html",
+        "label": "原作出版社：NHK五月連播日期及首三話",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000019.000031579.html",
+        "label": "Poplar：暑期連播七週的開始日期及時段",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://corp.toei-anim.co.jp/ja/press/press-2630364728101456403.html",
+        "label": "東映：電視原播及12月常規編成",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://modappweb1.chtmod.tv/modweb/product/524557.do?cs=2",
+        "label": "中華電信MOD：正版繁中作品名稱",
+        "language": "zh-Hant",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.lanovelibrary.com/oshiri-tantei/",
+        "label": "日本分期及話數交叉資料",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "oshiri-tantei-op-1",
+        "songId": "oshiri-tantei-4-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ププッとフムッとかいけつダンス",
+        "artistDisplayName": "伊勢大貴",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "日本電視第1期（第1–10話）的常規片頭，分五月、七至八月首播。",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+            "label": "動畫製作方東映：片頭正式曲名、演唱及詞曲編",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-40382/",
+            "label": "日本古倫美亞：迷你專輯第1、2軌與八名兒童合唱者",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lanovelibrary.com/oshiri-tantei/",
+            "label": "日本分期及話數交叉資料",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.poplar.co.jp/topics/44248.html",
+            "label": "原作出版社：NHK五月連播日期及首三話",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000019.000031579.html",
+            "label": "Poplar：暑期連播七週的開始日期及時段",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/goods/dvd/cd01.html",
+            "label": "動畫官網：主題歌迷你專輯製作及曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-41245/",
+            "label": "日本古倫美亞：原聲帶第2軌演唱版",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-movie.com/shiriarty/modal/staff.html",
+            "label": "電影官網：長篇電影片尾改編名義",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/2025071101.html",
+            "label": "動畫官網：音頭改編者、主唱及配信公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song",
+            "label": "Apple 香港：正版數位曲目、曲序、可串流狀態",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song",
+            "label": "Apple 香港：正版數位曲目、曲序、可串流狀態",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/a15a93632a4d6e3ed217",
+            "label": "AWA：音頭錄音官方曲目",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_fhJiPPrjDg",
+            "label": "東映アニメーション公式YouTubeチャンネル：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=QQtADXMLz2Y",
+            "label": "Daiki Ise - Topic：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0JmetSDHV8k",
+            "label": "Daiki Ise - Topic：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nroWmm0qfoQ",
+            "label": "とうあにパーク【東映アニメーション公式キッズチャンネル】：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zlFYS-_aIQI",
+            "label": "東映映画チャンネル：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://www.lanovelibrary.com/oshiri-tantei/",
+              "https://www.poplar.co.jp/topics/44248.html",
+              "https://prtimes.jp/main/html/rd/p/000000019.000031579.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://oshiri-tantei.com/goods/dvd/cd01.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://columbia.jp/prod-info/COCX-41245/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-tantei.com/goods/dvd/cd01.html",
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-kids"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-movie.com/shiriarty/modal/staff.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-film"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-tantei.com/news/2025071101.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-ondo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://oshiri-tantei.com/goods/dvd/cd01.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "cocx-40382"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-41245/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "cocx-41245"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1557891252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1557891257"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1613843017"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1613843021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1317253827"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1317253832"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1443710491"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1443710492"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1557891252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1557891257"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1613843017"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1613843021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1826670393"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1826670394"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/a15a93632a4d6e3ed217"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/a15a93632a4d6e3ed217"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_fhJiPPrjDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "_fhJiPPrjDg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=QQtADXMLz2Y"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "QQtADXMLz2Y"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=0JmetSDHV8k"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "0JmetSDHV8k"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nroWmm0qfoQ"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "nroWmm0qfoQ"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=zlFYS-_aIQI"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zlFYS-_aIQI"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "伊勢大貴"
+          },
+          {
+            "role": "lyrics",
+            "name": "藤本記子"
+          },
+          {
+            "role": "composition",
+            "name": "小杉保夫"
+          },
+          {
+            "role": "arrangement",
+            "name": "高木洋"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1557891257",
+            "label": "ププッとフムッとかいけつダンス｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-hk-1557891252",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1613843021",
+            "label": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu)｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "oshiri-tantei-4-op-1-song-film",
+            "releaseId": "apple-hk-1613843017",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1317253832",
+            "label": "ププッとフムッとかいけつダンス｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-jp-1317253827",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1443710492",
+            "label": "ププッとフムッとかいけつダンス(カラオケ)｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-karaoke",
+            "releaseId": "apple-jp-1443710491",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1557891257",
+            "label": "ププッとフムッとかいけつダンス｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-jp-1557891252",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1613843021",
+            "label": "ププッとフムッとかいけつダンス (Produced by 福山雅治)｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-film",
+            "releaseId": "apple-jp-1613843017",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1826670394",
+            "label": "おしりたんてい音頭～ププッとフムッとかいけつダンス～｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-ondo",
+            "releaseId": "apple-jp-1826670393",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/a15a93632a4d6e3ed217",
+            "label": "おしりたんてい音頭｜日本曲目",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-ondo",
+            "availability": "unknown",
+            "linkType": "direct_track",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oshiri-tantei-4-op-1-song-original",
+            "title": "ププッとフムッとかいけつダンス",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-karaoke",
+            "title": "ププッとフムッとかいけつダンス（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-kids",
+            "title": "ププッとフムッとかいけつダンス ～こどもコーラスバージョン～",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "田口乙葉"
+              },
+              {
+                "role": "vocals",
+                "name": "後本萌葉"
+              },
+              {
+                "role": "vocals",
+                "name": "黒嵜菜々子"
+              },
+              {
+                "role": "vocals",
+                "name": "三浦瑚都"
+              },
+              {
+                "role": "vocals",
+                "name": "小泉柚奈"
+              },
+              {
+                "role": "vocals",
+                "name": "只野維織"
+              },
+              {
+                "role": "vocals",
+                "name": "山本幸輝"
+              },
+              {
+                "role": "vocals",
+                "name": "佐久間玲駈"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-film",
+            "title": "ププッとフムッとかいけつダンス（Produced by 福山雅治）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              },
+              {
+                "role": "arrangement",
+                "name": "福山雅治"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-ondo",
+            "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              },
+              {
+                "role": "arrangement",
+                "name": "長谷川智樹"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "cocx-40382",
+            "title": "おしりたんてい 主題歌ミニアルバム",
+            "artistDisplayName": "伊勢大貴ほか",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "日本迷你專輯CD",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              },
+              {
+                "title": "ププッとフムッとかいけつダンス ～こどもコーラスバージョン～",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-kids"
+              }
+            ],
+            "catalogNumber": "COCX-40382",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "cocx-41245",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶CD",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "COCX-41245",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "apple-hk-1557891252",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1613843017",
+            "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu) - Single",
+            "artistDisplayName": "Daiki Ise",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2022-03-18",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-film"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1317253827",
+            "title": "ププッとフムッとかいけつダンス - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2017-12-08",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1443710491",
+            "title": "ププッとフムッとかいけつダンス(カラオケ) - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス(カラオケ)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1557891252",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1613843017",
+            "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu) - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2022-03-18",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス (Produced by 福山雅治)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-film"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1826670393",
+            "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～ - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2025-07-19",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-ondo"
+              }
+            ]
+          }
+        ],
+        "versionLabel": "東映登記的電視片頭由伊勢大貴演唱、高木洋編曲。另收兒童合唱、伴奏、福山雅治為電影片尾改編的錄音，以及長谷川智樹改編的音頭。",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_links"
+            ],
+            "note": "香港原聲帶第2軌及福山雅治改編版已有可串流曲目。電視剪輯及迷你專輯兒童合唱的香港獨立曲目待核。",
+            "resumeWhen": "權利方具名發行TV尺寸，或香港平台公開兒童合唱的可播放曲目頁時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=_fhJiPPrjDg"
+      }
+    ]
+  },
 ];
 
 export const curated2018SpringAnimeIds = curated2018SpringSeeds.map(({ anilistId }) => anilistId);
