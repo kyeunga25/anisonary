@@ -137,9 +137,11 @@ export const curated2019FallThemeSources = Object.fromEntries(
   curated2019FallSeeds
     .filter((seed): seed is CuratedAnimeSeed => seed.anilistId !== undefined)
     .flatMap((seed) =>
-      seed.themes.filter((theme) => theme.type === "OP" || theme.type === "ED").map((theme) => [
-        `${seed.anilistId}:${theme.type}:${theme.sequence}`,
-        sourcesFor(seed, theme),
-      ]),
+      seed.themes
+        .filter((theme) => theme.sourceMode !== "explicit" && (theme.type === "OP" || theme.type === "ED"))
+        .map((theme) => [
+          `${seed.anilistId}:${theme.type}:${theme.sequence}`,
+          sourcesFor(seed, theme),
+        ]),
     ),
 ) satisfies CuratedThemeSourceOverrideMap;

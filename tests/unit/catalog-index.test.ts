@@ -170,8 +170,11 @@ it("rejects invalid routing metadata and corrupt routing files, then retries wit
   expect(() => parseSearchIndexManifest(JSON.stringify({ ...manifest, routing: { ...manifest.routing, bytes: MAX_SEARCH_INDEX_BYTES } }))).toThrow("Invalid search routing manifest");
   expect(() => decodeSearchRoutingBucket(first.content, first, chunks.length + 1)).toThrow("Invalid search routing bucket");
   const zeroed = JSON.parse(first.content);
+  expect(zeroed.version).toBe(2);
   const binary = Buffer.from(zeroed.data, "base64");
-  binary.fill(0, 4, 4 + Math.ceil(chunks.length / 8));
+  let firstBitmap = 0;
+  while (binary[firstBitmap++]! & 0x80) { /* Skip the dictionary size. */ }
+  binary.fill(0, firstBitmap, firstBitmap + Math.ceil(chunks.length / 8));
   zeroed.data = binary.toString("base64");
   expect(() => decodeSearchRoutingBucket(JSON.stringify(zeroed), first, chunks.length)).toThrow("Invalid search routing bucket");
   const sources = new Map([...chunks, ...routes].map((asset) => [`/search-index/${asset.digest}.json`, asset.content]));

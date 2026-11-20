@@ -82876,6 +82876,1692 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
     "themes": [],
     "themeAvailability": "pending_verification"
   },
+  {
+    "id": "curated-104307",
+    "anilistId": 104307,
+    "anilistUrl": "https://anilist.co/anime/104307",
+    "slug": "hi-score-girl-extra-stage",
+    "titleJa": "ハイスコアガール EXTRA STAGE",
+    "titleZhHant": "高分少女 EXTRA STAGE",
+    "titleRomaji": "Hi Score Girl: EXTRA STAGE",
+    "seasonIds": [
+      "2019-fall"
+    ],
+    "startDate": "2019-10-04",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "25:05",
+    "broadcastLabel": "J.C.STAFF製作。ROUND 13–15於2019年3月20日先上日本Netflix及推出BD／DVD。同年10月4、11、18日週五25:05 JST由TOKYO MX逐話日本TV首播。這三話獨立於ROUND 16起的第二季。",
+    "officialSiteUrl": "https://www.youtube.com/watch?v=x3103vxGNco",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://www.youtube.com/watch?v=x3103vxGNco",
+      "https://www.youtube.com/watch?v=_N-BnjZnJWk",
+      "https://www.netflix.com/hk/title/80997338"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.youtube.com/watch?v=x3103vxGNco",
+        "label": "Warner Bros. Japan Anime｜2019秋ROUND13–15日本電視初播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=_N-BnjZnJWk",
+        "label": "Warner Bros. Japan Anime｜ROUND13–15 Netflix、實體先行及兩首主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.netflix.com/hk/title/80997338",
+        "label": "Netflix香港｜授權繁中作品名及合法播放頁",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/4968/time",
+        "label": "しょぼいカレンダー｜2018首輪及2019追加三話原播時段、兩首主題與創作",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/104307",
+        "label": "AniList｜EXTRA STAGE獨立識別碼及TV初播補註",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://acg.gamer.com.tw/acgDetail.php?s=66489",
+        "label": "巴哈姆特動畫資料｜兩季及EXTRA STAGE集數與繁中譯名",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "themes": [
+      {
+        "id": "hi-score-girl-extra-stage-op-1",
+        "songId": "hi-score-girl-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "New Stranger",
+        "artistDisplayName": "sora tob sakana",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "2019秋日本TV EXTRA STAGE ROUND 13–15片頭。ROUND 15由2019年10月18日TV同期記錄及逐話曲表交叉核對。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "sora tob sakana"
+          },
+          {
+            "role": "lyrics",
+            "name": "照井順政"
+          },
+          {
+            "role": "composition",
+            "name": "照井順政"
+          },
+          {
+            "role": "arrangement",
+            "name": "照井順政"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://soratobsakana.tokyo/discography/single/index00110000.html",
+            "label": "sora tob sakana官網｜原單曲兩版品番、TV Size及More PicoPico Remix",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4968/time",
+            "label": "しょぼいカレンダー｜2018首輪及2019追加三話原播時段、兩首主題與創作",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://soratobsakana.tokyo/discography/album/index00210000.html",
+            "label": "sora tob sakana官網｜deep blue三版曲序與2019演出收錄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://soratobsakana.tokyo/news/index02160000.html",
+            "label": "sora tob sakana官網｜deep blue現體制重新錄音公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://soratobsakana.tokyo/discography/album/index00220000.html",
+            "label": "sora tob sakana官網｜deep blue伴奏專輯及限定版品番",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1403735280&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1802658751&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1802658751&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1802658751&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/62bGCrh41PEy1xoZ6U8t1n",
+            "label": "Spotify｜2018 Warner原唱正式曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=x3103vxGNco",
+            "label": "Warner Bros. Japan Anime｜2019秋ROUND13–15日本電視初播",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_N-BnjZnJWk",
+            "label": "Warner Bros. Japan Anime｜ROUND13–15 Netflix、實體先行及兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hiscoregirl",
+            "label": "日本逐話曲表｜ROUND1–15片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://perry-r.hatenablog.com/entry/2019/10/20/012453",
+            "label": "2019東京電視首播同期觀後記錄｜ROUND15片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Q2yMktQ6OUo",
+            "label": "sora tob sakana Official YouTube Channel｜sora tob sakana/New Stranger(Full)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html",
+              "https://cal.syoboi.jp/tid/4968/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html",
+              "https://cal.syoboi.jp/tid/4968/time"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "1000723083"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "1000723085"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-pico"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-pico"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00210000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00210000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00210000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gnca-1574"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00210000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gnca-1575"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00210000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gnca-1576"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/news/index02160000.html",
+              "https://soratobsakana.tokyo/discography/album/index00210000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00220000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00220000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://soratobsakana.tokyo/discography/album/index00220000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gnct-0024"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1403735280&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1403735280&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1403735280"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1403735280&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1403735282"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1802658751"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1802659051"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1802658751"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1802659051"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-op-1-song-deep-blue"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1802658751"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1802658751&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1802659051"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/62bGCrh41PEy1xoZ6U8t1n"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/62bGCrh41PEy1xoZ6U8t1n"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=x3103vxGNco",
+              "https://www.youtube.com/watch?v=_N-BnjZnJWk",
+              "https://www.mau2.com/anime/hiscoregirl",
+              "https://perry-r.hatenablog.com/entry/2019/10/20/012453"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-extra-stage-op-1"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Q2yMktQ6OUo",
+              "https://soratobsakana.tokyo/discography/single/index00110000.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "Q2yMktQ6OUo"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hi-score-girl-op-1-song-vocal",
+            "title": "New Stranger",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hi-score-girl-op-1-song-tv",
+            "title": "New Stranger-TV Size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "hi-score-girl-op-1-song-pico",
+            "title": "New Stranger-More PicoPico Remix-",
+            "kind": "remix",
+            "format": "full"
+          },
+          {
+            "id": "hi-score-girl-op-1-song-deep-blue",
+            "title": "New Stranger（2020再錄）",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hi-score-girl-op-1-song-deep-blue-inst",
+            "title": "New Stranger（deep blue Instrumental）",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "1000723083",
+            "title": "New Stranger",
+            "artistDisplayName": "sora tob sakana",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本歌手盤CD＋DVD",
+            "tracks": [
+              {
+                "title": "New Stranger",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "1000723083"
+          },
+          {
+            "id": "1000723085",
+            "title": "New Stranger",
+            "artistDisplayName": "sora tob sakana",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本通常盤CD",
+            "tracks": [
+              {
+                "title": "New Stranger",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-vocal"
+              },
+              {
+                "title": "New Stranger-TV Size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-tv"
+              },
+              {
+                "title": "New Stranger-More PicoPico Remix-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-pico"
+              }
+            ],
+            "catalogNumber": "1000723085"
+          },
+          {
+            "id": "gnca-1574",
+            "title": "deep blue",
+            "artistDisplayName": "sora tob sakana",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "edition": "日本初回BD附盤",
+            "tracks": [
+              {
+                "title": "New Stranger（2020再錄）",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-deep-blue"
+              }
+            ],
+            "catalogNumber": "GNCA-1574"
+          },
+          {
+            "id": "gnca-1575",
+            "title": "deep blue",
+            "artistDisplayName": "sora tob sakana",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "edition": "日本初回DVD附盤",
+            "tracks": [
+              {
+                "title": "New Stranger（2020再錄）",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-deep-blue"
+              }
+            ],
+            "catalogNumber": "GNCA-1575"
+          },
+          {
+            "id": "gnca-1576",
+            "title": "deep blue",
+            "artistDisplayName": "sora tob sakana",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "edition": "日本通常CD盤",
+            "tracks": [
+              {
+                "title": "New Stranger（2020再錄）",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-deep-blue"
+              }
+            ],
+            "catalogNumber": "GNCA-1576"
+          },
+          {
+            "id": "gnct-0024",
+            "title": "deep blue-Instrumental-",
+            "artistDisplayName": "sora tob sakana",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-08-10",
+              "precision": "day"
+            },
+            "edition": "日本EC限定伴奏CD",
+            "tracks": [
+              {
+                "title": "New Stranger（deep blue Instrumental）",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-deep-blue-inst"
+              }
+            ],
+            "catalogNumber": "GNCT-0024"
+          },
+          {
+            "id": "apple-jp-1403735280",
+            "title": "New Stranger - Single",
+            "artistDisplayName": "sora tob sakana",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "New Stranger",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1802658751",
+            "title": "deep blue",
+            "artistDisplayName": "sora tob sakana",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "New Stranger",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-deep-blue"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1802658751",
+            "title": "deep blue",
+            "artistDisplayName": "sora tob sakana",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "New Stranger",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-deep-blue"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1802658751",
+            "title": "deep blue",
+            "artistDisplayName": "sora tob sakana",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "New Stranger",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "hi-score-girl-op-1-song-deep-blue"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1403735282",
+            "label": "日本｜New Stranger",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-op-1-song-vocal",
+            "releaseId": "apple-jp-1403735280",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1802659051",
+            "label": "香港｜New Stranger",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-op-1-song-deep-blue",
+            "releaseId": "apple-hk-1802658751",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1802659051",
+            "label": "台灣｜New Stranger",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-op-1-song-deep-blue",
+            "releaseId": "apple-tw-1802658751",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1802659051",
+            "label": "日本｜New Stranger",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-op-1-song-deep-blue",
+            "releaseId": "apple-jp-1802658751",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/62bGCrh41PEy1xoZ6U8t1n",
+            "label": "Spotify｜New Stranger",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-op-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability"
+            ],
+            "note": "香港數位確認2020三人再錄。2018原錄音有日本Apple Music與Spotify曲目，TV Size及More PicoPico Remix見實體盤。",
+            "resumeWhen": "有新的授權香港逐曲入口時核對2018原唱、TV Size、混音與2020伴奏。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "hi-score-girl-extra-stage-ed-1",
+        "songId": "hi-score-girl-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "放課後ディストラクション",
+        "artistDisplayName": "やくしまるえつこ",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "2019秋日本TV EXTRA STAGE ROUND 13–15片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "やくしまるえつこ"
+          },
+          {
+            "role": "lyrics",
+            "name": "ティカ・α"
+          },
+          {
+            "role": "composition",
+            "name": "ティカ・α"
+          },
+          {
+            "role": "arrangement",
+            "name": "やくしまるえつこ"
+          },
+          {
+            "role": "arrangement",
+            "name": "山口元輝"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://yakushimaruetsuko.com/archives/3286/",
+            "label": "歌手官網｜原片尾CD及7吋唱片，原唱與混音曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://yakushimaruetsuko.com/archives/3716/",
+            "label": "歌手官網｜360度官方MV發布及原錄音作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4968/time",
+            "label": "しょぼいカレンダー｜2018首輪及2019追加三話原播時段、兩首主題與創作",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1429442761&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1429442761&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1429442761&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://linkco.re/uUCUt4Yx?lang=ja",
+            "label": "TuneCore Japan｜MIRAI Records原唱、混音製作和發行入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.qobuz.com/jp-ja/album/afterschooldi-e-stra-u-ction-yakushimaru-etsuko-/x365fwjx4bxub",
+            "label": "Qobuz日本｜MIRAI Records原唱和remix高解析曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=x3103vxGNco",
+            "label": "Warner Bros. Japan Anime｜2019秋ROUND13–15日本電視初播",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_N-BnjZnJWk",
+            "label": "Warner Bros. Japan Anime｜ROUND13–15 Netflix、實體先行及兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hiscoregirl",
+            "label": "日本逐話曲表｜ROUND1–15片頭片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6gu4L9jkl-k",
+            "label": "MIRAI records - 相対性理論 / やくしまるえつこ [Official]｜やくしまるえつこ『放課後ディストラクション』360°MV / Yakushimaru Etsuko - AfterSchoolDi(e)stra(u)ction",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/",
+              "https://yakushimaruetsuko.com/archives/3716/",
+              "https://cal.syoboi.jp/tid/4968/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/",
+              "https://yakushimaruetsuko.com/archives/3716/",
+              "https://cal.syoboi.jp/tid/4968/time"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "qamr-99999"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "qamr-99998"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1429442761"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1429442764"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1429442761"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1429442764"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1429442761"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1429442764"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-omajinai"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://yakushimaruetsuko.com/archives/3286/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-omajinai"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-omajinai"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1429442766"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-omajinai"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1429442766"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-omajinai"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1429442761&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1429442766"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/uUCUt4Yx?lang=ja"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-ed-1-song-omajinai"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/afterschooldi-e-stra-u-ction-yakushimaru-etsuko-/x365fwjx4bxub"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.qobuz.com/jp-ja/album/afterschooldi-e-stra-u-ction-yakushimaru-etsuko-/x365fwjx4bxub"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/afterschooldi-e-stra-u-ction-yakushimaru-etsuko-/x365fwjx4bxub",
+              "https://linkco.re/uUCUt4Yx?lang=ja"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.qobuz.com/jp-ja/album/afterschooldi-e-stra-u-ction-yakushimaru-etsuko-/x365fwjx4bxub"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=x3103vxGNco",
+              "https://www.youtube.com/watch?v=_N-BnjZnJWk",
+              "https://www.mau2.com/anime/hiscoregirl"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hi-score-girl-extra-stage-ed-1"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6gu4L9jkl-k",
+              "https://yakushimaruetsuko.com/archives/3716/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "6gu4L9jkl-k"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hi-score-girl-ed-1-song-vocal",
+            "title": "放課後ディストラクション",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hi-score-girl-ed-1-song-omajinai",
+            "title": "放課後ディストラクション［おまじない remix］",
+            "kind": "remix",
+            "format": "full",
+            "credits": [
+              {
+                "role": "other",
+                "name": "molt beats（山口元輝，remix）"
+              },
+              {
+                "role": "other",
+                "name": "やくしまるえつこ（製作）"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "qamr-99999",
+            "title": "放課後ディストラクション",
+            "artistDisplayName": "やくしまるえつこ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本CD單曲",
+            "tracks": [
+              {
+                "title": "放課後ディストラクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-vocal"
+              },
+              {
+                "title": "放課後ディストラクション［おまじない remix］",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-omajinai"
+              }
+            ],
+            "catalogNumber": "QAMR-99999"
+          },
+          {
+            "id": "qamr-99998",
+            "title": "放課後ディストラクション",
+            "artistDisplayName": "やくしまるえつこ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本7吋單曲（A面／B面）",
+            "tracks": [
+              {
+                "title": "放課後ディストラクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-vocal"
+              },
+              {
+                "title": "放課後ディストラクション［おまじない remix］",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-omajinai"
+              }
+            ],
+            "catalogNumber": "QAMR-99998"
+          },
+          {
+            "id": "apple-hk-1429442761",
+            "title": "放課後ディストラクション - Single",
+            "artistDisplayName": "Yakushimaru Etsuko",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "放課後ディストラクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-vocal"
+              },
+              {
+                "title": "放課後ディストラクション (おまじない remix)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-omajinai"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1429442761",
+            "title": "放課後ディストラクション - Single",
+            "artistDisplayName": "Yakushimaru Etsuko",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "放課後ディストラクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-vocal"
+              },
+              {
+                "title": "放課後ディストラクション (おまじない remix)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-omajinai"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1429442761",
+            "title": "放課後ディストラクション - Single",
+            "artistDisplayName": "やくしまるえつこ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "放課後ディストラクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-vocal"
+              },
+              {
+                "title": "放課後ディストラクション (おまじない remix)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hi-score-girl-ed-1-song-omajinai"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1429442764",
+            "label": "香港｜放課後ディストラクション",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-ed-1-song-vocal",
+            "releaseId": "apple-hk-1429442761",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1429442764",
+            "label": "台灣｜放課後ディストラクション",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-ed-1-song-vocal",
+            "releaseId": "apple-tw-1429442761",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1429442764",
+            "label": "日本｜放課後ディストラクション",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-ed-1-song-vocal",
+            "releaseId": "apple-jp-1429442761",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1429442766",
+            "label": "香港｜放課後ディストラクション (おまじない remix)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-ed-1-song-omajinai",
+            "releaseId": "apple-hk-1429442761",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1429442766",
+            "label": "台灣｜放課後ディストラクション (おまじない remix)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-ed-1-song-omajinai",
+            "releaseId": "apple-tw-1429442761",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1429442766",
+            "label": "日本｜放課後ディストラクション (おまじない remix)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "hi-score-girl-ed-1-song-omajinai",
+            "releaseId": "apple-jp-1429442761",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Qobuz",
+            "url": "https://www.qobuz.com/jp-ja/album/afterschooldi-e-stra-u-ction-yakushimaru-etsuko-/x365fwjx4bxub",
+            "label": "Qobuz｜放課後ディストラクション",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "hi-score-girl-ed-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "香港有原唱和molt beats混音，日本有Qobuz高解析。360度官方MV按影片形式記錄。",
+            "resumeWhen": "取得權利方逐話片尾剪輯音源或明示的獨立TV版後補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];
 
 export const curated2019FallAnimeIds = curated2019FallSeeds.map(curatedAnimeKey);

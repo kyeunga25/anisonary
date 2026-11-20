@@ -60720,6 +60720,6016 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
       }
     ]
   },
+  {
+    "id": "curated-21451",
+    "anilistId": 21451,
+    "anilistUrl": "https://anilist.co/anime/21451",
+    "slug": "full-metal-panic-invisible-victory",
+    "titleJa": "フルメタル・パニック！ Invisible Victory",
+    "titleRomaji": "Full Metal Panic! Invisible Victory",
+    "seasonIds": [
+      "2018-spring",
+      "2018-summer"
+    ],
+    "startDate": "2018-04-13",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "20:30",
+    "broadcastLabel": "XEBEC製作。AT-X於2018年4月13日至6月29日週五20:30 JST播第1–10話。第11、12話在7月18日週三19:00的AT-X一小時特別編成首播，TOKYO MX 7月20日19:00跟播。ABEMA春季日本最早串流通常週五23:00，第11、12話官網排7月20日22:00上架。",
+    "officialSiteUrl": "https://fullmeta-iv.com/",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://fullmeta-iv.com/",
+      "https://fullmeta-iv.com/onair/",
+      "https://fullmeta-iv.com/story/",
+      "https://abema.tv/channels/abema-anime/slots/CiZpgNQcmJcQa3",
+      "https://abema.tv/channels/abema-anime/slots/Ek5UdSd5b4dW4o"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://fullmeta-iv.com/",
+        "label": "FMP!4製作委員會｜日本TV作品官網",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://fullmeta-iv.com/onair/",
+        "label": "FMP!4｜春季通常編成、夏季第11–12話及串流",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://fullmeta-iv.com/story/",
+        "label": "動畫官網｜全12話分集與第12話資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://abema.tv/channels/abema-anime/slots/CiZpgNQcmJcQa3",
+        "label": "ABEMA｜日本第11、12話特別節目及補播資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://abema.tv/channels/abema-anime/slots/Ek5UdSd5b4dW4o",
+        "label": "ABEMA｜日本春季每週最早串流時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.mau2.com/anime/fullmetalpanic-4",
+        "label": "日本逐話曲表｜日英版片頭片尾及第8話例外",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/21451",
+        "label": "AniList｜日本TV作品識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "themes": [
+      {
+        "id": "full-metal-panic-invisible-victory-op-1",
+        "songId": "full-metal-panic-invisible-victory-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Even...if",
+        "artistDisplayName": "山田タマル",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第2–3話用日語，第6–7、9–12話用英語。第5話英語版移到片末。第1、4、8話無常規片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "山田タマル"
+          },
+          {
+            "role": "lyrics",
+            "name": "山田タマル"
+          },
+          {
+            "role": "composition",
+            "name": "山田タマル"
+          },
+          {
+            "role": "arrangement",
+            "name": "山下洋介"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fullmeta-iv.com/music/",
+            "label": "FMP!4｜歌曲、官方影片、全長與Anime Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lantis.jp/title/fullmetaiv/news_1649818801.html",
+            "label": "Lantis｜正版串流解禁與權利方曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/3254308",
+            "label": "OTOTOY｜Lantis原版主題曲高解析數位發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fullmeta-iv.com/story/",
+            "label": "動畫官網｜全12話分集與第12話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4",
+            "label": "日本逐話曲表｜日英版片頭片尾及第8話例外",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4/ep/5",
+            "label": "日本逐話曲表｜第5話英語片頭曲實際用在片末",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4/ep/12",
+            "label": "日本逐話曲表｜第12話片頭、片末及劇中使用",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91TV%2B%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF%21Invisible%2BVictory%2BOP/ED%E4%B8%BB%E9%A1%8C%E6%AD%8C%E9%9B%86%E3%80%8COperation%2BAble%E3%80%8D/pd/10391269/",
+            "label": "Gamers｜實體主題曲內頁發行資料及各語版署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=8dodd2HP6Gs",
+            "label": "KADOKAWAanime｜山田タマル / Even...if -Music Video-(『フルメタル・パニック！ Invisible Victory』OP主題歌)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lantis.jp/title/fullmetaiv/news_1649818801.html",
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://fullmeta-iv.com/story/",
+              "https://www.mau2.com/anime/fullmetalpanic-4",
+              "https://www.mau2.com/anime/fullmetalpanic-4/ep/5",
+              "https://www.mau2.com/anime/fullmetalpanic-4/ep/12"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91TV%2B%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF%21Invisible%2BVictory%2BOP/ED%E4%B8%BB%E9%A1%8C%E6%AD%8C%E9%9B%86%E3%80%8COperation%2BAble%E3%80%8D/pd/10391269/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15718"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15718"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856537090"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856537090"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856537090"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856537092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856537092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856537092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9631-9632"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771685"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771685"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771685"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771686"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771686"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771686"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://ototoy.jp/_/default/p/3254308"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=8dodd2HP6Gs",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "8dodd2HP6Gs"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "title": "Even...if",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-english",
+            "title": "Even...if (English Ver.)",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "title": "Even...if (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "title": "Even...if (English Ver.) (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "laca-15718",
+            "title": "Operation Able",
+            "artistDisplayName": "山田タマル",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "日本CD主題曲集",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ],
+            "catalogNumber": "LACA-15718"
+          },
+          {
+            "id": "apple-hk-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "Tamaru Yamada",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "Tamaru Yamada",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "山田タマル",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "laca-9631-9632",
+            "title": "THE POINT OF NO RETURN",
+            "artistDisplayName": "佐橋俊彦",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本2CD原聲帶",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) (Anime Size)",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ],
+            "catalogNumber": "LACA-9631/9632"
+          },
+          {
+            "id": "apple-hk-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) [Anime Size]",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) [Anime Size]",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "佐橋俊彦, 山田タマル & 茅原実里",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) [Anime Size]",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856537090",
+            "label": "香港｜Even...if",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "releaseId": "apple-hk-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856537090",
+            "label": "台灣｜Even...if",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "releaseId": "apple-tw-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856537090",
+            "label": "日本｜Even...if",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "releaseId": "apple-jp-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856537092",
+            "label": "香港｜Even...if (English Ver.)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-english",
+            "releaseId": "apple-hk-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856537092",
+            "label": "台灣｜Even...if (English Ver.)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-english",
+            "releaseId": "apple-tw-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856537092",
+            "label": "日本｜Even...if (English Ver.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-english",
+            "releaseId": "apple-jp-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771685",
+            "label": "香港｜Even...if (Anime Size)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771685",
+            "label": "台灣｜Even...if (Anime Size)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771685",
+            "label": "日本｜Even...if (Anime Size)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771686",
+            "label": "香港｜Even...if (English Ver.) [Anime Size]",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771686",
+            "label": "台灣｜Even...if (English Ver.) [Anime Size]",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771686",
+            "label": "日本｜Even...if (English Ver.) [Anime Size]",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/3254308",
+            "label": "OTOTOY｜Even...if",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "full-metal-panic-invisible-victory-ed-3",
+        "songId": "full-metal-panic-invisible-victory-op-1-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "Even...if",
+        "artistDisplayName": "山田タマル",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第5話片末用原片頭曲英語版本，沒有常規片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "山田タマル"
+          },
+          {
+            "role": "lyrics",
+            "name": "山田タマル"
+          },
+          {
+            "role": "composition",
+            "name": "山田タマル"
+          },
+          {
+            "role": "arrangement",
+            "name": "山下洋介"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fullmeta-iv.com/music/",
+            "label": "FMP!4｜歌曲、官方影片、全長與Anime Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lantis.jp/title/fullmetaiv/news_1649818801.html",
+            "label": "Lantis｜正版串流解禁與權利方曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/3254308",
+            "label": "OTOTOY｜Lantis原版主題曲高解析數位發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91TV%2B%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF%21Invisible%2BVictory%2BOP/ED%E4%B8%BB%E9%A1%8C%E6%AD%8C%E9%9B%86%E3%80%8COperation%2BAble%E3%80%8D/pd/10391269/",
+            "label": "Gamers｜實體主題曲內頁發行資料及各語版署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fullmeta-iv.com/story/",
+            "label": "動畫官網｜全12話分集與第12話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4",
+            "label": "日本逐話曲表｜日英版片頭片尾及第8話例外",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4/ep/5",
+            "label": "日本逐話曲表｜第5話英語片頭曲實際用在片末",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lantis.jp/title/fullmetaiv/news_1649818801.html",
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91TV%2B%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF%21Invisible%2BVictory%2BOP/ED%E4%B8%BB%E9%A1%8C%E6%AD%8C%E9%9B%86%E3%80%8COperation%2BAble%E3%80%8D/pd/10391269/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15718"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15718"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856537090"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856537090"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856537090"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856537092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856537092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856537092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9631-9632"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771685"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771685"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771685"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771686"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771686"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771686"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://ototoy.jp/_/default/p/3254308"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://fullmeta-iv.com/story/",
+              "https://www.mau2.com/anime/fullmetalpanic-4",
+              "https://www.mau2.com/anime/fullmetalpanic-4/ep/5"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-3"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "title": "Even...if",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-english",
+            "title": "Even...if (English Ver.)",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "title": "Even...if (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "title": "Even...if (English Ver.) (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "laca-15718",
+            "title": "Operation Able",
+            "artistDisplayName": "山田タマル",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "日本CD主題曲集",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ],
+            "catalogNumber": "LACA-15718"
+          },
+          {
+            "id": "apple-hk-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "Tamaru Yamada",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "Tamaru Yamada",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "山田タマル",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Even...if",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal"
+              },
+              {
+                "title": "Even...if (English Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "laca-9631-9632",
+            "title": "THE POINT OF NO RETURN",
+            "artistDisplayName": "佐橋俊彦",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本2CD原聲帶",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) (Anime Size)",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ],
+            "catalogNumber": "LACA-9631/9632"
+          },
+          {
+            "id": "apple-hk-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) [Anime Size]",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) [Anime Size]",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "佐橋俊彦, 山田タマル & 茅原実里",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Even...if (Anime Size)",
+                "position": 12,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv"
+              },
+              {
+                "title": "Even...if (English Ver.) [Anime Size]",
+                "position": 13,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856537090",
+            "label": "香港｜Even...if",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "releaseId": "apple-hk-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856537090",
+            "label": "台灣｜Even...if",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "releaseId": "apple-tw-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856537090",
+            "label": "日本｜Even...if",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "releaseId": "apple-jp-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856537092",
+            "label": "香港｜Even...if (English Ver.)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-english",
+            "releaseId": "apple-hk-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856537092",
+            "label": "台灣｜Even...if (English Ver.)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-english",
+            "releaseId": "apple-tw-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856537092",
+            "label": "日本｜Even...if (English Ver.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-english",
+            "releaseId": "apple-jp-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771685",
+            "label": "香港｜Even...if (Anime Size)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771685",
+            "label": "台灣｜Even...if (Anime Size)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771685",
+            "label": "日本｜Even...if (Anime Size)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771686",
+            "label": "香港｜Even...if (English Ver.) [Anime Size]",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771686",
+            "label": "台灣｜Even...if (English Ver.) [Anime Size]",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771686",
+            "label": "日本｜Even...if (English Ver.) [Anime Size]",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-tv-english",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/3254308",
+            "label": "OTOTOY｜Even...if",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "full-metal-panic-invisible-victory-op-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "full-metal-panic-invisible-victory-ed-1",
+        "songId": "full-metal-panic-invisible-victory-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "yes",
+        "artistDisplayName": "山田タマル",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第2–4話用日語版本，第6–7、9–11話用英語版本。第1、5、8、12話有片尾例外。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "山田タマル"
+          },
+          {
+            "role": "lyrics",
+            "name": "山田タマル"
+          },
+          {
+            "role": "composition",
+            "name": "山田タマル"
+          },
+          {
+            "role": "arrangement",
+            "name": "山本陽介"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fullmeta-iv.com/music/",
+            "label": "FMP!4｜歌曲、官方影片、全長與Anime Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lantis.jp/title/fullmetaiv/news_1649818801.html",
+            "label": "Lantis｜正版串流解禁與權利方曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/3254308",
+            "label": "OTOTOY｜Lantis原版主題曲高解析數位發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fullmeta-iv.com/story/",
+            "label": "動畫官網｜全12話分集與第12話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4",
+            "label": "日本逐話曲表｜日英版片頭片尾及第8話例外",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4/ep/5",
+            "label": "日本逐話曲表｜第5話英語片頭曲實際用在片末",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4/ep/12",
+            "label": "日本逐話曲表｜第12話片頭、片末及劇中使用",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91TV%2B%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF%21Invisible%2BVictory%2BOP/ED%E4%B8%BB%E9%A1%8C%E6%AD%8C%E9%9B%86%E3%80%8COperation%2BAble%E3%80%8D/pd/10391269/",
+            "label": "Gamers｜實體主題曲內頁發行資料及各語版署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lantis.jp/title/fullmetaiv/news_1649818801.html",
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://fullmeta-iv.com/story/",
+              "https://www.mau2.com/anime/fullmetalpanic-4",
+              "https://www.mau2.com/anime/fullmetalpanic-4/ep/5",
+              "https://www.mau2.com/anime/fullmetalpanic-4/ep/12"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91TV%2B%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF%21Invisible%2BVictory%2BOP/ED%E4%B8%BB%E9%A1%8C%E6%AD%8C%E9%9B%86%E3%80%8COperation%2BAble%E3%80%8D/pd/10391269/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15718"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15718"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856537093"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856537093"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856537089"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856537093"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856537094"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856537094"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856537089&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856537094"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9631-9632"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771691"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771691"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771691"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771692"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771692"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771692"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/3254308"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://ototoy.jp/_/default/p/3254308"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "full-metal-panic-invisible-victory-ed-1-song-vocal",
+            "title": "yes",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-ed-1-song-english",
+            "title": "yes (English Ver.)",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-ed-1-song-tv",
+            "title": "yes (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-ed-1-song-tv-english",
+            "title": "yes (English Ver.) (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "laca-15718",
+            "title": "Operation Able",
+            "artistDisplayName": "山田タマル",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "日本CD主題曲集",
+            "tracks": [
+              {
+                "title": "yes",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+              },
+              {
+                "title": "yes (English Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-english"
+              }
+            ],
+            "catalogNumber": "LACA-15718"
+          },
+          {
+            "id": "apple-hk-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "Tamaru Yamada",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "yes",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+              },
+              {
+                "title": "yes (English Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "Tamaru Yamada",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "yes",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+              },
+              {
+                "title": "yes (English Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856537089",
+            "title": "Operation Able",
+            "artistDisplayName": "山田タマル",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "yes",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal"
+              },
+              {
+                "title": "yes (English Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-english"
+              }
+            ]
+          },
+          {
+            "id": "laca-9631-9632",
+            "title": "THE POINT OF NO RETURN",
+            "artistDisplayName": "佐橋俊彦",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本2CD原聲帶",
+            "tracks": [
+              {
+                "title": "yes (Anime Size)",
+                "position": 16,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+              },
+              {
+                "title": "yes (English Ver.) (Anime Size)",
+                "position": 17,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+              }
+            ],
+            "catalogNumber": "LACA-9631/9632"
+          },
+          {
+            "id": "apple-hk-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "yes (Anime Size)",
+                "position": 16,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+              },
+              {
+                "title": "yes (English Ver.) [Anime Size]",
+                "position": 17,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "yes (Anime Size)",
+                "position": 16,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+              },
+              {
+                "title": "yes (English Ver.) [Anime Size]",
+                "position": 17,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "佐橋俊彦, 山田タマル & 茅原実里",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "yes (Anime Size)",
+                "position": 16,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv"
+              },
+              {
+                "title": "yes (English Ver.) [Anime Size]",
+                "position": 17,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv-english"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856537093",
+            "label": "香港｜yes",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal",
+            "releaseId": "apple-hk-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856537093",
+            "label": "台灣｜yes",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal",
+            "releaseId": "apple-tw-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856537093",
+            "label": "日本｜yes",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal",
+            "releaseId": "apple-jp-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856537094",
+            "label": "香港｜yes (English Ver.)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-english",
+            "releaseId": "apple-hk-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856537094",
+            "label": "台灣｜yes (English Ver.)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-english",
+            "releaseId": "apple-tw-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856537094",
+            "label": "日本｜yes (English Ver.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-english",
+            "releaseId": "apple-jp-1856537089",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771691",
+            "label": "香港｜yes (Anime Size)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771691",
+            "label": "台灣｜yes (Anime Size)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771691",
+            "label": "日本｜yes (Anime Size)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771692",
+            "label": "香港｜yes (English Ver.) [Anime Size]",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv-english",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771692",
+            "label": "台灣｜yes (English Ver.) [Anime Size]",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv-english",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771692",
+            "label": "日本｜yes (English Ver.) [Anime Size]",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-tv-english",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/3254308",
+            "label": "OTOTOY｜yes",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "full-metal-panic-invisible-victory-ed-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement"
+            ],
+            "note": "日語編曲為山本陽介。動畫官網與日本唱片零售曲目對英語版編曲署名不同。",
+            "resumeWhen": "取得LACA-15718內頁或唱片方針對英語版發布的正式訂正再補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "full-metal-panic-invisible-victory-ed-2",
+        "songId": "full-metal-panic-invisible-victory-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Remained dream",
+        "artistDisplayName": "茅原実里",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第8話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "茅原実里"
+          },
+          {
+            "role": "lyrics",
+            "name": "畑亜貴"
+          },
+          {
+            "role": "composition",
+            "name": "菊田大介"
+          },
+          {
+            "role": "arrangement",
+            "name": "菊田大介"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fullmeta-iv.com/music/",
+            "label": "FMP!4｜歌曲、官方影片、全長與Anime Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lisani.jp/0000106652/?show_more=1",
+            "label": "茅原実里同期訪談｜第8話兩首曲實際位置",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4",
+            "label": "日本逐話曲表｜日英版片頭片尾及第8話例外",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=faGLA3FkV5I",
+            "label": "Lantis Channel｜茅原実里「Remained dream」MV Short Size/TVアニメ『フルメタル・パニック！IV』スペシャルED主題歌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lisani.jp/0000106652/?show_more=1"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lisani.jp/0000106652/?show_more=1",
+              "https://www.mau2.com/anime/fullmetalpanic-4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lisani.jp/0000106652/?show_more=1"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14766"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1388186711"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/remained-dream/1388186711?i=1388186713&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-off"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-off"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9631-9632"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771689"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771689"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771689"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=faGLA3FkV5I",
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "faGLA3FkV5I"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "full-metal-panic-invisible-victory-ed-2-song-vocal",
+            "title": "Remained dream",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-ed-2-song-off",
+            "title": "Remained dream (off vocal)",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-ed-2-song-tv",
+            "title": "Remained dream (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14766",
+            "title": "Remained dream / Hopeful “SOUL”",
+            "artistDisplayName": "茅原実里",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD單曲",
+            "tracks": [
+              {
+                "title": "Remained dream",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-2-song-vocal"
+              },
+              {
+                "title": "Remained dream (off vocal)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-2-song-off"
+              }
+            ],
+            "catalogNumber": "LACM-14766"
+          },
+          {
+            "id": "apple-jp-1388186711",
+            "title": "Remained dream - Single",
+            "artistDisplayName": "茅原実里",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Remained dream",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "laca-9631-9632",
+            "title": "THE POINT OF NO RETURN",
+            "artistDisplayName": "佐橋俊彦",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本2CD原聲帶",
+            "tracks": [
+              {
+                "title": "Remained dream (Anime Size)",
+                "position": 14,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-9631/9632"
+          },
+          {
+            "id": "apple-hk-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Remained dream (Anime Size)",
+                "position": 14,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Remained dream (Anime Size)",
+                "position": 14,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "佐橋俊彦, 山田タマル & 茅原実里",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Remained dream (Anime Size)",
+                "position": 14,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-ed-2-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/remained-dream/1388186711?i=1388186713&app=itunes",
+            "label": "日本｜Remained dream",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "full-metal-panic-invisible-victory-ed-2-song-vocal",
+            "releaseId": "apple-jp-1388186711",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771689",
+            "label": "香港｜Remained dream (Anime Size)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-2-song-tv",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771689",
+            "label": "台灣｜Remained dream (Anime Size)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-2-song-tv",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771689",
+            "label": "日本｜Remained dream (Anime Size)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-ed-2-song-tv",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability"
+            ],
+            "note": "香港已核原聲帶Anime Size。日本原單曲另有全長及伴奏。",
+            "resumeWhen": "香港正式上架該單曲全長與伴奏時補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "full-metal-panic-invisible-victory-in-1",
+        "songId": "full-metal-panic-invisible-victory-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Hopeful “SOUL”",
+        "artistDisplayName": "茅原実里",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第8話劇中曲，在ナミ事件後的戰鬥場景播放。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "茅原実里"
+          },
+          {
+            "role": "lyrics",
+            "name": "畑亜貴"
+          },
+          {
+            "role": "composition",
+            "name": "菊田大介"
+          },
+          {
+            "role": "arrangement",
+            "name": "菊田大介"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fullmeta-iv.com/music/",
+            "label": "FMP!4｜歌曲、官方影片、全長與Anime Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lisani.jp/0000106652/?show_more=1",
+            "label": "茅原実里同期訪談｜第8話兩首曲實際位置",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4",
+            "label": "日本逐話曲表｜日英版片頭片尾及第8話例外",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lisani.jp/0000106652/?show_more=1"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lisani.jp/0000106652/?show_more=1",
+              "https://www.mau2.com/anime/fullmetalpanic-4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/",
+              "https://www.lisani.jp/0000106652/?show_more=1"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14766"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1388186711"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1388186711&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/hopeful-soul/1388186711?i=1388186714&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-off"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-off"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9631-9632"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1856771690"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1856771690"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1856771103"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1856771103&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1856771690"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "full-metal-panic-invisible-victory-in-1-song-vocal",
+            "title": "Hopeful “SOUL”",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-in-1-song-off",
+            "title": "Hopeful “SOUL” (off vocal)",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-in-1-song-tv",
+            "title": "Hopeful “SOUL” (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14766",
+            "title": "Remained dream / Hopeful “SOUL”",
+            "artistDisplayName": "茅原実里",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD單曲",
+            "tracks": [
+              {
+                "title": "Hopeful “SOUL”",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-1-song-vocal"
+              },
+              {
+                "title": "Hopeful “SOUL” (off vocal)",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-1-song-off"
+              }
+            ],
+            "catalogNumber": "LACM-14766"
+          },
+          {
+            "id": "apple-jp-1388186711",
+            "title": "Remained dream - Single",
+            "artistDisplayName": "茅原実里",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Hopeful \"SOUL\"",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "laca-9631-9632",
+            "title": "THE POINT OF NO RETURN",
+            "artistDisplayName": "佐橋俊彦",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本2CD原聲帶",
+            "tracks": [
+              {
+                "title": "Hopeful “SOUL” (Anime Size)",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-1-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-9631/9632"
+          },
+          {
+            "id": "apple-hk-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Hopeful \"SOUL\" (Anime Size)",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "Toshihiko Sahashi, Tamaru Yamada & Minori Chihara",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Hopeful \"SOUL\" (Anime Size)",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1856771103",
+            "title": "TVアニメ『フルメタル・パニック!Invisible Victory』オリジナル・サウンドトラック「THE POINT OF NO RETURN」",
+            "artistDisplayName": "佐橋俊彦, 山田タマル & 茅原実里",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Hopeful \"SOUL\" (Anime Size)",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-1-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/hopeful-soul/1388186711?i=1388186714&app=itunes",
+            "label": "日本｜Hopeful \"SOUL\"",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "full-metal-panic-invisible-victory-in-1-song-vocal",
+            "releaseId": "apple-jp-1388186711",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1856771690",
+            "label": "香港｜Hopeful \"SOUL\" (Anime Size)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-1-song-tv",
+            "releaseId": "apple-hk-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1856771690",
+            "label": "台灣｜Hopeful \"SOUL\" (Anime Size)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-1-song-tv",
+            "releaseId": "apple-tw-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1856771690",
+            "label": "日本｜Hopeful \"SOUL\" (Anime Size)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-1-song-tv",
+            "releaseId": "apple-jp-1856771103",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability"
+            ],
+            "note": "香港已核原聲帶Anime Size。日本原單曲另有全長及伴奏。",
+            "resumeWhen": "香港正式上架該單曲全長與伴奏時補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "full-metal-panic-invisible-victory-in-2",
+        "songId": "full-metal-panic-invisible-victory-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "tomorrow",
+        "artistDisplayName": "下川みくに",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第12話沿用2002年首部電視動畫的歌曲。 同期記錄可確認劇中曲。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "下川みくに"
+          },
+          {
+            "role": "lyrics",
+            "name": "下川みくに"
+          },
+          {
+            "role": "composition",
+            "name": "下川みくに"
+          },
+          {
+            "role": "arrangement",
+            "name": "ab:fly"
+          },
+          {
+            "role": "arrangement",
+            "name": "中山信彦"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000002595",
+            "label": "Pony Canyon｜Reprise兩首原唱第2碟曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://tower.jp/item/778819",
+            "label": "Tower Records｜Pony Canyon原唱與伴奏實體曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=m2Fu2ixIuOw",
+            "label": "Mikuni Shimokawa - Topic｜Tomorrow",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fullmeta-iv.com/onair/",
+            "label": "FMP!4｜春季通常編成、夏季第11–12話及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fullmeta-iv.com/story/",
+            "label": "動畫官網｜全12話分集與第12話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4/ep/12",
+            "label": "日本逐話曲表｜第12話片頭、片末及劇中使用",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://bgm.tv/ep/785206",
+            "label": "Bangumi｜第12話首播及同期歌曲記錄",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://takaoadventure.blog98.fc2.com/blog-entry-6445.html",
+            "label": "日本原播同期記錄｜末話下川みくに兩首歌",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cd100.net/cdtv/20020309.html?f=all&firstdate=20020309&top=singer+DESC",
+            "label": "同期榜單資料｜tomorrow詞曲編",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.neowing.co.jp/product/PCCA-1644",
+            "label": "Neowing｜Pony Canyon首版唱片曲序及發行商",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595",
+              "https://tower.jp/item/778819",
+              "https://www.youtube.com/watch?v=m2Fu2ixIuOw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/onair/",
+              "https://fullmeta-iv.com/story/",
+              "https://www.mau2.com/anime/fullmetalpanic-4/ep/12",
+              "https://bgm.tv/ep/785206",
+              "https://takaoadventure.blog98.fc2.com/blog-entry-6445.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cd100.net/cdtv/20020309.html?f=all&firstdate=20020309&top=singer+DESC",
+              "https://www.neowing.co.jp/product/PCCA-1644",
+              "https://www.youtube.com/watch?v=m2Fu2ixIuOw"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-02595"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-269530352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/269532775"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-269530352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/269532775"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-269530352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/269532775"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-267293626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/267293635"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-267293626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/267293635"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-267293626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/267293635"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=m2Fu2ixIuOw",
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "m2Fu2ixIuOw"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "full-metal-panic-invisible-victory-in-2-song-vocal",
+            "title": "tomorrow",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-02595",
+            "title": "Reprise～下川みくにアニソンベスト～",
+            "artistDisplayName": "下川みくに",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "日本2CD精選盤",
+            "tracks": [
+              {
+                "title": "tomorrow",
+                "position": 2,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-02595"
+          },
+          {
+            "id": "apple-hk-269530352",
+            "title": "Reprise ~下川みくにアニソンベスト~",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "tomorrow",
+                "position": 2,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-269530352",
+            "title": "Reprise ~下川みくにアニソンベスト~",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "tomorrow",
+                "position": 2,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-269530352",
+            "title": "Reprise ~下川みくにアニソンベスト~",
+            "artistDisplayName": "下川みくに",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "tomorrow",
+                "position": 2,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-267293626",
+            "title": "Tomorrow - Single",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "single",
+            "region": "HK",
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Tomorrow",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-267293626",
+            "title": "Tomorrow - Single",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "single",
+            "region": "TW",
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Tomorrow",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-267293626",
+            "title": "Tomorrow - Single",
+            "artistDisplayName": "下川みくに",
+            "type": "single",
+            "region": "JP",
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "tomorrow",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/269532775",
+            "label": "香港｜tomorrow",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal",
+            "releaseId": "apple-hk-269530352",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/269532775",
+            "label": "台灣｜tomorrow",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal",
+            "releaseId": "apple-tw-269530352",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/269532775",
+            "label": "日本｜tomorrow",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal",
+            "releaseId": "apple-jp-269530352",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/267293635",
+            "label": "香港｜Tomorrow",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal",
+            "releaseId": "apple-hk-267293626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/267293635",
+            "label": "台灣｜Tomorrow",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal",
+            "releaseId": "apple-tw-267293626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/267293635",
+            "label": "日本｜tomorrow",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-2-song-vocal",
+            "releaseId": "apple-jp-267293626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "basic_evidence"
+            ],
+            "note": "可確認第12話出現兩首原作歌曲，原CD和香港原唱有來源。逐話曲表與同期記錄對末段標示有出入。",
+            "resumeWhen": "取得AT-X原播第12話或可核播出版本與片尾掛字，對照兩曲位置及剪輯。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "full-metal-panic-invisible-victory-in-3",
+        "songId": "full-metal-panic-invisible-victory-in-3-song",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "枯れない花",
+        "artistDisplayName": "下川みくに",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第12話沿用2002年首部電視動畫的歌曲。 同期記錄可確認在末段使用，播出版正式片尾標示待對照。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "下川みくに"
+          },
+          {
+            "role": "lyrics",
+            "name": "小林夏海"
+          },
+          {
+            "role": "composition",
+            "name": "ab:fly"
+          },
+          {
+            "role": "arrangement",
+            "name": "ab:fly"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000002595",
+            "label": "Pony Canyon｜Reprise兩首原唱第2碟曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://tower.jp/item/778819",
+            "label": "Tower Records｜Pony Canyon原唱與伴奏實體曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=pKChAayL2iQ",
+            "label": "Mikuni Shimokawa - Topic｜枯れない花",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fullmeta-iv.com/onair/",
+            "label": "FMP!4｜春季通常編成、夏季第11–12話及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fullmeta-iv.com/story/",
+            "label": "動畫官網｜全12話分集與第12話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fullmetalpanic-4/ep/12",
+            "label": "日本逐話曲表｜第12話片頭、片末及劇中使用",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://bgm.tv/ep/785206",
+            "label": "Bangumi｜第12話首播及同期歌曲記錄",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://takaoadventure.blog98.fc2.com/blog-entry-6445.html",
+            "label": "日本原播同期記錄｜末話下川みくに兩首歌",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://musicbrainz.org/release/8672f1d9-a3da-44cb-a7f5-e85f74951a30",
+            "label": "MusicBrainz｜初版下川みくに錄音詞曲編署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/5a86ae955f8ba1c8f114",
+            "label": "AWA｜日本伴奏曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595",
+              "https://tower.jp/item/778819",
+              "https://www.youtube.com/watch?v=pKChAayL2iQ"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fullmeta-iv.com/onair/",
+              "https://fullmeta-iv.com/story/",
+              "https://www.mau2.com/anime/fullmetalpanic-4/ep/12",
+              "https://bgm.tv/ep/785206",
+              "https://takaoadventure.blog98.fc2.com/blog-entry-6445.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://musicbrainz.org/release/8672f1d9-a3da-44cb-a7f5-e85f74951a30",
+              "https://tower.jp/item/778819",
+              "https://www.youtube.com/watch?v=pKChAayL2iQ"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-02595"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-269530352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/269532920"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-269530352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/269532920"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-269530352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=269530352&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/269532920"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-267293626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/267293674"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-267293626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/267293674"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-267293626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=267293626&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/267293674"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=pKChAayL2iQ",
+              "https://www.ponycanyon.co.jp/music/PCCA000002595"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pKChAayL2iQ"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/5a86ae955f8ba1c8f114"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/5a86ae955f8ba1c8f114"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "full-metal-panic-invisible-victory-in-3-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/5a86ae955f8ba1c8f114"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/5a86ae955f8ba1c8f114"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "full-metal-panic-invisible-victory-in-3-song-vocal",
+            "title": "枯れない花",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "full-metal-panic-invisible-victory-in-3-song-inst",
+            "title": "枯れない花 -instrumental-",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-02595",
+            "title": "Reprise～下川みくにアニソンベスト～",
+            "artistDisplayName": "下川みくに",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "日本2CD精選盤",
+            "tracks": [
+              {
+                "title": "枯れない花",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+              }
+            ],
+            "catalogNumber": "PCCA-02595"
+          },
+          {
+            "id": "apple-hk-269530352",
+            "title": "Reprise ~下川みくにアニソンベスト~",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "枯れない花",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-269530352",
+            "title": "Reprise ~下川みくにアニソンベスト~",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "枯れない花",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-269530352",
+            "title": "Reprise ~下川みくにアニソンベスト~",
+            "artistDisplayName": "下川みくに",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2007-12-19",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "枯れない花",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-267293626",
+            "title": "Tomorrow - Single",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "single",
+            "region": "HK",
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "枯れない花",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-267293626",
+            "title": "Tomorrow - Single",
+            "artistDisplayName": "Mikuni Shimokawa",
+            "type": "single",
+            "region": "TW",
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "枯れない花",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-267293626",
+            "title": "Tomorrow - Single",
+            "artistDisplayName": "下川みくに",
+            "type": "single",
+            "region": "JP",
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "枯れない花",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/269532920",
+            "label": "香港｜枯れない花",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal",
+            "releaseId": "apple-hk-269530352",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/269532920",
+            "label": "台灣｜枯れない花",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal",
+            "releaseId": "apple-tw-269530352",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/269532920",
+            "label": "日本｜枯れない花",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal",
+            "releaseId": "apple-jp-269530352",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/267293674",
+            "label": "香港｜枯れない花",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal",
+            "releaseId": "apple-hk-267293626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/267293674",
+            "label": "台灣｜枯れない花",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal",
+            "releaseId": "apple-tw-267293626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/267293674",
+            "label": "日本｜枯れない花",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-3-song-vocal",
+            "releaseId": "apple-jp-267293626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/5a86ae955f8ba1c8f114",
+            "label": "AWA｜枯れない花",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "full-metal-panic-invisible-victory-in-3-song-inst",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "basic_evidence"
+            ],
+            "note": "可確認第12話出現兩首原作歌曲，原CD和香港原唱有來源。逐話曲表與同期記錄對末段標示有出入。",
+            "resumeWhen": "取得AT-X原播第12話或可核播出版本與片尾掛字，對照兩曲位置及剪輯。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];
 
 export const curated2018SpringAnimeIds = curated2018SpringSeeds.map(({ anilistId }) => anilistId);

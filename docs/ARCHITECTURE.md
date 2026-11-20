@@ -93,7 +93,7 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 - 年份／季度與字詞的候選分片取交集，順序保持不變。若只剩一片或適用分片已全部在頁面快取，直接沿用該索引；空字詞完整瀏覽及 OP／ED／theme 等廣泛查詢可載入全部適用分片。路由判定沒有候選時不請求索引；錯誤則顯示重試，不將錯誤視作沒有結果。
 - 成功結果保存在頁面記憶體及標準 HTTP cache，索引與路由跨頁共用相同內容網址，不另建 Cache Storage 或私人儲存層。路由與索引共用同一個最多 4 請求的佇列，重試及連續搜尋也不超出上限。
 - 分片傳輸使用精簡 JSON，build 逐片還原並比較完整原始索引字串。前綴只重建固定 ASCII 轉換，其他 Unicode 正規化與文字差異保留 literal，還原不依賴瀏覽器語系。
-- manifest v3 同時記錄索引傳輸、還原大小及路由清單。每份索引／路由 JSON 及還原索引分片各受 256 KiB gate；索引加路由的傳輸合計、還原完整索引各自受原有 8 MiB gate，頁內清單仍不超過 64 KiB。v2 索引傳輸內容不變；decoder 在組合字串與季度引用時扣除展開預算，完成後再核對原始大小。路由同樣核對 SHA-256、完整 byte length、格式版本、排序、membership 範圍與非空記錄，build 逐項比對還原 membership。不更改 API v1 或歌曲資料契約。
+- manifest v3 同時記錄索引傳輸、還原大小及路由清單。每份索引／路由 JSON 及還原索引分片各受 256 KiB gate；索引加路由的傳輸合計、還原完整索引各自受原有 8 MiB gate，頁內清單仍不超過 64 KiB。v2 索引傳輸內容不變；decoder 在組合字串與季度引用時扣除展開預算，完成後再核對原始大小。路由 bucket 可使用排序鍵差值與共用 membership 字典壓縮，瀏覽器和公開產物檢查共用解碼與驗證。路由同樣核對 SHA-256、完整 byte length、格式版本、排序、membership 範圍與非空記錄，build 逐項比對還原 membership。不更改 API v1 或歌曲資料契約。
 - 搜尋字詞不放入 URL、request body、analytics 或 storage。分片只接受同源固定格式網址，忽略 redirect，不傳 cookie／referrer；每片有 10 秒逾時、byte budget 與 SHA-256 驗證，失敗不顯示殘缺搜尋結果，提供重試及原生季度連結。
 - 年份、季度與動畫頁以相同的可見導覽產生 `BreadcrumbList` microdata；作品與歌曲內容保留在靜態 HTML，搜尋引擎不依賴篩選操作才發現資料。
 - Service Worker 只 precache `/offline/`、`/_astro/`、favicon 與 manifest，合計不超過 512 KiB；線上導航優先網絡，斷線才顯示提示。新版本移除本產品舊離線 cache，不預載歌曲頁、不建立 runtime cache entry，不保存 `/api/` JSON、query string 或第三方媒體。

@@ -108,7 +108,10 @@ if (artifactRoot) {
 let scanned = 0;
 
 // Only generated numeric routing payloads can be excluded from text matching.
-// Keep this self-contained: backup fixtures copy this checker without imports.
+// Source-only scans and backup fixtures do not need the artifact decoder.
+const decodeRoutingData = artifactRoot
+  ? (await import("../src/utils/catalog-search-routing-wire.mjs")).decodeRoutingData
+  : undefined;
 const routingPaths = new Map();
 const verifiedRoutingPaths = new Set();
 let routingManifestValid = false;
@@ -174,22 +177,10 @@ function routingMetadata(file, bytes, text) {
     && ["data", "chunks", "bucket"].some((key) => Object.hasOwn(value, key)))
     && !/"data"\s*:/u.test(text)) return undefined;
   try {
-    if (!routingManifestValid || !descriptor || !exactKeys(value, ["version", "chunks", "bucket", "data"])
-      || value.version !== 1 || value.chunks !== descriptor.chunks || value.bucket !== descriptor.bucket
-      || typeof value.data !== "string" || !/^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/u.test(value.data)
+    if (!routingManifestValid || !descriptor || !decodeRoutingData
       || text !== JSON.stringify(value) || bytes.length !== descriptor.bytes
       || createHash("sha256").update(bytes).digest("hex") !== chunkPath.exec(url)[1]) throw new Error();
-    const data = Buffer.from(value.data, "base64");
-    const stride = 4 + Math.ceil(value.chunks / 8);
-    if (data.toString("base64") !== value.data || data.length !== descriptor.records * stride) throw new Error();
-    let previous = -1;
-    for (let offset = 0; offset < data.length; offset += stride) {
-      const feature = data.readUInt32LE(offset);
-      const memberships = data.subarray(offset + 4, offset + stride);
-      if (feature <= previous || feature % 64 !== value.bucket || !memberships.some(Boolean)
-        || (value.chunks % 8 && memberships.at(-1) >>> (value.chunks % 8))) throw new Error();
-      previous = feature;
-    }
+    decodeRoutingData(value, descriptor, 256 * 1024);
     verifiedRoutingPaths.add(url);
     return JSON.stringify({ ...value, data: "" });
   } catch {
