@@ -141,4 +141,50 @@ export const curated2018FallThemeVideos = {
   "100182:IN:1": [{"youtubeVideoId": "Eppci-N4UOs", "type": "art_track", "title": "Longing", "channelName": "Sayaka Kanda - Topic", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
   "100182:IN:2": [{"youtubeVideoId": "U6LRQGeTQYk", "type": "art_track", "title": "虹の彼方に - From THE FIRST TAKE", "channelName": "reona - Topic", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
   "100182:ED:3": [{"youtubeVideoId": "U6LRQGeTQYk", "type": "art_track", "title": "虹の彼方に - From THE FIRST TAKE", "channelName": "reona - Topic", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "101024:OP:1": [
+    {
+      "youtubeVideoId": "dkPE8EDBFAw",
+      "type": "art_track",
+      "title": "Utopia",
+      "channelName": "04 Limited Sazabys - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "radiant-op-1-song-original"
+    }
+  ],
+  "101024:ED:1": [
+    {
+      "youtubeVideoId": "cMEexfyOwtQ",
+      "type": "art_track",
+      "title": "Radiant",
+      "channelName": "Polkadot Stingray - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "radiant-ed-1-song-original"
+    }
+  ],
+  "102927:OP:1": [
+    {
+      "youtubeVideoId": "6xQPjNeevoE",
+      "type": "art_track",
+      "title": "Bakutsuri Soul",
+      "channelName": "SymaG - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bakutsuri-bar-hunter-op-1-song-original"
+    },
+    {
+      "youtubeVideoId": "uVWB2Ju3FbQ",
+      "type": "art_track",
+      "title": "Bakutsuri Soul",
+      "channelName": "SymaG - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bakutsuri-bar-hunter-op-1-song-original"
+    }
+  ],
 } satisfies CuratedThemeVideoOverrideMap;
