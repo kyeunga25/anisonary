@@ -241,4 +241,5 @@ export const curated2018FallThemeVideos = {
   "101291:OP:1": [{"youtubeVideoId": "0vcyIgLvPAo", "type": "music_video", "title": "the peggies / 君のせい Music Video", "channelName": "the peggies", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
   "101291:ED:1": [{"youtubeVideoId": "fCh-gIxIUFs", "type": "other", "title": "「不可思議のカルテ」試聴動画（TVアニメ「青春ブタ野郎はバニーガール先輩の夢を見ない」エンディングテーマ）", "channelName": "アニプレックス チャンネル", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
   "101291:IN:1": [{"youtubeVideoId": "jgmsFuwFdOs", "type": "music_video", "title": "the peggies「BABY!」Music Video(Full Ver.)/All Time Best Album「MMY」2022.9.7 Release", "channelName": "the peggies", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "101228:OP:1": [{"youtubeVideoId": "Rx3TGDCnCTs", "type": "art_track", "title": "Starting Over - in 2022 -", "channelName": "DISH// official YouTube channel", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "zoids-wild-op-1-song-retake-2022"}],
 } satisfies CuratedThemeVideoOverrideMap;

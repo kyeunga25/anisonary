@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第 703 批續查 2018 夏《Phantom in the Twilight》、《LORD of VERMILION 紅蓮之王》及《夢王國與沉睡中的100位王子殿下》，核對製作地、首播時段、原播歌曲與地區音源。 |
+| 下批位置 | 第 712 批核對《女神異聞錄5》2018春夏日本TV首播與第1–26話特殊片頭片尾、插曲及原聲曲序，單獨保留其後特別篇。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 702 批已在本機驗收，相對第 693 批正式基線有 104 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `a6bf6327edae00e72f8189293a5e259daf8ab3cb`／[batch693-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch693-japanese-tv)。本機資料驗收到第 702 批。 |
-| 發布提交 | [PR #320](https://github.com/kyeunga25/anisonary/pull/320) 固定候選 `b139e62`。正式 Workers 版本 `fa60a69a-0fc9-4f63-ba34-b77d60d56dca`，預覽版本 `e84a40c9-593a-4fa3-a4f7-4b3c7b147653`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 711 批已在本機驗收，相對第 702 批正式基線有 101 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `c438c9ca80d9500e50e12b07a9c6e3e7cc4d7de0`／[batch702-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch702-japanese-tv)。本機資料驗收到第 711 批。 |
+| 發布提交 | [PR #321](https://github.com/kyeunga25/anisonary/pull/321) 固定候選 `637c700`。正式 Workers 版本 `4c3d73ba-149e-41fb-9b1f-18b0e34ac326`，預覽版本 `ffeb14f1-6e76-47c1-9af6-bff323461684`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -20358,4 +20358,85 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 - 《銀魂. 銀ノ魂篇》後半戰涵蓋第354–367話。第367話屬2018秋，保留常規片頭，〈ヒカリ証明論〉移至劇中且沿用同一歌曲ID。補SPYAIR全長、Anime Size、伴奏、2018現場及2026年10月10日先行公開的YOSUKE重錄；精選實體在9月公告、10月21日發售。香港補CHiCO原唱、伴奏與TV Size。終話插曲剪輯仍待日本原聲比對。
 - 本批新增8筆日本TV歌曲用途。只核對影片發布方、標題與可讀簡介；無原片核驗的剪輯保留條件。
 - 本批用途：`yuragi-sou-no-yuuna-san-op-1`、`yuragi-sou-no-yuuna-san-ed-1`、`yuragi-sou-no-yuuna-san-ed-2`、`angolmois-genkou-kassenki-op-1`、`angolmois-genkou-kassenki-ed-1`、`gintama-shirogane-no-tamashii-hen-kouhan-sen-op-1`、`gintama-shirogane-no-tamashii-hen-kouhan-sen-ed-1`、`gintama-shirogane-no-tamashii-hen-kouhan-sen-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第703批　《暮光幻影》、《紅蓮之王》及《夢王國與沉睡中的100位王子殿下》日本TV逐話與跨平台錄音
+
+- 《暮光幻影》由日本LIDENFILMS負責動畫製作，ARCH製作人與Happy Elements Asia Pacific聯合推進，核對TOKYO MX、BSフジ日本首輪及Dwango跟播。第5話用汪東城與May’n的〈妖精の恋人〉特別片尾；〈Flowery Song〉記日語與中文錄音及瑞秋譯詞，〈HOME〉補香港日語、中文及伴奏、保留koshin譯詞。汪東城兩首日語錄音只確認日本數位購買，香港逐曲權限未核實。
+- 《紅蓮之王》日本第12話保留May’n片頭、無JUNNA片尾。May’n同張單曲的兩部作品用途各自保留，JUNNA補唱片品番、伴奏與專輯。只有第一方授權MV留在作品頁。
+- 《夢王國與沉睡中的100位王子殿下》第8話劇中用〈Secret Dreams〉的Unplugged MIX Instrumental，第10話用有聲版Unplugged MIX作片尾，第12話改以〈あふれる光〉作片尾。各共用原歌曲ID，香港串流、實體曲序、兩種現場錄音分列。缺原播音訊可比對的實際剪輯記入續查條件。
+- 本批核對3部、10筆不同用途。官方影片以標題、簡介及唱片刊載比對。
+- 本批用途：`phantom-in-the-twilight-op-1`、`phantom-in-the-twilight-ed-1`、`phantom-in-the-twilight-ed-2`、`lord-of-vermillion-guren-no-ou-op-1`、`lord-of-vermillion-guren-no-ou-ed-1`、`yume-oukoku-to-nemureru-100-nin-no-ouji-sama-op-1`、`yume-oukoku-to-nemureru-100-nin-no-ouji-sama-ed-1`、`yume-oukoku-to-nemureru-100-nin-no-ouji-sama-ed-2`、`yume-oukoku-to-nemureru-100-nin-no-ouji-sama-ed-3`、`yume-oukoku-to-nemureru-100-nin-no-ouji-sama-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第704批　核對《後街女孩》日本TV第7話換唱、逐話插曲及正版音源
+
+- `back-street-girls-gokudols` 共14個用途。其中同一片頭與片尾曲在第7話有漢組用法，各保留一個共用歌曲識別碼並收錄虹組及漢組，首輪其餘第1–6、8–10話為虹組。第6話アイリ與第7話中村結衣獨唱分開連至原曲，香港／日本Apple Music與Spotify完整唱片連到虹組或漢組的相應錄音；Spotify曲目未推定香港區可播放。
+- 香港Netflix正式繁中名、日本BS11週二25:00首播及AT-X跟播已核。9月11、18、25日為首輪結束後的票選重播。未把同名實寫作品的唱片錄音併入動畫。
+- 東映ビデオ把虹組片頭預告明示為TV Size。漢組片頭短預告、片尾專輯試聽及各話插曲錄音的片段位置仍待權利方原片聲軌或獨立發行。有同期掛字的《自由なんかあげるか》已收錄用途；第6話及第7話插曲獨唱的官方配信尚待確認。Qobuz附加作曲署名保留續查條件。
+- 本批用途：`back-street-girls-gokudols-op-1`、`back-street-girls-gokudols-op-2`、`back-street-girls-gokudols-ed-1`、`back-street-girls-gokudols-ed-2`、`back-street-girls-gokudols-in-1`、`back-street-girls-gokudols-in-2`、`back-street-girls-gokudols-in-3`、`back-street-girls-gokudols-in-4`、`back-street-girls-gokudols-in-5`、`back-street-girls-gokudols-in-6`、`back-street-girls-gokudols-in-7`、`back-street-girls-gokudols-in-8`、`back-street-girls-gokudols-in-9`、`back-street-girls-gokudols-in-10`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第705批　《音樂少女》日本 AT-X 逐話用曲、11／12人及個唱、唱片與正版配信
+
+- `ongaku-shoujo-tv` 共22個明確用途。Studio DEEN確認AT-X第1–12話原播及日本地上波同步串流；MyVideo正版節目頁支持繁中名。第10話省略〈永遠少年〉，同期首輪紀錄支持第11、12話恢復。第1話片末使用〈永遠少年〉，〈シャイニング・ピース〉位於開頭。
+- 同一首〈シャイニング・ピース〉保留第1話開頭、常規11人片尾、第12話12人片末與第9話插曲四個用途。官方專輯的15首曲次含11人原錄音、12人、11位獨唱及兩個はなこ演唱。另核單曲原版、Taishi混音和伴奏、角色單曲、實體TV Size及演唱信用。
+- KING AMUSEMENT CREATIVE第1話頁在香港顯示地區限制，只核到頁面。另實際查看官方〈シャイニング・ピース〉舞台片段畫面。日本Apple Music及Spotify、OTOTOY的曲目分開保存，未推定香港播放權。〈お願いマーガレット〉第4／5話分歧、第1話〈ON STAGE LIFE〉的片末次序，以及〈さよならセブンティーン〉作詞歧異保留續查條件。
+- 本批用途：`ongaku-shoujo-tv-op-1`、`ongaku-shoujo-tv-op-2`、`ongaku-shoujo-tv-ed-1`、`ongaku-shoujo-tv-ed-2`、`ongaku-shoujo-tv-ed-3`、`ongaku-shoujo-tv-ed-4`、`ongaku-shoujo-tv-in-1`、`ongaku-shoujo-tv-in-2`、`ongaku-shoujo-tv-in-3`、`ongaku-shoujo-tv-in-4`、`ongaku-shoujo-tv-in-5`、`ongaku-shoujo-tv-in-6`、`ongaku-shoujo-tv-in-7`、`ongaku-shoujo-tv-in-8`、`ongaku-shoujo-tv-in-9`、`ongaku-shoujo-tv-in-10`、`ongaku-shoujo-tv-in-11`、`ongaku-shoujo-tv-in-12`、`ongaku-shoujo-tv-in-13`、`ongaku-shoujo-tv-in-14`、`ongaku-shoujo-tv-in-15`、`ongaku-shoujo-tv-in-16`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 702 批正式驗收
+
+第 694–702 批涵蓋 27 部日本電視作品與 104 筆不同歌曲用途。預覽候選 `637c700` 及正式提交 `c438c9c` 的 CI、Workers 建置均通過。兩個環境各有 4,721 個 CI 產物與固定候選逐位元一致，各驗收 176 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,914 個用途。[PR #321](https://github.com/kyeunga25/anisonary/pull/321) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch702-japanese-tv)
+
+## 第706批　《Free!-Dive to the Future-》七人末話片尾與《索斯機械獸 激戰本能》2018夏原播用途
+
+- `free-dive-to-the-future` 三個用途。TOKYO MX1首播第1–12話，7月4日為播前節目，ABC首話另延後。第0話另為特別上映及家用映像。第12話無片頭，以包括椎名旭與桐嶋郁弥在內的七人演唱〈Blue Destination〉；兩首常規主題曲的TV Size由官方雙CD及Spotify曲序證實。
+- 〈Heading to Over〉原唱、2019年再收錄及2021年混音可核香港Apple Music，日本動畫單曲另有伴奏。〈GOLD EVOLUTION〉精選原唱現可核香港Apple Music。〈Blue Destination〉另有2018年9月日本先行完整配信。未推定Spotify香港供應，也未把2019電影曲次直接標為新的錄音。
+- `zoids-wild` 三個2018夏實質用途把首十三話的片頭、片尾、插曲接回季度頁，保留已核秋冬春用途與舊識別碼。香港通訊事務管理局節目表確證繁中播映名。另核Sony Music 2018四版單曲、動畫剪輯、伴奏、2022重錄及PENGUIN RESEARCH動畫限定伴奏與香港區2026合輯。
+- 本批用途：`free-dive-to-the-future-op-1`、`free-dive-to-the-future-ed-1`、`free-dive-to-the-future-ed-2`、`zoids-wild-op-1`、`zoids-wild-ed-1`、`zoids-wild-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第707批　《千槍士》日本原播首話片末、九首插曲、音源與香港平台
+
+- `senjuushi`（101380）新增12個用途（片頭1、片尾2、插曲9）。Marvelous、dアニメストア與日本編成資料確認TMS日本TV、TOKYO MX週二23:00、2018-07-03至09-25共12話、日本串流7月4日12:00起。港澳台授權公告及同期片目支持繁中名《千槍士》，未將歷史授權視為目前可播。
+- 〈antique memory〉首次放在第1話片末，第2話起為常規片頭。合併四人原唱、伴奏、TV Size與2019五人版。〈BLACK MATRIX〉第2–8、10–11話片尾，第1、9、12話另有編排，保留原唱、三種單曲盤、STYLE復收及原聲TV Size。
+- 九首插曲逐話按曲表與Marvelous唱片核對：#1 Knightliness、#2 花ノ舞、鬨ノ歌、#3 Mein Leben、#5 Trust Me!!、#6 Star★☆Light、#7 Nothing Impossible、#8 vaincre ou mourir、#10 Be Noble、#11 シグナル。第2話歌曲列原唱梅原裕一郎；另核第10及11話的原聲雙人插曲剪輯、遊戲四人或片頭單曲完整版，以及香港／台灣／日本Apple Music逐曲頁和Spotify原聲曲序。
+- 〈Star★☆Light〉日本CD第5曲，Apple Music原唱第1曲、伴奏第6曲。影片按權利方資料分MV／試聽／宣傳，未由片名推定播放長度。第9及12話片頭完整播放和第1話片末是否與原聲TV Size同剪仍待授權原片或原播掛字確認。Spotify地區供應待平台證實。
+- 本批用途：`senjuushi-op-1`、`senjuushi-ed-1`、`senjuushi-ed-2`、`senjuushi-in-1`、`senjuushi-in-2`、`senjuushi-in-3`、`senjuushi-in-4`、`senjuushi-in-5`、`senjuushi-in-6`、`senjuushi-in-7`、`senjuushi-in-8`、`senjuushi-in-9`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第708批　《惡偶 -天才人形-》日本版主題曲、《魔法律事務所》第一期、《未來復仇者》第二季及見習神仙精靈暑季
+
+- `aguu-tensai-ningyou`（101631）收錄日本播出版〈prima dynamis〉及〈ツギハギ〉兩筆。Studio DEEN與騰訊動漫共同開發、Studio DEEN製作日本動畫；原播為7月9日至9月24日四台週一24:00，官方列日本GYAO!等由7月2日25:30先行。片頭核對日本CD、TuneCore單曲和2019專輯、香港等地Apple Music、Spotify、OTOTOY及官方Art Track。3:10與3:08的兩個平台時長保留為續查條件，尚無重錄證據。日本片尾已核香港、台灣、日本iTunes購買，串流和TV剪輯待官方逐曲頁。首末話實際掛字仍待取得日本電視版。
+- `muhyo-to-rouji-no-mahouritsu-soudan-jimusho`（101340）新增兩筆第1–12話主題曲。BSスカパー！8月3日至10月19日週五21:30，原播#1–9屬夏、#10–12屬秋。整理Lantis兩首單曲的原唱和伴奏、原聲Anime Size、2021年復收與正版平台。〈ホトハシル〉可在香港Apple Music的專輯復收查到，〈GIFTED〉日本數位購買與AWA已核，香港上架及兩首Anime Size獨立串流仍待平台證據。
+- `marvel-future-avengers-2nd-season`（101697）新增可溯源作品名冊。華特迪士尼日本與MADHOUSE的本土TV，Dlife週一18:00，7月30日至10月22日全13話。香港Disney+明列第2季1–13集及本地譯名。高橋哲也有本人作品署名，第一季有當事人片尾演奏紀錄；第二季歌曲身分與逐話使用仍待Disney+日本聲道或Dlife原播掛字。本批未新增該作歌曲用途。
+- `kira-kira-happy-hirake-cocotama`（102604）維持秋季資料原有識別碼及後續季。東京電視台第1、第4話節目音樂欄和日本編成核對後，將第1–4話的片頭與片尾兩筆接到2018夏。
+- 本批用途：`aguu-tensai-ningyou-op-1`、`aguu-tensai-ningyou-ed-1`、`muhyo-to-rouji-no-mahouritsu-soudan-jimusho-op-1`、`muhyo-to-rouji-no-mahouritsu-soudan-jimusho-ed-1`、`kira-kira-happy-hirake-cocotama-op-1`、`kira-kira-happy-hirake-cocotama-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第709批　《鬼太郎》《龍族拼圖》《慕留人》跨季原播用途與搜尋容量
+
+- `gegege-no-kitarou-2018` 原TV第14–26話接至2018夏，保留所有現有識別碼。兩筆用途包括全期片頭和第2首片尾。〈GET A NOTE〉核實Victor原唱唱片與《ムキシ》下駄の音版，並對應香港Apple Music、官方MV和兩個Art Track。電視原聲取樣待原播音軌確認。
+- `pazudora` 首部原播追加2018夏及秋，兩季首部完整節目改以逐話日期切分。三筆涵蓋〈Everybody GO!〉、〈▶START〉與〈トロイメライ〉。核對兩首片尾的詞曲編、Sony CD與合法配信。〈Everybody GO!〉市售全長、伴奏、Anime Size對應同一首歌，第40–41話實播編曲仍待原片。
+- `boruto-naruto-next-generations` 保留主作品及既有ID，新增第52–75話〈It's all in the game〉、第52–63話〈花鳥風月〉、第64–75話〈ライカ〉和第76–87話〈ポラリス〉。春夏週四19:25，東京9月20日18:55連播第74–75話，關西部分台分週；10月7日改週日17:30。兩話在東京合播時各自片頭片尾位置待掛字。補唱片、香港逐曲頁、伴奏、動畫盤TV Size、MV及可獨立確認的現場版本。
+- 生成的歌曲搜尋欄位合併重複詞項。用完整目錄逐欄比較正規化詞項集合及原有顯示內容，保留任意字串片段的命中與路由；測試現有語言查詢、來源連結和季度篩選。
+- 本批用途：`gegege-no-kitarou-2018-op-1`、`gegege-no-kitarou-2018-ed-2`、`pazudora-op-1`、`pazudora-ed-1`、`pazudora-ed-2`、`boruto-naruto-next-generations-op-3`、`boruto-naruto-next-generations-ed-5`、`boruto-naruto-next-generations-ed-6`、`boruto-naruto-next-generations-ed-7`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第710批　《妖怪旅館營業中》第一期兩季原播、特殊片尾與跨平台音源
+
+- `kakuriyo-no-yadomeshi` 日本TOKYO MX週一22:30原播全26話，春第1–13話、夏第14–26話。GYAO!於首播日24:00 JST開始配信。官方製作、電視台時段及授權繁中片名來源分列。
+- 14筆用途包括二首片頭、常規及角色輪替片尾、第14話特別片尾和第20話插曲。第14話開頭仍用〈灯火のまにまに〉，片末先播〈ウツシヨノユメ〉，後者第15話起移至片頭。兩個用途共用曲目及錄音ID。
+- 核對唱片詞曲編、八首角色片尾原唱和伴奏、日本動畫盤〈春色〉與伴奏，以及四首主題曲在2025年FlyingDog配信原聲帶的TV Size曲序。Apple Music香港、台灣及日本分列逐曲入口；Spotify正式曲目列已核曲序、地區留待實測。官方MV、授權Art Track及角色宣傳片各按呈現形式記錄。
+- 第10話省略片頭及第3話〈願い花〉電視版編曲差異仍待原片掛字覆核。第14話片末及八首角色歌尚待證實實播剪輯對應哪個錄音，〈春色〉待找到正版數位逐曲入口。
+- 本批用途：`kakuriyo-no-yadomeshi-op-1`、`kakuriyo-no-yadomeshi-op-2`、`kakuriyo-no-yadomeshi-ed-1`、`kakuriyo-no-yadomeshi-ed-2`、`kakuriyo-no-yadomeshi-ed-3`、`kakuriyo-no-yadomeshi-ed-4`、`kakuriyo-no-yadomeshi-ed-5`、`kakuriyo-no-yadomeshi-ed-6`、`kakuriyo-no-yadomeshi-ed-7`、`kakuriyo-no-yadomeshi-ed-8`、`kakuriyo-no-yadomeshi-ed-9`、`kakuriyo-no-yadomeshi-ed-10`、`kakuriyo-no-yadomeshi-ed-11`、`kakuriyo-no-yadomeshi-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第711批　《ONE PIECE》《寶可夢 太陽＆月亮》《遊戲王 VRAINS》2018夏季長篇逐話用曲與正版版本
+
+- `one-piece` 2018夏第843–855話加入名冊及〈Hope〉。常規週日09:30，2017年第807話換曲特集09:00開播；2018年9月30日第855話後切換〈Super Powers〉。前者核對《Finally》與20週年精選實體／數位曲序，香港、台灣串流及日本購買分列。後者補2018秋第856–866話、V6精選原唱和三地平台。
+- `pocket-monsters-sun-and-moon` 夏季第81–90話仍週四18:55。〈未来コネクション〉核對通常盤原唱、伴奏、香港與台日動畫Size，動畫盤另有動畫Size伴奏。第82–86話東京地區改用〈ブレス〉並有TV專用片尾畫面，第87話恢復〈ジャリボーイ・ジャリガール〉。〈ブレス〉分列唱片原唱、伴奏、官方MV短版及日區2019現場。限定片尾例外地區及實播剪輯待原片核實。
+- `yu-gi-oh-vrains` 夏季第58–70話週三18:25，核對〈go forward〉、〈BOY〉的原唱和電視剪輯。香港Apple原唱、伴奏的購買與TV Size串流按曲目狀態分列。《2069》補回原唱曲序。第71話起的〈glory〉接續秋季，官方無字幕短版另記，地區TV Size待查。
+- 本批用途：`one-piece-op-20`、`one-piece-op-21`、`pocket-monsters-sun-and-moon-op-3`、`pocket-monsters-sun-and-moon-ed-2`、`pocket-monsters-sun-and-moon-ed-3`、`yu-gi-oh-vrains-op-2`、`yu-gi-oh-vrains-ed-3`、`yu-gi-oh-vrains-ed-4`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。

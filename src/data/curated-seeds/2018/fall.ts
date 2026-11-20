@@ -2829,7 +2829,8 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
     "2018-fall",
     "2019-winter",
     "2019-spring",
-    "2019-summer"
+    "2019-summer",
+    "2018-summer"
   ],
   "startDate": "2018-09-06",
   "titleJa": "キラキラハッピー★ ひらけ！ここたま",
@@ -2841,7 +2842,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
   "anilistUrl": "https://anilist.co/anime/102604/Kira-Kira-Happy--Hirake-Cocotama",
   "status": "finished",
   "verifiedAt": "2026-11-19",
-  "metadataVerifiedAt": "2026-11-19",
+  "metadataVerifiedAt": "2026-11-20",
   "themes": [
     {
       "id": "kira-kira-happy-hirake-cocotama-op-1",
@@ -2851,14 +2852,15 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       "titleJa": "ヒミツのカギ、ここたま！",
       "artistDisplayName": "星ノ川はるか（CV.高橋未奈美）、リボン（CV.水瀬いのり）、ピロー（CV.伊瀬茉莉也）、ちゃこ（CV.岩井映美里）",
       "seasonIds": [
+        "2018-summer",
         "2018-fall",
         "2019-winter",
         "2019-spring",
         "2019-summer"
       ],
-      "usageLabel": "2018/9/6起為常規片頭，2019/9/26第55話節目音樂欄亦列為片頭。",
+      "usageLabel": "2018/9/6起為常規片頭，2019/9/26第55話節目音樂欄亦列為片頭。 2018夏為東京電視台9月6日至27日第1–4話。",
       "sourceMode": "explicit",
-      "lastVerifiedAt": "2026-11-19",
+      "lastVerifiedAt": "2026-11-20",
       "sources": [
         {
           "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201810/23764_201810251755.html",
@@ -2922,6 +2924,20 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
           "language": "en",
           "role": "first_party",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809061755.html",
+          "label": "東京電視台｜2018年9月6日第1話原播與片頭片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809271755.html",
+          "label": "東京電視台｜2018年9月27日第4話原播與片頭片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -3058,6 +3074,18 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-19",
           "targetId": "laca-9692-3"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809061755.html",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809271755.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "kira-kira-happy-hirake-cocotama-op-1"
         }
       ],
       "credits": [
@@ -3201,12 +3229,13 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       "titleJa": "ここたまさがそっ！み～つっけた♪",
       "artistDisplayName": "正木郁",
       "seasonIds": [
+        "2018-summer",
         "2018-fall",
         "2019-winter"
       ],
-      "usageLabel": "第1–29話常規片尾，2018/9/6開始，2019/3/28結束。",
+      "usageLabel": "第1–29話常規片尾，2018/9/6開始，2019/3/28結束。 2018夏為東京電視台9月6日至27日第1–4話。",
       "sourceMode": "explicit",
-      "lastVerifiedAt": "2026-11-19",
+      "lastVerifiedAt": "2026-11-20",
       "sources": [
         {
           "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201810/23764_201810251755.html",
@@ -3270,6 +3299,20 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
           "language": "ja",
           "role": "first_party",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809061755.html",
+          "label": "東京電視台｜2018年9月6日第1話原播與片頭片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809271755.html",
+          "label": "東京電視台｜2018年9月27日第4話原播與片頭片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -3405,6 +3448,18 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-19",
           "targetId": "laca-9692-3"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809061755.html",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809271755.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "kira-kira-happy-hirake-cocotama-ed-1"
         }
       ],
       "credits": [
@@ -3882,7 +3937,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       "label": "東京電視台：2018/09/06原播節目資料",
       "language": "ja",
       "role": "first_party",
-      "verifiedAt": "2026-11-19"
+      "verifiedAt": "2026-11-20"
     },
     {
       "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201810/23764_201810251755.html",
@@ -3932,6 +3987,13 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       "language": "en",
       "role": "identifier",
       "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809271755.html",
+      "label": "東京電視台｜2018年9月27日第4話原播與片頭片尾",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
     }
   ],
   "sourceReferenceUrls": [
@@ -3942,7 +4004,8 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
     "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201907/23764_201907041755.html",
     "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23764_201909261755.html",
     "https://www.videomarket.jp/title/167160",
-    "https://anilist.co/anime/102604/Kira-Kira-Happy--Hirake-Cocotama"
+    "https://anilist.co/anime/102604/Kira-Kira-Happy--Hirake-Cocotama",
+    "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201809/23764_201809271755.html"
   ]
 },
   {
@@ -3952,7 +4015,8 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
     "seasonIds": [
       "2018-fall",
       "2019-winter",
-      "2019-spring"
+      "2019-spring",
+      "2018-summer"
     ],
     "startDate": "2018-07-07",
     "titleJa": "ゾイドワイルド",
@@ -3963,12 +4027,13 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
     "broadcastTimeJst": "06:30",
     "broadcastLabel": "2018/7/7–2019/6/29，MBS・TBS 系列28局，星期六06:30–07:00 JST，全50話。2019/1/5另播回顧特番，第27話於1/12首播。",
     "status": "finished",
-    "verifiedAt": "2026-11-19",
-    "metadataVerifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
     "sourceReferenceUrls": [
       "https://www.takaratomy.co.jp/products/anime-zoidswild/onair.html",
       "https://www.takaratomy.co.jp/products/anime-zoidswild/story/",
-      "https://cal.syoboi.jp/tid/4960/time"
+      "https://cal.syoboi.jp/tid/4960/time",
+      "https://www.coms-auth.hk/filemanager/en/content_1276/TVB_Positive_Programmes_2019.pdf"
     ],
     "metadataSources": [
       {
@@ -4012,6 +4077,13 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "zh-Hant",
         "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1276/TVB_Positive_Programmes_2019.pdf",
+        "label": "香港通訊事務管理局｜TVB 2019年節目表及繁中播映名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
       }
     ],
     "themes": [
@@ -4022,31 +4094,33 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         "songId": "zoids-wild-op-1-song",
         "titleJa": "Starting Over",
         "artistDisplayName": "DISH//",
-        "seasonIds": [],
+        "seasonIds": [
+          "2018-summer"
+        ],
         "usageLabel": "2018夏第1–13話片頭，7/7至9/29。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://www.takaratomy.co.jp/products/anime-zoidswild/music_1st.html",
             "label": "動畫官網｜歌手、用途及正式發行",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/zoids-5?cast=cv",
             "label": "日本原播逐話 OP、ED 與插曲表",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://cal.syoboi.jp/tid/4960/time",
             "label": "播出時間、分集編排與歌曲創作名義",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
@@ -4075,6 +4149,104 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/",
+            "label": "Sony Music｜2018年四版單曲、完整原唱、動畫剪輯及伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538282767&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538282767&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538282767&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/DISH/discography/SRCL-12205",
+            "label": "Sony Music｜青初回盤與重錄曲次",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/DISH/discography/SRCL-12207",
+            "label": "Sony Music｜青通常盤與重錄曲次",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1625033111&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1625033111&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1625033111&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1641475411&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1641475411&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1641475411&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/Music/Info/DISH/saisei/22062/",
+            "label": "Sony Music｜再青計劃2022重錄與團員訪談",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Rx3TGDCnCTs",
+            "label": "DISH// official YouTube channel｜Starting Over - in 2022 -",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -4194,6 +4366,628 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://music.apple.com/hk/song/1395482076"
             ],
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.takaratomy.co.jp/products/anime-zoidswild/music_1st.html",
+              "https://cal.syoboi.jp/tid/4960/time",
+              "https://www.mau2.com/anime/zoids-5?cast=cv",
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482076"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-9871-9872"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482079"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-9873-9874"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-9875"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-9876"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-anime-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH-startingover/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-anime-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482076"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538282767"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538282769"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482076"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538282767"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538282769"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482076"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538282767"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538282769"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482079"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538282773"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482079"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538282773"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-apple-1395482079"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538282767&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538282773"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DISH/discography/SRCL-12205"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DISH/discography/SRCL-12205"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DISH/discography/SRCL-12205"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-12205-12206"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DISH/discography/SRCL-12207"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DISH/discography/SRCL-12207"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-12207"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1625033111"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1625033113"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1625033111"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1625033113"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1625033111"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1625033111&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1625033113"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1641475411"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1641475697"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1641475411"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1641475697"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1641475411"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1641475411&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1641475697"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/DISH/saisei/22062/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-op-1-song-retake-2022"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Rx3TGDCnCTs"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "Rx3TGDCnCTs"
           }
         ],
         "links": [
@@ -4218,6 +5012,138 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "verifiedAt": "2026-11-19",
             "recordingId": "zoids-wild-op-1-song-apple-1395482079",
             "releaseId": "apple-hk-1395482064"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538282769",
+            "label": "香港｜Starting Over",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-apple-1395482076",
+            "releaseId": "apple-hk-1538282767",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538282769",
+            "label": "台灣｜Starting Over",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-apple-1395482076",
+            "releaseId": "apple-tw-1538282767",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538282769",
+            "label": "日本｜Starting Over",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-apple-1395482076",
+            "releaseId": "apple-jp-1538282767",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538282773",
+            "label": "香港｜Starting Over -instrumental-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-apple-1395482079",
+            "releaseId": "apple-hk-1538282767",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538282773",
+            "label": "台灣｜Starting Over -instrumental-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-apple-1395482079",
+            "releaseId": "apple-tw-1538282767",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538282773",
+            "label": "日本｜Starting Over -instrumental-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-apple-1395482079",
+            "releaseId": "apple-jp-1538282767",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1625033113",
+            "label": "香港｜Starting Over (in 2022)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-retake-2022",
+            "releaseId": "apple-hk-1625033111",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1625033113",
+            "label": "台灣｜Starting Over (in 2022)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-retake-2022",
+            "releaseId": "apple-tw-1625033111",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1625033113",
+            "label": "日本｜Starting Over (in 2022)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-retake-2022",
+            "releaseId": "apple-jp-1625033111",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1641475697",
+            "label": "香港｜Starting Over (in 2022)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-retake-2022",
+            "releaseId": "apple-hk-1641475411",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1641475697",
+            "label": "台灣｜Starting Over (in 2022)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-retake-2022",
+            "releaseId": "apple-tw-1641475411",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1641475697",
+            "label": "日本｜Starting Over (in 2022)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-op-1-song-retake-2022",
+            "releaseId": "apple-jp-1641475411",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -4242,28 +5168,30 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "name": "トオミヨウ"
           }
         ],
-        "followUp": [
-          {
-            "fields": [
-              "use_quarters"
-            ],
-            "note": "已核實第1–13話於2018年夏季原播。",
-            "resumeWhen": "2018夏季度目錄建立時，接上該季入口。",
-            "checkedAt": "2026-11-19"
-          }
-        ],
         "recordings": [
           {
             "id": "zoids-wild-op-1-song-apple-1395482076",
             "title": "Starting Over",
             "kind": "vocal",
-            "format": "unknown"
+            "format": "full"
           },
           {
             "id": "zoids-wild-op-1-song-apple-1395482079",
             "title": "Starting Over -instrumental-",
             "kind": "instrumental",
-            "format": "unknown"
+            "format": "full"
+          },
+          {
+            "id": "zoids-wild-op-1-song-anime-size",
+            "title": "Starting Over -アニメサイズ-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "zoids-wild-op-1-song-retake-2022",
+            "title": "Starting Over (in 2022)",
+            "kind": "vocal",
+            "format": "full"
           }
         ],
         "releases": [
@@ -4292,6 +5220,370 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "recordingId": "zoids-wild-op-1-song-apple-1395482079"
               }
             ]
+          },
+          {
+            "id": "srcl-9871-9872",
+            "title": "Starting Over",
+            "artistDisplayName": "DISH//",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-11",
+              "precision": "day"
+            },
+            "edition": "日本初回A CD＋DVD",
+            "tracks": [
+              {
+                "title": "Starting Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482076"
+              },
+              {
+                "title": "Starting Over -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482079"
+              }
+            ],
+            "catalogNumber": "SRCL-9871-9872"
+          },
+          {
+            "id": "srcl-9873-9874",
+            "title": "Starting Over",
+            "artistDisplayName": "DISH//",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-11",
+              "precision": "day"
+            },
+            "edition": "日本初回B CD＋DVD",
+            "tracks": [
+              {
+                "title": "Starting Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482076"
+              },
+              {
+                "title": "Starting Over -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482079"
+              }
+            ],
+            "catalogNumber": "SRCL-9873-9874"
+          },
+          {
+            "id": "srcl-9875",
+            "title": "Starting Over",
+            "artistDisplayName": "DISH//",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-11",
+              "precision": "day"
+            },
+            "edition": "日本初回C CD＋寫真冊",
+            "tracks": [
+              {
+                "title": "Starting Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482076"
+              },
+              {
+                "title": "Starting Over -instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482079"
+              },
+              {
+                "title": "Starting Over -アニメサイズ-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-anime-size"
+              }
+            ],
+            "catalogNumber": "SRCL-9875"
+          },
+          {
+            "id": "srcl-9876",
+            "title": "Starting Over",
+            "artistDisplayName": "DISH//",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-11",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "Starting Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482076"
+              },
+              {
+                "title": "Starting Over -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482079"
+              }
+            ],
+            "catalogNumber": "SRCL-9876"
+          },
+          {
+            "id": "apple-hk-1538282767",
+            "title": "Starting Over (Special Edition) - EP",
+            "artistDisplayName": "Dish",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-07-11",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Starting Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482076"
+              },
+              {
+                "title": "Starting Over -instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482079"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538282767",
+            "title": "Starting Over (Special Edition) - EP",
+            "artistDisplayName": "Dish",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-07-11",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Starting Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482076"
+              },
+              {
+                "title": "Starting Over -instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482079"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538282767",
+            "title": "Starting Over (Special Edition) - EP",
+            "artistDisplayName": "DISH//",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Starting Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482076"
+              },
+              {
+                "title": "Starting Over -instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-apple-1395482079"
+              }
+            ]
+          },
+          {
+            "id": "srcl-12205-12206",
+            "title": "青",
+            "artistDisplayName": "DISH//",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-09-07",
+              "precision": "day"
+            },
+            "edition": "日本初回CD＋DVD",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ],
+            "catalogNumber": "SRCL-12205-12206"
+          },
+          {
+            "id": "srcl-12207",
+            "title": "青",
+            "artistDisplayName": "DISH//",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-09-07",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ],
+            "catalogNumber": "SRCL-12207"
+          },
+          {
+            "id": "apple-hk-1625033111",
+            "title": "Starting Over (in 2022) - Single",
+            "artistDisplayName": "Dish",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2022-06-01",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1625033111",
+            "title": "Starting Over (in 2022) - Single",
+            "artistDisplayName": "Dish",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2022-06-01",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1625033111",
+            "title": "Starting Over (in 2022) - Single",
+            "artistDisplayName": "DISH//",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2022-06-01",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1641475411",
+            "title": "青",
+            "artistDisplayName": "Dish",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2022-09-07",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1641475411",
+            "title": "青",
+            "artistDisplayName": "Dish",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2022-09-07",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1641475411",
+            "title": "青",
+            "artistDisplayName": "DISH//",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-09-07",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Starting Over (in 2022)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-op-1-song-retake-2022"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability"
+            ],
+            "note": "2018動畫剪輯保存在日本初回C，香港數位版有完整原唱、伴奏與2022重錄。",
+            "resumeWhen": "取得香港動畫剪輯逐曲入口或獨立發行後補。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -4302,31 +5594,33 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         "songId": "zoids-wild-ed-1-song",
         "titleJa": "少年の僕へ",
         "artistDisplayName": "PENGUIN RESEARCH",
-        "seasonIds": [],
+        "seasonIds": [
+          "2018-summer"
+        ],
         "usageLabel": "2018夏第1–13話片尾，7/7至9/29。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://www.takaratomy.co.jp/products/anime-zoidswild/music_1st.html",
             "label": "動畫官網｜歌手、用途及正式發行",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/zoids-5?cast=cv",
             "label": "日本原播逐話 OP、ED 與插曲表",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://cal.syoboi.jp/tid/4960/time",
             "label": "播出時間、分集編排與歌曲創作名義",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
@@ -4348,6 +5642,41 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/495483",
+            "label": "Sony Music｜兩首日本TV用途的同期公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372",
+            "label": "Sony Music｜三版WILD BLUE／少年の僕へ、動畫版伴奏和DVD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -4428,6 +5757,213 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://music.apple.com/hk/song/1538286164"
             ],
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.takaratomy.co.jp/products/anime-zoidswild/music_1st.html",
+              "https://cal.syoboi.jp/tid/4960/time",
+              "https://www.mau2.com/anime/zoids-5?cast=cv",
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/495483"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-ed-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-ed-1-song-apple-1538286164"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1290-1291"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1292"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1293-1295"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-ed-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-ed-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-ed-1-song-apple-1538286164"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1895999227"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6765581497"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-ed-1-song-apple-1538286164"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1895999227"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/6765581497"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-ed-1-song-apple-1538286164"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1895999227"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6765581497"
           }
         ],
         "links": [
@@ -4441,6 +5977,39 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "verifiedAt": "2026-11-19",
             "recordingId": "zoids-wild-ed-1-song-apple-1538286164",
             "releaseId": "apple-hk-1538286159"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/6765581497",
+            "label": "香港｜少年の僕へ",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-ed-1-song-apple-1538286164",
+            "releaseId": "apple-hk-1895999227",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/6765581497",
+            "label": "台灣｜少年の僕へ",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-ed-1-song-apple-1538286164",
+            "releaseId": "apple-tw-1895999227",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/6765581497",
+            "label": "日本｜少年の僕へ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-ed-1-song-apple-1538286164",
+            "releaseId": "apple-jp-1895999227",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -4470,22 +6039,18 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "groupName": "PENGUIN RESEARCH"
           }
         ],
-        "followUp": [
-          {
-            "fields": [
-              "use_quarters"
-            ],
-            "note": "已核實第1–13話於2018年夏季原播。",
-            "resumeWhen": "2018夏季度目錄建立時，接上該季入口。",
-            "checkedAt": "2026-11-19"
-          }
-        ],
         "recordings": [
           {
             "id": "zoids-wild-ed-1-song-apple-1538286164",
             "title": "少年の僕へ",
             "kind": "vocal",
-            "format": "unknown"
+            "format": "full"
+          },
+          {
+            "id": "zoids-wild-ed-1-song-inst",
+            "title": "少年の僕へ (Instrumental)",
+            "kind": "instrumental",
+            "format": "full"
           }
         ],
         "releases": [
@@ -4508,6 +6073,146 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "recordingId": "zoids-wild-ed-1-song-apple-1538286164"
               }
             ]
+          },
+          {
+            "id": "vvcl-1290-1291",
+            "title": "WILD BLUE / 少年の僕へ",
+            "artistDisplayName": "PENGUIN RESEARCH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-12",
+              "precision": "day"
+            },
+            "edition": "日本初回CD＋DVD",
+            "tracks": [
+              {
+                "title": "少年の僕へ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "zoids-wild-ed-1-song-apple-1538286164"
+              }
+            ],
+            "catalogNumber": "VVCL-1290-1291"
+          },
+          {
+            "id": "vvcl-1292",
+            "title": "WILD BLUE / 少年の僕へ",
+            "artistDisplayName": "PENGUIN RESEARCH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-12",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "少年の僕へ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "zoids-wild-ed-1-song-apple-1538286164"
+              }
+            ],
+            "catalogNumber": "VVCL-1292"
+          },
+          {
+            "id": "vvcl-1293-1295",
+            "title": "WILD BLUE / 少年の僕へ",
+            "artistDisplayName": "PENGUIN RESEARCH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-12",
+              "precision": "day"
+            },
+            "edition": "日本完全生產限定CD＋DVD及特典",
+            "tracks": [
+              {
+                "title": "少年の僕へ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "zoids-wild-ed-1-song-apple-1538286164"
+              },
+              {
+                "title": "少年の僕へ (Instrumental)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "zoids-wild-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1293-1295"
+          },
+          {
+            "id": "apple-hk-1895999227",
+            "title": "SACRA MUSIC 10th Anniversary ANI-SONG HIGHLIGHTS Vol.1 2017-2018",
+            "artistDisplayName": "群星",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2026-05-13",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "少年の僕へ",
+                "position": 35,
+                "disc": 1,
+                "recordingId": "zoids-wild-ed-1-song-apple-1538286164"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1895999227",
+            "title": "SACRA MUSIC 10th Anniversary ANI-SONG HIGHLIGHTS Vol.1 2017-2018",
+            "artistDisplayName": "群星",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2026-05-13",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "少年の僕へ",
+                "position": 35,
+                "disc": 1,
+                "recordingId": "zoids-wild-ed-1-song-apple-1538286164"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1895999227",
+            "title": "SACRA MUSIC 10th Anniversary ANI-SONG HIGHLIGHTS Vol.1 2017-2018",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2026-05-13",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "少年の僕へ",
+                "position": 35,
+                "disc": 1,
+                "recordingId": "zoids-wild-ed-1-song-apple-1538286164"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability",
+              "recording_format"
+            ],
+            "note": "動畫限定CD另收伴奏，香港有原唱及2026年合輯。",
+            "resumeWhen": "取得香港區伴奏或權利方明示TV剪輯的音源後補。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -6086,34 +7791,35 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         "titleJa": "WILD BLUE",
         "artistDisplayName": "PENGUIN RESEARCH",
         "seasonIds": [
+          "2018-summer",
           "2018-fall",
           "2019-winter",
           "2019-spring"
         ],
-        "usageLabel": "原播第1–35、37–41、43–49話插曲；2019冬為第27–35、37–38話，春季為第39–41、43–49話。",
+        "usageLabel": "原播第1–35、37–41、43–49話插曲。第1–13話為2018夏，第14–26話為秋；2019冬為第27–35、37–38話，春季為第39–41、43–49話。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://www.takaratomy.co.jp/products/anime-zoidswild/music_1st.html",
             "label": "動畫官網｜歌手、用途及正式發行",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/zoids-5?cast=cv",
             "label": "日本原播逐話 OP、ED 與插曲表",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://cal.syoboi.jp/tid/4960/time",
             "label": "播出時間、分集編排與歌曲創作名義",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
@@ -6149,6 +7855,41 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/495483",
+            "label": "Sony Music｜兩首日本TV用途的同期公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372",
+            "label": "Sony Music｜三版WILD BLUE／少年の僕へ、動畫版伴奏和DVD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -6268,6 +8009,213 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://music.apple.com/hk/song/1538286163"
             ],
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.takaratomy.co.jp/products/anime-zoidswild/music_1st.html",
+              "https://cal.syoboi.jp/tid/4960/time",
+              "https://www.mau2.com/anime/zoids-5?cast=cv",
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/495483"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-in-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-in-1-song-apple-1538286163"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1290-1291"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1292"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1293-1295"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-in-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/penguinresearch/info/497372"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-in-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-in-1-song-apple-1538286163"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1895999227"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6765581492"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-in-1-song-apple-1538286163"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1895999227"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/6765581492"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zoids-wild-in-1-song-apple-1538286163"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1895999227"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1895999227&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6765581492"
           }
         ],
         "links": [
@@ -6292,6 +8240,39 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "verifiedAt": "2026-11-19",
             "recordingId": "zoids-wild-in-1-song-apple-1715776352",
             "releaseId": "apple-hk-1715776342"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/6765581492",
+            "label": "香港｜WILD BLUE",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-in-1-song-apple-1538286163",
+            "releaseId": "apple-hk-1895999227",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/6765581492",
+            "label": "台灣｜WILD BLUE",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-in-1-song-apple-1538286163",
+            "releaseId": "apple-tw-1895999227",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/6765581492",
+            "label": "日本｜WILD BLUE",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "zoids-wild-in-1-song-apple-1538286163",
+            "releaseId": "apple-jp-1895999227",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -6326,13 +8307,19 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "id": "zoids-wild-in-1-song-apple-1538286163",
             "title": "WILD BLUE",
             "kind": "vocal",
-            "format": "unknown"
+            "format": "full"
           },
           {
             "id": "zoids-wild-in-1-song-apple-1715776352",
             "title": "WILD BLUE(\"横浜決闘\" Live at 横浜文化体育館 2019.08.10)",
             "kind": "live",
             "format": "unknown"
+          },
+          {
+            "id": "zoids-wild-in-1-song-inst",
+            "title": "WILD BLUE (Instrumental)",
+            "kind": "instrumental",
+            "format": "full"
           }
         ],
         "releases": [
@@ -6375,6 +8362,146 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "recordingId": "zoids-wild-in-1-song-apple-1715776352"
               }
             ]
+          },
+          {
+            "id": "vvcl-1290-1291",
+            "title": "WILD BLUE / 少年の僕へ",
+            "artistDisplayName": "PENGUIN RESEARCH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-12",
+              "precision": "day"
+            },
+            "edition": "日本初回CD＋DVD",
+            "tracks": [
+              {
+                "title": "WILD BLUE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-in-1-song-apple-1538286163"
+              }
+            ],
+            "catalogNumber": "VVCL-1290-1291"
+          },
+          {
+            "id": "vvcl-1292",
+            "title": "WILD BLUE / 少年の僕へ",
+            "artistDisplayName": "PENGUIN RESEARCH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-12",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "WILD BLUE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-in-1-song-apple-1538286163"
+              }
+            ],
+            "catalogNumber": "VVCL-1292"
+          },
+          {
+            "id": "vvcl-1293-1295",
+            "title": "WILD BLUE / 少年の僕へ",
+            "artistDisplayName": "PENGUIN RESEARCH",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-12",
+              "precision": "day"
+            },
+            "edition": "日本完全生產限定CD＋DVD及特典",
+            "tracks": [
+              {
+                "title": "WILD BLUE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "zoids-wild-in-1-song-apple-1538286163"
+              },
+              {
+                "title": "WILD BLUE (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "zoids-wild-in-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1293-1295"
+          },
+          {
+            "id": "apple-hk-1895999227",
+            "title": "SACRA MUSIC 10th Anniversary ANI-SONG HIGHLIGHTS Vol.1 2017-2018",
+            "artistDisplayName": "群星",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2026-05-13",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "WILD BLUE",
+                "position": 30,
+                "disc": 1,
+                "recordingId": "zoids-wild-in-1-song-apple-1538286163"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1895999227",
+            "title": "SACRA MUSIC 10th Anniversary ANI-SONG HIGHLIGHTS Vol.1 2017-2018",
+            "artistDisplayName": "群星",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2026-05-13",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "WILD BLUE",
+                "position": 30,
+                "disc": 1,
+                "recordingId": "zoids-wild-in-1-song-apple-1538286163"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1895999227",
+            "title": "SACRA MUSIC 10th Anniversary ANI-SONG HIGHLIGHTS Vol.1 2017-2018",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2026-05-13",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "WILD BLUE",
+                "position": 30,
+                "disc": 1,
+                "recordingId": "zoids-wild-in-1-song-apple-1538286163"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability",
+              "recording_format"
+            ],
+            "note": "動畫限定CD另收伴奏，香港有原唱及2026年合輯。",
+            "resumeWhen": "取得香港區伴奏或權利方明示TV剪輯的音源後補。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -6684,7 +8811,8 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
           }
         ]
       }
-    ]
+    ],
+    "titleZhHant": "索斯機械獸 激戰本能"
   },
   {
     "anilistId": 102883,
