@@ -43,6 +43,15 @@ export const curated2019SummerThemeVideos = {
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "gu1zXnSPExI",
+      "title": "TVアニメ「遊☆戯☆王ＶＲＡＩＮＳ」ノンテロップED4｜BAND-MAID「glory」（short ver.）",
+      "channelName": "「遊☆戯☆王」アニメ公式チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
     }
   ],
   "98231:ED:5": [

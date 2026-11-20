@@ -51,19 +51,1778 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     "2018-fall",
     "2019-winter",
     "2019-spring",
-    "2019-summer"
+    "2019-summer",
+    "2018-spring",
+    "2018-summer"
   ],
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97938-BnF6M5yTaNB1.jpg",
   "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/boruto/",
   "editorialWeekday": 7,
   "broadcastTimeJst": "17:30",
-  "broadcastLabel": "テレビ東京2017/4/5原播。2018/10/7起為週日17:30 JST，2019年沿用。2020/5/3–6/28重播，7/5恢復第155話新集，9/27播第167話；全293話於2023/3/26播畢。",
+  "broadcastLabel": "テレビ東京2017年4月5日原播。2018年4月起週四19:25 JST，9月20日第74–75話18:55連播，10月7日起改週日17:30。2020年5月3日至6月28日重播，7月5日第155話恢復新集，全293話於2023年3月26日播畢。",
   "sourceReferenceUrls": [
     "https://www.netflix.com/hk/title/81080523",
-    "https://ani.gamer.com.tw/animeVideo.php?sn=33710"
+    "https://ani.gamer.com.tw/animeVideo.php?sn=33710",
+    "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+    "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+    "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2018_08_03.pdf",
+    "https://cal.syoboi.jp/tid/4546/time"
   ],
-  "metadataVerifiedAt": "2026-11-19",
+  "metadataVerifiedAt": "2026-11-20",
   "themes": [
+    {
+      "id": "boruto-naruto-next-generations-op-3",
+      "songId": "boruto-naruto-next-generations-op-3-song",
+      "type": "OP",
+      "sequence": 3,
+      "titleJa": "It's all in the game",
+      "artistDisplayName": "Qyoto",
+      "seasonIds": [
+        "2018-spring",
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第52–75話片頭，春第52–63話，夏第64–75話。東京第74–75話於9月20日一小時連播。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "中園勇樹"
+        },
+        {
+          "role": "lyrics",
+          "name": "Qyoto"
+        },
+        {
+          "role": "lyrics",
+          "name": "+d"
+        },
+        {
+          "role": "composition",
+          "name": "Qyoto"
+        },
+        {
+          "role": "composition",
+          "name": "風麻"
+        },
+        {
+          "role": "composition",
+          "name": "+d"
+        },
+        {
+          "role": "arrangement",
+          "name": "Qyoto"
+        },
+        {
+          "role": "arrangement",
+          "name": "鶴澤夢人"
+        },
+        {
+          "role": "arrangement",
+          "name": "+d"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "東京電視台｜BORUTO主題曲及唱片曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ssl.sme.co.jp/artist/Qyoto/discography/BVCL-893",
+          "label": "Sony Music｜Qyoto原單曲及完整錄音",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4721007",
+          "label": "Tower Records｜Qyoto動畫限定CD與創作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+          "label": "東京電視台｜第64話夏季首播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+          "label": "東京電視台｜第74–76話及原播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "しょぼいカレンダー｜片頭片尾集數和各首創作名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546/time",
+          "label": "しょぼいカレンダー｜東京原播、9月20日合播及轉檔",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1535981337&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1535981337&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1535981337&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uJbOqy2skeo",
+          "label": "Qyoto「It’s all in the game」京都2022 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://ssl.sme.co.jp/artist/Qyoto/discography/BVCL-893",
+            "https://tower.jp/item/4721007"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+            "https://cal.syoboi.jp/tid/4546",
+            "https://cal.syoboi.jp/tid/4546/time"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://tower.jp/item/4721007",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "bvcl-891-892"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-inst"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-inst"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://ssl.sme.co.jp/artist/Qyoto/discography/BVCL-893"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://ssl.sme.co.jp/artist/Qyoto/discography/BVCL-893"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "bvcl-893"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://ssl.sme.co.jp/artist/Qyoto/discography/BVCL-893"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-inst"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "bvcl-894"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1535981337"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1535981339"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1535981337"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1535981339"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1535981337"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1535981339"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-inst"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1535981343"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-inst"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1535981343"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-op-3-song-inst"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981337&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1535981343"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uJbOqy2skeo"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "uJbOqy2skeo"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-op-3-song-vocal",
+          "title": "It's all in the game",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "boruto-naruto-next-generations-op-3-song-inst",
+          "title": "It's all in the game Instrumental",
+          "kind": "instrumental",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "bvcl-891-892",
+          "title": "It's all in the game",
+          "artistDisplayName": "Qyoto",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-07-11",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋DVD",
+          "tracks": [
+            {
+              "title": "It's all in the game",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-vocal"
+            },
+            {
+              "title": "It's all in the game Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-inst"
+            }
+          ],
+          "catalogNumber": "BVCL-891-892"
+        },
+        {
+          "id": "bvcl-893",
+          "title": "It's all in the game",
+          "artistDisplayName": "Qyoto",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-07-11",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "It's all in the game",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-vocal"
+            },
+            {
+              "title": "It's all in the game Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-inst"
+            }
+          ],
+          "catalogNumber": "BVCL-893"
+        },
+        {
+          "id": "bvcl-894",
+          "title": "It's all in the game",
+          "artistDisplayName": "Qyoto",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-07-11",
+            "precision": "day"
+          },
+          "edition": "日本動畫期間限定CD",
+          "tracks": [
+            {
+              "title": "It's all in the game",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-vocal"
+            },
+            {
+              "title": "It's all in the game Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-inst"
+            }
+          ],
+          "catalogNumber": "BVCL-894"
+        },
+        {
+          "id": "apple-hk-1535981337",
+          "title": "It's all in the game - EP",
+          "artistDisplayName": "Qyoto",
+          "type": "ep",
+          "region": "HK",
+          "date": {
+            "value": "2018-07-11",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "It's all in the game",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-vocal"
+            },
+            {
+              "title": "It's all in the game Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-inst"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1535981337",
+          "title": "It's all in the game - EP",
+          "artistDisplayName": "Qyoto",
+          "type": "ep",
+          "region": "TW",
+          "date": {
+            "value": "2018-07-11",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "It's all in the game",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-vocal"
+            },
+            {
+              "title": "It's all in the game Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-inst"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1535981337",
+          "title": "It's all in the game - EP",
+          "artistDisplayName": "Qyoto",
+          "type": "ep",
+          "region": "JP",
+          "date": {
+            "value": "2018-07-11",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "It's all in the game",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-vocal"
+            },
+            {
+              "title": "It's all in the game Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-3-song-inst"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1535981339",
+          "label": "香港｜It's all in the game",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-op-3-song-vocal",
+          "releaseId": "apple-hk-1535981337",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1535981339",
+          "label": "台灣｜It's all in the game",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-op-3-song-vocal",
+          "releaseId": "apple-tw-1535981337",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1535981339",
+          "label": "日本｜It's all in the game",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-op-3-song-vocal",
+          "releaseId": "apple-jp-1535981337",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1535981343",
+          "label": "香港｜It's all in the game Instrumental",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-op-3-song-inst",
+          "releaseId": "apple-hk-1535981337",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1535981343",
+          "label": "台灣｜It's all in the game Instrumental",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-op-3-song-inst",
+          "releaseId": "apple-tw-1535981337",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1535981343",
+          "label": "日本｜It's all in the game Instrumental",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-op-3-song-inst",
+          "releaseId": "apple-jp-1535981337",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "basic_evidence"
+          ],
+          "note": "已核日本三盤與香港完整錄音和伴奏。第74、75話在東京連播，關西分週播出。",
+          "resumeWhen": "取得東京合播掛字後分別核對兩話是否各有獨立片頭，或辨識唱片TV Size。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-op-4",
+      "songId": "boruto-naruto-next-generations-op-4-song",
+      "type": "OP",
+      "sequence": 4,
+      "titleJa": "Lonely Go!",
+      "artistDisplayName": "Brian the Sun",
+      "seasonIds": [
+        "2018-fall",
+        "2019-winter"
+      ],
+      "usageLabel": "日本TV第76–100話片頭。2018/10/7轉至週日下午後首播，第87話於12/23播出。2019冬為1/6第88話至3/31第100話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "テレビ東京動畫主題曲、歌手與原播季度",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2019-1/",
+          "label": "テレビ東京ミュージック2019年1月，週日17:30原播曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "逐話使用範圍及詞曲編署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ssl.sme.co.jp/artist/brianthesun/discography/ESCL-5148",
+          "label": "唱片方發行資料、版別與曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6VZt5anxEXE",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
+          "label": "紀伊國屋書店期間生產限定盤曲序及製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538152430",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538152434",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538152439",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1536275922",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1536275923",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1536275925",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/Music/Info/brianthesun/meme/",
+          "label": "Sony《MEME》CD曲序及附DVD的演唱會影像",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001906.000016356.html",
+          "label": "Aniplex官方主題曲合輯CD曲序及DVD內容",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148",
+          "label": "Sony Music Shop 期間生產限定盤第 1、3、4 曲及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.ttmnet.co.jp/theme/2019-1/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=6VZt5anxEXE"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "6VZt5anxEXE"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://ssl.sme.co.jp/artist/brianthesun/discography/ESCL-5148"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-4-song-vocal"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
+            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-4-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
+            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-4-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
+            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-4-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
+            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "escl-5148"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538152434"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1538152434"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538152439"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1538152439"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1538152430"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1538152430"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1536275923"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1536275923"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1536275925"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1536275925"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1536275922"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1536275922"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/Music/Info/brianthesun/meme/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "escl-5190"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001906.000016356.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-the-best-2019"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Lonely Go!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538152434",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1538152430",
+          "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Lonely Go!(アニメver.)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538152439",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1538152430",
+          "recordingId": "boruto-naruto-next-generations-op-4-song-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Lonely Go!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1536275923",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1536275922",
+          "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Lonely Go!(Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1536275925",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1536275922",
+          "recordingId": "boruto-naruto-next-generations-op-4-song-instrumental"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "森良太",
+          "role": "lyrics"
+        },
+        {
+          "name": "森良太",
+          "role": "composition"
+        },
+        {
+          "name": "Brian the Sun",
+          "role": "arrangement"
+        },
+        {
+          "name": "江口亮",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-op-4-song-vocal",
+          "title": "Lonely Go!",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "boruto-naruto-next-generations-op-4-song-tv",
+          "title": "Lonely Go! (アニメver.)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "boruto-naruto-next-generations-op-4-song-instrumental",
+          "title": "Lonely Go! (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "escl-5148",
+          "title": "Lonely Go!",
+          "type": "single",
+          "artistDisplayName": "Brian the Sun",
+          "date": {
+            "value": "2019-01-09",
+            "precision": "day"
+          },
+          "edition": "日本期間生產限定盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Lonely Go!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
+            },
+            {
+              "title": "Lonely Go! (アニメver.)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-4-song-tv"
+            },
+            {
+              "title": "Lonely Go! (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-4-song-instrumental"
+            }
+          ],
+          "catalogNumber": "ESCL-5148"
+        },
+        {
+          "id": "apple-hk-1538152430",
+          "title": "Lonely Go!(Another Edition) - Single",
+          "type": "single",
+          "artistDisplayName": "Brian the Sun",
+          "date": {
+            "value": "2019-01-09",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Lonely Go!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
+            },
+            {
+              "title": "Lonely Go!(アニメver.)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-4-song-tv"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1536275922",
+          "title": "Lonely Go! - Single",
+          "type": "single",
+          "artistDisplayName": "Brian the Sun",
+          "date": {
+            "value": "2019-03-13",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Lonely Go!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
+            },
+            {
+              "title": "Lonely Go!(Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-4-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "escl-5190",
+          "title": "MEME",
+          "type": "album",
+          "artistDisplayName": "Brian the Sun",
+          "date": {
+            "value": "2019-03-13",
+            "precision": "day"
+          },
+          "edition": "日本通常盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Lonely Go!",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "ESCL-5190"
+        },
+        {
+          "id": "boruto-the-best-2019",
+          "title": "BORUTO THE BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-12-18",
+            "precision": "day"
+          },
+          "edition": "日本期間生產限定CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Lonely Go!",
+              "position": 10,
+              "disc": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-op-5",
+      "songId": "boruto-naruto-next-generations-op-5-song",
+      "type": "OP",
+      "sequence": 5,
+      "titleJa": "ゴールデンタイム",
+      "artistDisplayName": "フジファブリック",
+      "seasonIds": [
+        "2019-spring",
+        "2019-summer"
+      ],
+      "usageLabel": "日本TV第101–126話片頭。2019春為4/7至6/30第101–113話，夏為7/7至9/29第114–126話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "テレビ東京動畫主題曲、歌手與原播季度",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2019-4/",
+          "label": "テレビ東京ミュージック2019年4月，週日17:30原播曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+          "label": "テレビ東京ミュージック2019年7月，週日17:30原播曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "逐話使用範圍及詞曲編署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000",
+          "label": "唱片方發行資料、版別與曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=a5cyJu4saLc",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1535551142",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1535551143",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1535551145",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sma.co.jp/s/sma/news/detail/83951?ima=0000",
+          "label": "Sony Music Artists公布5月19日先行數位單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.ttmnet.co.jp/theme/2019-4/",
+            "https://www.ttmnet.co.jp/theme/2019-7/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=a5cyJu4saLc"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "a5cyJu4saLc"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-5-song-vocal"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-5-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-5-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "aicl-3725-3726"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "aicl-3727"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1535551143"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1535551143"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1535551145"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1535551145"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1535551142"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1535551142"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/83951?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-op-5-song"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ゴールデンタイム｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1535551143",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1535551142",
+          "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ゴールデンタイム (TV edit)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1535551145",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1535551142",
+          "recordingId": "boruto-naruto-next-generations-op-5-song-tv"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "加藤慎一",
+          "role": "lyrics"
+        },
+        {
+          "name": "加藤慎一",
+          "role": "composition"
+        },
+        {
+          "name": "フジファブリック",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-op-5-song-vocal",
+          "title": "ゴールデンタイム",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "boruto-naruto-next-generations-op-5-song-tv",
+          "title": "ゴールデンタイム (TV edit)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "aicl-3725-3726",
+          "title": "ゴールデンタイム",
+          "type": "single",
+          "artistDisplayName": "フジファブリック",
+          "date": {
+            "value": "2019-07-24",
+            "precision": "day"
+          },
+          "edition": "日本初回生產限定CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴールデンタイム",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
+            }
+          ],
+          "catalogNumber": "AICL-3725～3726"
+        },
+        {
+          "id": "aicl-3727",
+          "title": "ゴールデンタイム",
+          "type": "single",
+          "artistDisplayName": "フジファブリック",
+          "date": {
+            "value": "2019-07-24",
+            "precision": "day"
+          },
+          "edition": "日本通常盤初回規格",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴールデンタイム",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
+            },
+            {
+              "title": "ゴールデンタイム (TV edit)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-5-song-tv"
+            }
+          ],
+          "catalogNumber": "AICL-3727"
+        },
+        {
+          "id": "apple-hk-1535551142",
+          "title": "ゴールデンタイム - Single",
+          "type": "single",
+          "artistDisplayName": "フジファブリック",
+          "date": {
+            "value": "2019-07-24",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ゴールデンタイム",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
+            },
+            {
+              "title": "ゴールデンタイム (TV edit)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-op-5-song-tv"
+            }
+          ]
+        }
+      ],
+      "releaseDate": "2019-05-19"
+    },
     {
       "type": "OP",
       "sequence": 6,
@@ -699,6 +2458,4090 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "note": "實體完全盤第2軌，通常盤及香港EP第1軌。唱片先行日期與首個電視用途日期各自記錄。",
           "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-ed-5",
+      "songId": "boruto-naruto-next-generations-ed-5-song",
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "花鳥風月",
+      "artistDisplayName": "コアラモード．",
+      "seasonIds": [
+        "2018-spring"
+      ],
+      "usageLabel": "日本TV第52–63話片尾，2018年4月4日至6月28日。7月5日第64話開始更換。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "あんにゅ"
+        },
+        {
+          "role": "lyrics",
+          "name": "小幡康裕"
+        },
+        {
+          "role": "lyrics",
+          "name": "あんにゅ"
+        },
+        {
+          "role": "composition",
+          "name": "小幡康裕"
+        },
+        {
+          "role": "composition",
+          "name": "あんにゅ"
+        },
+        {
+          "role": "arrangement",
+          "name": "小幡康裕"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "東京電視台｜BORUTO主題曲及唱片曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/coalamode/discography/BVCL-883",
+          "label": "Sony Music｜花鳥風月通常盤及伴奏",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+          "label": "東京電視台｜第64話夏季首播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_24.html",
+          "label": "東京電視台｜第63話及前後春季原播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "しょぼいカレンダー｜片頭片尾集數和各首創作名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/coalamode/info/492140",
+          "label": "Sony Music｜花鳥風月限定及通常兩種唱片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1535981584&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1535981584&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1535981584&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.sonymusic.co.jp/artist/coalamode/discography/BVCL-883"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_24.html",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://cal.syoboi.jp/tid/4546",
+            "https://www.sonymusic.co.jp/artist/coalamode/discography/BVCL-883"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/info/492140"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/info/492140"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/info/492140"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "bvcl-882"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/info/492140"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-inst"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/info/492140"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-inst"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/discography/BVCL-883"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/discography/BVCL-883"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "bvcl-883"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/coalamode/discography/BVCL-883"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-inst"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1538121910"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1538121911"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1538121910"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1538121911"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1538121910"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1538121911"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-inst"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1538121914"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-inst"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1538121914"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-inst"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1538121914"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-tv-size"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1538121916"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-tv-size"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1538121916"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-tv-size"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538121910&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1538121916"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1535981584"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1535981737"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1535981584"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1535981737"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1535981584"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1535981584&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1535981737"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-ed-5-song-vocal",
+          "title": "花鳥風月",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-5-song-inst",
+          "title": "花鳥風月 Instrumental",
+          "kind": "instrumental",
+          "format": "full"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-5-song-tv-size",
+          "title": "花鳥風月-TV Size-",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "bvcl-882",
+          "title": "花鳥風月",
+          "artistDisplayName": "コアラモード．",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-04-25",
+            "precision": "day"
+          },
+          "edition": "日本初回限定CD",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            },
+            {
+              "title": "花鳥風月 Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-inst"
+            }
+          ],
+          "catalogNumber": "BVCL-882"
+        },
+        {
+          "id": "bvcl-883",
+          "title": "花鳥風月",
+          "artistDisplayName": "コアラモード．",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-04-25",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            },
+            {
+              "title": "花鳥風月 Instrumental",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-inst"
+            }
+          ],
+          "catalogNumber": "BVCL-883"
+        },
+        {
+          "id": "apple-hk-1538121910",
+          "title": "花鳥風月 (Special Edition) - EP",
+          "artistDisplayName": "COALAMODE.",
+          "type": "ep",
+          "region": "HK",
+          "date": {
+            "value": "2018-04-25",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            },
+            {
+              "title": "花鳥風月 Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-inst"
+            },
+            {
+              "title": "花鳥風月-TV Size-",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-tv-size"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1538121910",
+          "title": "花鳥風月 (Special Edition) - EP",
+          "artistDisplayName": "COALAMODE.",
+          "type": "ep",
+          "region": "TW",
+          "date": {
+            "value": "2018-04-25",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            },
+            {
+              "title": "花鳥風月 Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-inst"
+            },
+            {
+              "title": "花鳥風月-TV Size-",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-tv-size"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1538121910",
+          "title": "花鳥風月 (Special Edition) - EP",
+          "artistDisplayName": "コアラモード.",
+          "type": "ep",
+          "region": "JP",
+          "date": {
+            "value": "2018-04-25",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            },
+            {
+              "title": "花鳥風月 Instrumental",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-inst"
+            },
+            {
+              "title": "花鳥風月-TV Size-",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-tv-size"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1535981584",
+          "title": "COALAMODE.2〜街風泥棒〜",
+          "artistDisplayName": "COALAMODE.",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2018-05-30",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1535981584",
+          "title": "COALAMODE.2〜街風泥棒〜",
+          "artistDisplayName": "COALAMODE.",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2018-05-30",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1535981584",
+          "title": "COALAMODE.2〜街風泥棒〜",
+          "artistDisplayName": "コアラモード.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-05-30",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "花鳥風月",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1538121911",
+          "label": "香港｜花鳥風月",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal",
+          "releaseId": "apple-hk-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1538121911",
+          "label": "台灣｜花鳥風月",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal",
+          "releaseId": "apple-tw-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1538121911",
+          "label": "日本｜花鳥風月",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal",
+          "releaseId": "apple-jp-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1538121914",
+          "label": "香港｜花鳥風月 Instrumental",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-inst",
+          "releaseId": "apple-hk-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1538121914",
+          "label": "台灣｜花鳥風月 Instrumental",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-inst",
+          "releaseId": "apple-tw-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1538121914",
+          "label": "日本｜花鳥風月 Instrumental",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-inst",
+          "releaseId": "apple-jp-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1538121916",
+          "label": "香港｜花鳥風月-TV Size-",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-tv-size",
+          "releaseId": "apple-hk-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1538121916",
+          "label": "台灣｜花鳥風月-TV Size-",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-tv-size",
+          "releaseId": "apple-tw-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1538121916",
+          "label": "日本｜花鳥風月-TV Size-",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-tv-size",
+          "releaseId": "apple-jp-1538121910",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1535981737",
+          "label": "香港｜花鳥風月",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal",
+          "releaseId": "apple-hk-1535981584",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1535981737",
+          "label": "台灣｜花鳥風月",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal",
+          "releaseId": "apple-tw-1535981584",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1535981737",
+          "label": "日本｜花鳥風月",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-5-song-vocal",
+          "releaseId": "apple-jp-1535981584",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-ed-6",
+      "songId": "boruto-naruto-next-generations-ed-6-song",
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "ライカ",
+      "artistDisplayName": "Bird Bear Hare and Fish",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第64–75話片尾，東京原播7月5日至9月20日。第74–75話在東京為一小時連播。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "尾崎雄貴"
+        },
+        {
+          "role": "lyrics",
+          "name": "尾崎雄貴"
+        },
+        {
+          "role": "composition",
+          "name": "尾崎雄貴"
+        },
+        {
+          "role": "arrangement",
+          "name": "Bird Bear Hare and Fish"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "東京電視台｜BORUTO主題曲及唱片曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/BBHF/info/495097",
+          "label": "Sony Music｜ライカ三種實體版及動畫盤TV Size",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+          "label": "東京電視台｜第64話夏季首播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+          "label": "東京電視台｜第74–76話及原播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "しょぼいカレンダー｜片頭片尾集數和各首創作名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546/time",
+          "label": "しょぼいカレンダー｜東京原播、9月20日合播及轉檔",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1537276103&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1537276103&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1537276103&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538265059&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538265059&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538265059&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RktT86GlyM0",
+          "label": "Bird Bear Hare and Fish - ライカ (Music Video)",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+            "https://cal.syoboi.jp/tid/4546",
+            "https://cal.syoboi.jp/tid/4546/time"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "secl-2312-2313"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "secl-2314"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "secl-2315"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/BBHF/info/495097"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1537276103"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1537276105"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1537276103"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1537276105"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1537276103"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1537276103&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1537276105"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1538265059"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1538265061"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1538265059"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1538265061"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-6-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1538265059"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538265059&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1538265061"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=RktT86GlyM0"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "RktT86GlyM0"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-ed-6-song-vocal",
+          "title": "ライカ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-6-song-tv-size",
+          "title": "ライカ -TV size-",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "secl-2312-2313",
+          "title": "ライカ",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-08",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋Blu-ray",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ],
+          "catalogNumber": "SECL-2312-2313"
+        },
+        {
+          "id": "secl-2314",
+          "title": "ライカ",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-08",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ],
+          "catalogNumber": "SECL-2314"
+        },
+        {
+          "id": "secl-2315",
+          "title": "ライカ",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-08",
+            "precision": "day"
+          },
+          "edition": "日本動畫盤CD",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            },
+            {
+              "title": "ライカ -TV size-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-tv-size"
+            }
+          ],
+          "catalogNumber": "SECL-2315"
+        },
+        {
+          "id": "apple-hk-1537276103",
+          "title": "ライカ - Single",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "single",
+          "region": "HK",
+          "date": {
+            "value": "2018-08-08",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1537276103",
+          "title": "ライカ - Single",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2018-08-08",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1537276103",
+          "title": "ライカ - Single",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-08",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1538265059",
+          "title": "Moon Boots",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2018-09-05",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1538265059",
+          "title": "Moon Boots",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2018-09-05",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1538265059",
+          "title": "Moon Boots",
+          "artistDisplayName": "Bird Bear Hare and Fish",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-09-05",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ライカ",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1537276105",
+          "label": "香港｜ライカ",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal",
+          "releaseId": "apple-hk-1537276103",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1537276105",
+          "label": "台灣｜ライカ",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal",
+          "releaseId": "apple-tw-1537276103",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1537276105",
+          "label": "日本｜ライカ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal",
+          "releaseId": "apple-jp-1537276103",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1538265061",
+          "label": "香港｜ライカ",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal",
+          "releaseId": "apple-hk-1538265059",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1538265061",
+          "label": "台灣｜ライカ",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal",
+          "releaseId": "apple-tw-1538265059",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1538265061",
+          "label": "日本｜ライカ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-6-song-vocal",
+          "releaseId": "apple-jp-1538265059",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "platform_availability"
+          ],
+          "note": "香港有單曲與Moon Boots，動畫版CD另有TV Size。第74、75話東京連播而部分電視台分週。",
+          "resumeWhen": "核對東京合播兩話的片尾位置及香港可串流的TV Size逐曲頁。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-ed-7",
+      "songId": "boruto-naruto-next-generations-ed-7-song",
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "ポラリス",
+      "artistDisplayName": "ヒトリエ",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV第76–87話片尾，2018年10月7日起轉週日17:30 JST，第87話12月23日播出。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "wowaka"
+        },
+        {
+          "role": "lyrics",
+          "name": "wowaka"
+        },
+        {
+          "role": "composition",
+          "name": "wowaka"
+        },
+        {
+          "role": "arrangement",
+          "name": "ヒトリエ"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "東京電視台｜BORUTO主題曲及唱片曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/hitorie/discography/AICL-3600",
+          "label": "Sony Music｜ポラリス通常盤與作品署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+          "label": "東京電視台｜第74–76話及原播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
+          "label": "東京電視台｜第87話和秋冬交界",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "しょぼいカレンダー｜片頭片尾集數和各首創作名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ssl.sme.co.jp/artist/hitorie/info/498597",
+          "label": "Sony Music｜ポラリス初回盤與作者",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538102621&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538102621&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538102621&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538107260&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538107260&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1538107260&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1602192416&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1602192416&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1602192416&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=t8rjUuz8Ms0",
+          "label": "ヒトリエ「ポラリス」 / HITORIE – Polaris",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.sonymusic.co.jp/artist/hitorie/discography/AICL-3600"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://cal.syoboi.jp/tid/4546",
+            "https://ssl.sme.co.jp/artist/hitorie/info/498597"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://ssl.sme.co.jp/artist/hitorie/info/498597"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://ssl.sme.co.jp/artist/hitorie/info/498597"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://ssl.sme.co.jp/artist/hitorie/info/498597"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "aicl-3597-3599"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/hitorie/discography/AICL-3600"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/hitorie/discography/AICL-3600"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "aicl-3600"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1538102621"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1538102622"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1538102621"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1538102622"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1538102621"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538102621&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1538102622"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1538107260"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1538107261"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1538107260"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1538107261"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1538107260"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1538107260&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1538107261"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1602192416"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1602192940"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1602192416"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1602192940"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1602192416"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1602192416&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1602192940"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=t8rjUuz8Ms0"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "t8rjUuz8Ms0"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-ed-7-song-vocal",
+          "title": "ポラリス",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021",
+          "title": "ポラリス (Live)",
+          "kind": "live",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "aicl-3597-3599",
+          "title": "ポラリス",
+          "artistDisplayName": "ヒトリエ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋DVD及特典",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ],
+          "catalogNumber": "AICL-3597-3599"
+        },
+        {
+          "id": "aicl-3600",
+          "title": "ポラリス",
+          "artistDisplayName": "ヒトリエ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ],
+          "catalogNumber": "AICL-3600"
+        },
+        {
+          "id": "apple-hk-1538102621",
+          "title": "ポラリス - Single",
+          "artistDisplayName": "hitorie",
+          "type": "single",
+          "region": "HK",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1538102621",
+          "title": "ポラリス - Single",
+          "artistDisplayName": "hitorie",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1538102621",
+          "title": "ポラリス - Single",
+          "artistDisplayName": "ヒトリエ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1538107260",
+          "title": "HOWLS",
+          "artistDisplayName": "hitorie",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2019-02-27",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1538107260",
+          "title": "HOWLS",
+          "artistDisplayName": "hitorie",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2019-02-27",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1538107260",
+          "title": "HOWLS",
+          "artistDisplayName": "ヒトリエ",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-02-27",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ポラリス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1602192416",
+          "title": "Amplified Tour 2021 at OSAKA (Selected Edition)",
+          "artistDisplayName": "hitorie",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2022-01-19",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ポラリス (Live)",
+              "position": 16,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1602192416",
+          "title": "Amplified Tour 2021 at OSAKA (Selected Edition)",
+          "artistDisplayName": "hitorie",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2022-01-19",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ポラリス (Live)",
+              "position": 16,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1602192416",
+          "title": "Amplified Tour 2021 at OSAKA (Selected Edition)",
+          "artistDisplayName": "ヒトリエ",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2022-01-19",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ポラリス (Live)",
+              "position": 16,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1538102622",
+          "label": "香港｜ポラリス",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal",
+          "releaseId": "apple-hk-1538102621",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1538102622",
+          "label": "台灣｜ポラリス",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal",
+          "releaseId": "apple-tw-1538102621",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1538102622",
+          "label": "日本｜ポラリス",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal",
+          "releaseId": "apple-jp-1538102621",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1538107261",
+          "label": "香港｜ポラリス",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal",
+          "releaseId": "apple-hk-1538107260",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1538107261",
+          "label": "台灣｜ポラリス",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal",
+          "releaseId": "apple-tw-1538107260",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1538107261",
+          "label": "日本｜ポラリス",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-vocal",
+          "releaseId": "apple-jp-1538107260",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1602192940",
+          "label": "香港｜ポラリス (Live)",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021",
+          "releaseId": "apple-hk-1602192416",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1602192940",
+          "label": "台灣｜ポラリス (Live)",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021",
+          "releaseId": "apple-tw-1602192416",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1602192940",
+          "label": "日本｜ポラリス (Live)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "boruto-naruto-next-generations-ed-7-song-live-osaka-2021",
+          "releaseId": "apple-jp-1602192416",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "2018原唱和2021大阪現場分列，香港有原單曲、HOWLS及現場配信。",
+          "resumeWhen": "取得官方TV剪輯或日本原播可辨識的獨立電視音源後補。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-ed-8",
+      "songId": "boruto-naruto-next-generations-ed-8-song",
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "強がりLOSER",
+      "artistDisplayName": "ЯeaL",
+      "seasonIds": [
+        "2019-winter"
+      ],
+      "usageLabel": "日本TV第88–100話片尾（2019/1/6–3/31）。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "テレビ東京動畫主題曲、歌手與原播季度",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2019-1/",
+          "label": "テレビ東京ミュージック2019年1月，週日17:30原播曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "逐話使用範圍及詞曲編署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/real/info/503976",
+          "label": "唱片方發行資料、版別與曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FAvY_yjXiGo",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=n-LuTSD3Gkk",
+          "label": "Sony Music Labels供稿音軌與Ryoko署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1537258021",
+          "label": "Apple Music日本，ЯeaL原署名、唱片公司及日港共用的曲目識別碼",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537258021",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537258022",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537258025",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537258386",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://real.lnk.to/TL_DL",
+          "label": "唱片方數位發行入口",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68",
+          "label": "Spotify收錄唱片方指定的同名發行品",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001906.000016356.html",
+          "label": "Aniplex官方主題曲合輯CD曲序及DVD內容",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-8-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.ttmnet.co.jp/theme/2019-1/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=FAvY_yjXiGo"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "FAvY_yjXiGo"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/real/info/503976"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-8-song-vocal"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=n-LuTSD3Gkk"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/real/info/503976"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-8-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/real/info/503976"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-8-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/real/info/503976"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-8-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/real/info/503976"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "secl-2383"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537258022"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1537258022"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537258025"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1537258025"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537258386"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1537258386"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1537258021"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1537258021"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/album/1537258021",
+            "https://www.sonymusic.co.jp/artist/real/info/503976"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-8-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/album/1537258021",
+            "https://music.apple.com/hk/album/1537258021"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1537258022"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/album/1537258021",
+            "https://music.apple.com/hk/album/1537258021"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1537258025"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/album/1537258021",
+            "https://music.apple.com/hk/album/1537258021"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1537258386"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://real.lnk.to/TL_DL"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001906.000016356.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-the-best-2019"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "強がりLOSER｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537258022",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1537258021",
+          "recordingId": "boruto-naruto-next-generations-ed-8-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "強がりLOSER 〜アニメサイズ〜｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537258025",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1537258021",
+          "recordingId": "boruto-naruto-next-generations-ed-8-song-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "強がりLOSER 〜Instrumental〜｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537258386",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1537258021",
+          "recordingId": "boruto-naruto-next-generations-ed-8-song-instrumental"
+        },
+        {
+          "platform": "Spotify",
+          "label": "強がりLOSER｜Spotify",
+          "url": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68",
+          "linkType": "direct_album",
+          "region": "UNKNOWN",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "Ryoko",
+          "role": "lyrics"
+        },
+        {
+          "name": "Ryoko",
+          "role": "composition"
+        },
+        {
+          "name": "Ryoko",
+          "role": "arrangement"
+        },
+        {
+          "name": "渡辺拓也",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-ed-8-song-vocal",
+          "title": "強がりLOSER",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-8-song-tv",
+          "title": "強がりLOSER ～アニメサイズ～",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-8-song-instrumental",
+          "title": "強がりLOSER ～Instrumental～",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "secl-2383",
+          "title": "強がりLOSER",
+          "type": "single",
+          "artistDisplayName": "ЯeaL",
+          "date": {
+            "value": "2019-02-20",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "強がりLOSER",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-8-song-vocal"
+            },
+            {
+              "title": "強がりLOSER ～アニメサイズ～",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-8-song-tv"
+            },
+            {
+              "title": "強がりLOSER ～Instrumental～",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-8-song-instrumental"
+            }
+          ],
+          "catalogNumber": "SECL-2383"
+        },
+        {
+          "id": "apple-hk-1537258021",
+          "title": "強がりLOSER - EP",
+          "type": "ep",
+          "artistDisplayName": "ЯeaL",
+          "date": {
+            "value": "2019-02-20",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "強がりLOSER",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-8-song-vocal"
+            },
+            {
+              "title": "強がりLOSER 〜アニメサイズ〜",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-8-song-tv"
+            },
+            {
+              "title": "強がりLOSER 〜Instrumental〜",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-8-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "boruto-the-best-2019",
+          "title": "BORUTO THE BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-12-18",
+            "precision": "day"
+          },
+          "edition": "日本期間生產限定CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "強がりLOSER",
+              "position": 12,
+              "disc": 1
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本與香港 Apple Music 使用相同專輯、藝人及曲目識別碼，香港的本地化藝人顯示有異。歌曲採原唱片與日本電視台署名。",
+          "resumeWhen": "區域曲目或識別碼變動時，與唱片方數位發行及日本區署名複核。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-ed-9",
+      "songId": "boruto-naruto-next-generations-ed-9-song",
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "Ride or Die",
+      "artistDisplayName": "スカイピース",
+      "seasonIds": [
+        "2019-spring"
+      ],
+      "usageLabel": "日本TV第101–113話片尾（2019/4/7–6/30）。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "テレビ東京動畫主題曲、歌手與原播季度",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2019-4/",
+          "label": "テレビ東京ミュージック2019年4月，週日17:30原播曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "逐話使用範圍及詞曲編署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000002043.000013546.html",
+          "label": "唱片方發行資料、版別與曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/song/755381",
+          "label": "JOYSOUND授權詞曲署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538276412",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538276419",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-9-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.ttmnet.co.jp/theme/2019-4/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-9"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-9-song-vocal"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/song/755381"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-9-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "srcl-11207"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "srcl-11206"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538276419"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1538276419"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1538276412"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1538276412"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Ride or Die｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538276419",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1538276412"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "スカイピース",
+          "role": "lyrics"
+        },
+        {
+          "name": "スカイピース",
+          "role": "composition"
+        },
+        {
+          "name": "宮川拓",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-ed-9-song-vocal",
+          "title": "Ride or Die",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-9-song-instrumental",
+          "title": "Ride or Die (instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "srcl-11207",
+          "title": "Ride or Die",
+          "type": "single",
+          "artistDisplayName": "スカイピース",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "edition": "日本通常盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ride or Die",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-9-song-vocal"
+            },
+            {
+              "title": "Ride or Die (instrumental)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-9-song-instrumental"
+            }
+          ],
+          "catalogNumber": "SRCL-11207"
+        },
+        {
+          "id": "srcl-11206",
+          "title": "BE BOY",
+          "type": "album",
+          "artistDisplayName": "スカイピース",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "edition": "日本通常盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ride or Die",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "SRCL-11206"
+        },
+        {
+          "id": "apple-hk-1538276412",
+          "title": "BE BOY",
+          "type": "album",
+          "artistDisplayName": "スカイピース",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Ride or Die",
+              "position": 7,
+              "disc": 1
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "Sony列出實體單曲、伴奏及《BE BOY》所收歌曲，限定盤另附MV。",
+          "resumeWhen": "取得唱片方發行的TV剪輯或可核身的正版公開MV頁時補錄。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "boruto-naruto-next-generations-ed-10",
+      "songId": "boruto-naruto-next-generations-ed-10-song",
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "未完成な光たち",
+      "artistDisplayName": "福原遥",
+      "seasonIds": [
+        "2019-summer"
+      ],
+      "usageLabel": "日本TV第114–126話片尾（2019/7/7–9/29）。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "テレビ東京動畫主題曲、歌手與原播季度",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+          "label": "テレビ東京ミュージック2019年7月，週日17:30原播曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
+          "label": "テレビ東京逐話首播日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546",
+          "label": "逐話使用範圍及詞曲編署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735",
+          "label": "唱片方發行資料、版別與曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VNqxLJyPCN8",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://fukuharaharuka-music.com/harukakanatae/",
+          "label": "福原遥官方逐曲詞曲、編曲及專輯曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538108627",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538108628",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538108630",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1624429681",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1624430268",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-10-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.ttmnet.co.jp/theme/2019-7/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-10"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4546"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=VNqxLJyPCN8"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "VNqxLJyPCN8"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-10-song-vocal"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://fukuharaharuka-music.com/harukakanatae/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "boruto-naruto-next-generations-ed-10-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "aicl-3735-3736"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538108628"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1538108628"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538108630"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1538108630"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1538108627"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1538108627"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1624430268"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1624430268"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1624429681"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1624429681"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "未完成な光たち｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538108628",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1538108627",
+          "recordingId": "boruto-naruto-next-generations-ed-10-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未完成な光たち (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538108630",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1538108627",
+          "recordingId": "boruto-naruto-next-generations-ed-10-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未完成な光たち｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1624430268",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1624429681"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "H.Aoba",
+          "role": "lyrics"
+        },
+        {
+          "name": "H.Aoba",
+          "role": "composition"
+        },
+        {
+          "name": "N.Sasaki",
+          "role": "composition"
+        },
+        {
+          "name": "佐々木望",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-ed-10-song-vocal",
+          "title": "未完成な光たち",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "boruto-naruto-next-generations-ed-10-song-instrumental",
+          "title": "未完成な光たち Instrumental",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "aicl-3735-3736",
+          "title": "未完成な光たち",
+          "type": "single",
+          "artistDisplayName": "福原遥",
+          "date": {
+            "value": "2019-08-07",
+            "precision": "day"
+          },
+          "edition": "日本初回生產限定CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未完成な光たち",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-10-song-vocal"
+            },
+            {
+              "title": "未完成な光たち Instrumental",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-10-song-instrumental"
+            }
+          ],
+          "catalogNumber": "AICL-3735～3736"
+        },
+        {
+          "id": "apple-hk-1538108627",
+          "title": "未完成な光たち - Single",
+          "type": "single",
+          "artistDisplayName": "福原遥",
+          "date": {
+            "value": "2019-08-07",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "未完成な光たち",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-10-song-vocal"
+            },
+            {
+              "title": "未完成な光たち (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-ed-10-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1624429681",
+          "title": "ハルカカナタヘ",
+          "type": "album",
+          "artistDisplayName": "福原遥",
+          "date": {
+            "value": "2022-06-08",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "未完成な光たち",
+              "position": 9,
+              "disc": 1
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "唱片另列伴奏，藝人公開MV標示YouTube Limited Ver.。",
+          "resumeWhen": "取得唱片方明示長度的電視剪輯與香港商業版本對映時補錄。",
+          "checkedAt": "2026-11-19"
         }
       ]
     },
@@ -2881,2337 +8724,6 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ]
-    },
-    {
-      "id": "boruto-naruto-next-generations-op-4",
-      "songId": "boruto-naruto-next-generations-op-4-song",
-      "type": "OP",
-      "sequence": 4,
-      "titleJa": "Lonely Go!",
-      "artistDisplayName": "Brian the Sun",
-      "seasonIds": [
-        "2018-fall",
-        "2019-winter"
-      ],
-      "usageLabel": "日本TV第76–100話片頭。2018/10/7轉至週日下午後首播，第87話於12/23播出。2019冬為1/6第88話至3/31第100話。",
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-          "label": "テレビ東京動畫主題曲、歌手與原播季度",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.ttmnet.co.jp/theme/2019-1/",
-          "label": "テレビ東京ミュージック2019年1月，週日17:30原播曲表",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4546",
-          "label": "逐話使用範圍及詞曲編署名",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://ssl.sme.co.jp/artist/brianthesun/discography/ESCL-5148",
-          "label": "唱片方發行資料、版別與曲目",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=6VZt5anxEXE",
-          "label": "權利方公開影片或供稿音軌及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
-          "label": "紀伊國屋書店期間生產限定盤曲序及製作署名",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1538152430",
-          "label": "Apple Music 香港發行品及曲序",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1538152434",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1538152439",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1536275922",
-          "label": "Apple Music 香港發行品及曲序",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1536275923",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1536275925",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.sonymusic.co.jp/Music/Info/brianthesun/meme/",
-          "label": "Sony《MEME》CD曲序及附DVD的演唱會影像",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000001906.000016356.html",
-          "label": "Aniplex官方主題曲合輯CD曲序及DVD內容",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148",
-          "label": "Sony Music Shop 期間生產限定盤第 1、3、4 曲及版別",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-4-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://www.ttmnet.co.jp/theme/2019-1/",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-4"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=6VZt5anxEXE"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "6VZt5anxEXE"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://ssl.sme.co.jp/artist/brianthesun/discography/ESCL-5148"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-4-song-vocal"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
-            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-4-song-tv"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "format"
-          ],
-          "sourceUrls": [
-            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
-            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-4-song-tv"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
-            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-4-song-instrumental"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://www.kinokuniya.co.jp/f/dsg-10-4547366384000",
-            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=ESCL000005148"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "escl-5148"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1538152434"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1538152434"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1538152439"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1538152439"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1538152430"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1538152430"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1536275923"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1536275923"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1536275925"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1536275925"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1536275922"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1536275922"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/Music/Info/brianthesun/meme/"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "escl-5190"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001906.000016356.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-the-best-2019"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "Lonely Go!｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1538152434",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1538152430",
-          "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "Lonely Go!(アニメver.)｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1538152439",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1538152430",
-          "recordingId": "boruto-naruto-next-generations-op-4-song-tv"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "Lonely Go!｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1536275923",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1536275922",
-          "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "Lonely Go!(Instrumental)｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1536275925",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1536275922",
-          "recordingId": "boruto-naruto-next-generations-op-4-song-instrumental"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "name": "森良太",
-          "role": "lyrics"
-        },
-        {
-          "name": "森良太",
-          "role": "composition"
-        },
-        {
-          "name": "Brian the Sun",
-          "role": "arrangement"
-        },
-        {
-          "name": "江口亮",
-          "role": "arrangement"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "boruto-naruto-next-generations-op-4-song-vocal",
-          "title": "Lonely Go!",
-          "kind": "vocal",
-          "format": "unknown"
-        },
-        {
-          "id": "boruto-naruto-next-generations-op-4-song-tv",
-          "title": "Lonely Go! (アニメver.)",
-          "kind": "vocal",
-          "format": "tv"
-        },
-        {
-          "id": "boruto-naruto-next-generations-op-4-song-instrumental",
-          "title": "Lonely Go! (Instrumental)",
-          "kind": "instrumental",
-          "format": "unknown"
-        }
-      ],
-      "releases": [
-        {
-          "id": "escl-5148",
-          "title": "Lonely Go!",
-          "type": "single",
-          "artistDisplayName": "Brian the Sun",
-          "date": {
-            "value": "2019-01-09",
-            "precision": "day"
-          },
-          "edition": "日本期間生產限定盤",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Lonely Go!",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
-            },
-            {
-              "title": "Lonely Go! (アニメver.)",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-4-song-tv"
-            },
-            {
-              "title": "Lonely Go! (Instrumental)",
-              "position": 4,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-4-song-instrumental"
-            }
-          ],
-          "catalogNumber": "ESCL-5148"
-        },
-        {
-          "id": "apple-hk-1538152430",
-          "title": "Lonely Go!(Another Edition) - Single",
-          "type": "single",
-          "artistDisplayName": "Brian the Sun",
-          "date": {
-            "value": "2019-01-09",
-            "precision": "day"
-          },
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "Lonely Go!",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
-            },
-            {
-              "title": "Lonely Go!(アニメver.)",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-4-song-tv"
-            }
-          ]
-        },
-        {
-          "id": "apple-hk-1536275922",
-          "title": "Lonely Go! - Single",
-          "type": "single",
-          "artistDisplayName": "Brian the Sun",
-          "date": {
-            "value": "2019-03-13",
-            "precision": "day"
-          },
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "Lonely Go!",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-4-song-vocal"
-            },
-            {
-              "title": "Lonely Go!(Instrumental)",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-4-song-instrumental"
-            }
-          ]
-        },
-        {
-          "id": "escl-5190",
-          "title": "MEME",
-          "type": "album",
-          "artistDisplayName": "Brian the Sun",
-          "date": {
-            "value": "2019-03-13",
-            "precision": "day"
-          },
-          "edition": "日本通常盤",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Lonely Go!",
-              "position": 1,
-              "disc": 1
-            }
-          ],
-          "catalogNumber": "ESCL-5190"
-        },
-        {
-          "id": "boruto-the-best-2019",
-          "title": "BORUTO THE BEST",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "date": {
-            "value": "2019-12-18",
-            "precision": "day"
-          },
-          "edition": "日本期間生產限定CD＋DVD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Lonely Go!",
-              "position": 10,
-              "disc": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "boruto-naruto-next-generations-op-5",
-      "songId": "boruto-naruto-next-generations-op-5-song",
-      "type": "OP",
-      "sequence": 5,
-      "titleJa": "ゴールデンタイム",
-      "artistDisplayName": "フジファブリック",
-      "seasonIds": [
-        "2019-spring",
-        "2019-summer"
-      ],
-      "usageLabel": "日本TV第101–126話片頭。2019春為4/7至6/30第101–113話，夏為7/7至9/29第114–126話。",
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-          "label": "テレビ東京動畫主題曲、歌手與原播季度",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.ttmnet.co.jp/theme/2019-4/",
-          "label": "テレビ東京ミュージック2019年4月，週日17:30原播曲表",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.ttmnet.co.jp/theme/2019-7/",
-          "label": "テレビ東京ミュージック2019年7月，週日17:30原播曲表",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4546",
-          "label": "逐話使用範圍及詞曲編署名",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000",
-          "label": "唱片方發行資料、版別與曲目",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=a5cyJu4saLc",
-          "label": "權利方公開影片或供稿音軌及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1535551142",
-          "label": "Apple Music 香港發行品及曲序",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1535551143",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1535551145",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.sma.co.jp/s/sma/news/detail/83951?ima=0000",
-          "label": "Sony Music Artists公布5月19日先行數位單曲",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-5-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://www.ttmnet.co.jp/theme/2019-4/",
-            "https://www.ttmnet.co.jp/theme/2019-7/",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-5"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=a5cyJu4saLc"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "a5cyJu4saLc"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-5-song-vocal"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-5-song-tv"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "format"
-          ],
-          "sourceUrls": [
-            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-5-song-tv"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "aicl-3725-3726"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://www.sma.co.jp/s/sma/news/detail/84842?ima=0000"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "aicl-3727"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1535551143"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1535551143"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1535551145"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1535551145"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1535551142"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1535551142"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://www.sma.co.jp/s/sma/news/detail/83951?ima=0000"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-op-5-song"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "ゴールデンタイム｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1535551143",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1535551142",
-          "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "ゴールデンタイム (TV edit)｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1535551145",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1535551142",
-          "recordingId": "boruto-naruto-next-generations-op-5-song-tv"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "name": "加藤慎一",
-          "role": "lyrics"
-        },
-        {
-          "name": "加藤慎一",
-          "role": "composition"
-        },
-        {
-          "name": "フジファブリック",
-          "role": "arrangement"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "boruto-naruto-next-generations-op-5-song-vocal",
-          "title": "ゴールデンタイム",
-          "kind": "vocal",
-          "format": "unknown"
-        },
-        {
-          "id": "boruto-naruto-next-generations-op-5-song-tv",
-          "title": "ゴールデンタイム (TV edit)",
-          "kind": "vocal",
-          "format": "tv"
-        }
-      ],
-      "releases": [
-        {
-          "id": "aicl-3725-3726",
-          "title": "ゴールデンタイム",
-          "type": "single",
-          "artistDisplayName": "フジファブリック",
-          "date": {
-            "value": "2019-07-24",
-            "precision": "day"
-          },
-          "edition": "日本初回生產限定CD＋DVD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ゴールデンタイム",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
-            }
-          ],
-          "catalogNumber": "AICL-3725～3726"
-        },
-        {
-          "id": "aicl-3727",
-          "title": "ゴールデンタイム",
-          "type": "single",
-          "artistDisplayName": "フジファブリック",
-          "date": {
-            "value": "2019-07-24",
-            "precision": "day"
-          },
-          "edition": "日本通常盤初回規格",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ゴールデンタイム",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
-            },
-            {
-              "title": "ゴールデンタイム (TV edit)",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-5-song-tv"
-            }
-          ],
-          "catalogNumber": "AICL-3727"
-        },
-        {
-          "id": "apple-hk-1535551142",
-          "title": "ゴールデンタイム - Single",
-          "type": "single",
-          "artistDisplayName": "フジファブリック",
-          "date": {
-            "value": "2019-07-24",
-            "precision": "day"
-          },
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "ゴールデンタイム",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-5-song-vocal"
-            },
-            {
-              "title": "ゴールデンタイム (TV edit)",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-op-5-song-tv"
-            }
-          ]
-        }
-      ],
-      "releaseDate": "2019-05-19"
-    },
-    {
-      "id": "boruto-naruto-next-generations-ed-8",
-      "songId": "boruto-naruto-next-generations-ed-8-song",
-      "type": "ED",
-      "sequence": 8,
-      "titleJa": "強がりLOSER",
-      "artistDisplayName": "ЯeaL",
-      "seasonIds": [
-        "2019-winter"
-      ],
-      "usageLabel": "日本TV第88–100話片尾（2019/1/6–3/31）。",
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-          "label": "テレビ東京動畫主題曲、歌手與原播季度",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.ttmnet.co.jp/theme/2019-1/",
-          "label": "テレビ東京ミュージック2019年1月，週日17:30原播曲表",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4546",
-          "label": "逐話使用範圍及詞曲編署名",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.sonymusic.co.jp/artist/real/info/503976",
-          "label": "唱片方發行資料、版別與曲目",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=FAvY_yjXiGo",
-          "label": "權利方公開影片或供稿音軌及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=n-LuTSD3Gkk",
-          "label": "Sony Music Labels供稿音軌與Ryoko署名",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/jp/album/1537258021",
-          "label": "Apple Music日本，ЯeaL原署名、唱片公司及日港共用的曲目識別碼",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1537258021",
-          "label": "Apple Music 香港發行品及曲序",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1537258022",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1537258025",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1537258386",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://real.lnk.to/TL_DL",
-          "label": "唱片方數位發行入口",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68",
-          "label": "Spotify收錄唱片方指定的同名發行品",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000001906.000016356.html",
-          "label": "Aniplex官方主題曲合輯CD曲序及DVD內容",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-8-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://www.ttmnet.co.jp/theme/2019-1/",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_21.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-8"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=FAvY_yjXiGo"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "FAvY_yjXiGo"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/real/info/503976"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-8-song-vocal"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=n-LuTSD3Gkk"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/real/info/503976"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-8-song-tv"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "format"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/real/info/503976"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-8-song-tv"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/real/info/503976"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-8-song-instrumental"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/real/info/503976"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "secl-2383"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1537258022"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1537258022"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1537258025"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1537258025"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1537258386"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1537258386"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1537258021"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1537258021"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/jp/album/1537258021",
-            "https://www.sonymusic.co.jp/artist/real/info/503976"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-8-song"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/jp/album/1537258021",
-            "https://music.apple.com/hk/album/1537258021"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1537258022"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/jp/album/1537258021",
-            "https://music.apple.com/hk/album/1537258021"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1537258025"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/jp/album/1537258021",
-            "https://music.apple.com/hk/album/1537258021"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1537258386"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://real.lnk.to/TL_DL"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001906.000016356.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-the-best-2019"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "強がりLOSER｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1537258022",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1537258021",
-          "recordingId": "boruto-naruto-next-generations-ed-8-song-vocal"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "強がりLOSER 〜アニメサイズ〜｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1537258025",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1537258021",
-          "recordingId": "boruto-naruto-next-generations-ed-8-song-tv"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "強がりLOSER 〜Instrumental〜｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1537258386",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1537258021",
-          "recordingId": "boruto-naruto-next-generations-ed-8-song-instrumental"
-        },
-        {
-          "platform": "Spotify",
-          "label": "強がりLOSER｜Spotify",
-          "url": "https://open.spotify.com/album/7DlJtJNINnhY9V1p4v2u68",
-          "linkType": "direct_album",
-          "region": "UNKNOWN",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "name": "Ryoko",
-          "role": "lyrics"
-        },
-        {
-          "name": "Ryoko",
-          "role": "composition"
-        },
-        {
-          "name": "Ryoko",
-          "role": "arrangement"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "boruto-naruto-next-generations-ed-8-song-vocal",
-          "title": "強がりLOSER",
-          "kind": "vocal",
-          "format": "unknown"
-        },
-        {
-          "id": "boruto-naruto-next-generations-ed-8-song-tv",
-          "title": "強がりLOSER ～アニメサイズ～",
-          "kind": "vocal",
-          "format": "tv"
-        },
-        {
-          "id": "boruto-naruto-next-generations-ed-8-song-instrumental",
-          "title": "強がりLOSER ～Instrumental～",
-          "kind": "instrumental",
-          "format": "unknown"
-        }
-      ],
-      "releases": [
-        {
-          "id": "secl-2383",
-          "title": "強がりLOSER",
-          "type": "single",
-          "artistDisplayName": "ЯeaL",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
-          },
-          "edition": "日本CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "強がりLOSER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-8-song-vocal"
-            },
-            {
-              "title": "強がりLOSER ～アニメサイズ～",
-              "position": 4,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-8-song-tv"
-            },
-            {
-              "title": "強がりLOSER ～Instrumental～",
-              "position": 5,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-8-song-instrumental"
-            }
-          ],
-          "catalogNumber": "SECL-2383"
-        },
-        {
-          "id": "apple-hk-1537258021",
-          "title": "強がりLOSER - EP",
-          "type": "ep",
-          "artistDisplayName": "ЯeaL",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
-          },
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "強がりLOSER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-8-song-vocal"
-            },
-            {
-              "title": "強がりLOSER 〜アニメサイズ〜",
-              "position": 4,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-8-song-tv"
-            },
-            {
-              "title": "強がりLOSER 〜Instrumental〜",
-              "position": 5,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-8-song-instrumental"
-            }
-          ]
-        },
-        {
-          "id": "boruto-the-best-2019",
-          "title": "BORUTO THE BEST",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "date": {
-            "value": "2019-12-18",
-            "precision": "day"
-          },
-          "edition": "日本期間生產限定CD＋DVD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "強がりLOSER",
-              "position": 12,
-              "disc": 1
-            }
-          ]
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "日本與香港 Apple Music 使用相同專輯、藝人及曲目識別碼，香港的本地化藝人顯示有異。歌曲採原唱片與日本電視台署名。",
-          "resumeWhen": "區域曲目或識別碼變動時，與唱片方數位發行及日本區署名複核。",
-          "checkedAt": "2026-11-19"
-        }
-      ]
-    },
-    {
-      "id": "boruto-naruto-next-generations-ed-9",
-      "songId": "boruto-naruto-next-generations-ed-9-song",
-      "type": "ED",
-      "sequence": 9,
-      "titleJa": "Ride or Die",
-      "artistDisplayName": "スカイピース",
-      "seasonIds": [
-        "2019-spring"
-      ],
-      "usageLabel": "日本TV第101–113話片尾（2019/4/7–6/30）。",
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-          "label": "テレビ東京動畫主題曲、歌手與原播季度",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.ttmnet.co.jp/theme/2019-4/",
-          "label": "テレビ東京ミュージック2019年4月，週日17:30原播曲表",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4546",
-          "label": "逐話使用範圍及詞曲編署名",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000002043.000013546.html",
-          "label": "唱片方發行資料、版別與曲目",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.joysound.com/web/search/song/755381",
-          "label": "JOYSOUND授權詞曲署名",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1538276412",
-          "label": "Apple Music 香港發行品及曲序",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1538276419",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-9-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://www.ttmnet.co.jp/theme/2019-4/",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_20.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_19.html",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-9"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-9-song-vocal"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.joysound.com/web/search/song/755381"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-9-song-instrumental"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "srcl-11207"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002043.000013546.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "srcl-11206"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1538276419"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1538276419"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1538276412"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1538276412"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "Ride or Die｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1538276419",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1538276412"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "name": "スカイピース",
-          "role": "lyrics"
-        },
-        {
-          "name": "スカイピース",
-          "role": "composition"
-        },
-        {
-          "name": "宮川拓",
-          "role": "composition"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "boruto-naruto-next-generations-ed-9-song-vocal",
-          "title": "Ride or Die",
-          "kind": "vocal",
-          "format": "unknown"
-        },
-        {
-          "id": "boruto-naruto-next-generations-ed-9-song-instrumental",
-          "title": "Ride or Die (instrumental)",
-          "kind": "instrumental",
-          "format": "unknown"
-        }
-      ],
-      "releases": [
-        {
-          "id": "srcl-11207",
-          "title": "Ride or Die",
-          "type": "single",
-          "artistDisplayName": "スカイピース",
-          "date": {
-            "value": "2019-06-26",
-            "precision": "day"
-          },
-          "edition": "日本通常盤",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Ride or Die",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-9-song-vocal"
-            },
-            {
-              "title": "Ride or Die (instrumental)",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-9-song-instrumental"
-            }
-          ],
-          "catalogNumber": "SRCL-11207"
-        },
-        {
-          "id": "srcl-11206",
-          "title": "BE BOY",
-          "type": "album",
-          "artistDisplayName": "スカイピース",
-          "date": {
-            "value": "2019-06-26",
-            "precision": "day"
-          },
-          "edition": "日本通常盤",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Ride or Die",
-              "position": 7,
-              "disc": 1
-            }
-          ],
-          "catalogNumber": "SRCL-11206"
-        },
-        {
-          "id": "apple-hk-1538276412",
-          "title": "BE BOY",
-          "type": "album",
-          "artistDisplayName": "スカイピース",
-          "date": {
-            "value": "2019-06-26",
-            "precision": "day"
-          },
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "Ride or Die",
-              "position": 7,
-              "disc": 1
-            }
-          ]
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "Sony列出實體單曲、伴奏及《BE BOY》所收歌曲，限定盤另附MV。",
-          "resumeWhen": "取得唱片方發行的TV剪輯或可核身的正版公開MV頁時補錄。",
-          "checkedAt": "2026-11-19"
-        }
-      ]
-    },
-    {
-      "id": "boruto-naruto-next-generations-ed-10",
-      "songId": "boruto-naruto-next-generations-ed-10-song",
-      "type": "ED",
-      "sequence": 10,
-      "titleJa": "未完成な光たち",
-      "artistDisplayName": "福原遥",
-      "seasonIds": [
-        "2019-summer"
-      ],
-      "usageLabel": "日本TV第114–126話片尾（2019/7/7–9/29）。",
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-          "label": "テレビ東京動畫主題曲、歌手與原播季度",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.ttmnet.co.jp/theme/2019-7/",
-          "label": "テレビ東京ミュージック2019年7月，週日17:30原播曲表",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
-          "label": "テレビ東京逐話首播日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4546",
-          "label": "逐話使用範圍及詞曲編署名",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735",
-          "label": "唱片方發行資料、版別與曲目",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=VNqxLJyPCN8",
-          "label": "權利方公開影片或供稿音軌及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://fukuharaharuka-music.com/harukakanatae/",
-          "label": "福原遥官方逐曲詞曲、編曲及專輯曲序",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1538108627",
-          "label": "Apple Music 香港發行品及曲序",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1538108628",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1538108630",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1624429681",
-          "label": "Apple Music 香港發行品及曲序",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1624430268",
-          "label": "Apple Music 香港正版曲目",
-          "role": "first_party",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-10-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
-            "https://www.ttmnet.co.jp/theme/2019-7/",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_18.html",
-            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-10"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4546"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=VNqxLJyPCN8"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "VNqxLJyPCN8"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-10-song-vocal"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://fukuharaharuka-music.com/harukakanatae/"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "boruto-naruto-next-generations-ed-10-song-instrumental"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/buy/AICL-3735"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "aicl-3735-3736"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1538108628"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1538108628"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1538108630"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1538108630"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1538108627"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1538108627"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url",
-            "type"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1624430268"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1624430268"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1624429681"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1624429681"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "未完成な光たち｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1538108628",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1538108627",
-          "recordingId": "boruto-naruto-next-generations-ed-10-song-vocal"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "未完成な光たち (Instrumental)｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1538108630",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1538108627",
-          "recordingId": "boruto-naruto-next-generations-ed-10-song-instrumental"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "未完成な光たち｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1624430268",
-          "linkType": "direct_track",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1624429681"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "name": "H.Aoba",
-          "role": "lyrics"
-        },
-        {
-          "name": "H.Aoba",
-          "role": "composition"
-        },
-        {
-          "name": "N.Sasaki",
-          "role": "composition"
-        },
-        {
-          "name": "佐々木望",
-          "role": "arrangement"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "boruto-naruto-next-generations-ed-10-song-vocal",
-          "title": "未完成な光たち",
-          "kind": "vocal",
-          "format": "unknown"
-        },
-        {
-          "id": "boruto-naruto-next-generations-ed-10-song-instrumental",
-          "title": "未完成な光たち Instrumental",
-          "kind": "instrumental",
-          "format": "unknown"
-        }
-      ],
-      "releases": [
-        {
-          "id": "aicl-3735-3736",
-          "title": "未完成な光たち",
-          "type": "single",
-          "artistDisplayName": "福原遥",
-          "date": {
-            "value": "2019-08-07",
-            "precision": "day"
-          },
-          "edition": "日本初回生產限定CD＋DVD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "未完成な光たち",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-10-song-vocal"
-            },
-            {
-              "title": "未完成な光たち Instrumental",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-10-song-instrumental"
-            }
-          ],
-          "catalogNumber": "AICL-3735～3736"
-        },
-        {
-          "id": "apple-hk-1538108627",
-          "title": "未完成な光たち - Single",
-          "type": "single",
-          "artistDisplayName": "福原遥",
-          "date": {
-            "value": "2019-08-07",
-            "precision": "day"
-          },
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "未完成な光たち",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-10-song-vocal"
-            },
-            {
-              "title": "未完成な光たち (Instrumental)",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "boruto-naruto-next-generations-ed-10-song-instrumental"
-            }
-          ]
-        },
-        {
-          "id": "apple-hk-1624429681",
-          "title": "ハルカカナタヘ",
-          "type": "album",
-          "artistDisplayName": "福原遥",
-          "date": {
-            "value": "2022-06-08",
-            "precision": "day"
-          },
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "未完成な光たち",
-              "position": 9,
-              "disc": 1
-            }
-          ]
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "唱片另列伴奏，藝人公開MV標示YouTube Limited Ver.。",
-          "resumeWhen": "取得唱片方明示長度的電視剪輯與香港商業版本對映時補錄。",
-          "checkedAt": "2026-11-19"
-        }
-      ]
     }
   ],
   "metadataSources": [
@@ -5262,7 +8774,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "label": "逐台原播時刻交叉",
       "role": "broadcast_cross_check",
       "language": "ja",
-      "verifiedAt": "2026-11-15"
+      "verifiedAt": "2026-11-20"
     },
     {
       "url": "https://www.netflix.com/hk/title/81080523",
@@ -5284,6 +8796,27 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_23.html",
+      "label": "東京電視台｜第64話夏季首播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_22.html",
+      "label": "東京電視台｜第74–76話及原播日",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2018_08_03.pdf",
+      "label": "東京電視台｜2018年8月原始週四節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
     }
   ]
 }),

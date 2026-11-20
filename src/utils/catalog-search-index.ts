@@ -3,6 +3,12 @@ import { MAX_CATALOG_ANIME, MAX_SEARCH_INDEX_BYTES } from "@/data/catalog-limits
 import { buildAnimeSearchText, buildThemeSearchText, matchesCatalogSearchTokens, normalizeCatalogSearchText, tokenizeCatalogSearchQuery } from "@/utils/catalog-search";
 import { creditRoleLabel } from "@/utils/theme";
 
+function compactSearchText(normalized: string): string {
+  // Search matches individual space-delimited tokens, including substrings.
+  // Repeated words contribute no additional matches or routing features.
+  return [...new Set(normalized.split(" "))].join(" ");
+}
+
 export function buildCatalogSearchIndex(entries: CatalogSearchData["entries"]) {
   if (entries.length > MAX_CATALOG_ANIME) throw new Error("Catalogue search entry limit exceeded");
   return entries.map(({ anime, season, seasons }) => ({
@@ -28,9 +34,9 @@ export function buildCatalogSearchIndex(entries: CatalogSearchData["entries"]) {
           && evidence.sourceUrls.some((url) => theme.sources.some((source) => source.url === url && source.role === "first_party")))
       )),
       credits: theme.credits.filter((credit) => credit.role !== "vocals").map((credit) => `${creditRoleLabel(credit.role)}：${credit.name}`).join(" · "),
-      searchText: buildThemeSearchText(theme),
-      titleSearchText: normalizeCatalogSearchText([theme.titleJa, theme.titleZhHant, theme.titleRomaji, theme.usageLabel, theme.versionLabel, ...(theme.recordings ?? []).map((recording) => recording.title), ...(theme.releases ?? []).map((release) => release.title)].filter(Boolean).join(" ")),
-      creatorSearchText: normalizeCatalogSearchText([theme.artistDisplayName, ...theme.credits.map((credit) => `${credit.name} ${credit.groupName ?? ""} ${creditRoleLabel(credit.role)}`), ...(theme.recordings ?? []).flatMap((recording) => (recording.credits ?? []).map((credit) => credit.name))].join(" "))
+      searchText: compactSearchText(buildThemeSearchText(theme)),
+      titleSearchText: compactSearchText(normalizeCatalogSearchText([theme.titleJa, theme.titleZhHant, theme.titleRomaji, theme.usageLabel, theme.versionLabel, ...(theme.recordings ?? []).map((recording) => recording.title), ...(theme.releases ?? []).map((release) => release.title)].filter(Boolean).join(" "))),
+      creatorSearchText: compactSearchText(normalizeCatalogSearchText([theme.artistDisplayName, ...theme.credits.map((credit) => `${credit.name} ${credit.groupName ?? ""} ${creditRoleLabel(credit.role)}`), ...(theme.recordings ?? []).flatMap((recording) => (recording.credits ?? []).map((credit) => credit.name))].join(" ")))
     }))
   }));
 }

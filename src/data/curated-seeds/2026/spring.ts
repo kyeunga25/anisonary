@@ -12854,20 +12854,24 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "2019-winter",
     "2019-spring",
     "2019-summer",
-    "2019-fall"
+    "2019-fall",
+    "2018-summer"
   ],
   "verifiedAt": "2026-10-19",
-  "metadataVerifiedAt": "2026-11-19",
+  "metadataVerifiedAt": "2026-11-20",
   "startDate": "1999-10-20",
   "titleJa": "ONE PIECE",
   "titleRomaji": "ONE PIECE",
   "editorialWeekday": 7,
   "broadcastTimeJst": "23:15",
-  "broadcastLabel": "TV系列1999年首播；2019年富士電視台一般時段為週日09:30，エルバフ編2026/4/5起為週日23:15（JST）。",
+  "broadcastLabel": "TV系列1999年首播；2018至2019年富士電視台一般時段為週日09:30 JST。2017年10月1日換曲特集09:00開播。エルバフ編2026/4/5起為週日23:15 JST。",
   "status": "airing",
   "anilistUrl": "https://anilist.co/anime/21",
   "sourceReferenceUrls": [
-    "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+    "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+    "https://one-piece.com/anime/o4761/index.html",
+    "https://one-piece.com/anime/index.html?category=&page=36&sort=asc",
+    "https://one-piece.com/news/o20180824_7777/index.html"
   ],
   "metadataSources": [
     {
@@ -12897,6 +12901,27 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "language": "ja",
       "role": "first_party",
       "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://one-piece.com/anime/o4761/index.html",
+      "label": "ONE PIECE.com｜第843話7月1日原播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://one-piece.com/anime/index.html?category=&page=36&sort=asc",
+      "label": "ONE PIECE.com｜日本第841–864話原播日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://one-piece.com/news/o20180824_7777/index.html",
+      "label": "ONE PIECE.com｜2018夏期原OP及另播電視特別篇",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
     }
   ],
   "themes": [
@@ -15373,6 +15398,598 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "lastVerifiedAt": "2026-10-22"
     },
     {
+      "id": "one-piece-op-20",
+      "songId": "one-piece-op-20-song",
+      "type": "OP",
+      "sequence": 20,
+      "titleJa": "Hope",
+      "artistDisplayName": "安室奈美恵",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第807–855話片頭（2017年10月1日至2018年9月30日）。2018夏為第843–855話，通常週日09:30 JST。首播換曲日在09:00一小時特別編成。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "安室奈美恵"
+        },
+        {
+          "role": "lyrics",
+          "name": "Kenichi Anraku"
+        },
+        {
+          "role": "lyrics",
+          "name": "TomoLow"
+        },
+        {
+          "role": "lyrics",
+          "name": "MioFRANKY"
+        },
+        {
+          "role": "lyrics",
+          "name": "Ryo Ito"
+        },
+        {
+          "role": "composition",
+          "name": "Kenichi Anraku"
+        },
+        {
+          "role": "composition",
+          "name": "TomoLow"
+        },
+        {
+          "role": "composition",
+          "name": "MioFRANKY"
+        },
+        {
+          "role": "composition",
+          "name": "Ryo Ito"
+        },
+        {
+          "role": "arrangement",
+          "name": "TomoLow"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/o20170912_6069/index.html",
+          "label": "ONE PIECE.com｜第20代片頭首播、特別編成及原唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://one-piece.com/news/o20180824_7777/index.html",
+          "label": "ONE PIECE.com｜2018夏期原OP及另播電視特別篇",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1722909472&p=3",
+          "label": "アニメイトタイムズ｜第20、21支片頭的逐集範圍",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://one-piece.com/greg/o20171124_0827/index.html",
+          "label": "ONE PIECE.com｜同期第20代片頭曲介紹",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://one-piece.com/anime/o4761/index.html",
+          "label": "ONE PIECE.com｜第843話7月1日原播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://one-piece.com/anime/index.html?category=&page=36&sort=asc",
+          "label": "ONE PIECE.com｜日本第841–864話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://mdb.tower.jp/release/12340563/Finally",
+          "label": "Tower Records｜Finally實體專輯和歌曲署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://amuro.fr/v5/releases/albums/finally/",
+          "label": "Toi et moi｜Finally唱本編曲及曲序交叉資料",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://avex.jp/onepiece/products/musicDetail.php?id=1016297",
+          "label": "avex｜20週年3CD原唱曲序與品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1456261114&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1456261114&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1456261114&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://one-piece.com/news/o20180210_6781/index.html",
+          "label": "ONE PIECE.com｜原單曲2018年配信公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20170912_6069/index.html",
+            "https://one-piece.com/news/o20180824_7777/index.html",
+            "https://www.animatetimes.com/news/details.php?id=1722909472&p=3"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20170912_6069/index.html",
+            "https://one-piece.com/greg/o20171124_0827/index.html",
+            "https://one-piece.com/anime/o4761/index.html",
+            "https://one-piece.com/anime/index.html?category=&page=36&sort=asc",
+            "https://one-piece.com/news/o20180824_7777/index.html",
+            "https://www.animatetimes.com/news/details.php?id=1722909472&p=3"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://mdb.tower.jp/release/12340563/Finally",
+            "https://amuro.fr/v5/releases/albums/finally/",
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016297"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://mdb.tower.jp/release/12340563/Finally"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mdb.tower.jp/release/12340563/Finally"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://mdb.tower.jp/release/12340563/Finally"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "avcn-99055-99057"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://amuro.fr/v5/releases/albums/finally/",
+            "https://one-piece.com/news/o20170912_6069/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "avcn-99055-99057"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016297"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016297"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "eyca-12394-12396"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016297"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "eyca-12391-12393-b"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1456261114"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1456261118"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1456261114"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1456261118"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1456261114"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1456261114&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/album/hope/1456261114?i=1456261118&app=itunes"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20170912_6069/index.html",
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016297",
+            "https://one-piece.com/news/o20180210_6781/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-20-song-vocal"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "one-piece-op-20-song-vocal",
+          "title": "Hope",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "avcn-99055-99057",
+          "title": "Finally",
+          "artistDisplayName": "安室奈美恵",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-11-08",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "Hope",
+              "position": 13,
+              "disc": 3,
+              "recordingId": "one-piece-op-20-song-vocal"
+            }
+          ],
+          "catalogNumber": "AVCN-99055-99057"
+        },
+        {
+          "id": "eyca-12394-12396",
+          "title": "ONE PIECE 20th Anniversary BEST ALBUM",
+          "artistDisplayName": "Various Artists",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "日本通常3CD",
+          "tracks": [
+            {
+              "title": "Hope",
+              "position": 5,
+              "disc": 2,
+              "recordingId": "one-piece-op-20-song-vocal"
+            }
+          ],
+          "catalogNumber": "EYCA-12394-12396"
+        },
+        {
+          "id": "eyca-12391-12393-b",
+          "title": "ONE PIECE 20th Anniversary BEST ALBUM",
+          "artistDisplayName": "Various Artists",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "日本初回限定3CD＋Blu-ray",
+          "tracks": [
+            {
+              "title": "Hope",
+              "position": 5,
+              "disc": 2,
+              "recordingId": "one-piece-op-20-song-vocal"
+            }
+          ],
+          "catalogNumber": "EYCA-12391-12393-B"
+        },
+        {
+          "id": "apple-hk-1456261114",
+          "title": "ONE PIECE 20th Anniversary BEST ALBUM Vol.2",
+          "artistDisplayName": "群星",
+          "type": "compilation",
+          "region": "HK",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "Hope",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "one-piece-op-20-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1456261114",
+          "title": "ONE PIECE 20th Anniversary BEST ALBUM Vol.2",
+          "artistDisplayName": "群星",
+          "type": "compilation",
+          "region": "TW",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Hope",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "one-piece-op-20-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1456261114",
+          "title": "ONE PIECE 20th Anniversary BEST ALBUM Vol.2",
+          "artistDisplayName": "Various Artists",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "Hope",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "one-piece-op-20-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1456261118",
+          "label": "香港｜Hope",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "one-piece-op-20-song-vocal",
+          "releaseId": "apple-hk-1456261114",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1456261118",
+          "label": "台灣｜Hope",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "one-piece-op-20-song-vocal",
+          "releaseId": "apple-tw-1456261114",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "iTunes Store",
+          "url": "https://music.apple.com/jp/album/hope/1456261114?i=1456261118&app=itunes",
+          "label": "日本｜Hope",
+          "region": "JP",
+          "linkType": "digital_purchase",
+          "recordingId": "one-piece-op-20-song-vocal",
+          "releaseId": "apple-jp-1456261114",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "《Finally》及電視20週年實體版與公播曲目已核。香港、台灣數位合輯為第4曲，日本區標明可購買，平台曲序與實體不同。",
+          "resumeWhen": "取得官方TV Size唱片，或辨識Spotify現有播放授權及2018年東京巨蛋現場的現行逐曲配信後補。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
       "id": "one-piece-op-21",
       "songId": "one-piece-op-21-song",
       "type": "OP",
@@ -15384,7 +16001,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "2019-winter",
         "2019-spring"
       ],
-      "usageLabel": "原TV第856–891話片頭（2018/10/7–2019/6/30）。2019冬為第867–878話，春為第879–891話。",
+      "usageLabel": "日本原TV第856–891話片頭（2018/10/7–2019/6/30）。2018秋為第856–866話，2019冬第867–878話，2019春第879–891話。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -15392,14 +16009,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "作品方公告V6片頭自第856話起",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://mentrecording.jp/v6/discography/detail.php?id=1016116",
           "label": "V6單曲與動畫搭配",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://one-piece.com/anime/o4933/index.html",
@@ -15420,7 +16037,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "歷代主題曲及第856–891話對照",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.youtube.com/watch?v=V7nS-76cy64",
@@ -15456,6 +16073,62 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/index.html?category=&page=36&sort=asc",
+          "label": "ONE PIECE.com｜日本第841–864話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://mentrecording.jp/v6/discography/detail.php?id=1018569",
+          "label": "MENT RECORDING｜Very6 BEST實體版別和曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1847217825&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1847217825&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1847217825&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1847803450&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1847803450&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1847803450&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -15630,6 +16303,279 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-19",
           "targetId": "V7nS-76cy64"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20181006_8013/index.html",
+            "https://one-piece.com/anime/index.html?category=&page=36&sort=asc",
+            "https://www.animatetimes.com/news/details.php?id=1722909472&p=3"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1016116",
+            "https://mentrecording.jp/v6/discography/detail.php?id=1018569"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1847217825"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1847217826"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1847217825"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1847217826"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1847217825"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847217825&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1847217826"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1847803450"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1847803477"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1847803450"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1847803477"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1847803450"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1847803450&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1847803477"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1018569"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1018569"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "avcd-96842-96845-b"
         }
       ],
       "links": [
@@ -15639,8 +16585,8 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "url": "https://music.apple.com/hk/song/1847217826",
           "linkType": "direct_track",
           "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
+          "availability": "available",
+          "verifiedAt": "2026-11-20",
           "releaseId": "apple-hk-1847217825",
           "recordingId": "one-piece-op-21-song-single-vocal"
         },
@@ -15650,12 +16596,57 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "url": "https://music.apple.com/hk/song/1847803477",
           "linkType": "direct_track",
           "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "releaseId": "apple-hk-1847803450"
+          "availability": "available",
+          "verifiedAt": "2026-11-20",
+          "releaseId": "apple-hk-1847803450",
+          "recordingId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1847217826",
+          "label": "台灣｜Super Powers",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "one-piece-op-21-song-single-vocal",
+          "releaseId": "apple-tw-1847217825",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1847217826",
+          "label": "日本｜Super Powers",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "one-piece-op-21-song-single-vocal",
+          "releaseId": "apple-jp-1847217825",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1847803477",
+          "label": "台灣｜Super Powers",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "one-piece-op-21-song-single-vocal",
+          "releaseId": "apple-tw-1847803450",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1847803477",
+          "label": "日本｜Super Powers",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "one-piece-op-21-song-single-vocal",
+          "releaseId": "apple-jp-1847803450",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
         }
       ],
-      "lastVerifiedAt": "2026-11-19",
+      "lastVerifiedAt": "2026-11-20",
       "credits": [
         {
           "name": "V6",
@@ -15691,7 +16682,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "id": "one-piece-op-21-song-single-vocal",
           "title": "Super Powers",
           "kind": "vocal",
-          "format": "unknown"
+          "format": "full"
         },
         {
           "id": "one-piece-op-21-song-instrumental",
@@ -15805,9 +16796,111 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             {
               "title": "Super Powers",
               "position": 10,
-              "disc": 2
+              "disc": 2,
+              "recordingId": "one-piece-op-21-song-single-vocal"
             }
           ]
+        },
+        {
+          "id": "apple-tw-1847217825",
+          "title": "Super Powers / Right Now - EP",
+          "artistDisplayName": "V6",
+          "type": "ep",
+          "region": "TW",
+          "date": {
+            "value": "2019-01-16",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1847217825",
+          "title": "Super Powers / Right Now - EP",
+          "artistDisplayName": "V6",
+          "type": "ep",
+          "region": "JP",
+          "date": {
+            "value": "2019-01-16",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1847803450",
+          "title": "Very6 BEST",
+          "artistDisplayName": "V6",
+          "type": "compilation",
+          "region": "TW",
+          "date": {
+            "value": "2021-10-26",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 10,
+              "disc": 2,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1847803450",
+          "title": "Very6 BEST",
+          "artistDisplayName": "V6",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2021-10-26",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 10,
+              "disc": 2,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ]
+        },
+        {
+          "id": "avcd-96842-96845-b",
+          "title": "Very6 BEST",
+          "artistDisplayName": "V6",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2021-10-26",
+            "precision": "day"
+          },
+          "edition": "日本初回盤A 4CD＋Blu-ray",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 10,
+              "disc": 2,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "AVCD-96842-96845-B"
         }
       ],
       "followUp": [

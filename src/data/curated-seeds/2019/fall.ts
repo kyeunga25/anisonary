@@ -79861,7 +79861,8 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
       "2018-spring",
       "2018-fall",
       "2019-winter",
-      "2019-spring"
+      "2019-spring",
+      "2018-summer"
     ],
     "startDate": "2016-11-17",
     "titleJa": "ポケットモンスター サン＆ムーン",
@@ -79882,9 +79883,13 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
       "https://www.youtube.com/watch?v=2iOtBloqwK0",
       "https://cal.syoboi.jp/tid/4389/time",
       "https://pokemondungeon.com/pokemon-s22-sun-and-moon-ultra-legends/",
-      "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E5%A4%AA%E9%99%BD%EF%BC%86%E6%9C%88%E4%BA%AE"
+      "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E5%A4%AA%E9%99%BD%EF%BC%86%E6%9C%88%E4%BA%AE",
+      "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+      "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808161855.html",
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html"
     ],
-    "metadataVerifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-20",
     "verifiedAt": "2026-11-19",
     "metadataSources": [
       {
@@ -79956,6 +79961,34 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
         "role": "localized_cross_check",
         "language": "zh-Hant",
         "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+        "label": "東京電視台｜2018年7月逐話日程",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+        "label": "東京電視台｜8–10月原播及時段切換",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808161855.html",
+        "label": "東京電視台｜第86話節目掛名、原播時段及片尾",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html",
+        "label": "東京電視台｜第87話節目掛名、原播時段及片尾恢復",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
       }
     ],
     "themes": [
@@ -80324,9 +80357,10 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
         "artistDisplayName": "ЯeaL",
         "songId": "pokemon-mirai-connection",
         "seasonIds": [
-          "2018-spring"
+          "2018-spring",
+          "2018-summer"
         ],
-        "usageLabel": "日本原播2018/2/8起第61–90話片頭，2018春包括4月至6月的首播。",
+        "usageLabel": "日本原播第61–90話片頭，2018年2月8日起使用，夏季為7月5日至9月13日第81–90話。東京電視台在夏季仍是週四18:55 JST。",
         "credits": [
           {
             "name": "Ryoko",
@@ -80347,6 +80381,10 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
           {
             "name": "渡辺拓也",
             "role": "arrangement"
+          },
+          {
+            "role": "vocals",
+            "name": "Ryoko"
           }
         ],
         "sourceMode": "explicit",
@@ -80363,21 +80401,21 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "label": "日本原播逐話片頭片尾及創作名義交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.sonymusic.co.jp/artist/real/info/490911",
             "label": "Sony新片頭公告",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.sonymusic.co.jp/artist/real/info/491639",
             "label": "日本動畫限定盤的動畫大小、伴奏與無字幕片頭",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://cal.syoboi.jp/tid/4389/time",
@@ -80385,6 +80423,111 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+            "label": "東京電視台｜2018年7月逐話日程",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+            "label": "東京電視台｜8–10月原播及時段切換",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808161855.html",
+            "label": "東京電視台｜第86話節目掛名、原播時段及片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html",
+            "label": "東京電視台｜第87話節目掛名、原播時段及片尾恢復",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/real/info/493123",
+            "label": "Sony Music｜動畫盤及通常盤品番",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538260340&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538260340&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538260340&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537274898&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537274898&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537274898&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1529398499&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1529398499&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1529398499&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=a1DIT39DShs",
+            "label": "官方影片｜ЯeaL「未来コネクション」Music Video",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -80506,13 +80649,527 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "secl-2287-2288"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+              "https://cal.syoboi.jp/tid/4389/subtitle",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808161855.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html",
+              "https://www.sonymusic.co.jp/artist/real/info/490911"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pocket-monsters-sun-and-moon-op-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/real/info/490911",
+              "https://www.sonymusic.co.jp/artist/real/info/491639"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/real/info/491639"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/real/info/491639"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2286"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/real/info/491639"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-commercial-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/real/info/491639"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-commercial-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/real/info/493123"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2286"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538260340"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538260341"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538260340"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538260341"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538260340"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538260341"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-commercial-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538260344"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-commercial-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538260344"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-commercial-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260340&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538260344"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-tv-size-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537274898"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537274899"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-tv-size-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537274898"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537274899"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-tv-size-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537274898"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537274898&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537274899"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1529398499"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1529398764"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1529398499"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1529398764"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-mirai-connection-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1529398499"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1529398499&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1529398764"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=a1DIT39DShs"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "a1DIT39DShs"
           }
         ],
         "recordings": [
           {
             "id": "pokemon-mirai-connection-sun-moon-commercial",
             "title": "未来コネクション",
-            "format": "unknown",
+            "format": "full",
             "kind": "vocal"
           },
           {
@@ -80526,6 +81183,12 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "title": "未来コネクション ～アニメサイズ Instrumental～",
             "format": "tv",
             "kind": "instrumental"
+          },
+          {
+            "id": "pokemon-mirai-connection-commercial-instrumental",
+            "title": "未来コネクション 〜Instrumental〜",
+            "kind": "instrumental",
+            "format": "full"
           }
         ],
         "releases": [
@@ -80579,24 +81242,377 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "position": 5
               }
             ]
+          },
+          {
+            "id": "secl-2286",
+            "title": "未来コネクション",
+            "artistDisplayName": "ЯeaL",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "未来コネクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-sun-moon-commercial"
+              },
+              {
+                "title": "未来コネクション 〜Instrumental〜",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-commercial-instrumental"
+              }
+            ],
+            "catalogNumber": "SECL-2286"
+          },
+          {
+            "id": "apple-hk-1538260340",
+            "title": "未来コネクション - EP",
+            "artistDisplayName": "阿沁",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "未来コネクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-sun-moon-commercial"
+              },
+              {
+                "title": "未来コネクション 〜Instrumental〜",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-commercial-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538260340",
+            "title": "未来コネクション - EP",
+            "artistDisplayName": "阿沁",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "未来コネクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-sun-moon-commercial"
+              },
+              {
+                "title": "未来コネクション 〜Instrumental〜",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-commercial-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538260340",
+            "title": "未来コネクション - EP",
+            "artistDisplayName": "ЯeaL",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "未来コネクション",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-sun-moon-commercial"
+              },
+              {
+                "title": "未来コネクション 〜Instrumental〜",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-commercial-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537274898",
+            "title": "未来コネクション 〜アニメサイズ〜 - Single",
+            "artistDisplayName": "阿沁",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-02-08",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "未来コネクション 〜アニメサイズ〜",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-tv-size-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537274898",
+            "title": "未来コネクション 〜アニメサイズ〜 - Single",
+            "artistDisplayName": "阿沁",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-02-08",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "未来コネクション 〜アニメサイズ〜",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-tv-size-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537274898",
+            "title": "未来コネクション 〜アニメサイズ〜 - Single",
+            "artistDisplayName": "ЯeaL",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-08",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "未来コネクション 〜アニメサイズ〜",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-tv-size-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1529398499",
+            "title": "Light Up Ambivalenz",
+            "artistDisplayName": "阿沁",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-09-16",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Mirai Connection",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1529398499",
+            "title": "Light Up Ambivalenz",
+            "artistDisplayName": "阿沁",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-09-16",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Mirai Connection",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1529398499",
+            "title": "Light Up Ambivalenz",
+            "artistDisplayName": "ЯeaL",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-16",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "未来コネクション",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "pokemon-mirai-connection-sun-moon-commercial"
+              }
+            ]
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538260341",
+            "label": "香港｜未来コネクション",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-sun-moon-commercial",
+            "releaseId": "apple-hk-1538260340",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538260341",
+            "label": "台灣｜未来コネクション",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-sun-moon-commercial",
+            "releaseId": "apple-tw-1538260340",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538260341",
+            "label": "日本｜未来コネクション",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-sun-moon-commercial",
+            "releaseId": "apple-jp-1538260340",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538260344",
+            "label": "香港｜未来コネクション 〜Instrumental〜",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-commercial-instrumental",
+            "releaseId": "apple-hk-1538260340",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538260344",
+            "label": "台灣｜未来コネクション 〜Instrumental〜",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-commercial-instrumental",
+            "releaseId": "apple-tw-1538260340",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538260344",
+            "label": "日本｜未来コネクション 〜Instrumental〜",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-commercial-instrumental",
+            "releaseId": "apple-jp-1538260340",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537274899",
+            "label": "香港｜未来コネクション 〜アニメサイズ〜",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-tv-size-vocal",
+            "releaseId": "apple-hk-1537274898",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537274899",
+            "label": "台灣｜未来コネクション 〜アニメサイズ〜",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-tv-size-vocal",
+            "releaseId": "apple-tw-1537274898",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537274899",
+            "label": "日本｜未来コネクション 〜アニメサイズ〜",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-tv-size-vocal",
+            "releaseId": "apple-jp-1537274898",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1529398764",
+            "label": "香港｜Mirai Connection",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-sun-moon-commercial",
+            "releaseId": "apple-hk-1529398499",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1529398764",
+            "label": "台灣｜Mirai Connection",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-sun-moon-commercial",
+            "releaseId": "apple-tw-1529398499",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1529398764",
+            "label": "日本｜未来コネクション",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-mirai-connection-sun-moon-commercial",
+            "releaseId": "apple-jp-1529398499",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "use_quarters"
+              "recording_format",
+              "platform_availability"
             ],
-            "note": "已由日本曲表及逐話來源核對原播範圍。較早的適用播出季度仍待部分公開季度入口。",
-            "resumeWhen": "相應較早季度發佈快照後，把已核逐話範圍連入季度搜尋。",
-            "checkedAt": "2026-11-19"
-          },
-          {
-            "fields": [
-              "platform_links"
-            ],
-            "note": "日本動畫盤分列歌唱及伴奏動畫版。香港Apple Music同數字入口顯示不同藝人名義，待核同一目錄身份再掛。",
-            "resumeWhen": "權利方或香港平台提供可互證的藝人、錄音與曲位。",
-            "checkedAt": "2026-11-19"
+            "note": "香港、台灣及日本Apple Music公開曲目分列全長、伴奏及動畫Size。實體動畫盤另有動畫Size伴奏。",
+            "resumeWhen": "找到動畫Size伴奏的香港逐曲配信或可直接比對電視剪輯的原聲證據。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -81253,9 +82269,10 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
         "seasonIds": [
           "2018-fall",
           "2018-spring",
-          "2019-winter"
+          "2019-winter",
+          "2018-summer"
         ],
-        "usageLabel": "日本原播第61–81、87–103話片尾；第103話於2019/1/6播出。第82–86話在部分電視台另播限定曲，另版需核對。",
+        "usageLabel": "日本原播第61–81、87–103話片尾。2018夏保留7月5日第81話及8月23日至9月13日第87–90話。第82–86話東京地區改用限定曲〈ブレス〉；變更公告列部分地區除外。",
         "credits": [
           {
             "name": "岡崎体育",
@@ -81295,7 +82312,7 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "label": "日本原播逐話片頭片尾及創作名義交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/news/index_8.html",
@@ -81309,7 +82326,7 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "label": "東京電視台夏季期間限定替換",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.sonymusic.co.jp/artist/okazakitaiiku/discography/SECL-2582",
@@ -81345,6 +82362,27 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+            "label": "東京電視台｜2018年7月逐話日程",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+            "label": "東京電視台｜8–10月原播及時段切換",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html",
+            "label": "東京電視台｜第87話節目掛名、原播時段及片尾恢復",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -81463,6 +82501,21 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_5.html"
             ],
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+              "https://cal.syoboi.jp/tid/4389/subtitle",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html",
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/news/index_6.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pocket-monsters-sun-and-moon-ed-2"
           }
         ],
         "recordings": [
@@ -81514,24 +82567,6 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             ]
           }
         ],
-        "followUp": [
-          {
-            "fields": [
-              "use_quarters"
-            ],
-            "note": "2018冬、夏及秋仍有已核原播用法，待相關季度入口。",
-            "resumeWhen": "相應季度入口建立後按實際原播用曲補掛。",
-            "checkedAt": "2026-11-19"
-          },
-          {
-            "fields": [
-              "recording_format"
-            ],
-            "note": "已核香港主題曲集及當期原作片頭／片尾用途；電視剪輯與音樂發行版的精確對應待核。",
-            "resumeWhen": "權利方明列使用版別或有原期無字幕、同版曲表時再核。",
-            "checkedAt": "2026-11-19"
-          }
-        ],
         "links": [
           {
             "platform": "Apple Music 香港",
@@ -81544,6 +82579,18 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "availability": "available",
             "recordingId": "pokemon-jari-boy-jari-girl-sun-moon-commercial"
           }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "recording_format"
+            ],
+            "note": "東京電視台第86話節目表列〈ブレス〉，第87話恢復本曲。香港Apple Music收錄原唱。",
+            "resumeWhen": "取得公告所指例外地區的原節目表或片尾掛字，及第81、87話的實播剪輯證據。",
+            "checkedAt": "2026-11-20"
+          }
         ]
       },
       {
@@ -81553,8 +82600,10 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
         "titleJa": "ブレス",
         "artistDisplayName": "ポルノグラフィティ",
         "songId": "pokemon-porno-graffitti-breath",
-        "seasonIds": [],
-        "usageLabel": "日本原播2018/7/19–8/16第82–86話的限定片尾，電視放送公告注明部分地區除外。",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "東京電視台2018年7月19日至8月16日第82–86話限時片尾，使用獨立電視版畫面。部分地區除外，第87話東京時段恢復常規片尾。",
         "credits": [
           {
             "name": "新藤晴一",
@@ -81571,6 +82620,10 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
           {
             "name": "Porno Graffitti",
             "role": "arrangement"
+          },
+          {
+            "role": "vocals",
+            "name": "岡野昭仁"
           }
         ],
         "sourceMode": "explicit",
@@ -81587,14 +82640,14 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "label": "日本原播逐話片頭片尾及創作名義交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/news/index_6.html",
             "label": "東京電視台限定換曲、地區例外及原始畫面",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201807/24340_201807261855.html",
@@ -81602,6 +82655,97 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+            "label": "東京電視台｜2018年7月逐話日程",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+            "label": "東京電視台｜8–10月原播及時段切換",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808161855.html",
+            "label": "東京電視台｜第86話節目掛名、原播時段及片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html",
+            "label": "東京電視台｜第87話節目掛名、原播時段及片尾恢復",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/SECL-2310",
+            "label": "Sony Music｜〈ブレス〉原唱、伴奏及劇場版影像內容",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538260584&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538260584&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538260584&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1634556196&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1634556196&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1634556196&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538265356&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=EdhwS0FZNAw",
+            "label": "官方影片｜ポルノグラフィティ「ブレス」Short Ver.",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -81677,14 +82821,393 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "srcl-12400-12407"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/episodes/index_6.html",
+              "https://cal.syoboi.jp/tid/4389/subtitle",
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/news/index_6.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808161855.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/24340_201808231855.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pocket-monsters-sun-and-moon-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/SECL-2310",
+              "https://www.tv-tokyo.co.jp/anime/pokemon_sunmoon/news/index_6.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/SECL-2310"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/SECL-2310"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "secl-2310-2311"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/SECL-2310"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/SECL-2310"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538260584"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538260585"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538260584"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538260585"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538260584"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538260584&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538260585"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1634556196"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1634556220"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1634556196"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1634556220"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1634556196"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1634556196&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1634556220"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538265356&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-live-2019-09-08"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538265356&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pokemon-porno-graffitti-breath-live-2019-09-08"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538265356&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538265356"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538265356&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538265459"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=EdhwS0FZNAw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "EdhwS0FZNAw"
           }
         ],
         "recordings": [
           {
             "id": "pokemon-porno-graffitti-breath-sun-moon-commercial",
             "title": "ブレス",
-            "format": "unknown",
+            "format": "full",
             "kind": "vocal"
+          },
+          {
+            "id": "pokemon-porno-graffitti-breath-instrumental",
+            "title": "ブレス instrumental",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "pokemon-porno-graffitti-breath-live-2019-09-08",
+            "title": "ブレス (LIVE 2019/09/08)",
+            "kind": "live",
+            "format": "full"
           }
         ],
         "releases": [
@@ -81707,25 +83230,264 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "position": 7
               }
             ]
+          },
+          {
+            "id": "secl-2310-2311",
+            "title": "ブレス",
+            "artistDisplayName": "ポルノグラフィティ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本動畫期間限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "ブレス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+              },
+              {
+                "title": "ブレス instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-instrumental"
+              }
+            ],
+            "catalogNumber": "SECL-2310-2311"
+          },
+          {
+            "id": "apple-hk-1538260584",
+            "title": "ブレス - Single",
+            "artistDisplayName": "色情塗鴉",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ブレス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538260584",
+            "title": "ブレス - Single",
+            "artistDisplayName": "色情塗鴉",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ブレス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538260584",
+            "title": "ブレス - Single",
+            "artistDisplayName": "ポルノグラフィティ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ブレス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1634556196",
+            "title": "暁",
+            "artistDisplayName": "色情塗鴉",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2022-08-03",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ブレス",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1634556196",
+            "title": "暁",
+            "artistDisplayName": "色情塗鴉",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2022-08-03",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ブレス",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1634556196",
+            "title": "暁",
+            "artistDisplayName": "ポルノグラフィティ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-08-03",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ブレス",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538265356",
+            "title": "“NIPPONロマンスポルノ’19〜神vs神〜”DAY2(LIVE)",
+            "artistDisplayName": "ポルノグラフィティ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-12-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ブレス (LIVE 2019/09/08)",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "pokemon-porno-graffitti-breath-live-2019-09-08"
+              }
+            ]
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538260585",
+            "label": "香港｜ブレス",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial",
+            "releaseId": "apple-hk-1538260584",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538260585",
+            "label": "台灣｜ブレス",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial",
+            "releaseId": "apple-tw-1538260584",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538260585",
+            "label": "日本｜ブレス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial",
+            "releaseId": "apple-jp-1538260584",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1634556220",
+            "label": "香港｜ブレス",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial",
+            "releaseId": "apple-hk-1634556196",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1634556220",
+            "label": "台灣｜ブレス",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial",
+            "releaseId": "apple-tw-1634556196",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1634556220",
+            "label": "日本｜ブレス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-porno-graffitti-breath-sun-moon-commercial",
+            "releaseId": "apple-jp-1634556196",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538265459",
+            "label": "日本｜ブレス (LIVE 2019/09/08)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pokemon-porno-graffitti-breath-live-2019-09-08",
+            "releaseId": "apple-jp-1538265356",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "use_quarters"
-            ],
-            "note": "已由日本曲表及逐話來源核對原播範圍。較早的適用播出季度仍待部分公開季度入口。",
-            "resumeWhen": "相應較早季度發佈快照後，把已核逐話範圍連入季度搜尋。",
-            "checkedAt": "2026-11-19"
-          },
-          {
-            "fields": [
               "recording_format",
-              "platform_links"
+              "platform_availability"
             ],
-            "note": "已核日本合輯曲位，節目剪輯及香港的同版曲位依個別發行續核。",
-            "resumeWhen": "找到明列使用版別的權利方曲表，或區域平台同版正式曲位。",
-            "checkedAt": "2026-11-19"
+            "note": "香港Apple Music有原唱單曲及專輯，日區另有2019年現場錄音。實體第4曲為伴奏。電視台另指出限時畫面為電視播出用。",
+            "resumeWhen": "取得第82–86話的授權日語畫面與聲軌，核對劇場片尾、MV和電視剪輯的關係；追查例外地區。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },

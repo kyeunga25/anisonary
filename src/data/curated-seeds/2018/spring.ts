@@ -2954,7 +2954,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
       "2020-winter",
       "2019-spring",
       "2019-winter",
-      "2018-fall"
+      "2018-fall",
+      "2018-summer"
     ],
     "startDate": "2018-04-01",
     "titleJa": "ゲゲゲの鬼太郎",
@@ -2970,14 +2971,15 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
     "broadcastTimeJst": "09:00",
     "status": "finished",
     "verifiedAt": "2026-11-16",
-    "metadataVerifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-20",
     "wikipediaUrl": "https://zh.wikipedia.org/wiki/%E9%AC%BC%E5%A4%AA%E9%83%8E_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%E7%AC%AC6%E4%BD%9C%29",
     "broadcastLabel": "日本原TV於2018/4/1–2020/3/29在フジテレビ週日09:00–09:30 JST播出全97話。正版正篇每話約23–24分鐘。",
     "sourceReferenceUrls": [
       "https://www.mau2.com/anime/gegegenokitarou-r6",
       "https://www.mau2.com/anime/gegegenokitarou-r6-2",
       "https://www.ttv.com.tw/drama19/kitaro/default.asp?epi=1",
-      "https://www.iqiyi.com/a_19rrh0thmt.html"
+      "https://www.iqiyi.com/a_19rrh0thmt.html",
+      "https://www.toei-anim.co.jp/kitaro/season6/episode/list/"
     ],
     "themes": [
       {
@@ -2993,14 +2995,14 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/gegegenokitarou-r6",
             "label": "原期歌曲、名義與逐話用途交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/gegegenokitarou-r6-2",
@@ -3014,7 +3016,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/gegegenokitarou-r6-2/ep/97",
@@ -3505,6 +3507,19 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "apple-hk-1410046152"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/kitaro/season6/about/music.php",
+              "https://www.toei-anim.co.jp/kitaro/season6/episode/list/",
+              "https://www.mau2.com/anime/gegegenokitarou-r6"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-op-1"
           }
         ],
         "sourceMode": "explicit",
@@ -3515,10 +3530,11 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2020-winter",
           "2019-spring",
           "2019-winter",
-          "2018-fall"
+          "2018-fall",
+          "2018-summer"
         ],
-        "usageLabel": "日本原TV第1–97話片頭，涵蓋2018年春季至2020年冬季。",
-        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "日本原TV第1–97話片頭，涵蓋2018年春季至2020年冬季。2018夏為7月1日至9月30日第14–26話。",
+        "lastVerifiedAt": "2026-11-20",
         "credits": [
           {
             "name": "氷川きよし",
@@ -3750,12 +3766,11 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
-            "note": "已核2018秋第27–37話、單曲及原聲帶的 TV SIZE，並對應香港歌唱與卡拉 OK 曲目。",
-            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。 2018年夏季入口建立後補掛該季原播用途。",
-            "checkedAt": "2026-11-19"
+            "note": "已核2018夏第14–26話、秋第27–37話、單曲和原聲帶TV Size及香港歌唱與卡拉OK曲目。",
+            "resumeWhen": "取得日本電視原片聲軌比對實播剪輯，或香港訂閱實測後補。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -4018,28 +4033,28 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "東映動畫第六期正式音樂頁：片頭、八首片尾及曲名與演唱名義",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/gegegenokitarou-r6",
             "label": "日本原期逐話歌曲章節，核對片尾落點",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.toei-anim.co.jp/kitaro/season6/episode/list/",
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-65054.html",
             "label": "Victor《ムキシ》第3曲的正式版本名",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://music.apple.com/hk/song/1406352980",
@@ -4068,6 +4083,69 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "language": "zh-Hant",
             "role": "first_party",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=e-owBBwVYW4",
+            "label": "レキシ -「GET A NOTE」 Music Video (YouTube ver.)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1406352975&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1406352975&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1406352975&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856616&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856616&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856616&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=qGc6X6c-ndc",
+            "label": "GET A NOTE",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KEfSCHU8wzk",
+            "label": "GET A NOTE ～下駄の音ver.～",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "links": [
@@ -4079,7 +4157,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "region": "HK",
             "verifiedAt": "2026-11-19",
             "availability": "unknown",
-            "releaseId": "apple-hk-1406352975"
+            "releaseId": "apple-hk-1406352975",
+            "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal"
           },
           {
             "platform": "Apple Music",
@@ -4091,6 +4170,50 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "apple-hk-1435856616",
             "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1406352980",
+            "label": "台灣｜GET A NOTE",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal",
+            "releaseId": "apple-tw-1406352975",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1406352980",
+            "label": "日本｜GET A NOTE",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal",
+            "releaseId": "apple-jp-1406352975",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1435857132",
+            "label": "台灣｜GET A NOTE ~下駄の音ver.~",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto",
+            "releaseId": "apple-tw-1435856616",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1435857132",
+            "label": "日本｜GET A NOTE ~下駄の音ver.~",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto",
+            "releaseId": "apple-jp-1435856616",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -4193,12 +4316,341 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "apple-hk-1435856616"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/kitaro/season6/about/music.php",
+              "https://www.toei-anim.co.jp/kitaro/season6/episode/list/",
+              "https://www.mau2.com/anime/gegegenokitarou-r6"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=e-owBBwVYW4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=e-owBBwVYW4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=e-owBBwVYW4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vicl-37402"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=e-owBBwVYW4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vizl-1393"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-65054.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-65054.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vicl-65054"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1406352975"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1406352975"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1406352980"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1406352975"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1406352975&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1406352980"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1435856616"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1435856616"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1435857132"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1435856616"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856616&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1435857132"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=e-owBBwVYW4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "e-owBBwVYW4"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=qGc6X6c-ndc"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "qGc6X6c-ndc"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=KEfSCHU8wzk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "KEfSCHU8wzk"
           }
         ],
         "sourceMode": "explicit",
-        "seasonIds": [],
-        "usageLabel": "日本原TV2018年夏季第14–26話片尾（2018/7/1–9/30）。",
-        "lastVerifiedAt": "2026-11-19",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本原TV第14–26話片尾（2018年7月1日至9月30日）。",
+        "lastVerifiedAt": "2026-11-20",
         "credits": [
           {
             "name": "レキシ",
@@ -4217,24 +4669,18 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "arrangement"
           }
         ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability",
-              "use_quarters"
-            ],
-            "note": "香港區已核對發行品及逐曲連結。",
-            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。 2018年夏季入口建立後補掛該季原播用途。",
-            "checkedAt": "2026-11-19"
-          }
-        ],
         "recordings": [
           {
             "id": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto",
             "title": "GET A NOTE ～下駄の音ver.～",
             "kind": "vocal",
-            "format": "unknown"
+            "format": "full"
+          },
+          {
+            "id": "gegege-no-kitarou-2018-ed-2-song-vocal",
+            "title": "GET A NOTE",
+            "kind": "vocal",
+            "format": "full"
           }
         ],
         "releases": [
@@ -4249,7 +4695,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               {
                 "title": "GET A NOTE",
                 "position": 1,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal"
               }
             ],
             "date": {
@@ -4276,6 +4723,159 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "value": "2018-09-26",
               "precision": "day"
             }
+          },
+          {
+            "id": "vicl-37402",
+            "title": "S & G",
+            "artistDisplayName": "レキシ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-18",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "GET A NOTE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VICL-37402"
+          },
+          {
+            "id": "vizl-1393",
+            "title": "S & G",
+            "artistDisplayName": "レキシ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-18",
+              "precision": "day"
+            },
+            "edition": "日本初回限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "GET A NOTE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "VIZL-1393"
+          },
+          {
+            "id": "vicl-65054",
+            "title": "ムキシ",
+            "artistDisplayName": "レキシ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "GET A NOTE ～下駄の音ver.～",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+              }
+            ],
+            "catalogNumber": "VICL-65054"
+          },
+          {
+            "id": "apple-tw-1406352975",
+            "title": "S & G - Single",
+            "artistDisplayName": "Rekishi",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-07-18",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "GET A NOTE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1406352975",
+            "title": "S & G - Single",
+            "artistDisplayName": "レキシ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-18",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "GET A NOTE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1435856616",
+            "title": "ムキシ",
+            "artistDisplayName": "Rekishi",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "GET A NOTE ~下駄の音ver.~",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1435856616",
+            "title": "ムキシ",
+            "artistDisplayName": "レキシ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "GET A NOTE ~下駄の音ver.~",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "香港Apple Music已核原唱及下駄の音版，Victor唱片與Art Track列出獨立曲名。",
+            "resumeWhen": "取得授權日本TV第14或26話錄音及掛字後，核對剪輯是從哪一個商業版本取材。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -6346,7 +6946,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
         "label": "東映動畫原期逐話播出日及全97話",
         "role": "first_party",
         "language": "ja",
-        "verifiedAt": "2026-11-16"
+        "verifiedAt": "2026-11-20"
       },
       {
         "url": "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/",
@@ -6388,7 +6988,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
       "2019-fall",
       "2020-winter",
       "2019-spring",
-      "2019-winter"
+      "2019-winter",
+      "2018-summer",
+      "2018-fall"
     ],
     "startDate": "2018-04-02",
     "titleJa": "パズドラ",
@@ -6403,14 +7005,17 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
     "broadcastTimeJst": "18:25",
     "status": "finished",
     "verifiedAt": "2026-11-16",
-    "metadataVerifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-20",
     "bangumiUrl": "https://bgm.tv/subject/235016",
     "broadcastLabel": "日本原TV第1–103話自2018/4/2至2020/3/30於テレビ東京系週一18:25–18:55 JST播出，獨立動畫約24分鐘。2020/4/11第104話起改為實寫與約12分鐘動畫併播。",
     "sourceReferenceUrls": [
       "https://cal.syoboi.jp/tid/4896",
       "https://www.anisil.com/animes/4340-%E3%83%91%E3%82%BA%E3%83%89%E3%83%A9",
       "https://static.viu.tv/8mMnPXNqxl_tkR7t.pdf",
-      "https://bgm.tv/subject/235016"
+      "https://bgm.tv/subject/235016",
+      "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_42.html",
+      "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_41.html",
+      "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_39.html"
     ],
     "themes": [
       {
@@ -6426,7 +7031,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://prtimes.jp/main/html/rd/p/000001888.000013546.html",
@@ -6440,7 +7045,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "原期歌曲、名義與逐話用途交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.anisil.com/animes/4340-%E3%83%91%E3%82%BA%E3%83%89%E3%83%A9",
@@ -6475,7 +7080,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_37.html",
@@ -6532,6 +7137,41 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_42.html",
+            "label": "東京電視台｜第14話起逐話日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_41.html",
+            "label": "東京電視台｜第26、27話及換季編成",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537771024&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "links": [
@@ -6567,6 +7207,72 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "pazudora-op-1-song-anime-size"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537771025",
+            "label": "台灣｜Everybody GO!",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-op-1-song-commercial-rearrangement",
+            "releaseId": "apple-tw-1537771024",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537771025",
+            "label": "日本｜Everybody GO!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-op-1-song-commercial-rearrangement",
+            "releaseId": "apple-jp-1537771024",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537771116",
+            "label": "台灣｜Everybody GO! -Instrumental-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-op-1-song-instrumental",
+            "releaseId": "apple-tw-1537771024",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537771116",
+            "label": "日本｜Everybody GO! -Instrumental-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-op-1-song-instrumental",
+            "releaseId": "apple-jp-1537771024",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537771117",
+            "label": "台灣｜Everybody GO! -Anime size-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-op-1-song-anime-size",
+            "releaseId": "apple-tw-1537771024",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537771117",
+            "label": "日本｜Everybody GO! -Anime size-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-op-1-song-anime-size",
+            "releaseId": "apple-jp-1537771024",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -6731,16 +7437,249 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-hk-1537771024"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/pad/news/index_6.html",
+              "https://cal.syoboi.jp/tid/4896",
+              "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_42.html",
+              "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_41.html",
+              "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_39.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-commercial-rearrangement"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537771024"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-commercial-rearrangement"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537771024"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537771025"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-commercial-rearrangement"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537771024"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537771025"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537771116"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537771116"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-anime-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-anime-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537771117"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-op-1-song-anime-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537771024&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537771117"
           }
         ],
         "sourceMode": "explicit",
         "seasonIds": [
           "2018-spring",
           "2019-spring",
-          "2019-winter"
+          "2019-winter",
+          "2018-summer",
+          "2018-fall"
         ],
-        "usageLabel": "日本原TV第1–59話片頭（2018/4/2–2019/5/20）；唱片公司記載2019/1/21放送換用重新編曲的音源。",
-        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本原TV第1–59話片頭（2018年4月2日至2019年5月20日）。2018夏第14–26話、秋第27–39話。唱片方記2019年1月21日第42話起使用新編曲。",
+        "lastVerifiedAt": "2026-11-20",
         "credits": [
           {
             "name": "明石 タイガ（CV：泊明日菜）",
@@ -6764,13 +7703,13 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "id": "pazudora-op-1-song-commercial-rearrangement",
             "title": "Everybody GO!",
             "kind": "rearrangement",
-            "format": "unknown"
+            "format": "full"
           },
           {
             "id": "pazudora-op-1-song-instrumental",
             "title": "Everybody GO! -Instrumental-",
             "kind": "instrumental",
-            "format": "unknown"
+            "format": "full"
           },
           {
             "id": "pazudora-op-1-song-anime-size",
@@ -6880,18 +7819,81 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               }
             ],
             "label": "Sony Music Records"
+          },
+          {
+            "id": "apple-tw-1537771024",
+            "title": "Everybody GO! - Single",
+            "artistDisplayName": "明石 タイガ(CV:泊明日菜)",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Everybody GO!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-op-1-song-commercial-rearrangement"
+              },
+              {
+                "title": "Everybody GO! -Instrumental-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "pazudora-op-1-song-instrumental"
+              },
+              {
+                "title": "Everybody GO! -Anime size-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "pazudora-op-1-song-anime-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537771024",
+            "title": "Everybody GO! - Single",
+            "artistDisplayName": "明石 タイガ(CV:泊明日菜)",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Everybody GO!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-op-1-song-commercial-rearrangement"
+              },
+              {
+                "title": "Everybody GO! -Instrumental-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "pazudora-op-1-song-instrumental"
+              },
+              {
+                "title": "Everybody GO! -Anime size-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "pazudora-op-1-song-anime-size"
+              }
+            ]
           }
         ],
         "followUp": [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "basic_evidence"
             ],
-            "note": "兩種片頭畫面收於官方DVD。唱片公司記新音源自1月21日第42話起，逐話交叉資料另記第40話起列編曲；第40–41話需原期音軌比對，CD Anime size與舊音源的對應亦待核。",
-            "resumeWhen": "2018夏／秋季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
-            "checkedAt": "2026-11-16"
+            "note": "權利方公告重編音源從第42話放送，交叉曲表另記第40話起列編曲。",
+            "resumeWhen": "查第40–41話日本原播聲軌，核對換曲時間及市售Anime Size與舊錄音的關係。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -7196,7 +8198,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "原期歌曲、名義與逐話用途交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.anisil.com/animes/4340-%E3%83%91%E3%82%BA%E3%83%89%E3%83%A9",
@@ -7210,7 +8212,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "原期歌曲、名義與逐話用途交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_43.html",
@@ -7224,7 +8226,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://music.apple.com/hk/album/1537758932",
@@ -7239,6 +8241,76 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/496008",
+            "label": "Sony Music｜▸START初回及通常兩盤和日版片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_42.html",
+            "label": "東京電視台｜第14話起逐話日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/250769/",
+            "label": "歌ネット｜原曲作詞作曲編曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537758932&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537758932&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537758932&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537756716&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537756716&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537756716&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.amazon.co.jp/albums/B07C444YKB",
+            "label": "Amazon Music日本｜Sony先行版完整錄音聆聽",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "links": [
@@ -7250,7 +8322,73 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "region": "HK",
             "releaseId": "apple-hk-1537758932",
             "availability": "unknown",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-16",
+            "recordingId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537758933",
+            "label": "台灣｜START",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-ed-1-song-vocal",
+            "releaseId": "apple-tw-1537758932",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537758933",
+            "label": "日本｜START",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-ed-1-song-vocal",
+            "releaseId": "apple-jp-1537758932",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537756717",
+            "label": "香港｜START",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-ed-1-song-vocal",
+            "releaseId": "apple-hk-1537756716",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537756717",
+            "label": "台灣｜START",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-ed-1-song-vocal",
+            "releaseId": "apple-tw-1537756716",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537756717",
+            "label": "日本｜START",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "pazudora-ed-1-song-vocal",
+            "releaseId": "apple-jp-1537756716",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B07C444YKB",
+            "label": "Amazon Music｜▶START",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "pazudora-ed-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -7335,18 +8473,339 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-hk-1537758932"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/496008",
+              "https://cal.syoboi.jp/tid/4896",
+              "https://www.mau2.com/anime/pazudora",
+              "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_42.html",
+              "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_41.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/496008",
+              "https://www.uta-net.com/song/250769/",
+              "https://cal.syoboi.jp/tid/4896"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/496008"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/496008"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/496008"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-9814-9815"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/496008"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-9816"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537758932"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537758932"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537758933"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537758932"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537758932&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537758933"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537756716"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537756717"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537756716"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537756717"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537756716"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537756716&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537756717"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.amazon.co.jp/albums/B07C444YKB"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.amazon.co.jp/albums/B07C444YKB"
           }
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2018-spring"
+          "2018-spring",
+          "2018-summer"
         ],
-        "usageLabel": "日本原TV第1–26話片尾（2018/4/2–9/24，春、夏季）。",
-        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本原TV第1–26話片尾，2018夏為7月2日至9月24日第14–26話。",
+        "lastVerifiedAt": "2026-11-20",
         "credits": [
           {
             "name": "魔法少女になり隊",
             "role": "vocals"
+          },
+          {
+            "role": "vocals",
+            "name": "火寺バジル"
+          },
+          {
+            "role": "lyrics",
+            "name": "魔法少女になり隊"
+          },
+          {
+            "role": "lyrics",
+            "name": "あだるとゆうくん"
+          },
+          {
+            "role": "composition",
+            "name": "ウイ・ビトン"
+          },
+          {
+            "role": "arrangement",
+            "name": "ウイ・ビトン"
           }
         ],
         "releases": [
@@ -7365,7 +8824,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               {
                 "title": "▶START",
                 "position": 1,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
               }
             ],
             "label": "Sony Music Records",
@@ -7386,22 +8846,150 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               {
                 "title": "START",
                 "position": 1,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
               }
             ],
             "label": "Sony Music Records"
+          },
+          {
+            "id": "srcl-9814-9815",
+            "title": "▸START",
+            "artistDisplayName": "魔法少女になり隊",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "日本初回限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "▸START",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "SRCL-9814-9815"
+          },
+          {
+            "id": "apple-tw-1537758932",
+            "title": "START - EP",
+            "artistDisplayName": "Mahousyoujoninaritai",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "START",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537758932",
+            "title": "START - EP",
+            "artistDisplayName": "魔法少女になり隊",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "START",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537756716",
+            "title": "START - Single",
+            "artistDisplayName": "Mahousyoujoninaritai",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-04-23",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "START",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537756716",
+            "title": "START - Single",
+            "artistDisplayName": "Mahousyoujoninaritai",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-04-23",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "START",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537756716",
+            "title": "START - Single",
+            "artistDisplayName": "魔法少女になり隊",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-23",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "START",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "pazudora-ed-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "pazudora-ed-1-song-vocal",
+            "title": "▸START",
+            "kind": "vocal",
+            "format": "full"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recordings",
-              "platform_availability",
-              "use_quarters"
+              "recording_format"
             ],
-            "note": "作品使用原曲名，香港店區曲名按其頁面寫作 START。",
-            "resumeWhen": "2018夏季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
-            "checkedAt": "2026-11-16"
+            "note": "兩種日本CD和先行數位單曲、香港公開曲目已核。先行及正式平台曲長有約兩秒差異。",
+            "resumeWhen": "取得權利方TV Size、唱片重製署名或日本原播音軌後核對。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -7432,7 +9020,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "原期歌曲、名義與逐話用途交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.anisil.com/animes/4340-%E3%83%91%E3%82%BA%E3%83%89%E3%83%A9",
@@ -7446,14 +9034,14 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "原期歌曲、名義與逐話用途交叉核對",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_41.html",
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_38.html",
@@ -7474,7 +9062,14 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "Apple Music HK 區曲目",
             "role": "cross_check",
             "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/501825",
+            "label": "Sony Music｜トロイメライ實體曲序及換曲季度",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "links": [
@@ -7486,7 +9081,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "region": "HK",
             "releaseId": "apple-hk-1538283119",
             "availability": "unknown",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-16",
+            "recordingId": "pazudora-ed-2-song-vocal"
           }
         ],
         "evidence": [
@@ -7573,18 +9169,110 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-hk-1538283119"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/501825",
+              "https://cal.syoboi.jp/tid/4896",
+              "https://www.mau2.com/anime/pazudora",
+              "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_41.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/501825",
+              "https://cal.syoboi.jp/tid/4896"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/501825"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/501825"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pazudora-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/mahousyoujoninaritai/info/501825"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-9995"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538283122"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538283122"
           }
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2019-winter"
+          "2019-winter",
+          "2018-fall"
         ],
-        "usageLabel": "日本原TV第27–51話片尾（2018/10/1–2019/3/25，2018秋、2019冬季）。",
-        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本原TV第27–51話片尾。2018年10月1日第27話換用，2019年3月25日第51話末次播出。",
+        "lastVerifiedAt": "2026-11-20",
         "credits": [
           {
             "name": "魔法少女になり隊",
             "role": "vocals"
+          },
+          {
+            "role": "vocals",
+            "name": "火寺バジル"
+          },
+          {
+            "role": "lyrics",
+            "name": "火寺バジル"
+          },
+          {
+            "role": "lyrics",
+            "name": "gari"
+          },
+          {
+            "role": "composition",
+            "name": "ウイ・ビトン"
+          },
+          {
+            "role": "arrangement",
+            "name": "ウイ・ビトン"
           }
         ],
         "releases": [
@@ -7603,7 +9291,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               {
                 "title": "トロイメライ",
                 "position": 3,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "pazudora-ed-2-song-vocal"
               }
             ],
             "label": "Sony Music Records",
@@ -7624,22 +9313,30 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               {
                 "title": "トロイメライ",
                 "position": 3,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "pazudora-ed-2-song-vocal"
               }
             ],
             "label": "Sony Music Records"
           }
         ],
+        "recordings": [
+          {
+            "id": "pazudora-ed-2-song-vocal",
+            "title": "トロイメライ",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
         "followUp": [
           {
             "fields": [
-              "recordings",
-              "platform_availability",
-              "use_quarters"
+              "recording_format",
+              "platform_availability"
             ],
-            "note": "Sony Music公告正式曲名及原盤第3曲。",
-            "resumeWhen": "2018秋季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
-            "checkedAt": "2026-11-16"
+            "note": "已核Sony Music原盤曲序、香港Apple Music入口及第27話起原播。",
+            "resumeWhen": "取得在港訂閱完整播放或日版TV Size可辨識原聲後補。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -8978,6 +10675,27 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "zh-Hant",
         "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_42.html",
+        "label": "東京電視台｜第14話起逐話日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_41.html",
+        "label": "東京電視台｜第26、27話及換季編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pad/episodes/index_39.html",
+        "label": "東京電視台｜第39–42話及秋冬交界",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
       }
     ]
   },
@@ -66724,6 +68442,10325 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "note": "可確認第12話出現兩首原作歌曲，原CD和香港原唱有來源。逐話曲表與同期記錄對末段標示有出入。",
             "resumeWhen": "取得AT-X原播第12話或可核播出版本與片尾掛字，對照兩曲位置及剪輯。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curated-100500",
+    "anilistId": 100500,
+    "anilistUrl": "https://anilist.co/anime/100500",
+    "slug": "kakuriyo-no-yadomeshi",
+    "titleJa": "かくりよの宿飯",
+    "titleZhHant": "妖怪旅館營業中",
+    "titleRomaji": "Kakuriyo no Yadomeshi",
+    "seasonIds": [
+      "2018-spring",
+      "2018-summer"
+    ],
+    "startDate": "2018-04-02",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "22:30",
+    "broadcastLabel": "GONZO製作。2018年4月2日至9月24日每週一22:30 JST於TOKYO MX首播全26話。GYAO!自4月2日24:00 JST同日開始配信。春季第1–13話、夏季第14–26話。",
+    "officialSiteUrl": "https://kakuriyo-anime.com/1st/",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://kakuriyo-anime.com/1st/",
+      "https://www.gonzo.co.jp/works/kakuriyo/",
+      "https://kakuriyo-anime.com/1st/onair/",
+      "https://kakuriyo-anime.com/1st/story/",
+      "https://ani.gamer.com.tw/animeVideo.php?sn=9680"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://kakuriyo-anime.com/1st/",
+        "label": "製作委員會｜日本TV官方作品",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.gonzo.co.jp/works/kakuriyo/",
+        "label": "GONZO｜日本TV製作和全26話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://kakuriyo-anime.com/1st/onair/",
+        "label": "製作委員會｜日本各局播出及GYAO!上架",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://kakuriyo-anime.com/1st/story/",
+        "label": "製作委員會｜第一期正式逐話介紹",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=9680",
+        "label": "巴哈姆特動畫瘋｜木棉花第一期正片及繁中片名",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/4890/time",
+        "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/100500",
+        "label": "AniList｜第一期日本TV識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/4890",
+        "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+        "role": "theme_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "themes": [
+      {
+        "id": "kakuriyo-no-yadomeshi-op-1",
+        "songId": "kakuriyo-no-yadomeshi-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "灯火のまにまに",
+        "artistDisplayName": "東山奈央",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第1–9、11–14話片頭。第10話逐話曲表列無片頭。夏季沿用至7月2日第14話。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "東山奈央"
+          },
+          {
+            "role": "lyrics",
+            "name": "ZAI-ON"
+          },
+          {
+            "role": "composition",
+            "name": "WEST GROUND"
+          },
+          {
+            "role": "arrangement",
+            "name": "ZAI-ON"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+            "label": "FlyingDog｜燈火及春色作詞作曲編曲和實體曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anitubu.com/archives/32569839.html",
+            "label": "日本同期播出紀錄｜第14話片頭和片末歌曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd01.php",
+            "label": "製作委員會｜首支片頭三種實體盤",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1384402179&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1384402179&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1384402179&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1456711676&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1456711676&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1456711676&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html",
+            "label": "FlyingDog｜2025配信原聲帶及四首TV Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM",
+            "label": "Spotify｜FlyingDog數位原聲帶曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/5epJrWLXv8xd4GwPrg0p6o",
+            "label": "Spotify｜灯火のまにまに -TV size-正式曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tXsqImRzm80",
+            "label": "東山奈央「灯火のまにまに」Music Video (2chorus ver.)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1ms0tHiAVQw",
+            "label": "灯火のまにまに",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=J1hq87leemk",
+            "label": "灯火のまにまに -TV size-",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time",
+              "https://anitubu.com/archives/32569839.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtzl-144"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35275"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35276"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1384402179"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1384402180"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1384402179"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1384402180"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1384402179"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1384402179&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1384402180"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1456711676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1456711682"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1456711676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1456711682"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1456711676"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1456711676&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1456711682"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "veatp-44990"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1859522832"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1859522832"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1859522832"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "spotify-0bynxw0pckznbp6szumhhm"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/5epJrWLXv8xd4GwPrg0p6o"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5epJrWLXv8xd4GwPrg0p6o"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=tXsqImRzm80"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tXsqImRzm80"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=1ms0tHiAVQw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "1ms0tHiAVQw"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=J1hq87leemk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "J1hq87leemk"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-op-1-song-vocal",
+            "title": "灯火のまにまに",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-op-1-song-inst",
+            "title": "灯火のまにまに Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-op-1-song-tv-size",
+            "title": "灯火のまにまに -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtzl-144",
+            "title": "灯火のまにまに",
+            "artistDisplayName": "東山奈央",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-30",
+              "precision": "day"
+            },
+            "edition": "日本初回限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "灯火のまにまに",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              },
+              {
+                "title": "灯火のまにまに Instrumental ver.",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VTZL-144"
+          },
+          {
+            "id": "vtcl-35275",
+            "title": "灯火のまにまに",
+            "artistDisplayName": "東山奈央",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-30",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "灯火のまにまに",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              },
+              {
+                "title": "灯火のまにまに Instrumental ver.",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35275"
+          },
+          {
+            "id": "vtcl-35276",
+            "title": "灯火のまにまに",
+            "artistDisplayName": "東山奈央",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-30",
+              "precision": "day"
+            },
+            "edition": "日本動畫版CD",
+            "tracks": [
+              {
+                "title": "灯火のまにまに",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              },
+              {
+                "title": "灯火のまにまに Instrumental ver.",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35276"
+          },
+          {
+            "id": "apple-hk-1384402179",
+            "title": "Tomoshibi no manimani - Single",
+            "artistDisplayName": "東山奈央",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-30",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Tomoshibi no manimani",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1384402179",
+            "title": "Tomoshibi no manimani - Single",
+            "artistDisplayName": "東山奈央",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-30",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Tomoshibi no manimani",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1384402179",
+            "title": "Tomoshibi no manimani - Single",
+            "artistDisplayName": "東山奈央",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-30",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "灯火のまにまに",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1456711676",
+            "title": "Gunjyo Infinity",
+            "artistDisplayName": "東山奈央",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-04-03",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Tomoshibi no manimani",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1456711676",
+            "title": "Gunjyo Infinity",
+            "artistDisplayName": "東山奈央",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-04-03",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Tomoshibi no manimani",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1456711676",
+            "title": "Gunjyo Infinity",
+            "artistDisplayName": "東山奈央",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-04-03",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "灯火のまにまに",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "veatp-44990",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "FlyingDog日本配信原聲帶",
+            "tracks": [
+              {
+                "title": "灯火のまにまに -TV size-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+              }
+            ],
+            "catalogNumber": "VEATP-44990"
+          },
+          {
+            "id": "apple-hk-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Tomoshibi no manimani -TV Size-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Tomoshibi no manimani -TV Size-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "灯火のまにまに -TV size-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0bynxw0pckznbp6szumhhm",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "Spotify數位版",
+            "tracks": [
+              {
+                "title": "灯火のまにまに -TV size-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1384402180",
+            "label": "香港｜Tomoshibi no manimani",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal",
+            "releaseId": "apple-hk-1384402179",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1384402180",
+            "label": "台灣｜Tomoshibi no manimani",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal",
+            "releaseId": "apple-tw-1384402179",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1384402180",
+            "label": "日本｜灯火のまにまに",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal",
+            "releaseId": "apple-jp-1384402179",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1456711682",
+            "label": "香港｜Tomoshibi no manimani",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal",
+            "releaseId": "apple-hk-1456711676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1456711682",
+            "label": "台灣｜Tomoshibi no manimani",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal",
+            "releaseId": "apple-tw-1456711676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1456711682",
+            "label": "日本｜灯火のまにまに",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-vocal",
+            "releaseId": "apple-jp-1456711676",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1859522832",
+            "label": "香港｜Tomoshibi no manimani -TV Size-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size",
+            "releaseId": "apple-hk-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1859522832",
+            "label": "台灣｜Tomoshibi no manimani -TV Size-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size",
+            "releaseId": "apple-tw-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1859522832",
+            "label": "日本｜灯火のまにまに -TV size-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size",
+            "releaseId": "apple-jp-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/5epJrWLXv8xd4GwPrg0p6o",
+            "label": "Spotify｜灯火のまにまに",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-1-song-tv-size",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "spotify-0bynxw0pckznbp6szumhhm"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "官方唱片確認片頭身份。逐話曲表列第10話無片頭，並列第14話仍沿用。",
+            "resumeWhen": "取得原播第10話的授權日語正片以覆核省略情況。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-op-2",
+        "songId": "kakuriyo-no-yadomeshi-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "ウツシヨノユメ",
+        "artistDisplayName": "ナノ",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第15–26話片頭。第14話先在片末使用，另記為同曲片尾用途。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ナノ"
+          },
+          {
+            "role": "lyrics",
+            "name": "ナノ"
+          },
+          {
+            "role": "lyrics",
+            "name": "ZAI-ON"
+          },
+          {
+            "role": "composition",
+            "name": "WEST GROUND"
+          },
+          {
+            "role": "arrangement",
+            "name": "WEST GROUND"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd05.php",
+            "label": "製作委員會｜第2季度片頭兩盤曲序與創作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anitubu.com/archives/32569839.html",
+            "label": "日本同期播出紀錄｜第14話片頭和片末歌曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://nanonano.me/musics/6015",
+            "label": "ナノ官方｜日本雙版本單曲原盤",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0ARvsbIKmXdjDDLDES0YAK",
+            "label": "Spotify｜ウツシヨノユメ數位單曲曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D",
+            "label": "Spotify｜ウツシヨノユメ正式單曲原唱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html",
+            "label": "FlyingDog｜2025配信原聲帶及四首TV Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM",
+            "label": "Spotify｜FlyingDog數位原聲帶曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7",
+            "label": "Spotify｜ウツシヨノユメ -TV size-正式曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Nf8DY6GbfZo",
+            "label": "ナノ「ウツシヨノユメ」Music Video（Short ver.）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time",
+              "https://anitubu.com/archives/32569839.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php",
+              "https://nanonano.me/musics/6015"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35286"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35287"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1421755746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1421756252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1421755746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1421756252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1421755746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1421756252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1501110907"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1501110919"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1501110907"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1501110919"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1501110907"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1501110919"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0ARvsbIKmXdjDDLDES0YAK"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "spotify-0arvsbikmxdjdldes0yak"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "veatp-44990"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1859522834"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1859522834"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1859522834"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "spotify-0bynxw0pckznbp6szumhhm"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Nf8DY6GbfZo"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "Nf8DY6GbfZo"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "title": "ウツシヨノユメ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-op-2-song-inst",
+            "title": "ウツシヨノユメ Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "title": "ウツシヨノユメ -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35286",
+            "title": "ウツシヨノユメ",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本ナノ盤CD",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              },
+              {
+                "title": "ウツシヨノユメ Instrumental ver.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35286"
+          },
+          {
+            "id": "vtcl-35287",
+            "title": "ウツシヨノユメ",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本動畫版CD",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              },
+              {
+                "title": "ウツシヨノユメ Instrumental ver.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35287"
+          },
+          {
+            "id": "apple-hk-1421755746",
+            "title": "Dream Of Netherworlds - Single",
+            "artistDisplayName": "nano",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1421755746",
+            "title": "Dream Of Netherworlds - Single",
+            "artistDisplayName": "nano",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1421755746",
+            "title": "Dream Of Netherworlds - Single",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1501110907",
+            "title": "Best Album \"I\"",
+            "artistDisplayName": "nano",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1501110907",
+            "title": "Best Album \"I\"",
+            "artistDisplayName": "nano",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1501110907",
+            "title": "Best Album \"I\"",
+            "artistDisplayName": "ナノ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0arvsbikmxdjdldes0yak",
+            "title": "ウツシヨノユメ",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "Spotify數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "veatp-44990",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "FlyingDog日本配信原聲帶",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ -TV size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ],
+            "catalogNumber": "VEATP-44990"
+          },
+          {
+            "id": "apple-hk-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Dream of Netherworlds -TV Size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Dream of Netherworlds -TV Size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ -TV size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0bynxw0pckznbp6szumhhm",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "Spotify數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ -TV size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1421756252",
+            "label": "香港｜Dream Of Netherworlds",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-hk-1421755746",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1421756252",
+            "label": "台灣｜Dream Of Netherworlds",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-tw-1421755746",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1421756252",
+            "label": "日本｜Dream Of Netherworlds",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-jp-1421755746",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1501110919",
+            "label": "香港｜Dream Of Netherworlds",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-hk-1501110907",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1501110919",
+            "label": "台灣｜Dream Of Netherworlds",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-tw-1501110907",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1501110919",
+            "label": "日本｜ウツシヨノユメ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-jp-1501110907",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D",
+            "label": "Spotify｜ウツシヨノユメ",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "spotify-0arvsbikmxdjdldes0yak"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1859522834",
+            "label": "香港｜Dream of Netherworlds -TV Size-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "releaseId": "apple-hk-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1859522834",
+            "label": "台灣｜Dream of Netherworlds -TV Size-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "releaseId": "apple-tw-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1859522834",
+            "label": "日本｜ウツシヨノユメ -TV size-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "releaseId": "apple-jp-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7",
+            "label": "Spotify｜ウツシヨノユメ",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "spotify-0bynxw0pckznbp6szumhhm"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-1",
+        "songId": "kakuriyo-no-yadomeshi-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "彩 -color-",
+        "artistDisplayName": "沼倉愛美",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第1、2、4、6、7、9–12話片尾；第3、5、8、13話改用角色歌曲。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "沼倉愛美"
+          },
+          {
+            "role": "lyrics",
+            "name": "沼倉愛美"
+          },
+          {
+            "role": "composition",
+            "name": "WEST GROUND"
+          },
+          {
+            "role": "arrangement",
+            "name": "ZAI-ON"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html",
+            "label": "FlyingDog｜彩 -color-原唱與伴奏曲序及創作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd02.php",
+            "label": "製作委員會｜首支片尾兩種實體盤",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1387346328&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1387346328&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1387346328&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451571141&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451571141&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1451571141&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1496566114&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1496566114&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1496566114&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html",
+            "label": "FlyingDog｜2025配信原聲帶及四首TV Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM",
+            "label": "Spotify｜FlyingDog數位原聲帶曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/5M5YzDEsf2Aon5PE2nKzx6",
+            "label": "Spotify｜彩 -color- -TV size-正式曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=RiBK9UxvqXk",
+            "label": "沼倉愛美「彩 -color-」Music Video",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html",
+              "https://kakuriyo-anime.com/1st/cd/cd02.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35277"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025398/VTCL-35277.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd02.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd02.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtzl-145"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd02.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1387346328"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1387346329"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1387346328"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1387346329"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1387346328"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1387346328&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1387346329"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1451571141"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1451571447"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1451571141"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1451571447"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1451571141"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1451571141&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1451571447"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1496566114"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1496566434"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1496566114"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1496566434"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1496566114"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1496566114&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1496566434"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "veatp-44990"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1859523121"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1859523121"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1859523121"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "spotify-0bynxw0pckznbp6szumhhm"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/5M5YzDEsf2Aon5PE2nKzx6"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5M5YzDEsf2Aon5PE2nKzx6"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=RiBK9UxvqXk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "RiBK9UxvqXk"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "title": "彩 -color-",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-1-song-inst",
+            "title": "彩 -color- Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-1-song-tv-size",
+            "title": "彩 -color- -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35277",
+            "title": "彩 -color-",
+            "artistDisplayName": "沼倉愛美",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "彩 -color-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              },
+              {
+                "title": "彩 -color- Instrumental ver.",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35277"
+          },
+          {
+            "id": "vtzl-145",
+            "title": "彩 -color-",
+            "artistDisplayName": "沼倉愛美",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本初回限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "彩 -color-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              },
+              {
+                "title": "彩 -color- Instrumental ver.",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VTZL-145"
+          },
+          {
+            "id": "apple-hk-1387346328",
+            "title": "color - Single",
+            "artistDisplayName": "沼倉愛美",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "color",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1387346328",
+            "title": "color - Single",
+            "artistDisplayName": "Manami Numakura",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "color",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1387346328",
+            "title": "color - Single",
+            "artistDisplayName": "沼倉愛美",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "彩 -color-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1451571141",
+            "title": "Ai",
+            "artistDisplayName": "沼倉愛美",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Color",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1451571141",
+            "title": "Ai",
+            "artistDisplayName": "Manami Numakura",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Color",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1451571141",
+            "title": "Ai",
+            "artistDisplayName": "沼倉愛美",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "彩 -color-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1496566114",
+            "title": "Complete Best \"Minna De!\"",
+            "artistDisplayName": "沼倉愛美",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Color",
+                "position": 1,
+                "disc": 2,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1496566114",
+            "title": "Complete Best \"Minna De!\"",
+            "artistDisplayName": "Manami Numakura",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Color",
+                "position": 1,
+                "disc": 2,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1496566114",
+            "title": "Complete Best \"Minna De!\"",
+            "artistDisplayName": "沼倉愛美",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "彩 -color-",
+                "position": 1,
+                "disc": 2,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "veatp-44990",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "FlyingDog日本配信原聲帶",
+            "tracks": [
+              {
+                "title": "彩 -color- -TV size-",
+                "position": 79,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+              }
+            ],
+            "catalogNumber": "VEATP-44990"
+          },
+          {
+            "id": "apple-hk-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Color -TV Size-",
+                "position": 79,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Color -TV Size-",
+                "position": 79,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "彩 -color- -TV size-",
+                "position": 79,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0bynxw0pckznbp6szumhhm",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "Spotify數位版",
+            "tracks": [
+              {
+                "title": "彩 -color- -TV size-",
+                "position": 79,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1387346329",
+            "label": "香港｜color",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-hk-1387346328",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1387346329",
+            "label": "台灣｜color",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-tw-1387346328",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1387346329",
+            "label": "日本｜彩 -color-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-jp-1387346328",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1451571447",
+            "label": "香港｜Color",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-hk-1451571141",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1451571447",
+            "label": "台灣｜Color",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-tw-1451571141",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1451571447",
+            "label": "日本｜彩 -color-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-jp-1451571141",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1496566434",
+            "label": "香港｜Color",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-hk-1496566114",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1496566434",
+            "label": "台灣｜Color",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-tw-1496566114",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1496566434",
+            "label": "日本｜彩 -color-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-vocal",
+            "releaseId": "apple-jp-1496566114",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1859523121",
+            "label": "香港｜Color -TV Size-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size",
+            "releaseId": "apple-hk-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1859523121",
+            "label": "台灣｜Color -TV Size-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size",
+            "releaseId": "apple-tw-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1859523121",
+            "label": "日本｜彩 -color- -TV size-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size",
+            "releaseId": "apple-jp-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/5M5YzDEsf2Aon5PE2nKzx6",
+            "label": "Spotify｜彩 -color-",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-1-song-tv-size",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "spotify-0bynxw0pckznbp6szumhhm"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-2",
+        "songId": "kakuriyo-no-yadomeshi-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "願い花",
+        "artistDisplayName": "大旦那（小西克幸）",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第3話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "小西克幸"
+          },
+          {
+            "role": "lyrics",
+            "name": "伊藤直樹"
+          },
+          {
+            "role": "composition",
+            "name": "伊藤直樹"
+          },
+          {
+            "role": "arrangement",
+            "name": "伊藤直樹"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+            "label": "FlyingDog｜角色片尾Vol.1原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1523860282",
+            "label": "アニメイトタイムズ｜第3話片尾演唱者訪談",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd03.php",
+            "label": "製作委員會｜角色片尾第一輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_sUeLmv6XA4",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈願い花〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time",
+              "https://www.animatetimes.com/news/details.php?id=1523860282"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://kakuriyo-anime.com/1st/cd/cd03.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35279"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1400117850"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1400117850"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1400117850"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_sUeLmv6XA4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "_sUeLmv6XA4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-2-song-vocal",
+            "title": "願い花",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-2-song-inst",
+            "title": "願い花 Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35279",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.1",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "願い花",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+              },
+              {
+                "title": "願い花 Instrumental ver.",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35279"
+          },
+          {
+            "id": "apple-hk-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Negai Bana",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Negai Bana",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "願い花",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1400117850",
+            "label": "香港｜Negai Bana",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-vocal",
+            "releaseId": "apple-hk-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1400117850",
+            "label": "台灣｜Negai Bana",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-vocal",
+            "releaseId": "apple-tw-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1400117850",
+            "label": "日本｜願い花",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-2-song-vocal",
+            "releaseId": "apple-jp-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "recording_format"
+            ],
+            "note": "FlyingDog唱片編曲署名為伊藤直樹，逐話曲表在播出欄另列伊賀拓郎。",
+            "resumeWhen": "取得第3話片尾原版掛字及聲軌，分別確認日本電視版編曲與播出版。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-3",
+        "songId": "kakuriyo-no-yadomeshi-ed-3-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "時の砂",
+        "artistDisplayName": "暁（内田雄馬）、鈴蘭（内田真礼）",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第5話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "内田雄馬"
+          },
+          {
+            "role": "vocals",
+            "name": "内田真礼"
+          },
+          {
+            "role": "lyrics",
+            "name": "伊賀拓郎"
+          },
+          {
+            "role": "composition",
+            "name": "伊賀拓郎"
+          },
+          {
+            "role": "arrangement",
+            "name": "伊賀拓郎"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+            "label": "FlyingDog｜角色片尾Vol.1原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd03.php",
+            "label": "製作委員會｜角色片尾第一輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4HZ2PO5o_r4",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈時の砂〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://kakuriyo-anime.com/1st/cd/cd03.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35279"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1400117856"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1400117856"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1400117856"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=4HZ2PO5o_r4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "4HZ2PO5o_r4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-3-song-vocal",
+            "title": "時の砂",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-3-song-inst",
+            "title": "時の砂 Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35279",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.1",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "時の砂",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+              },
+              {
+                "title": "時の砂 Instrumental ver.",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35279"
+          },
+          {
+            "id": "apple-hk-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Toki no Suna",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Toki no Suna",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "時の砂",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1400117856",
+            "label": "香港｜Toki no Suna",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-vocal",
+            "releaseId": "apple-hk-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1400117856",
+            "label": "台灣｜Toki no Suna",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-vocal",
+            "releaseId": "apple-tw-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1400117856",
+            "label": "日本｜時の砂",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-3-song-vocal",
+            "releaseId": "apple-jp-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方角色歌CD有原唱及伴奏，香港Apple Music已核原唱曲目。",
+            "resumeWhen": "找到權利方另行發行的該集TV剪輯，或取得授權原片與唱片聲軌比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-4",
+        "songId": "kakuriyo-no-yadomeshi-ed-4-song",
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "My sweet sweet love",
+        "artistDisplayName": "白夜（田丸篤志）",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第8話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "田丸篤志"
+          },
+          {
+            "role": "lyrics",
+            "name": "大島はるな"
+          },
+          {
+            "role": "composition",
+            "name": "斉藤悠弥"
+          },
+          {
+            "role": "arrangement",
+            "name": "伊賀拓郎"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+            "label": "FlyingDog｜角色片尾Vol.1原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd03.php",
+            "label": "製作委員會｜角色片尾第一輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=EAMz7JfDL9o",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈My sweet sweet love〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://kakuriyo-anime.com/1st/cd/cd03.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35279"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1400117957"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1400117957"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1400117957"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=EAMz7JfDL9o"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "EAMz7JfDL9o"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-4-song-vocal",
+            "title": "My sweet sweet love",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-4-song-inst",
+            "title": "My sweet sweet love Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35279",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.1",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "My sweet sweet love",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+              },
+              {
+                "title": "My sweet sweet love Instrumental ver.",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35279"
+          },
+          {
+            "id": "apple-hk-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "My Sweet Sweet Love",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "My Sweet Sweet Love",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "My sweet sweet love",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1400117957",
+            "label": "香港｜My Sweet Sweet Love",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-vocal",
+            "releaseId": "apple-hk-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1400117957",
+            "label": "台灣｜My Sweet Sweet Love",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-vocal",
+            "releaseId": "apple-tw-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1400117957",
+            "label": "日本｜My sweet sweet love",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-4-song-vocal",
+            "releaseId": "apple-jp-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方角色歌CD有原唱及伴奏，香港Apple Music已核原唱曲目。",
+            "resumeWhen": "找到權利方另行發行的該集TV剪輯，或取得授權原片與唱片聲軌比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-5",
+        "songId": "kakuriyo-no-yadomeshi-ed-5-song",
+        "type": "ED",
+        "sequence": 5,
+        "titleJa": "風",
+        "artistDisplayName": "銀次（土岐隼一）",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第13話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "土岐隼一"
+          },
+          {
+            "role": "lyrics",
+            "name": "伊藤直樹"
+          },
+          {
+            "role": "composition",
+            "name": "近藤功教"
+          },
+          {
+            "role": "arrangement",
+            "name": "近藤功教"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+            "label": "FlyingDog｜角色片尾Vol.1原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd03.php",
+            "label": "製作委員會｜角色片尾第一輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7-WN2jq1AT0",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈風〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html",
+              "https://kakuriyo-anime.com/1st/cd/cd03.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35279"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35279.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1400117963"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1400117963"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1400117849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1400117849&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1400117963"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7-WN2jq1AT0"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "7-WN2jq1AT0"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-5-song-vocal",
+            "title": "風",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-5-song-inst",
+            "title": "風 Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35279",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.1",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "風",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+              },
+              {
+                "title": "風 Instrumental ver.",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35279"
+          },
+          {
+            "id": "apple-hk-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Kaze",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Kaze",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1400117849",
+            "title": "TV Anime (Kakuriyo no Yadomeshi) Character Song's [Kakuriyo no Shirabe], Vol. 1 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-04",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "風",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1400117963",
+            "label": "香港｜Kaze",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-vocal",
+            "releaseId": "apple-hk-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1400117963",
+            "label": "台灣｜Kaze",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-vocal",
+            "releaseId": "apple-tw-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1400117963",
+            "label": "日本｜風",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-5-song-vocal",
+            "releaseId": "apple-jp-1400117849",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方角色歌CD有原唱及伴奏，香港Apple Music已核原唱曲目。",
+            "resumeWhen": "找到權利方另行發行的該集TV剪輯，或取得授權原片與唱片聲軌比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-6",
+        "songId": "kakuriyo-no-yadomeshi-ed-6-song",
+        "type": "ED",
+        "sequence": 6,
+        "titleJa": "知らない気持ち",
+        "artistDisplayName": "中島愛",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第15–17、19、20、22、24、26話片尾。第18、21、23、25話改用角色歌曲。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "中島愛"
+          },
+          {
+            "role": "lyrics",
+            "name": "シンリズム"
+          },
+          {
+            "role": "composition",
+            "name": "シンリズム"
+          },
+          {
+            "role": "arrangement",
+            "name": "シンリズム"
+          },
+          {
+            "role": "arrangement",
+            "name": "高野勲"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd04.php",
+            "label": "製作委員會｜第2季度片尾原盤和創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A021733/VTCL-35285.html",
+            "label": "FlyingDog｜すのはら盤片尾原曲及伴奏曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413143571&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413143571&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413143571&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413145715&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413145715&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1413145715&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1464489235&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1464489235&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1464489235&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html",
+            "label": "FlyingDog｜2025配信原聲帶及四首TV Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM",
+            "label": "Spotify｜FlyingDog數位原聲帶曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/0qKj2Ipwf8rKCUMn7ts2Uv",
+            "label": "Spotify｜知らない気持ち -TV size-正式曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=AqMuKsuJdXI",
+            "label": "知らない気持ち",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35284"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd04.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A021733/VTCL-35285.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A021733/VTCL-35285.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35285"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A021733/VTCL-35285.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1413143571"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1413143647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1413143571"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1413143647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1413143571"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413143571&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1413143647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1413145715"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1413145877"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1413145715"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1413145877"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1413145715"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1413145715&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1413145877"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1464489235"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1464489461"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1464489235"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1464489461"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1464489235"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1464489235&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1464489461"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "veatp-44990"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1859523122"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1859523122"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1859523122"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "spotify-0bynxw0pckznbp6szumhhm"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/0qKj2Ipwf8rKCUMn7ts2Uv"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/0qKj2Ipwf8rKCUMn7ts2Uv"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=AqMuKsuJdXI"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "AqMuKsuJdXI"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "title": "知らない気持ち",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-6-song-inst",
+            "title": "知らない気持ち Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-6-song-tv-size",
+            "title": "知らない気持ち -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35284",
+            "title": "知らない気持ち／Bitter Sweet Harmony",
+            "artistDisplayName": "中島愛",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "日本かくりよ盤CD",
+            "tracks": [
+              {
+                "title": "知らない気持ち",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              },
+              {
+                "title": "知らない気持ち Instrumental ver.",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35284"
+          },
+          {
+            "id": "vtcl-35285",
+            "title": "Bitter Sweet Harmony／知らない気持ち",
+            "artistDisplayName": "中島愛",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "日本すのはら盤CD",
+            "tracks": [
+              {
+                "title": "知らない気持ち",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              },
+              {
+                "title": "知らない気持ち Instrumental ver.",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35285"
+          },
+          {
+            "id": "apple-hk-1413143571",
+            "title": "Shiranai kimochi / Bitter Sweet Harmony - Single",
+            "artistDisplayName": "Nakajima Megumi",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1413143571",
+            "title": "Shiranai kimochi / Bitter Sweet Harmony - Single",
+            "artistDisplayName": "Nakajima Megumi",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1413143571",
+            "title": "Shiranai kimochi / Bitter Sweet Harmony - Single",
+            "artistDisplayName": "中島愛",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "知らない気持ち",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1413145715",
+            "title": "Bitter Sweet Harmony / Shiranai kimochi - Single",
+            "artistDisplayName": "Nakajima Megumi",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1413145715",
+            "title": "Bitter Sweet Harmony / Shiranai kimochi - Single",
+            "artistDisplayName": "Nakajima Megumi",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1413145715",
+            "title": "Bitter Sweet Harmony / Shiranai kimochi - Single",
+            "artistDisplayName": "中島愛",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-01",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "知らない気持ち",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1464489235",
+            "title": "30 pieces of love -selection-",
+            "artistDisplayName": "Nakajima Megumi",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-06-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1464489235",
+            "title": "30 pieces of love -selection-",
+            "artistDisplayName": "Nakajima Megumi",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-06-05",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1464489235",
+            "title": "30 pieces of love -selection-",
+            "artistDisplayName": "中島愛",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-06-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "知らない気持ち",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "veatp-44990",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "FlyingDog日本配信原聲帶",
+            "tracks": [
+              {
+                "title": "知らない気持ち -TV size-",
+                "position": 80,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+              }
+            ],
+            "catalogNumber": "VEATP-44990"
+          },
+          {
+            "id": "apple-hk-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi -TV Size-",
+                "position": 80,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shiranai kimochi -TV Size-",
+                "position": 80,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "知らない気持ち -TV size-",
+                "position": 80,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0bynxw0pckznbp6szumhhm",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "Spotify數位版",
+            "tracks": [
+              {
+                "title": "知らない気持ち -TV size-",
+                "position": 80,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1413143647",
+            "label": "香港｜Shiranai kimochi",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-hk-1413143571",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1413143647",
+            "label": "台灣｜Shiranai kimochi",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-tw-1413143571",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1413143647",
+            "label": "日本｜知らない気持ち",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-jp-1413143571",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1413145877",
+            "label": "香港｜Shiranai kimochi",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-hk-1413145715",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1413145877",
+            "label": "台灣｜Shiranai kimochi",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-tw-1413145715",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1413145877",
+            "label": "日本｜知らない気持ち",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-jp-1413145715",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1464489461",
+            "label": "香港｜Shiranai kimochi",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-hk-1464489235",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1464489461",
+            "label": "台灣｜Shiranai kimochi",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-tw-1464489235",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1464489461",
+            "label": "日本｜知らない気持ち",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-vocal",
+            "releaseId": "apple-jp-1464489235",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1859523122",
+            "label": "香港｜Shiranai kimochi -TV Size-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size",
+            "releaseId": "apple-hk-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1859523122",
+            "label": "台灣｜Shiranai kimochi -TV Size-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size",
+            "releaseId": "apple-tw-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1859523122",
+            "label": "日本｜知らない気持ち -TV size-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size",
+            "releaseId": "apple-jp-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/0qKj2Ipwf8rKCUMn7ts2Uv",
+            "label": "Spotify｜知らない気持ち",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-6-song-tv-size",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "spotify-0bynxw0pckznbp6szumhhm"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-7",
+        "songId": "kakuriyo-no-yadomeshi-ed-7-song",
+        "type": "ED",
+        "sequence": 7,
+        "titleJa": "ヤシホノハナ",
+        "artistDisplayName": "葉鳥（寺島拓篤）",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第18話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "寺島拓篤"
+          },
+          {
+            "role": "lyrics",
+            "name": "咲坂美音"
+          },
+          {
+            "role": "composition",
+            "name": "咲坂美音"
+          },
+          {
+            "role": "arrangement",
+            "name": "横田晃希"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+            "label": "FlyingDog｜角色片尾Vol.2原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd06.php",
+            "label": "製作委員會｜角色片尾第二輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=P6pYkKGqHto",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈ヤシホノハナ〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://kakuriyo-anime.com/1st/cd/cd06.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35288"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1435856147"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1435856147"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1435856147"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=P6pYkKGqHto"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "P6pYkKGqHto"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-7-song-vocal",
+            "title": "ヤシホノハナ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-7-song-inst",
+            "title": "ヤシホノハナ Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35288",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.2",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "ヤシホノハナ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+              },
+              {
+                "title": "ヤシホノハナ Instrumental ver.",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35288"
+          },
+          {
+            "id": "apple-hk-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Yashihonohana",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Yashihonohana",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ヤシホノハナ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1435856147",
+            "label": "香港｜Yashihonohana",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-vocal",
+            "releaseId": "apple-hk-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1435856147",
+            "label": "台灣｜Yashihonohana",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-vocal",
+            "releaseId": "apple-tw-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1435856147",
+            "label": "日本｜ヤシホノハナ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-7-song-vocal",
+            "releaseId": "apple-jp-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方角色歌CD有原唱及伴奏，香港Apple Music已核原唱曲目。",
+            "resumeWhen": "找到權利方另行發行的該集TV剪輯，或取得授權原片與唱片聲軌比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-8",
+        "songId": "kakuriyo-no-yadomeshi-ed-8-song",
+        "type": "ED",
+        "sequence": 8,
+        "titleJa": "恋守唄",
+        "artistDisplayName": "秀吉（柿原徹也）",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第21話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "柿原徹也"
+          },
+          {
+            "role": "lyrics",
+            "name": "伊藤直樹"
+          },
+          {
+            "role": "composition",
+            "name": "近藤功教"
+          },
+          {
+            "role": "arrangement",
+            "name": "近藤功教"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+            "label": "FlyingDog｜角色片尾Vol.2原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd06.php",
+            "label": "製作委員會｜角色片尾第二輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=R_RVWVyjh8Y",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈恋守唄〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://kakuriyo-anime.com/1st/cd/cd06.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35288"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1435856153"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1435856153"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1435856153"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=R_RVWVyjh8Y"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "R_RVWVyjh8Y"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-8-song-vocal",
+            "title": "恋守唄",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-8-song-inst",
+            "title": "恋守唄 Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35288",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.2",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "恋守唄",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+              },
+              {
+                "title": "恋守唄 Instrumental ver.",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35288"
+          },
+          {
+            "id": "apple-hk-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Koimoriuta",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Koimoriuta",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "恋守唄",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1435856153",
+            "label": "香港｜Koimoriuta",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-vocal",
+            "releaseId": "apple-hk-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1435856153",
+            "label": "台灣｜Koimoriuta",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-vocal",
+            "releaseId": "apple-tw-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1435856153",
+            "label": "日本｜恋守唄",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-8-song-vocal",
+            "releaseId": "apple-jp-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方角色歌CD有原唱及伴奏，香港Apple Music已核原唱曲目。",
+            "resumeWhen": "找到權利方另行發行的該集TV剪輯，或取得授權原片與唱片聲軌比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-9",
+        "songId": "kakuriyo-no-yadomeshi-ed-9-song",
+        "type": "ED",
+        "sequence": 9,
+        "titleJa": "刹那の煌めき",
+        "artistDisplayName": "雷獣（日野聡）",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第23話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "日野聡"
+          },
+          {
+            "role": "lyrics",
+            "name": "Kazuki Yamamoto"
+          },
+          {
+            "role": "composition",
+            "name": "Kazuki Yamamoto"
+          },
+          {
+            "role": "arrangement",
+            "name": "近藤功教"
+          },
+          {
+            "role": "arrangement",
+            "name": "Kazuki Yamamoto"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+            "label": "FlyingDog｜角色片尾Vol.2原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd06.php",
+            "label": "製作委員會｜角色片尾第二輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ppQE_YVkWy4",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈刹那の煌めき〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://kakuriyo-anime.com/1st/cd/cd06.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35288"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1435856158"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1435856158"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1435856158"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ppQE_YVkWy4"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "ppQE_YVkWy4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-9-song-vocal",
+            "title": "刹那の煌めき",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-9-song-inst",
+            "title": "刹那の煌めき Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35288",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.2",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "刹那の煌めき",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+              },
+              {
+                "title": "刹那の煌めき Instrumental ver.",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35288"
+          },
+          {
+            "id": "apple-hk-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Setsuna no Kirameki",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Setsuna no Kirameki",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "刹那の煌めき",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1435856158",
+            "label": "香港｜Setsuna no Kirameki",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-vocal",
+            "releaseId": "apple-hk-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1435856158",
+            "label": "台灣｜Setsuna no Kirameki",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-vocal",
+            "releaseId": "apple-tw-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1435856158",
+            "label": "日本｜刹那の煌めき",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-9-song-vocal",
+            "releaseId": "apple-jp-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方角色歌CD有原唱及伴奏，香港Apple Music已核原唱曲目。",
+            "resumeWhen": "找到權利方另行發行的該集TV剪輯，或取得授權原片與唱片聲軌比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-10",
+        "songId": "kakuriyo-no-yadomeshi-ed-10-song",
+        "type": "ED",
+        "sequence": 10,
+        "titleJa": "永遠の絆",
+        "artistDisplayName": "乱丸（石川界人）",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第25話特別片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "石川界人"
+          },
+          {
+            "role": "lyrics",
+            "name": "Kazuki Yamamoto"
+          },
+          {
+            "role": "composition",
+            "name": "近藤功教"
+          },
+          {
+            "role": "arrangement",
+            "name": "近藤功教"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+            "label": "FlyingDog｜角色片尾Vol.2原盤原唱與伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/news/product/p425/index.html",
+            "label": "製作委員會｜第25話特別片尾和角色",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd06.php",
+            "label": "製作委員會｜角色片尾第二輯曲序與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=VhaLKk-q17c",
+            "label": "「かくりよの宿飯」スペシャルエンディング〈永遠の絆〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time",
+              "https://kakuriyo-anime.com/1st/news/product/p425/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html",
+              "https://kakuriyo-anime.com/1st/cd/cd06.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35288"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-35288.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1435856164"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1435856164"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1435856142"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1435856142&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1435856164"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=VhaLKk-q17c"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "VhaLKk-q17c"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-10-song-vocal",
+            "title": "永遠の絆",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-ed-10-song-inst",
+            "title": "永遠の絆 Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35288",
+            "title": "TVアニメ「かくりよの宿飯」キャラクターソング集「隠世の調」Vol.2",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本角色歌CD",
+            "tracks": [
+              {
+                "title": "永遠の絆",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+              },
+              {
+                "title": "永遠の絆 Instrumental ver.",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35288"
+          },
+          {
+            "id": "apple-hk-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Eien no Kizuna",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "群星",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Eien no Kizuna",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1435856142",
+            "title": "TV Anime \"Kakuriyo no Yadomeshi\" Character Song's \"Kakuriyo no Shirabe\", Vol. 2 - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "永遠の絆",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1435856164",
+            "label": "香港｜Eien no Kizuna",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-vocal",
+            "releaseId": "apple-hk-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1435856164",
+            "label": "台灣｜Eien no Kizuna",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-vocal",
+            "releaseId": "apple-tw-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1435856164",
+            "label": "日本｜永遠の絆",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-ed-10-song-vocal",
+            "releaseId": "apple-jp-1435856142",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方角色歌CD有原唱及伴奏，香港Apple Music已核原唱曲目。",
+            "resumeWhen": "找到權利方另行發行的該集TV剪輯，或取得授權原片與唱片聲軌比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-ed-11",
+        "songId": "kakuriyo-no-yadomeshi-op-2-song",
+        "type": "ED",
+        "sequence": 11,
+        "titleJa": "ウツシヨノユメ",
+        "artistDisplayName": "ナノ",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "第14話片末使用。該集片頭仍是〈灯火のまにまに〉，第15話起本曲移至片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ナノ"
+          },
+          {
+            "role": "lyrics",
+            "name": "ナノ"
+          },
+          {
+            "role": "lyrics",
+            "name": "ZAI-ON"
+          },
+          {
+            "role": "composition",
+            "name": "WEST GROUND"
+          },
+          {
+            "role": "arrangement",
+            "name": "WEST GROUND"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd05.php",
+            "label": "製作委員會｜第2季度片頭兩盤曲序與創作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://nanonano.me/musics/6015",
+            "label": "ナノ官方｜日本雙版本單曲原盤",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0ARvsbIKmXdjDDLDES0YAK",
+            "label": "Spotify｜ウツシヨノユメ數位單曲曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D",
+            "label": "Spotify｜ウツシヨノユメ正式單曲原唱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html",
+            "label": "FlyingDog｜2025配信原聲帶及四首TV Size曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM",
+            "label": "Spotify｜FlyingDog數位原聲帶曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7",
+            "label": "Spotify｜ウツシヨノユメ -TV size-正式曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anitubu.com/archives/32569839.html",
+            "label": "日本同期播出紀錄｜第14話片頭和片末歌曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php",
+              "https://nanonano.me/musics/6015"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35286"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/1st/cd/cd05.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35287"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1421755746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1421756252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1421755746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1421756252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1421755746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1421755746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1421756252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1501110907"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1501110919"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1501110907"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1501110919"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1501110907"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1501110907&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1501110919"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0ARvsbIKmXdjDDLDES0YAK"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "spotify-0arvsbikmxdjdldes0yak"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VEATP-44990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "veatp-44990"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1859522834"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1859522834"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1859522831"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1859522831&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1859522834"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0ByNXW0PCkZnbP6sZUMhhM"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "spotify-0bynxw0pckznbp6szumhhm"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anitubu.com/archives/32569839.html",
+              "https://kakuriyo-anime.com/1st/cd/cd05.php",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-ed-11"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "title": "ウツシヨノユメ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-op-2-song-inst",
+            "title": "ウツシヨノユメ Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "title": "ウツシヨノユメ -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35286",
+            "title": "ウツシヨノユメ",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本ナノ盤CD",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              },
+              {
+                "title": "ウツシヨノユメ Instrumental ver.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35286"
+          },
+          {
+            "id": "vtcl-35287",
+            "title": "ウツシヨノユメ",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本動畫版CD",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              },
+              {
+                "title": "ウツシヨノユメ Instrumental ver.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35287"
+          },
+          {
+            "id": "apple-hk-1421755746",
+            "title": "Dream Of Netherworlds - Single",
+            "artistDisplayName": "nano",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1421755746",
+            "title": "Dream Of Netherworlds - Single",
+            "artistDisplayName": "nano",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1421755746",
+            "title": "Dream Of Netherworlds - Single",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1501110907",
+            "title": "Best Album \"I\"",
+            "artistDisplayName": "nano",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1501110907",
+            "title": "Best Album \"I\"",
+            "artistDisplayName": "nano",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Dream Of Netherworlds",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1501110907",
+            "title": "Best Album \"I\"",
+            "artistDisplayName": "ナノ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-03-18",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0arvsbikmxdjdldes0yak",
+            "title": "ウツシヨノユメ",
+            "artistDisplayName": "ナノ",
+            "type": "single",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2018-08-22",
+              "precision": "day"
+            },
+            "edition": "Spotify數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "veatp-44990",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "FlyingDog日本配信原聲帶",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ -TV size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ],
+            "catalogNumber": "VEATP-44990"
+          },
+          {
+            "id": "apple-hk-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Dream of Netherworlds -TV Size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "Takurou Iga",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Dream of Netherworlds -TV Size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1859522831",
+            "title": "TV Animation \"Kakuriyo -Bed & Breakfast for Spirits-\" Original Soundtrack",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ -TV size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0bynxw0pckznbp6szumhhm",
+            "title": "TVアニメ「かくりよの宿飯」オリジナル・サウンドトラック",
+            "artistDisplayName": "伊賀拓郎",
+            "type": "soundtrack",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "edition": "Spotify數位版",
+            "tracks": [
+              {
+                "title": "ウツシヨノユメ -TV size-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1421756252",
+            "label": "香港｜Dream Of Netherworlds",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-hk-1421755746",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1421756252",
+            "label": "台灣｜Dream Of Netherworlds",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-tw-1421755746",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1421756252",
+            "label": "日本｜Dream Of Netherworlds",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-jp-1421755746",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1501110919",
+            "label": "香港｜Dream Of Netherworlds",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-hk-1501110907",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1501110919",
+            "label": "台灣｜Dream Of Netherworlds",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-tw-1501110907",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1501110919",
+            "label": "日本｜ウツシヨノユメ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "releaseId": "apple-jp-1501110907",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/7rRtm1SEgOGldNcDJwYk4D",
+            "label": "Spotify｜ウツシヨノユメ",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "spotify-0arvsbikmxdjdldes0yak"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1859522834",
+            "label": "香港｜Dream of Netherworlds -TV Size-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "releaseId": "apple-hk-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1859522834",
+            "label": "台灣｜Dream of Netherworlds -TV Size-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "releaseId": "apple-tw-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1859522834",
+            "label": "日本｜ウツシヨノユメ -TV size-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "releaseId": "apple-jp-1859522831",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/5jiChrrik2Y3JaWVwMa0U7",
+            "label": "Spotify｜ウツシヨノユメ",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "kakuriyo-no-yadomeshi-op-2-song-tv-size",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "spotify-0bynxw0pckznbp6szumhhm"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "同期播出記錄與逐話曲表對應第14話片末。唱片和2025原聲帶分有全長及TV Size。",
+            "resumeWhen": "取得第14話合法原音並比對正式TV Size剪輯。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kakuriyo-no-yadomeshi-in-1",
+        "songId": "kakuriyo-no-yadomeshi-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "春色",
+        "artistDisplayName": "津場木葵（東山奈央）",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第20話插曲。唱片以東山奈央名義發行。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "東山奈央"
+          },
+          {
+            "role": "lyrics",
+            "name": "春日章宏"
+          },
+          {
+            "role": "composition",
+            "name": "春日章宏"
+          },
+          {
+            "role": "arrangement",
+            "name": "春日章宏"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+            "label": "FlyingDog｜燈火及春色作詞作曲編曲和實體曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890",
+            "label": "しょぼいカレンダー｜第一期逐話片頭片尾及插曲資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4890/time",
+            "label": "しょぼいカレンダー｜TOKYO MX首末集日期及逐話時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/story/",
+            "label": "製作委員會｜第一期正式逐話介紹",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kakuriyo-anime.com/1st/cd/cd01.php",
+            "label": "製作委員會｜首支片頭三種實體盤",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+              "https://cal.syoboi.jp/tid/4890"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+              "https://cal.syoboi.jp/tid/4890",
+              "https://cal.syoboi.jp/tid/4890/time",
+              "https://kakuriyo-anime.com/1st/story/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html",
+              "https://kakuriyo-anime.com/1st/cd/cd01.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-in-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vtcl-35276"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-in-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023615/VTCL-35276.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kakuriyo-no-yadomeshi-in-1-song-inst"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kakuriyo-no-yadomeshi-in-1-song-vocal",
+            "title": "春色",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kakuriyo-no-yadomeshi-in-1-song-inst",
+            "title": "春色 Instrumental ver.",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35276",
+            "title": "灯火のまにまに",
+            "artistDisplayName": "東山奈央",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-30",
+              "precision": "day"
+            },
+            "edition": "日本動畫版CD",
+            "tracks": [
+              {
+                "title": "春色",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-in-1-song-vocal"
+              },
+              {
+                "title": "春色 Instrumental ver.",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kakuriyo-no-yadomeshi-in-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VTCL-35276"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability",
+              "recording_format"
+            ],
+            "note": "第一首片頭的日本動畫盤第3、6曲收錄原唱和伴奏。已核香港一般數位單曲三曲，曲目表未列〈春色〉。",
+            "resumeWhen": "找到香港或日本正版逐曲串流，或取得第20話原聲以辨識實播版本。",
             "checkedAt": "2026-11-20"
           }
         ]
