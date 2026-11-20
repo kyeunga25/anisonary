@@ -23323,4 +23323,7068 @@ export const curated2018WinterSeeds: CuratedCatalogAnimeSeed[] = [
       }
     ]
   },
+  {
+    "id": "curated-100245",
+    "anilistId": 100245,
+    "anilistUrl": "https://anilist.co/anime/100245",
+    "slug": "beatless",
+    "titleJa": "BEATLESS",
+    "titleRomaji": "BEATLESS",
+    "seasonIds": [
+      "2018-winter",
+      "2018-spring",
+      "2018-summer"
+    ],
+    "startDate": "2018-01-12",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "25:55",
+    "broadcastLabel": "diomedéa製作。MBS／TBS Animeism於2018年1月12日至6月29日播第1–20話與4次Intermission，首話實際於週五26:10 JST播出，MBS通常為25:55。Final Stage第21話於MBS 9月25日深夜首播，官網預告27:00，逐話編成記27:15，第22話於AT-X 9月27日雙話時段首播，第23–24話於AT-X 9月28日21:00時段首播。MBS在10月14日深夜播出本台第22–24話，官網預告26:15，逐話編成記26:20，這是已於9月結束的日本首播之後的地區編成。原輪另有Prime Video獨家配信。",
+    "officialSiteUrl": "https://beatless-anime.jp/index.php",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://beatless-anime.jp/index.php",
+      "https://beatless-anime.jp/onair/index.php",
+      "https://beatless-anime.jp/news/detail_0912_1.php",
+      "https://www.primevideo.com/-/zh_TW/detail/0HX48X2YXOYMEE15N5D82WPUXS"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://beatless-anime.jp/index.php",
+        "label": "KADOKAWA｜日本動畫製作委員會及原播公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://beatless-anime.jp/onair/index.php",
+        "label": "KADOKAWA｜MBS、TBS、Final Stage與Prime Video首輪配信",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://beatless-anime.jp/news/detail_0912_1.php",
+        "label": "KADOKAWA｜Final Stage逐話及各電視台編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.primevideo.com/-/zh_TW/detail/0HX48X2YXOYMEE15N5D82WPUXS",
+        "label": "Prime Video台灣介面｜原授權集單及四個Intermission",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/4770/time",
+        "label": "しょぼいカレンダー｜原播各話日期及時段",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/100245",
+        "label": "AniList｜含Final Stage的日本TV作品識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "themes": [
+      {
+        "id": "beatless-op-1",
+        "songId": "beatless-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Error",
+        "artistDisplayName": "GARNiDELiA",
+        "seasonIds": [
+          "2018-winter",
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第2–13話片頭。第1話無常規片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "メイリア"
+          },
+          {
+            "role": "lyrics",
+            "name": "メイリア"
+          },
+          {
+            "role": "composition",
+            "name": "toku"
+          },
+          {
+            "role": "arrangement",
+            "name": "GARNiDELiA"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://beatless-anime.jp/music/op_ed_1st.php",
+            "label": "KADOKAWA｜前半主題歌、唱片品番、曲序及TV版本",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/Music/Info/garnidelia/movie/",
+            "label": "Sony Music｜Error官方MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4770",
+            "label": "しょぼいカレンダー｜逐話用途及創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/beatless?cast=scd",
+            "label": "日本逐話曲表｜第1–24話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285811&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285811&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285811&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285695&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285695&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538285695&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537904719&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537904719&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537904719&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1793292191&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1793292191&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1793292191&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000006362",
+            "label": "Pony Canyon｜PROGRESS精選輯另版錄音",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=dWL15YFEG2E",
+            "label": "GARNiDELiA Official Youtube Channel｜GARNiDELiA『Error』Music Video YouTube Edit ver.",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php",
+              "https://www.sonymusic.co.jp/Music/Info/garnidelia/movie/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php",
+              "https://cal.syoboi.jp/tid/4770",
+              "https://www.mau2.com/anime/beatless?cast=scd"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php",
+              "https://cal.syoboi.jp/tid/4770"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1156-1157"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1158"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1159-1160"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538285811"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538285812"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538285811"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538285812"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538285811"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538285812"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538285695"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286006"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538285695"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286006"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538285695"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285695&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286006"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537904719"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537904729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537904719"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537904729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537904719"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537904719&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537904729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538285815"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538285815"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538285811&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538285815"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-progress"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-progress"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1793292191"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1793292197"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-progress"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1793292191"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1793292197"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-progress"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1793292191"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1793292191&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1793292197"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000006362"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-1-song-progress"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=dWL15YFEG2E",
+              "https://www.sonymusic.co.jp/Music/Info/garnidelia/movie/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "dWL15YFEG2E"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-op-1-song-vocal",
+            "title": "Error",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "beatless-op-1-song-inst",
+            "title": "Error - instrumental -",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "beatless-op-1-song-tv",
+            "title": "Error - TV Size ver. -",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "beatless-op-1-song-progress",
+            "title": "Error [PROGRESS]",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1156-1157",
+            "title": "Error",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-01-31",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD初回限定盤",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              },
+              {
+                "title": "Error - instrumental -",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1156/1157"
+          },
+          {
+            "id": "vvcl-1158",
+            "title": "Error",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-01-31",
+              "precision": "day"
+            },
+            "edition": "日本CD通常盤",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              },
+              {
+                "title": "Error - instrumental -",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1158"
+          },
+          {
+            "id": "vvcl-1159-1160",
+            "title": "Error",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-01-31",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD動畫盤",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              },
+              {
+                "title": "Error - instrumental -",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-inst"
+              },
+              {
+                "title": "Error - TV Size ver. -",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-tv"
+              }
+            ],
+            "catalogNumber": "VVCL-1159/1160"
+          },
+          {
+            "id": "apple-hk-1538285811",
+            "title": "Error - EP",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-01-31",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              },
+              {
+                "title": "Error instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538285811",
+            "title": "Error - EP",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-01-31",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              },
+              {
+                "title": "Error instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538285811",
+            "title": "Error - EP",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-01-31",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              },
+              {
+                "title": "Error instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538285695",
+            "title": "G.R.N.D.",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-03-28",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538285695",
+            "title": "G.R.N.D.",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-03-28",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538285695",
+            "title": "G.R.N.D.",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-28",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537904719",
+            "title": "GARNiDELiA BEST",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537904719",
+            "title": "GARNiDELiA BEST",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537904719",
+            "title": "GARNiDELiA BEST",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Error",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1793292191",
+            "title": "GRND THE BEST PROGRESS",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2025-02-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Error [PROGRESS]",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-progress"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1793292191",
+            "title": "GRND THE BEST PROGRESS",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2025-02-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Error [PROGRESS]",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-progress"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1793292191",
+            "title": "GRND THE BEST PROGRESS",
+            "artistDisplayName": "GARNiDELiA",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2025-02-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Error [PROGRESS]",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "beatless-op-1-song-progress"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538285812",
+            "label": "香港｜Error",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-hk-1538285811",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538285812",
+            "label": "台灣｜Error",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-tw-1538285811",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538285812",
+            "label": "日本｜Error",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-jp-1538285811",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286006",
+            "label": "香港｜Error",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-hk-1538285695",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286006",
+            "label": "台灣｜Error",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-tw-1538285695",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286006",
+            "label": "日本｜Error",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-jp-1538285695",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537904729",
+            "label": "香港｜Error",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-hk-1537904719",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537904729",
+            "label": "台灣｜Error",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-tw-1537904719",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537904729",
+            "label": "日本｜Error",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-vocal",
+            "releaseId": "apple-jp-1537904719",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538285815",
+            "label": "香港｜Error instrumental",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-inst",
+            "releaseId": "apple-hk-1538285811",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538285815",
+            "label": "台灣｜Error instrumental",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-inst",
+            "releaseId": "apple-tw-1538285811",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538285815",
+            "label": "日本｜Error instrumental",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-inst",
+            "releaseId": "apple-jp-1538285811",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1793292197",
+            "label": "香港｜Error [PROGRESS]",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-progress",
+            "releaseId": "apple-hk-1793292191",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1793292197",
+            "label": "台灣｜Error [PROGRESS]",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-progress",
+            "releaseId": "apple-tw-1793292191",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1793292197",
+            "label": "日本｜Error [PROGRESS]",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-1-song-progress",
+            "releaseId": "apple-jp-1793292191",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability"
+            ],
+            "note": "日本動畫盤CD附TV Size。香港可查原唱、伴奏和PROGRESS發行音源。",
+            "resumeWhen": "唱片方於香港串流上架獨立TV Size時補曲目。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "beatless-ed-1",
+        "songId": "beatless-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "PRIMALove",
+        "artistDisplayName": "ClariS",
+        "seasonIds": [
+          "2018-winter",
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第1–13話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "クララ"
+          },
+          {
+            "role": "vocals",
+            "name": "カレン"
+          },
+          {
+            "role": "lyrics",
+            "name": "kz"
+          },
+          {
+            "role": "composition",
+            "name": "kz"
+          },
+          {
+            "role": "arrangement",
+            "name": "kz"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://beatless-anime.jp/music/op_ed_1st.php",
+            "label": "KADOKAWA｜前半主題歌、唱片品番、曲序及TV版本",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/claris/info/558384",
+            "label": "Sony Music｜PRIMALove官方全段MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4770",
+            "label": "しょぼいカレンダー｜逐話用途及創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/beatless?cast=scd",
+            "label": "日本逐話曲表｜第1–24話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://realsound.jp/2018/06/post-199781.html",
+            "label": "作曲家kz訪談｜第2話時裝秀兩首曲及原企畫合輯歌曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537900088&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537900088&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537900088&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286291&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286291&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538286291&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1534710645&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1534710645&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1534710645&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1772879629&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1772879629&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1772879629&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537906615&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537906615&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537906615&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=HL34txzoHPk",
+            "label": "ClariS Official YouTube Channel｜ClariS『PRIMALove』Music Video【TVアニメ『BEATLESS』エンディングテーマ】",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php",
+              "https://www.sonymusic.co.jp/artist/claris/info/558384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php",
+              "https://cal.syoboi.jp/tid/4770",
+              "https://www.mau2.com/anime/beatless?cast=scd"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php",
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://cal.syoboi.jp/tid/4770"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1174-1175"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1176"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1177-1178"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_1st.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537900088"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537900089"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537900088"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537900089"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537900088"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537900089"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538286291"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538286302"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538286291"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538286302"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538286291"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538286291&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538286302"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1534710645"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1534710651"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1534710645"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1534710651"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1534710645"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1534710645&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1534710651"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1772879629"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1772879647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1772879629"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1772879647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1772879629"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1772879629&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1772879647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537906615"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537906617"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537906615"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537906617"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537906615"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537906615&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/primalove/1537906615?i=1537906617&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537900092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537900092"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900088&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537900092"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=HL34txzoHPk",
+              "https://www.sonymusic.co.jp/artist/claris/info/558384"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "HL34txzoHPk"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-ed-1-song-vocal",
+            "title": "PRIMALove",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "beatless-ed-1-song-inst",
+            "title": "PRIMALove -Instrumental-",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "beatless-ed-1-song-tv",
+            "title": "PRIMALove -TV MIX-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1174-1175",
+            "title": "PRIMALove",
+            "artistDisplayName": "ClariS",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD初回限定盤",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              },
+              {
+                "title": "PRIMALove -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1174/1175"
+          },
+          {
+            "id": "vvcl-1176",
+            "title": "PRIMALove",
+            "artistDisplayName": "ClariS",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本CD通常盤",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              },
+              {
+                "title": "PRIMALove -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1176"
+          },
+          {
+            "id": "vvcl-1177-1178",
+            "title": "PRIMALove",
+            "artistDisplayName": "ClariS",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD動畫盤",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              },
+              {
+                "title": "PRIMALove -TV MIX-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "VVCL-1177/1178"
+          },
+          {
+            "id": "apple-hk-1537900088",
+            "title": "PRIMALove - EP",
+            "artistDisplayName": "ClariS",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              },
+              {
+                "title": "PRIMALove -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537900088",
+            "title": "PRIMALove - EP",
+            "artistDisplayName": "ClariS",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              },
+              {
+                "title": "PRIMALove -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537900088",
+            "title": "PRIMALove - EP",
+            "artistDisplayName": "ClariS",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              },
+              {
+                "title": "PRIMALove -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538286291",
+            "title": "Fairy Party",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538286291",
+            "title": "Fairy Party",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538286291",
+            "title": "Fairy Party",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1534710645",
+            "title": "ClariS 10th Anniversary BEST - Green Star",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-10-21",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1534710645",
+            "title": "ClariS 10th Anniversary BEST - Green Star",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-10-21",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1534710645",
+            "title": "ClariS 10th Anniversary BEST - Green Star",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-10-21",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1772879629",
+            "title": "ClariS ～SINGLE BEST 2nd～",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2024-10-23",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1772879629",
+            "title": "ClariS ～SINGLE BEST 2nd～",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2024-10-23",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1772879629",
+            "title": "ClariS ～SINGLE BEST 2nd～",
+            "artistDisplayName": "ClariS",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2024-10-23",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537906615",
+            "title": "PRIMALove - Single",
+            "artistDisplayName": "ClariS",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-01-19",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537906615",
+            "title": "PRIMALove - Single",
+            "artistDisplayName": "ClariS",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-01-19",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537906615",
+            "title": "PRIMALove - Single",
+            "artistDisplayName": "ClariS",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-01-19",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "PRIMALove",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537900089",
+            "label": "香港｜PRIMALove",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-hk-1537900088",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537900089",
+            "label": "台灣｜PRIMALove",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-tw-1537900088",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537900089",
+            "label": "日本｜PRIMALove",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-jp-1537900088",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538286302",
+            "label": "香港｜PRIMALove",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-hk-1538286291",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538286302",
+            "label": "台灣｜PRIMALove",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-tw-1538286291",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538286302",
+            "label": "日本｜PRIMALove",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-jp-1538286291",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1534710651",
+            "label": "香港｜PRIMALove",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-hk-1534710645",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1534710651",
+            "label": "台灣｜PRIMALove",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-tw-1534710645",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1534710651",
+            "label": "日本｜PRIMALove",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-jp-1534710645",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1772879647",
+            "label": "香港｜PRIMALove",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-hk-1772879629",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1772879647",
+            "label": "台灣｜PRIMALove",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-tw-1772879629",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1772879647",
+            "label": "日本｜PRIMALove",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-jp-1772879629",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537906617",
+            "label": "香港｜PRIMALove",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-hk-1537906615",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537906617",
+            "label": "台灣｜PRIMALove",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-tw-1537906615",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/primalove/1537906615?i=1537906617&app=itunes",
+            "label": "日本｜PRIMALove",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "beatless-ed-1-song-vocal",
+            "releaseId": "apple-jp-1537906615",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537900092",
+            "label": "香港｜PRIMALove -Instrumental-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-inst",
+            "releaseId": "apple-hk-1537900088",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537900092",
+            "label": "台灣｜PRIMALove -Instrumental-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-inst",
+            "releaseId": "apple-tw-1537900088",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537900092",
+            "label": "日本｜PRIMALove -Instrumental-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-1-song-inst",
+            "releaseId": "apple-jp-1537900088",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability"
+            ],
+            "note": "動畫盤CD第4軌為TV MIX，通常盤第4軌為伴奏。",
+            "resumeWhen": "香港串流上架明確標示為TV MIX的曲目時補記。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "beatless-op-2",
+        "songId": "beatless-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "Truth.",
+        "artistDisplayName": "TrySail",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第14–23話片頭，第24話無常規片頭。Final Stage第21–23話續用。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "麻倉もも"
+          },
+          {
+            "role": "vocals",
+            "name": "雨宮 天"
+          },
+          {
+            "role": "vocals",
+            "name": "夏川椎菜"
+          },
+          {
+            "role": "lyrics",
+            "name": "メイリア"
+          },
+          {
+            "role": "composition",
+            "name": "toku"
+          },
+          {
+            "role": "arrangement",
+            "name": "toku"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://beatless-anime.jp/music/op_ed_2nd.php",
+            "label": "KADOKAWA｜後半主題歌、唱片品番、曲序與詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/trysail/discography/VVCL-1249",
+            "label": "Sony Music｜TrySail成員及片頭詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://beatless-anime.jp/news/detail_0912_1.php",
+            "label": "KADOKAWA｜Final Stage逐話及各電視台編成",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4770",
+            "label": "しょぼいカレンダー｜逐話用途及創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/beatless?cast=scd",
+            "label": "日本逐話曲表｜第1–24話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537900661&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537900661&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537900661&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537902862&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537902862&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537902862&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1827402239&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1827402239&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1827402239&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1527038047&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1527038047&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1527038047&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1841861461&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1841861461&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1841861461&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9O_HNIYIWhc",
+            "label": "TrySail（麻倉もも・雨宮天・夏川椎菜）official YouTube channel｜TrySail 「Truth.」 Music Video (TVアニメ『BEATLESS』OPテーマ)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php",
+              "https://www.sonymusic.co.jp/artist/trysail/discography/VVCL-1249"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php",
+              "https://beatless-anime.jp/news/detail_0912_1.php",
+              "https://cal.syoboi.jp/tid/4770",
+              "https://www.mau2.com/anime/beatless?cast=scd"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php",
+              "https://www.sonymusic.co.jp/artist/trysail/discography/VVCL-1249"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1247-1248"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-inst"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1249"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "vvcl-1250"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537900661"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537900662"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537900661"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537900662"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537900661"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537900662"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537902862"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537902865"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1537902862"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537902865"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537902862"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537902862&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537902865"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1827402239"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1827402248"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1827402239"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1827402248"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1827402239"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1827402239&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1827402248"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537900665"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1537900665"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537900661&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537900665"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1527038047&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-live-makuhari-2019"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1527038047&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1527038047"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1527038047&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1527038075"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1527038047&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1527038047"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1527038047&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1527038075"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1527038047&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1527038047"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1527038047&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1527038075"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-live-budokan-2025-03-01"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1841861461"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1841861869"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1841861461"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1841861869"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1841861461"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1841861869"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-op-2-song-live-budokan-2025-03-02"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1841862020"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1841862020"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1841861461&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1841862020"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=9O_HNIYIWhc",
+              "https://www.sonymusic.co.jp/artist/trysail/discography/VVCL-1249"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "9O_HNIYIWhc"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-op-2-song-vocal",
+            "title": "Truth.",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "beatless-op-2-song-inst",
+            "title": "Truth. -Instrumental-",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "beatless-op-2-song-tv",
+            "title": "Truth. -TV Ver.-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "beatless-op-2-song-live-makuhari-2019",
+            "title": "Truth. (Live at Makuhari Messe, 8/4/2019)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "beatless-op-2-song-live-budokan-2025-03-01",
+            "title": "Truth. (Live at 日本武道館 2025.3.1)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "beatless-op-2-song-live-budokan-2025-03-02",
+            "title": "Truth. (Live at 日本武道館 2025.3.2)",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1247-1248",
+            "title": "Truth.",
+            "artistDisplayName": "TrySail",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD初回限定盤",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              },
+              {
+                "title": "Truth. -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1247/1248"
+          },
+          {
+            "id": "vvcl-1249",
+            "title": "Truth.",
+            "artistDisplayName": "TrySail",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD通常盤",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              },
+              {
+                "title": "Truth. -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "VVCL-1249"
+          },
+          {
+            "id": "vvcl-1250",
+            "title": "Truth.",
+            "artistDisplayName": "TrySail",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD動畫盤",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              },
+              {
+                "title": "Truth. -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-inst"
+              },
+              {
+                "title": "Truth. -TV Ver.-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-tv"
+              }
+            ],
+            "catalogNumber": "VVCL-1250"
+          },
+          {
+            "id": "apple-hk-1537900661",
+            "title": "Truth. - EP",
+            "artistDisplayName": "TrySail",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              },
+              {
+                "title": "Truth. -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537900661",
+            "title": "Truth. - EP",
+            "artistDisplayName": "TrySail",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              },
+              {
+                "title": "Truth. -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537900661",
+            "title": "Truth. - EP",
+            "artistDisplayName": "TrySail",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              },
+              {
+                "title": "Truth. -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537902862",
+            "title": "TryAgain",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1537902862",
+            "title": "TryAgain",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537902862",
+            "title": "TryAgain",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1827402239",
+            "title": "BestSail",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2025-08-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1827402239",
+            "title": "BestSail",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2025-08-27",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1827402239",
+            "title": "BestSail",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2025-08-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Truth.",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1527038047",
+            "title": "TrySail Live Tour 2019\"The TrySail Odyssey\"",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-08-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Truth. (Live at Makuhari Messe, 8/4/2019)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-makuhari-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1527038047",
+            "title": "TrySail Live Tour 2019\"The TrySail Odyssey\"",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-08-26",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Truth. (Live at Makuhari Messe, 8/4/2019)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-makuhari-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1527038047",
+            "title": "TrySail Live Tour 2019\"The TrySail Odyssey\"",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-08-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Truth. (Live at Makuhari Messe 2019.08.04)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-makuhari-2019"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1841861461",
+            "title": "TrySail 10周年出航ライブ “FlagShip” in 日本武道館",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2025-10-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Truth. (Live at 日本武道館 2025.3.1)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-budokan-2025-03-01"
+              },
+              {
+                "title": "Truth. (Live at 日本武道館 2025.3.2)",
+                "position": 36,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-budokan-2025-03-02"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1841861461",
+            "title": "TrySail 10周年出航ライブ “FlagShip” in 日本武道館",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2025-10-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Truth. (Live at 日本武道館 2025.3.1)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-budokan-2025-03-01"
+              },
+              {
+                "title": "Truth. (Live at 日本武道館 2025.3.2)",
+                "position": 36,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-budokan-2025-03-02"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1841861461",
+            "title": "TrySail 10周年出航ライブ “FlagShip” in 日本武道館",
+            "artistDisplayName": "TrySail",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2025-10-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Truth. (Live at 日本武道館 2025.3.1)",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-budokan-2025-03-01"
+              },
+              {
+                "title": "Truth. (Live at 日本武道館 2025.3.2)",
+                "position": 36,
+                "disc": 1,
+                "recordingId": "beatless-op-2-song-live-budokan-2025-03-02"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537900662",
+            "label": "香港｜Truth.",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-hk-1537900661",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537900662",
+            "label": "台灣｜Truth.",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-tw-1537900661",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537900662",
+            "label": "日本｜Truth.",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-jp-1537900661",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537902865",
+            "label": "香港｜Truth.",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-hk-1537902862",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537902865",
+            "label": "台灣｜Truth.",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-tw-1537902862",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537902865",
+            "label": "日本｜Truth.",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-jp-1537902862",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1827402248",
+            "label": "香港｜Truth.",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-hk-1827402239",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1827402248",
+            "label": "台灣｜Truth.",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-tw-1827402239",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1827402248",
+            "label": "日本｜Truth.",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-vocal",
+            "releaseId": "apple-jp-1827402239",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537900665",
+            "label": "香港｜Truth. -Instrumental-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-inst",
+            "releaseId": "apple-hk-1537900661",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1537900665",
+            "label": "台灣｜Truth. -Instrumental-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-inst",
+            "releaseId": "apple-tw-1537900661",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537900665",
+            "label": "日本｜Truth. -Instrumental-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-inst",
+            "releaseId": "apple-jp-1537900661",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1527038075",
+            "label": "香港｜Truth. (Live at Makuhari Messe, 8/4/2019)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-makuhari-2019",
+            "releaseId": "apple-hk-1527038047",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1527038075",
+            "label": "台灣｜Truth. (Live at Makuhari Messe, 8/4/2019)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-makuhari-2019",
+            "releaseId": "apple-tw-1527038047",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1527038075",
+            "label": "日本｜Truth. (Live at Makuhari Messe 2019.08.04)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-makuhari-2019",
+            "releaseId": "apple-jp-1527038047",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1841861869",
+            "label": "香港｜Truth. (Live at 日本武道館 2025.3.1)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-budokan-2025-03-01",
+            "releaseId": "apple-hk-1841861461",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1841861869",
+            "label": "台灣｜Truth. (Live at 日本武道館 2025.3.1)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-budokan-2025-03-01",
+            "releaseId": "apple-tw-1841861461",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1841861869",
+            "label": "日本｜Truth. (Live at 日本武道館 2025.3.1)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-budokan-2025-03-01",
+            "releaseId": "apple-jp-1841861461",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1841862020",
+            "label": "香港｜Truth. (Live at 日本武道館 2025.3.2)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-budokan-2025-03-02",
+            "releaseId": "apple-hk-1841861461",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1841862020",
+            "label": "台灣｜Truth. (Live at 日本武道館 2025.3.2)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-budokan-2025-03-02",
+            "releaseId": "apple-tw-1841861461",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1841862020",
+            "label": "日本｜Truth. (Live at 日本武道館 2025.3.2)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-op-2-song-live-budokan-2025-03-02",
+            "releaseId": "apple-jp-1841861461",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_availability"
+            ],
+            "note": "香港可查原唱、伴奏及2019幕張和2025武道館兩日演出。TV Ver.可查日本動畫盤。",
+            "resumeWhen": "取得香港TV Ver.對應的正版數位曲目時補記。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "beatless-ed-2",
+        "songId": "beatless-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Shapeless",
+        "artistDisplayName": "東京パフォーマンスドール",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第14–24話片尾，包含Final Stage四話。",
+        "credits": [
+          {
+            "role": "lyrics",
+            "name": "kz"
+          },
+          {
+            "role": "composition",
+            "name": "kz"
+          },
+          {
+            "role": "arrangement",
+            "name": "kz"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://beatless-anime.jp/music/op_ed_2nd.php",
+            "label": "KADOKAWA｜後半主題歌、唱片品番、曲序與詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://beatless-anime.jp/news/detail_0912_1.php",
+            "label": "KADOKAWA｜Final Stage逐話及各電視台編成",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4770",
+            "label": "しょぼいカレンダー｜逐話用途及創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/beatless?cast=scd",
+            "label": "日本逐話曲表｜第1–24話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538151528&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538151528&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538151528&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538152408&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538152408&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538152408&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275593&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275593&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275593&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317677&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317677&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317677&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php",
+              "https://beatless-anime.jp/news/detail_0912_1.php",
+              "https://cal.syoboi.jp/tid/4770",
+              "https://www.mau2.com/anime/beatless?cast=scd"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php",
+              "https://cal.syoboi.jp/tid/4770"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-5063-5064"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-5067"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-5068-5069"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-anime-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://beatless-anime.jp/music/op_ed_2nd.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-anime-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538151528"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538151530"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538151528"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538151530"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538151528"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538151528&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538151530"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538152408"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538152716"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538152408"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538152716"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538152408"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538152408&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538152716"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1536275593"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536275597"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1536275593"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536275597"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1536275593"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275593&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1536275597"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-anime-edit"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1536317677"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536317678"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-anime-edit"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1536317677"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536317678"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-ed-2-song-anime-edit"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1536317677"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317677&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1536317678"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-ed-2-song-vocal",
+            "title": "Shapeless",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "beatless-ed-2-song-karaoke",
+            "title": "Shapeless (KARAOKE)",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "beatless-ed-2-song-anime-edit",
+            "title": "Shapeless -Anime Edit-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "escl-5063-5064",
+            "title": "Shapeless",
+            "artistDisplayName": "東京パフォーマンスドール",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD初回限定盤A",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              },
+              {
+                "title": "Shapeless (KARAOKE)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-karaoke"
+              }
+            ],
+            "catalogNumber": "ESCL-5063/5064"
+          },
+          {
+            "id": "escl-5067",
+            "title": "Shapeless",
+            "artistDisplayName": "東京パフォーマンスドール",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD通常盤",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              },
+              {
+                "title": "Shapeless (KARAOKE)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-karaoke"
+              }
+            ],
+            "catalogNumber": "ESCL-5067"
+          },
+          {
+            "id": "escl-5068-5069",
+            "title": "Shapeless",
+            "artistDisplayName": "東京パフォーマンスドール",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-06",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD動畫盤",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              },
+              {
+                "title": "Shapeless (KARAOKE)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-karaoke"
+              },
+              {
+                "title": "Shapeless -Anime Edit-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-anime-edit"
+              }
+            ],
+            "catalogNumber": "ESCL-5068/5069"
+          },
+          {
+            "id": "apple-hk-1538151528",
+            "title": "Shapeless (Special Edition) - EP",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-23",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538151528",
+            "title": "Shapeless (Special Edition) - EP",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-23",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538151528",
+            "title": "Shapeless (Special Edition) - EP",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-23",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538152408",
+            "title": "Hey, Girls! (Special Edition)",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538152408",
+            "title": "Hey, Girls! (Special Edition)",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538152408",
+            "title": "Hey, Girls! (Special Edition)",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Shapeless",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1536275593",
+            "title": "Shapeless - EP",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shapeless (KARAOKE)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1536275593",
+            "title": "Shapeless - EP",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shapeless (KARAOKE)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1536275593",
+            "title": "Shapeless - EP",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-21",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Shapeless (KARAOKE)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1536317677",
+            "title": "Shapeless -Anime Edit- - Single",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Shapeless -Anime Edit-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-anime-edit"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1536317677",
+            "title": "Shapeless -Anime Edit- - Single",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-05",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Shapeless -Anime Edit-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-anime-edit"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1536317677",
+            "title": "Shapeless -Anime Edit- - Single",
+            "artistDisplayName": "東京パフォーマンスドール (2014~)",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Shapeless -Anime Edit-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "beatless-ed-2-song-anime-edit"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538151530",
+            "label": "香港｜Shapeless",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-vocal",
+            "releaseId": "apple-hk-1538151528",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538151530",
+            "label": "台灣｜Shapeless",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-vocal",
+            "releaseId": "apple-tw-1538151528",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538151530",
+            "label": "日本｜Shapeless",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-vocal",
+            "releaseId": "apple-jp-1538151528",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538152716",
+            "label": "香港｜Shapeless",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-vocal",
+            "releaseId": "apple-hk-1538152408",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538152716",
+            "label": "台灣｜Shapeless",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-vocal",
+            "releaseId": "apple-tw-1538152408",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538152716",
+            "label": "日本｜Shapeless",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-vocal",
+            "releaseId": "apple-jp-1538152408",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536275597",
+            "label": "香港｜Shapeless (KARAOKE)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-karaoke",
+            "releaseId": "apple-hk-1536275593",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536275597",
+            "label": "台灣｜Shapeless (KARAOKE)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-karaoke",
+            "releaseId": "apple-tw-1536275593",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1536275597",
+            "label": "日本｜Shapeless (KARAOKE)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-karaoke",
+            "releaseId": "apple-jp-1536275593",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536317678",
+            "label": "香港｜Shapeless -Anime Edit-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-anime-edit",
+            "releaseId": "apple-hk-1536317677",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536317678",
+            "label": "台灣｜Shapeless -Anime Edit-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-anime-edit",
+            "releaseId": "apple-tw-1536317677",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1536317678",
+            "label": "日本｜Shapeless -Anime Edit-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-ed-2-song-anime-edit",
+            "releaseId": "apple-jp-1536317677",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "official_video",
+              "platform_links"
+            ],
+            "note": "香港可查全長、KARAOKE和Anime Edit。唱片方列動畫合作MV為動畫盤DVD內容。",
+            "resumeWhen": "公開官方合作MV或唱片方提供逐人演唱署名時再補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "beatless-in-1",
+        "songId": "beatless-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Trust",
+        "artistDisplayName": "Pa’s Lam System",
+        "seasonIds": [
+          "2018-winter"
+        ],
+        "usageLabel": "日本TV第2話時裝秀插入曲。",
+        "credits": [
+          {
+            "role": "composition",
+            "name": "Pa's Lam System"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://booth.pm/ko/items/983303",
+            "label": "原發行方uncron｜原企畫合輯曲序及發行版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://realsound.jp/2018/06/post-199781.html",
+            "label": "作曲家kz訪談｜第2話時裝秀兩首曲及原企畫合輯歌曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4770",
+            "label": "しょぼいカレンダー｜逐話用途及創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/beatless?cast=scd",
+            "label": "日本逐話曲表｜第1–24話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.itmedia.co.jp/ebook/articles/1406/09/news108.html",
+            "label": "同期消息｜原企畫合輯首發日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303",
+              "https://realsound.jp/2018/06/post-199781.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://cal.syoboi.jp/tid/4770",
+              "https://www.mau2.com/anime/beatless?cast=scd"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303",
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://cal.syoboi.jp/tid/4770"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-1-song-archive"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-give-me-the-beat-tool-for-the-outsourcers"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.itmedia.co.jp/ebook/articles/1406/09/news108.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-give-me-the-beat-tool-for-the-outsourcers"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://booth.pm/ko/items/983303"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-in-1-song-archive",
+            "title": "Trust",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "beatless-give-me-the-beat-tool-for-the-outsourcers",
+            "title": "BEATLESS - Give Me the Beat - Produced by kz(livetune)",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2014-06-25",
+              "precision": "day"
+            },
+            "edition": "Tool for the Outsourcers原企畫附CD",
+            "tracks": [
+              {
+                "title": "Trust",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "beatless-in-1-song-archive"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "BOOTH",
+            "url": "https://booth.pm/ko/items/983303",
+            "label": "BOOTH｜Trust",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "beatless-in-1-song-archive",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "原企畫CD與電視插入曲已核對。",
+            "resumeWhen": "取得原版內頁、著作權方公開獨立數位曲目或原播實際剪輯時補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "beatless-in-2",
+        "songId": "beatless-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "Resonator",
+        "artistDisplayName": "halca",
+        "seasonIds": [
+          "2018-winter"
+        ],
+        "usageLabel": "日本TV第2話時裝秀插入曲。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "halca"
+          },
+          {
+            "role": "composition",
+            "name": "kz"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://realsound.jp/2018/06/post-199781.html",
+            "label": "作曲家kz訪談｜第2話時裝秀兩首曲及原企畫合輯歌曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/592483",
+            "label": "OTOTOY｜原聲帶第13首及halca演唱署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://beatless-anime.jp/music/soundtrack.html",
+            "label": "KADOKAWA｜電視原聲帶",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.animemanga.com/anime/3912%2Cbeatless",
+            "label": "英文逐話資料｜第2話兩首插入曲",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373681563&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373681563&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373681563&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=wO97VxN6-3E",
+            "label": "Release - Topic｜Resonator",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://ototoy.jp/_/default/p/592483"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://beatless-anime.jp/music/soundtrack.html",
+              "https://www.animemanga.com/anime/3912%2Cbeatless"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://ototoy.jp/_/default/p/592483"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373681563&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373681563&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1373681563"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373681563&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1373683340"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373681563&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1373681563"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373681563&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1373683340"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373681563&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1373681563"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373681563&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1373683340"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/592483"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://ototoy.jp/_/default/p/592483"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=wO97VxN6-3E",
+              "https://ototoy.jp/_/default/p/592483"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "wO97VxN6-3E"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-in-2-song-vocal",
+            "title": "Resonator",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1373681563",
+            "title": "TVアニメ「BEATLESS」オリジナルサウンドトラック",
+            "artistDisplayName": "kz(livetune)・NARASAKI・WATCHMAN・コジマミノリ",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Resonator",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "beatless-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1373681563",
+            "title": "TVアニメ「BEATLESS」オリジナルサウンドトラック",
+            "artistDisplayName": "kz(livetune)・NARASAKI・WATCHMAN・コジマミノリ",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Resonator",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "beatless-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1373681563",
+            "title": "TVアニメ「BEATLESS」オリジナルサウンドトラック",
+            "artistDisplayName": "kz(livetune)・NARASAKI・WATCHMAN・コジマミノリ",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Resonator",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "beatless-in-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1373683340",
+            "label": "香港｜Resonator",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "beatless-in-2-song-vocal",
+            "releaseId": "apple-hk-1373681563",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1373683340",
+            "label": "台灣｜Resonator",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "beatless-in-2-song-vocal",
+            "releaseId": "apple-tw-1373681563",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1373683340",
+            "label": "日本｜Resonator",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "beatless-in-2-song-vocal",
+            "releaseId": "apple-jp-1373681563",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/592483",
+            "label": "OTOTOY｜Resonator",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "beatless-in-2-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "arrangement",
+              "recording_format"
+            ],
+            "note": "香港原聲帶首碟第13軌可查halca音源。動畫作曲家訪談確認第2話用途。",
+            "resumeWhen": "取得唱片內頁與原播音軌後，補詞作、編曲及剪輯比對。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "beatless-in-3",
+        "songId": "beatless-in-3-song",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "monolith",
+        "artistDisplayName": "banvox",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第13話插入曲。",
+        "credits": [
+          {
+            "role": "composition",
+            "name": "banvox"
+          },
+          {
+            "role": "arrangement",
+            "name": "banvox"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://booth.pm/ko/items/983303",
+            "label": "原發行方uncron｜原企畫合輯曲序及發行版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://realsound.jp/2018/06/post-199781.html",
+            "label": "作曲家kz訪談｜第2話時裝秀兩首曲及原企畫合輯歌曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4770",
+            "label": "しょぼいカレンダー｜逐話用途及創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/beatless?cast=scd",
+            "label": "日本逐話曲表｜第1–24話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.itmedia.co.jp/ebook/articles/1406/09/news108.html",
+            "label": "同期消息｜原企畫合輯首發日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303",
+              "https://realsound.jp/2018/06/post-199781.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://cal.syoboi.jp/tid/4770",
+              "https://www.mau2.com/anime/beatless?cast=scd"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303",
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://cal.syoboi.jp/tid/4770"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-3-song-archive"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-give-me-the-beat-tool-for-the-outsourcers"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.itmedia.co.jp/ebook/articles/1406/09/news108.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-give-me-the-beat-tool-for-the-outsourcers"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://booth.pm/ko/items/983303"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-in-3-song-archive",
+            "title": "Monolith",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "beatless-give-me-the-beat-tool-for-the-outsourcers",
+            "title": "BEATLESS - Give Me the Beat - Produced by kz(livetune)",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2014-06-25",
+              "precision": "day"
+            },
+            "edition": "Tool for the Outsourcers原企畫附CD",
+            "tracks": [
+              {
+                "title": "Monolith",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "beatless-in-3-song-archive"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "BOOTH",
+            "url": "https://booth.pm/ko/items/983303",
+            "label": "BOOTH｜monolith",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "beatless-in-3-song-archive",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "原企畫CD與電視插入曲已核對。",
+            "resumeWhen": "取得原版內頁、著作權方公開獨立數位曲目或原播實際剪輯時補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "beatless-in-4",
+        "songId": "beatless-in-4-song",
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "Dreaming Shout",
+        "artistDisplayName": "livetune adding NIRGILIS",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "日本TV第13話插入曲。",
+        "credits": [
+          {
+            "role": "composition",
+            "name": "kz(livetune)"
+          },
+          {
+            "role": "arrangement",
+            "name": "kz(livetune)"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://booth.pm/ko/items/983303",
+            "label": "原發行方uncron｜原企畫合輯曲序及發行版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://realsound.jp/2018/06/post-199781.html",
+            "label": "作曲家kz訪談｜第2話時裝秀兩首曲及原企畫合輯歌曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4770",
+            "label": "しょぼいカレンダー｜逐話用途及創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/beatless?cast=scd",
+            "label": "日本逐話曲表｜第1–24話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.itmedia.co.jp/ebook/articles/1406/09/news108.html",
+            "label": "同期消息｜原企畫合輯首發日",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303",
+              "https://realsound.jp/2018/06/post-199781.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://cal.syoboi.jp/tid/4770",
+              "https://www.mau2.com/anime/beatless?cast=scd"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303",
+              "https://realsound.jp/2018/06/post-199781.html",
+              "https://cal.syoboi.jp/tid/4770"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-in-4-song-archive"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-give-me-the-beat-tool-for-the-outsourcers"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.itmedia.co.jp/ebook/articles/1406/09/news108.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "beatless-give-me-the-beat-tool-for-the-outsourcers"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://booth.pm/ko/items/983303"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://booth.pm/ko/items/983303"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "beatless-in-4-song-archive",
+            "title": "Dreaming Shout",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "beatless-give-me-the-beat-tool-for-the-outsourcers",
+            "title": "BEATLESS - Give Me the Beat - Produced by kz(livetune)",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2014-06-25",
+              "precision": "day"
+            },
+            "edition": "Tool for the Outsourcers原企畫附CD",
+            "tracks": [
+              {
+                "title": "Dreaming Shout",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "beatless-in-4-song-archive"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "BOOTH",
+            "url": "https://booth.pm/ko/items/983303",
+            "label": "BOOTH｜Dreaming Shout",
+            "region": "JP",
+            "linkType": "direct_album",
+            "recordingId": "beatless-in-4-song-archive",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability",
+              "lyrics"
+            ],
+            "note": "原企畫CD與電視插入曲已核對。",
+            "resumeWhen": "取得原版內頁、著作權方公開獨立數位曲目或原播實際剪輯時補。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];
