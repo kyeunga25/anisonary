@@ -1616,4 +1616,6 @@ export const curated2019FallThemeVideos = {
     }
   ],
   "110789:OP:1": [{"youtubeVideoId": "f1O-UsZzmbA", "title": "OP主題歌「#NULL!*Peta」視聴用動画", "channelName": "NullPeta Game&Anime", "type": "other", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "104307:OP:1": [{"youtubeVideoId": "Q2yMktQ6OUo", "type": "full_music_video", "title": "sora tob sakana/New Stranger(Full)", "channelName": "sora tob sakana Official YouTube Channel", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "hi-score-girl-op-1-song-vocal"}],
+  "104307:ED:1": [{"youtubeVideoId": "6gu4L9jkl-k", "type": "music_video", "title": "やくしまるえつこ『放課後ディストラクション』360°MV / Yakushimaru Etsuko - AfterSchoolDi(e)stra(u)ction", "channelName": "MIRAI records - 相対性理論 / やくしまるえつこ [Official]", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "hi-score-girl-ed-1-song-vocal"}],
 } satisfies CuratedThemeVideoOverrideMap;

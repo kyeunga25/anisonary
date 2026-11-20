@@ -6,7 +6,7 @@ import { join, resolve } from "node:path";
 import { expect, it } from "vitest";
 import { encodeSearchRoutingBucket } from "@/utils/catalog-search-routing";
 
-async function inspectRouting(source: string) {
+async function inspectRouting(source: string, records = 1) {
   const root = await mkdtemp(join(tmpdir(), "anisonary-routing-boundary-"));
   await mkdir(join(root, "songs"));
   await mkdir(join(root, "search-index"));
@@ -18,7 +18,7 @@ async function inspectRouting(source: string) {
   const manifest = {
     version: 3, bytes: 2, decodedBytes: 2, entries: 1,
     chunks: [{ url: chunkUrl, bytes: 2, decodedBytes: 2, entries: 1, seasons: ["2022-spring"] }],
-    routing: { version: 1, bytes, buckets: [{ bucket: 21, url, bytes, records: 1 }] }
+    routing: { version: 1, bytes, buckets: [{ bucket: 21, url, bytes, records }] }
   };
   await writeFile(join(root, "search-index", `${digest(chunk)}.json`), chunk);
   await writeFile(join(root, "search-index", `${digest(source)}.json`), source);
@@ -45,6 +45,19 @@ it("rejects unexpected routing metadata and still scans its original plaintext",
 it("rejects encoded private text that is not a valid numeric routing table", async () => {
   const data = Buffer.from(["private", " D1"].join("")).toString("base64");
   const result = await inspectRouting(JSON.stringify({ version: 1, chunks: 1, bucket: 21, data }));
+  expect(result.status).toBe(1);
+  expect(result.stderr).toContain("invalid-search-routing");
+});
+
+it("checks compressed routing memberships and rejects a trailing byte", async () => {
+  const records = 20;
+  const features = new Map(Array.from({ length: records }, (_, i) => [21 + i * 64, new Uint8Array([1])]));
+  const source = encodeSearchRoutingBucket(21, 1, features);
+  const payload = JSON.parse(source);
+  expect(payload.version).toBe(2);
+  expect((await inspectRouting(source, records)).status).toBe(0);
+  const data = Buffer.concat([Buffer.from(payload.data, "base64"), Buffer.from([0])]).toString("base64");
+  const result = await inspectRouting(JSON.stringify({ ...payload, data }), records);
   expect(result.status).toBe(1);
   expect(result.stderr).toContain("invalid-search-routing");
 });
