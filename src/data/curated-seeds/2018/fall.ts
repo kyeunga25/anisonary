@@ -45553,4 +45553,2899 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       }
     ]
   },
+  {
+    "id": "curated-101024",
+    "anilistId": 101024,
+    "anilistUrl": "https://anilist.co/anime/101024",
+    "slug": "radiant",
+    "titleJa": "ラディアン",
+    "titleZhHant": "Radiant 虛空魔境",
+    "titleRomaji": "Radiant",
+    "startDate": "2018-10-06",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "17:35",
+    "broadcastLabel": "NHK Eテレ自2018年10月6日至2019年2月23日週六17:35原播全21話。第1–13話屬2018秋，第14話於1月5日開展冬季。電視動畫由Lerche製作動畫、NHKエンタープライズ製作、NHK製作著作，改編自法國漫畫家Tony Valente的原作。日本dアニメストア另提供正篇。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.euromanga.jp/news/news-1536/",
+    "metadataVerifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-20",
+    "sourceReferenceUrls": [
+      "https://www.euromanga.jp/news/news-1536/",
+      "https://toutlemondeprod.com/?p=317",
+      "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+      "https://www.bpcj.or.jp/program/detail/216595/",
+      "https://cal.syoboi.jp/tid/5079/time",
+      "https://gnn.gamer.com.tw/detail.php?sn=169770"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.euromanga.jp/news/news-1536/",
+        "label": "日文版漫畫出版社Euromanga｜原作來源、NHK教育台電視動畫與Lerche製作",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://toutlemondeprod.com/?p=317",
+        "label": "Tout le monde production｜本片翻譯及製作協調公司記載首播時間與法國原作",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+        "label": "d動畫商城｜第1系列全21話、原作、實際製作與製作著作",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.bpcj.or.jp/program/detail/216595/",
+        "label": "日本放送圖書館｜NHK第14話節目表、原作與製作資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5079/time",
+        "label": "日本逐話原播記錄｜2018年12月與2019年1月跨季位置",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://gnn.gamer.com.tw/detail.php?sn=169770",
+        "label": "巴哈姆特｜台灣動畫瘋首播作品名與本地放映",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "radiant-op-1",
+        "songId": "radiant-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Utopia",
+        "artistDisplayName": "04 Limited Sazabys",
+        "usageLabel": "第1–21話片頭。12月29日第13話後，1月5日第14話起繼續在冬季使用。",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+            "label": "d動畫商城｜第1系列全21話、原作、實際製作與製作著作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/radiant",
+            "label": "日本原播分集音樂紀錄｜片頭、常規片尾與第17話歌曲交接",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5079",
+            "label": "日本播映紀錄｜首系列三首歌的詞曲編及第17話特別片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.feelmee.jp/index.php/item/product/1220",
+            "label": "FEEL MEE｜影碟外獨立原聲帶、主題曲TV Size與角色插曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.04limitedsazabys.com/news/detail/356",
+            "label": "04 Limited Sazabys｜《SOIL》初回及通常CD品番與曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/04limitedsazabys/discography/COJA-9584.html",
+            "label": "日本哥倫比亞｜2026黑膠再版《SOIL》",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.04limitedsazabys.com/discography/detail/27/",
+            "label": "04 Limited Sazabys｜2019埼玉公演、2020年影像發行與第17曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.04limitedsazabys.com/discography/detail/38/",
+            "label": "04 Limited Sazabys｜2025東京公演與2026年影像發行，第一日第12曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1437228236",
+            "label": "Apple HK｜Utopia",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1437228232&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1461436748",
+            "label": "Apple HK｜Utopia(TV Size)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1461436746&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1437228236",
+            "label": "Apple JP｜Utopia",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1437228232&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1461436748",
+            "label": "Apple JP｜Utopia(TV Size)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1461436746&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/5co3rBpmrBiHQoOtROYgax",
+            "label": "Spotify｜Utopia／04 Limited Sazabys",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=dkPE8EDBFAw",
+            "label": "04 Limited Sazabys - Topic｜Utopia",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://www.mau2.com/anime/radiant",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://www.mau2.com/anime/radiant",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://www.mau2.com/anime/radiant",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://www.mau2.com/anime/radiant",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-neca-30350"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.04limitedsazabys.com/news/detail/356"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-cozp-1474-5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.04limitedsazabys.com/news/detail/356"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-cocp-40494"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/04limitedsazabys/discography/COJA-9584.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-coja-9584"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.04limitedsazabys.com/discography/detail/27/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-op-1-song-expo19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.04limitedsazabys.com/discography/detail/27/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-coxa-1186"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.04limitedsazabys.com/discography/detail/27/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-coba-7145-6"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.04limitedsazabys.com/discography/detail/38/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-op-1-song-expo25"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.04limitedsazabys.com/discography/detail/38/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "yon-expo-25-blu-ray"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437228232&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1437228232"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1437228236"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1437228236"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437228232&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1437228236"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1461436746"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437228232&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1437228232"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1437228236"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1437228236"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1437228232&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1437228236"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1461436746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/5co3rBpmrBiHQoOtROYgax"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5co3rBpmrBiHQoOtROYgax"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=dkPE8EDBFAw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "dkPE8EDBFAw"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Utopia｜HK串流",
+            "url": "https://music.apple.com/hk/song/1437228236",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-op-1-song-original",
+            "releaseId": "apple-hk-1437228232"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Utopia｜JP串流",
+            "url": "https://music.apple.com/jp/song/1437228236",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-op-1-song-original",
+            "releaseId": "apple-jp-1437228232"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Utopia（04 Limited Sazabys）",
+            "url": "https://open.spotify.com/track/5co3rBpmrBiHQoOtROYgax",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-op-1-song-original"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "04 Limited Sazabys"
+          },
+          {
+            "role": "lyrics",
+            "name": "GEN"
+          },
+          {
+            "role": "composition",
+            "name": "04 Limited Sazabys"
+          },
+          {
+            "role": "arrangement",
+            "name": "akkin"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "radiant-op-1-song-original",
+            "title": "Utopia（04 Limited Sazabys）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "radiant-op-1-song-tv",
+            "title": "Utopia (TV Size)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "radiant-op-1-song-expo19",
+            "title": "Utopia（YON EXPO（2019年9月29日埼玉超級競技場））",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "radiant-op-1-song-expo25",
+            "title": "Utopia（YON EXPO’25（2025年11月8日東京TOYOTA ARENA））",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-neca-30350",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人、Various Artists",
+            "region": "JP",
+            "edition": "日本原聲帶CD",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Utopia (TV Size)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "radiant-op-1-song-tv"
+              }
+            ],
+            "catalogNumber": "NECA-30350"
+          },
+          {
+            "id": "jp-cozp-1474-5",
+            "title": "SOIL",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "JP",
+            "edition": "日本初回CD＋DVD",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Utopia",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "radiant-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "COZP-1474/5"
+          },
+          {
+            "id": "jp-cocp-40494",
+            "title": "SOIL",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "JP",
+            "edition": "日本通常CD",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Utopia",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "radiant-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "COCP-40494"
+          },
+          {
+            "id": "jp-coja-9584",
+            "title": "SOIL",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "JP",
+            "edition": "日本黑膠LP",
+            "date": {
+              "value": "2026-04-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Utopia",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "radiant-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "COJA-9584"
+          },
+          {
+            "id": "jp-coxa-1186",
+            "title": "YON EXPO",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "JP",
+            "edition": "日本Blu-ray",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Utopia",
+                "disc": 1,
+                "position": 17,
+                "recordingId": "radiant-op-1-song-expo19"
+              }
+            ],
+            "catalogNumber": "COXA-1186"
+          },
+          {
+            "id": "jp-coba-7145-6",
+            "title": "YON EXPO",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "JP",
+            "edition": "日本雙DVD",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Utopia",
+                "disc": 1,
+                "position": 17,
+                "recordingId": "radiant-op-1-song-expo19"
+              }
+            ],
+            "catalogNumber": "COBA-7145/6"
+          },
+          {
+            "id": "yon-expo-25-blu-ray",
+            "title": "YON EXPO’25",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "JP",
+            "edition": "日本Blu-ray",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Utopia（DAY1）",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "radiant-op-1-song-expo25"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1437228232",
+            "title": "Soil",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "Utopia",
+                "recordingId": "radiant-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1461436746",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "Utopia(TV Size)",
+                "recordingId": "radiant-op-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1437228232",
+            "title": "Soil",
+            "type": "album",
+            "artistDisplayName": "04 Limited Sazabys",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-10-10",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "Utopia",
+                "recordingId": "radiant-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1461436746",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "Utopia(TV Size)",
+                "recordingId": "radiant-op-1-song-tv"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=dkPE8EDBFAw"
+      },
+      {
+        "id": "radiant-ed-1",
+        "songId": "radiant-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ラディアン",
+        "artistDisplayName": "ポルカドットスティングレイ",
+        "usageLabel": "第1–16、18–21話片尾。第17話改用角色歌曲。",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://polkadot-stingray.jp/release/1325",
+            "label": "Polkadot Stingray｜《有頂天》三種版本及共同CD曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+            "label": "d動畫商城｜第1系列全21話、原作、實際製作與製作著作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5079",
+            "label": "日本播映紀錄｜首系列三首歌的詞曲編及第17話特別片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/radiant",
+            "label": "日本原播分集音樂紀錄｜片頭、常規片尾與第17話歌曲交接",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.feelmee.jp/index.php/item/product/1220",
+            "label": "FEEL MEE｜影碟外獨立原聲帶、主題曲TV Size與角色插曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=cMEexfyOwtQ",
+            "label": "Universal Music Group｜個別主唱雫及樂團演奏署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.universal-music.co.jp/polkadotstingray/products/umck-1624/",
+            "label": "Universal Music Japan｜《有頂天》各版品番及第10曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://polkadot-stingray.jp/news/441",
+            "label": "Polkadot Stingray｜2019日本武道館錄音、DVD／Blu-ray及特典現場CD曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1449545758",
+            "label": "Apple HK｜Radiant",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449545594&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1461436963",
+            "label": "Apple HK｜ラディアン(TV Size)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1461436746&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1449545758",
+            "label": "Apple JP｜ラディアン",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1449545594&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1461436963",
+            "label": "Apple JP｜ラディアン(TV Size)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1461436746&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/18kAo1KFatx1owe4eTK5SE",
+            "label": "Spotify｜ラディアン／ポルカドットスティングレイ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/release/1325",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.mau2.com/anime/radiant",
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/release/1325",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.mau2.com/anime/radiant",
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/release/1325",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.mau2.com/anime/radiant",
+              "https://www.feelmee.jp/index.php/item/product/1220",
+              "https://www.youtube.com/watch?v=cMEexfyOwtQ"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/release/1325",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22440001&workId=22440",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://www.mau2.com/anime/radiant",
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-neca-30350"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/release/1325",
+              "https://www.universal-music.co.jp/polkadotstingray/products/umck-1624/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-umck-7001"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/release/1325",
+              "https://www.universal-music.co.jp/polkadotstingray/products/umck-1624/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-umck-7002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/release/1325",
+              "https://www.universal-music.co.jp/polkadotstingray/products/umck-1624/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-umck-1624"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/news/441"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-1-song-budokan"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/news/441"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-umbk-9307"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://polkadot-stingray.jp/news/441"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-umxk-9021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449545594&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1449545594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1449545758"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1449545758"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449545594&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1449545758"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1461436746"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449545594&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1449545594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1449545758"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449545758"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1449545594&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1449545758"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1461436746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/18kAo1KFatx1owe4eTK5SE"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/18kAo1KFatx1owe4eTK5SE"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=cMEexfyOwtQ"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "cMEexfyOwtQ"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Radiant｜HK串流",
+            "url": "https://music.apple.com/hk/song/1449545758",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-ed-1-song-original",
+            "releaseId": "apple-hk-1449545594"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ラディアン｜JP串流",
+            "url": "https://music.apple.com/jp/song/1449545758",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-ed-1-song-original",
+            "releaseId": "apple-jp-1449545594"
+          },
+          {
+            "platform": "Spotify",
+            "label": "ラディアン（ポルカドットスティングレイ）",
+            "url": "https://open.spotify.com/track/18kAo1KFatx1owe4eTK5SE",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-ed-1-song-original"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "雫"
+          },
+          {
+            "role": "lyrics",
+            "name": "雫"
+          },
+          {
+            "role": "composition",
+            "name": "雫"
+          },
+          {
+            "role": "arrangement",
+            "name": "ポルカドットスティングレイ"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "radiant-ed-1-song-original",
+            "title": "ラディアン（ポルカドットスティングレイ）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "radiant-ed-1-song-tv",
+            "title": "ラディアン (TV Size)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "radiant-ed-1-song-budokan",
+            "title": "ラディアン（2019年7月17日日本武道館公演）",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-neca-30350",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人、Various Artists",
+            "region": "JP",
+            "edition": "日本原聲帶CD",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "ラディアン (TV Size)",
+                "disc": 1,
+                "position": 38,
+                "recordingId": "radiant-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "NECA-30350"
+          },
+          {
+            "id": "jp-umck-7001",
+            "title": "有頂天",
+            "type": "album",
+            "artistDisplayName": "ポルカドットスティングレイ",
+            "region": "JP",
+            "edition": "日本初回限定CD＋T恤",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "ラディアン",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "radiant-ed-1-song-original"
+              }
+            ],
+            "catalogNumber": "UMCK-7001"
+          },
+          {
+            "id": "jp-umck-7002",
+            "title": "有頂天",
+            "type": "album",
+            "artistDisplayName": "ポルカドットスティングレイ",
+            "region": "JP",
+            "edition": "日本初回限定CD＋DVD",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "ラディアン",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "radiant-ed-1-song-original"
+              }
+            ],
+            "catalogNumber": "UMCK-7002"
+          },
+          {
+            "id": "jp-umck-1624",
+            "title": "有頂天",
+            "type": "album",
+            "artistDisplayName": "ポルカドットスティングレイ",
+            "region": "JP",
+            "edition": "日本通常盤CD",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "ラディアン",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "radiant-ed-1-song-original"
+              }
+            ],
+            "catalogNumber": "UMCK-1624"
+          },
+          {
+            "id": "jp-umbk-9307",
+            "title": "ポルカドットスティングレイ 2019 有頂天ツアーファイナル ポルフェス45 #かかってこいよ武道館",
+            "type": "album",
+            "artistDisplayName": "ポルカドットスティングレイ",
+            "region": "JP",
+            "edition": "日本初回DVD兩碟＋現場CD",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "ラディアン",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "radiant-ed-1-song-budokan"
+              },
+              {
+                "title": "ラディアン（現場CD）",
+                "disc": 3,
+                "position": 9,
+                "recordingId": "radiant-ed-1-song-budokan"
+              }
+            ],
+            "catalogNumber": "UMBK-9307"
+          },
+          {
+            "id": "jp-umxk-9021",
+            "title": "ポルカドットスティングレイ 2019 有頂天ツアーファイナル ポルフェス45 #かかってこいよ武道館",
+            "type": "album",
+            "artistDisplayName": "ポルカドットスティングレイ",
+            "region": "JP",
+            "edition": "日本初回Blu-ray＋現場CD",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "ラディアン",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "radiant-ed-1-song-budokan"
+              },
+              {
+                "title": "ラディアン（現場CD）",
+                "disc": 2,
+                "position": 9,
+                "recordingId": "radiant-ed-1-song-budokan"
+              }
+            ],
+            "catalogNumber": "UMXK-9021"
+          },
+          {
+            "id": "apple-hk-1449545594",
+            "title": "Uchoten",
+            "type": "album",
+            "artistDisplayName": "Polkadot Stingray",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 10,
+                "title": "Radiant",
+                "recordingId": "radiant-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1461436746",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 38,
+                "title": "ラディアン(TV Size)",
+                "recordingId": "radiant-ed-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1449545594",
+            "title": "Uchoten",
+            "type": "album",
+            "artistDisplayName": "ポルカドットスティングレイ",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 10,
+                "title": "ラディアン",
+                "recordingId": "radiant-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1461436746",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 38,
+                "title": "ラディアン(TV Size)",
+                "recordingId": "radiant-ed-1-song-tv"
+              }
+            ]
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=cMEexfyOwtQ"
+      },
+      {
+        "id": "radiant-ed-2",
+        "songId": "radiant-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "君の未来",
+        "artistDisplayName": "ハーメリーヌ（CV：内山夕実）",
+        "usageLabel": "2019年1月26日第17話〈いま風の音を止めて〉的特別片尾，由ハーメリーヌ演唱。原聲帶將該角色歌曲列作插曲。",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://www.feelmee.jp/index.php/item/product/1220",
+            "label": "FEEL MEE｜影碟外獨立原聲帶、主題曲TV Size與角色插曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5079",
+            "label": "日本播映紀錄｜首系列三首歌的詞曲編及第17話特別片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5079/time",
+            "label": "日本逐話原播記錄｜2018年12月與2019年1月跨季位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/radiant",
+            "label": "日本原播分集音樂紀錄｜片頭、常規片尾與第17話歌曲交接",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1461436952",
+            "label": "Apple HK｜君の未来",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1461436746&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1461436952",
+            "label": "Apple JP｜君の未来",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1461436746&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://cal.syoboi.jp/tid/5079/time",
+              "https://www.mau2.com/anime/radiant"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://cal.syoboi.jp/tid/5079/time",
+              "https://www.mau2.com/anime/radiant"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://cal.syoboi.jp/tid/5079/time",
+              "https://www.mau2.com/anime/radiant"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220",
+              "https://cal.syoboi.jp/tid/5079",
+              "https://cal.syoboi.jp/tid/5079/time",
+              "https://www.mau2.com/anime/radiant"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "radiant-ed-2-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.feelmee.jp/index.php/item/product/1220"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-neca-30350"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1461436746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1461436952"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1461436952"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1461436952"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1461436746"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1461436952"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1461436952"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1461436746&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1461436952"
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "label": "君の未来｜HK下載購買",
+            "url": "https://music.apple.com/hk/song/1461436952",
+            "region": "HK",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-ed-2-song-original",
+            "releaseId": "apple-hk-1461436746"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "君の未来｜JP下載購買",
+            "url": "https://music.apple.com/jp/song/1461436952",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "radiant-ed-2-song-original",
+            "releaseId": "apple-jp-1461436746"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "内山夕実"
+          },
+          {
+            "role": "lyrics",
+            "name": "上江洲誠"
+          },
+          {
+            "role": "composition",
+            "name": "甲田雅人"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "radiant-ed-2-song-original",
+            "title": "君の未来（ハーメリーヌ（CV：内山夕実））",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-neca-30350",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人、Various Artists",
+            "region": "JP",
+            "edition": "日本原聲帶CD",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "君の未来",
+                "disc": 1,
+                "position": 32,
+                "recordingId": "radiant-ed-2-song-original"
+              }
+            ],
+            "catalogNumber": "NECA-30350"
+          },
+          {
+            "id": "apple-hk-1461436746",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 32,
+                "title": "君の未来",
+                "recordingId": "radiant-ed-2-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1461436746",
+            "title": "TVアニメ「ラディアン」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "甲田雅人",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 32,
+                "title": "君の未来",
+                "recordingId": "radiant-ed-2-song-original"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement"
+            ],
+            "note": "詞、曲及角色演唱已有署名，獨立編曲名義仍待核。",
+            "resumeWhen": "原版內頁或創作者資料明列本曲編曲時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curated-102927",
+    "anilistId": 102927,
+    "anilistUrl": "https://anilist.co/anime/102927",
+    "slug": "bakutsuri-bar-hunter",
+    "titleJa": "爆釣バーハンター",
+    "titleZhHant": "爆釣王",
+    "titleRomaji": "Bakutsuri Bar Hunter",
+    "startDate": "2018-10-02",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "17:55",
+    "broadcastLabel": "東京電視台系六局自2018年10月2日至2019年3月26日週二17:55原播全25話。第13話於12月25日播出，翌年1月8日續播第14話。東映動畫與ぎゃろっぷ製作動畫；當時官方YouTube頻道及あにてれ等於週日08:00另行提供限期重溫。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.toei-anim.co.jp/tv/bbh/",
+    "metadataVerifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-20",
+    "sourceReferenceUrls": [
+      "https://www.toei-anim.co.jp/tv/bbh/onair/",
+      "https://www.tv-tokyo.co.jp/anime/bbh/staff/",
+      "https://www.toei-anim.co.jp/tv/bbh/episode/list.php",
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+      "https://www.coms-auth.hk/filemanager/en/content_1516/HKTVE_Positive_Programmes_2020.pdf"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.toei-anim.co.jp/tv/bbh/onair/",
+        "label": "東映動畫｜東京電視台六局首播時間及日本串流重播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/bbh/staff/",
+        "label": "東京電視台｜東映動畫與ぎゃろっぷ製作及音樂名義",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.toei-anim.co.jp/tv/bbh/episode/list.php",
+        "label": "東映動畫｜全25話原播日期與跨季分界",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+        "label": "東京電視台｜2019年3月26日最後一話的播出時間與OP、ED",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1516/HKTVE_Positive_Programmes_2020.pdf",
+        "label": "香港通訊事務管理局｜香港電視娛樂所報ViuTV兒童節目香港名稱",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "bakutsuri-bar-hunter-op-1",
+        "songId": "bakutsuri-bar-hunter-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "爆釣ソウル",
+        "artistDisplayName": "島爺",
+        "usageLabel": "第1–25話片頭。2018秋第1–13話，2019冬第14–25話，終話沿用。",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/info/",
+            "label": "東映動畫｜兩首主題曲及原始詞、曲、編曲、演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bakuturibarhunter",
+            "label": "日本原播分集音樂紀錄｜第1–25話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+            "label": "東京電視台｜2019年3月26日最後一話的播出時間與OP、ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/episode/list.php",
+            "label": "東映動畫｜全25話原播日期與跨季分界",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://wmg.jp/symag/discography/20316",
+            "label": "Warner Music Japan｜島爺《三途ノ川》實際發行曲序與品番",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/news/2018113001.php",
+            "label": "東映動畫｜《三途ノ川》三種CD包裝及主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/news/2019020501.php",
+            "label": "東映動畫｜若林タカツグ雙碟配樂原聲帶完整曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1448747314",
+            "label": "Apple HK｜Bakutsuri Soul",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1448747304&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1448747314",
+            "label": "Apple JP｜爆釣ソウル",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1448747304&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6xQPjNeevoE",
+            "label": "SymaG - Topic｜Bakutsuri Soul",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uVWB2Ju3FbQ",
+            "label": "SymaG - Topic｜Bakutsuri Soul",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakutsuri-bar-hunter-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakutsuri-bar-hunter-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakutsuri-bar-hunter-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/symag/discography/20316",
+              "https://www.toei-anim.co.jp/tv/bbh/news/2018113001.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-wpzl-31568-70"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/symag/discography/20316",
+              "https://www.toei-anim.co.jp/tv/bbh/news/2018113001.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-wpzl-31571-73"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/symag/discography/20316",
+              "https://www.toei-anim.co.jp/tv/bbh/news/2018113001.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-wpcl-12989"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448747304&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1448747304"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1448747314"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1448747314"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448747304&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1448747314"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448747304&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1448747304"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1448747314"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1448747314"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1448747304&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1448747314"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6xQPjNeevoE"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "6xQPjNeevoE"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=uVWB2Ju3FbQ"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "uVWB2Ju3FbQ"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Bakutsuri Soul｜HK串流",
+            "url": "https://music.apple.com/hk/song/1448747314",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "bakutsuri-bar-hunter-op-1-song-original",
+            "releaseId": "apple-hk-1448747304"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "爆釣ソウル｜JP串流",
+            "url": "https://music.apple.com/jp/song/1448747314",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "bakutsuri-bar-hunter-op-1-song-original",
+            "releaseId": "apple-jp-1448747304"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "島爺"
+          },
+          {
+            "role": "lyrics",
+            "name": "ナナホシ管弦楽団"
+          },
+          {
+            "role": "composition",
+            "name": "岩見陸"
+          },
+          {
+            "role": "arrangement",
+            "name": "岩見陸"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "bakutsuri-bar-hunter-op-1-song-original",
+            "title": "爆釣ソウル（島爺）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-wpzl-31568-70",
+            "title": "三途ノ川",
+            "type": "album",
+            "artistDisplayName": "島爺",
+            "region": "JP",
+            "edition": "日本初回生產限定たまてBOX",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "爆釣ソウル",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "bakutsuri-bar-hunter-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "WPZL-31568/70"
+          },
+          {
+            "id": "jp-wpzl-31571-73",
+            "title": "三途ノ川",
+            "type": "album",
+            "artistDisplayName": "島爺",
+            "region": "JP",
+            "edition": "日本初回CD＋2DVD",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "爆釣ソウル",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "bakutsuri-bar-hunter-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "WPZL-31571/73"
+          },
+          {
+            "id": "jp-wpcl-12989",
+            "title": "三途ノ川",
+            "type": "album",
+            "artistDisplayName": "島爺",
+            "region": "JP",
+            "edition": "日本通常盤CD",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "爆釣ソウル",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "bakutsuri-bar-hunter-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "WPCL-12989"
+          },
+          {
+            "id": "apple-hk-1448747304",
+            "title": "Sanzunokawa",
+            "type": "album",
+            "artistDisplayName": "SymaG",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 5,
+                "title": "Bakutsuri Soul",
+                "recordingId": "bakutsuri-bar-hunter-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1448747304",
+            "title": "Sanzunokawa",
+            "type": "album",
+            "artistDisplayName": "島爺",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-01-30",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 5,
+                "title": "爆釣ソウル",
+                "recordingId": "bakutsuri-bar-hunter-op-1-song-original"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "若林タカツグ雙碟原聲帶列出劇伴曲序；尚待可獨立取得的日本TV剪輯。",
+            "resumeWhen": "唱片公司或正版平台明列本曲TV size及演唱者時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=6xQPjNeevoE"
+      },
+      {
+        "id": "bakutsuri-bar-hunter-ed-1",
+        "songId": "bakutsuri-bar-hunter-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "友情ZABOOOON!!",
+        "artistDisplayName": "小松未可子",
+        "usageLabel": "第1–25話片尾。2018秋第1–13話，2019冬第14–25話，終話沿用。",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/info/",
+            "label": "東映動畫｜兩首主題曲及原始詞、曲、編曲、演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bakuturibarhunter",
+            "label": "日本原播分集音樂紀錄｜第1–25話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+            "label": "東京電視台｜2019年3月26日最後一話的播出時間與OP、ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/episode/list.php",
+            "label": "東映動畫｜全25話原播日期與跨季分界",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/artist/mikakokomatsu/disco",
+            "label": "TOY’S FACTORY｜小松未可子數位單曲及品番",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/news/2018112601.php",
+            "label": "東映動畫｜數位限定ED及其日本正版下載渠道",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000034/TFDS-00509/",
+            "label": "mora｜東映列出的日本單曲下載項目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://recochoku.jp/song/S1007503449/",
+            "label": "レコチョク｜東映列出的日本單曲下載項目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/bbh/news/2019020501.php",
+            "label": "東映動畫｜若林タカツグ雙碟配樂原聲帶完整曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1442059530",
+            "label": "Apple HK｜Yujo Zaboooon!!",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1442059529&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1442059530",
+            "label": "Apple JP｜友情ZABOOOON!!",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1442059529&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜唱片、曲序及獨立串流或購買狀態",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakutsuri-bar-hunter-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakutsuri-bar-hunter-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/bbh/info/",
+              "https://www.mau2.com/anime/bakuturibarhunter",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/25114_201903261755.html",
+              "https://www.toei-anim.co.jp/tv/bbh/episode/list.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakutsuri-bar-hunter-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "catalog_number",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/mikakokomatsu/disco",
+              "https://www.toei-anim.co.jp/tv/bbh/news/2018112601.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jp-tfds-00509"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000034/TFDS-00509/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000034/TFDS-00509/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/mikakokomatsu/disco",
+              "https://www.toei-anim.co.jp/tv/bbh/news/2018112601.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000034/TFDS-00509/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://recochoku.jp/song/S1007503449/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/song/S1007503449/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/mikakokomatsu/disco",
+              "https://www.toei-anim.co.jp/tv/bbh/news/2018112601.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/song/S1007503449/"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1442059529&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1442059529"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1442059530"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1442059530"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1442059529&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1442059530"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1442059529&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1442059529"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1442059530"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1442059530"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1442059529&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1442059530"
+          }
+        ],
+        "links": [
+          {
+            "platform": "mora",
+            "label": "友情ZABOOOON!!（日本數位下載）",
+            "url": "https://mora.jp/package/43000034/TFDS-00509/",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "bakutsuri-bar-hunter-ed-1-song-original",
+            "releaseId": "jp-tfds-00509"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "友情ZABOOOON!!（日本數位下載）",
+            "url": "https://recochoku.jp/song/S1007503449/",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "bakutsuri-bar-hunter-ed-1-song-original",
+            "releaseId": "jp-tfds-00509"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Yujo Zaboooon!!｜HK串流",
+            "url": "https://music.apple.com/hk/song/1442059530",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "bakutsuri-bar-hunter-ed-1-song-original",
+            "releaseId": "apple-hk-1442059529"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "友情ZABOOOON!!｜JP串流",
+            "url": "https://music.apple.com/jp/song/1442059530",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "bakutsuri-bar-hunter-ed-1-song-original",
+            "releaseId": "apple-jp-1442059529"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "小松未可子"
+          },
+          {
+            "role": "lyrics",
+            "name": "Q-MHz"
+          },
+          {
+            "role": "composition",
+            "name": "Q-MHz"
+          },
+          {
+            "role": "arrangement",
+            "name": "Q-MHz"
+          },
+          {
+            "role": "arrangement",
+            "name": "eba"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "bakutsuri-bar-hunter-ed-1-song-original",
+            "title": "友情ZABOOOON!!（小松未可子）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jp-tfds-00509",
+            "title": "友情ZABOOOON!!",
+            "type": "single",
+            "artistDisplayName": "小松未可子",
+            "region": "JP",
+            "edition": "日本數位限定單曲",
+            "date": {
+              "value": "2018-11-26",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "友情ZABOOOON!!",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "bakutsuri-bar-hunter-ed-1-song-original"
+              }
+            ],
+            "catalogNumber": "TFDS-00509"
+          },
+          {
+            "id": "apple-hk-1442059529",
+            "title": "Yujo Zaboooon!! - Single",
+            "type": "single",
+            "artistDisplayName": "小松未可子",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2018-11-26",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Yujo Zaboooon!!",
+                "recordingId": "bakutsuri-bar-hunter-ed-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1442059529",
+            "title": "Yujo Zaboooon!! - Single",
+            "type": "single",
+            "artistDisplayName": "小松未可子",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2018-11-26",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "友情ZABOOOON!!",
+                "recordingId": "bakutsuri-bar-hunter-ed-1-song-original"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "若林タカツグ雙碟原聲帶列出劇伴曲序；尚待可獨立取得的日本TV剪輯。",
+            "resumeWhen": "唱片公司或正版平台明列本曲TV size及演唱者時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];

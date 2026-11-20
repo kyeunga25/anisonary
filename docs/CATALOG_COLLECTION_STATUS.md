@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第663批接續2019冬日本TV名冊的其餘跨季作品。 |
+| 下批位置 | 第673批接續《キラッとプリ☆チャン》第一年日本電視原播。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 662 批已在本機驗收，相對第 651 批正式基線有 102 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `5b44683c91c88d162c15f92cb9544f4d964e5c07`／[batch651-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch651-japanese-tv)。本機資料驗收到第 662 批。 |
-| 發布提交 | [PR #316](https://github.com/kyeunga25/anisonary/pull/316) 固定候選 `bd8c352`。正式 Workers 版本 `1c6c8865-2f63-47a9-8bca-f9836d06b0a5`，預覽版本 `8e69ac2e-2b27-4d05-a056-c5e31642a371`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 672 批已在本機驗收，相對第 662 批正式基線有 101 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `6486c3d676f46650609bc5013ba0ef94596a2a74`／[batch662-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch662-japanese-tv)。本機資料驗收到第 672 批。 |
+| 發布提交 | [PR #317](https://github.com/kyeunga25/anisonary/pull/317) 固定候選 `1771f66`。正式 Workers 版本 `95825a99-8a34-4cec-872f-c507d564c72f`，預覽版本 `71c42bee-0215-40fa-847a-c163c92b7675`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -20044,4 +20044,72 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 - 《刀劍神域 Alicization》原播2018秋至2019冬，3月30日播完第24話。第13話沿用前期曲，第14話起換曲。第1、23話片末各播當期片頭影像。〈虹の彼方に〉共用一個歌曲ID，第19話特別片尾與第24話插曲分列。第5話車內〈longing〉沿用後續作既有歌曲及錄音ID。資料含港台日正版曲目、三種單曲盤、TV剪輯、伴奏、現場及重混。總集篇18.5及車內播放的具體剪輯待取得單話原播曲表。角色歌〈Waking the belief〉和合唱〈Blazing the future〉已核特典盤，第1–24話內播放尚待證實。[作品原播分集](https://sao-alicization.net/1st/story/) · [ReoNa證實第19話片末](https://www.lisani.jp/0000134746/2/) · [作品官方插曲](https://sao-alicization.net/news/?article_id=51194) · [Sony唱片曲序與原作者](https://www.sonymusic.co.jp/artist/ReoNa/info/502881)
 - 本批用途：`sword-art-online-alicization-op-1`、`sword-art-online-alicization-op-2`、`sword-art-online-alicization-ed-1`、`sword-art-online-alicization-ed-2`、`sword-art-online-alicization-ed-3`、`sword-art-online-alicization-in-1`、`sword-art-online-alicization-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第663批　《Radiant 虛空魔境》第一系列第17話片尾及《爆釣王》兩首主題曲
+
+- 2018秋跨2019冬《Radiant 虛空魔境》第一系列21話與《爆釣王》25話共5個用途、5首歌曲。前者改編法國漫畫，由Lerche製作動畫、NHKエンタープライズ製作、NHK製作著作。第17話〈君の未来〉由ハーメリーヌ（内山夕実）唱作特別片尾，原聲帶列作插曲。後者兩首主題曲由第1–25話沿用，香港名稱可核香港電視娛樂的節目申報。
+- 兩作原唱均有香港、日本曲目，〈君の未来〉為iTunes下載。第一系列的兩首TV Size在雙區原聲帶均列有曲序，Apple未列獨立串流或單曲售價。另補《SOIL》、日本武道館、YON EXPO歷次現場、Spotify及權利方Art Track。《爆釣王》的獨立TV剪輯、〈君の未来〉的編曲待權利方提供品番或署名。
+- 本批用途：`radiant-op-1`、`radiant-ed-1`、`radiant-ed-2`、`bakutsuri-bar-hunter-op-1`、`bakutsuri-bar-hunter-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第664批　《雷頓不可思議偵探社》四季主題曲與香港播映名
+
+- 2018年4月至2019年3月全50話，第26話起同時更換主題曲。香港節目名據ViuTV與通訊局申報。〈大丈夫〉另錄Neo Country版，〈blooming〉動畫盤第二軌為TV剪輯，原唱完整版、伴奏及十周年現場另列。J☆Dee’Z原播署名與後來Jewel平台名保留同曲。原聲帶及第45話客串聲演尚欠具體插曲掛字。
+- 本批用途：`layton-mystery-tanteisha-op-1`、`layton-mystery-tanteisha-op-2`、`layton-mystery-tanteisha-ed-1`、`layton-mystery-tanteisha-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第665批　《隊長小翼》2018版52話角色片尾輪替及《戰鬥陀螺：爆烈世代：超 Z》日本版51話主題曲
+
+- 兩部22個用途、6首歌。《隊長小翼》第29話起更換片頭與片尾編曲；〈燃えてヒーロー〉沿用2023年作品已有歌曲ID，小學生篇8個角色錄音及中學生篇9個角色錄音各按實播話數保存。第28話五人合唱，第52話七人合唱；後者於2019年4月1日25:50原播，故2019春只收第52話適用的兩筆。日本CD以角色對白穿插，iTunes Store以連續曲號出售；港臺未查到對應的角色專輯曲目。兩首片頭的現行WEST.版與當年演唱名義並列。《戰鬥陀螺》從首話到第51話沿用同一片頭，第28、29話的台方逐話原表明列兩首片尾換曲，3月25日最終話仍列第二首。兩作已核對港台日平台的個別曲目與日文實體發行，三首陀螺歌曲的原唱與伴奏分列。[小學生篇官方唱片](https://ball-ha-tomodachi.com/anime/) · [中學生篇官方唱片](https://ball-ha-tomodachi.com/anime/index2.html) · [日本最終話播出編成](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/16970_201904012535.html) · [《戰鬥陀螺》第29話換曲](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201810/20516_201810151755.html)
+- 本批用途：`captain-tsubasa-2018-op-1`、`captain-tsubasa-2018-op-2`、`captain-tsubasa-2018-ed-1`、`captain-tsubasa-2018-ed-2`、`captain-tsubasa-2018-ed-3`、`captain-tsubasa-2018-ed-4`、`captain-tsubasa-2018-ed-5`、`captain-tsubasa-2018-ed-6`、`captain-tsubasa-2018-ed-7`、`captain-tsubasa-2018-ed-8`、`captain-tsubasa-2018-ed-9`、`captain-tsubasa-2018-ed-10`、`captain-tsubasa-2018-ed-11`、`captain-tsubasa-2018-ed-12`、`captain-tsubasa-2018-ed-13`、`captain-tsubasa-2018-ed-14`、`captain-tsubasa-2018-ed-15`、`captain-tsubasa-2018-ed-16`、`captain-tsubasa-2018-ed-17`、`beyblade-burst-chouzetsu-op-1`、`beyblade-burst-chouzetsu-ed-1`、`beyblade-burst-chouzetsu-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第666批　《妖怪手錶 光影之卷》與《決鬥大師！》年度原播及片尾輪替
+
+- 2018春至2019冬《妖怪手錶 光影之卷》全49話及《決鬥大師！》2018年度全51話，共9首、9用途、25個音源。前者第27話兩首主題曲同時替換；後者第27話更換片頭，第14、39話更換片尾，第51話沒有常規片頭。已核四季對應集數、首播與特別時段。
+- 《妖怪手錶》四首原唱、TV Size、卡拉OK均有香港與日本曲目。《決鬥大師！》另收〈キラリ☆夢音頭〉2019版、BRADIO的Hidden AFRO器樂版、NormCore動畫盤TV Edit、はやぶさ4月TV尺寸及7月完整版。第51話〈有超天シューター〉與〈ジョー☆デッキー!!!〉的特殊播出位置仍待可核日本原播的片內聲音與掛字，未另立用途；兩首缺少香港正版曲目的原唱亦留待平台補證。
+- 本批用途：`youkai-watch-shadow-side-op-1`、`youkai-watch-shadow-side-op-2`、`youkai-watch-shadow-side-ed-1`、`youkai-watch-shadow-side-ed-2`、`duel-masters-2018-op-1`、`duel-masters-2018-op-2`、`duel-masters-2018-ed-1`、`duel-masters-2018-ed-2`、`duel-masters-2018-ed-3`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第667批　《HUGっと！プリキュア》49話日本原播片頭、逐話片尾與角色演唱
+
+- 全49話自2018冬至2019冬播出。第18話〈キミとともだち〉劇中演唱兼作片尾，第31話四人演唱與精選輯另錄五人完整版分列。第22、36、37話片尾採用官方改詞的電影版〈DANZEN！ふたりはプリキュア～唯一無二の光たち～〉，第37話片中另用初代歌曲。第49話省略常規片頭並於劇中使用片頭歌。角色歌、滑冰選曲、跨作插曲、原音及有無導引旋律的伴奏均按可核的集數、曲序及版本登記；香港、台灣與日本Apple Music分開核對地區曲目。第5話片中片頭歌、第15話結他演奏及三集特別片尾的影碟／配信差異留待授權逐話素材。[ABC全49話播映日期](https://www.asahi.co.jp/precure/hugtto/story/) · [東映角色歌專輯與第18、20話](https://www.toei-anim.co.jp/tv/hugtto_precure/music/cd05.php) · [15周年官方特別片尾](https://www.precure-anniv.com/1370.html) · [Marvelous後期唱片及不同伴奏](https://www.marv.jp/titles/mc/9439/) · [第37話兩首曲名及位置](https://www.mau2.com/anime/hugttoprecure/ep/37)
+- 本批用途：`hugtto-precure-op-1`、`hugtto-precure-ed-1`、`hugtto-precure-ed-2`、`hugtto-precure-ed-3`、`hugtto-precure-ed-4`、`hugtto-precure-in-1`、`hugtto-precure-in-2`、`hugtto-precure-in-3`、`hugtto-precure-in-4`、`hugtto-precure-in-5`、`hugtto-precure-in-6`、`hugtto-precure-in-7`、`hugtto-precure-in-8`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第668批　《卡片戰鬥!!先導者》2018年版五季逐話用曲與角色錄音
+
+- 2018年5月5日至2019年5月4日，AbemaTV 21:00先於TOKYO MX 22:30播出。第27話角色舞台介紹接〈Destiny Calls〉片頭影像，第39話更換末期片尾；第52話為編號特別節目。三首跨作歌曲沿用既有ID。核對原唱、伴奏與英語錄音的港台日正版曲目；第23話具名肖邦練習曲的實際演奏者及錄音仍待原播署名。
+- 本批用途：`cardfight-vanguard-2018-op-1`、`cardfight-vanguard-2018-op-2`、`cardfight-vanguard-2018-ed-1`、`cardfight-vanguard-2018-ed-2`、`cardfight-vanguard-2018-ed-3`、`cardfight-vanguard-2018-ed-4`、`cardfight-vanguard-2018-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第669批　《フューチャーカード 神バディファイト》日本全47話、兩代片尾及2019春四話卡片大百科
+
+- 2018春第1–5話、夏第6–18話、秋第19–30話、2019冬第31–43話、春第44–47話。最後四話為有正式編號與新編角色段落的卡片大百科，第47話另有後日談。〈最高（さあ行こう）！〉全期片頭，〈バディ☆ファニーDAYS〉用於第1–22話，森嶋秀太獨唱的〈虹の約束〉在11月3日第23話接任。三首合計7個音源，含港日原唱、伴奏及Poppin’Party兩國國技館現場版。《ポチっと発明 ピカちんキット》2018冬至2020冬原播115話的季度界線已逐季核對，動畫與真人環節的主題曲、插曲及各集播出位置留待另批對照。
+- 港台繁中節目名待授權方節目表或發行頁確認。
+- 本批用途：`future-card-shin-buddyfight-op-1`、`future-card-shin-buddyfight-ed-1`、`future-card-shin-buddyfight-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第670批　《偶像學園Friends!》首年50話主題曲與角色舞台
+
+- 兩組片頭片尾在第26話更換。首年舞台、廣告曲及歌曲重演按實際話數保存，並沿用已核同曲的既有ID；角色獨唱、合唱、TV尺寸及伴奏分開。第8、38話〈マカロン音頭〉作曲與角色演唱已確認，原聲帶同名曲只建立發行曲序，原唱錄音關係待授權方資料。第36話〈偶然、必然。〉及其他仍欠原播段落的用途見各筆續查。
+- 本批用途：`aikatsu-friends-op-1`、`aikatsu-friends-op-2`、`aikatsu-friends-ed-1`、`aikatsu-friends-ed-2`、`aikatsu-friends-in-1`、`aikatsu-friends-in-2`、`aikatsu-friends-in-3`、`aikatsu-friends-in-4`、`aikatsu-friends-in-5`、`aikatsu-friends-in-6`、`aikatsu-friends-in-7`、`aikatsu-friends-in-8`、`aikatsu-friends-in-9`、`aikatsu-friends-in-10`、`aikatsu-friends-in-11`、`aikatsu-friends-in-12`、`aikatsu-friends-in-13`、`aikatsu-friends-in-14`、`aikatsu-friends-in-15`、`aikatsu-friends-in-16`、`aikatsu-friends-in-17`、`aikatsu-friends-in-18`、`aikatsu-friends-in-19`、`aikatsu-friends-in-20`、`aikatsu-friends-in-21`、`aikatsu-friends-in-22`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 662 批正式驗收
+
+第 652–662 批涵蓋 20 部日本電視作品與 102 筆不同歌曲用途。預覽候選 `1771f66` 及正式提交 `6486c3d` 的 CI、Workers 建置均通過。兩個環境各有 4,561 個 CI 產物與固定候選逐位元一致，各驗收 174 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,510 個用途。[PR #317](https://github.com/kyeunga25/anisonary/pull/317) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch662-japanese-tv)
+
+## 第671批　《スペースバグ》雙段原播與《メルヘン・メドヘン》延期初播
+
+- 日本P.I.C.S.與韓國W.BABA共同製作《スペースバグ》，按TOKYO MX 26個單元及TMS 52個段落同時標明；第14個播出單元起換曲。核對英語、動畫片尾編曲、伴奏與原唱。
+- 《メルヘン・メドヘン》第11、12話在2019年4月25日分兩個時段首次播出。前10話的修正版4月28日重播，兩首歌曲用途只在2018冬與2019春原播季。兩版實體單曲與原聲帶雙碟數位版曲序分別登記。
+- 本批用途：`space-bug-op-1`、`space-bug-op-2`、`space-bug-ed-1`、`space-bug-ed-2`、`maerchen-maedchen-op-1`、`maerchen-maedchen-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第672批　《ポチっと発明 ピカちんキット》全115話日本首播及三段片尾
+
+- 日本電視台首播跨九季。第65、66話同屬2019春，分別採換曲前、後編排。〈ピカ☆ちんタイム〉三個實播用途共用歌曲與音源ID，保留實體盤TV剪輯及伴奏。〈ドラセナ〉另有動畫尺寸、數位原唱及各場現場版，〈No.1〉第14、49、110話確認由角色演唱，原播當話的剪輯仍待原片。
+- 本批用途：`pochitto-hatsumei-pikachin-kit-op-1`、`pochitto-hatsumei-pikachin-kit-op-2`、`pochitto-hatsumei-pikachin-kit-ed-1`、`pochitto-hatsumei-pikachin-kit-ed-2`、`pochitto-hatsumei-pikachin-kit-ed-3`、`pochitto-hatsumei-pikachin-kit-in-1`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
