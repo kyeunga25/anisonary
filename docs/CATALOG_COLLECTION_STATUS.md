@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第684批續查2018秋標準日本TV。《CONCEPTION》優先核對正式片頭、片尾與第8話〈I Love You〉，再查《ソラとウミのアイダ》各話用曲。 |
+| 下批位置 | 第 694 批續對2018夏標準TV名冊，先查《フルメタル・パニック！Invisible Victory》夏季第11–12話及《殺戮の天使》地上波第1–12話與後續配信，核對其餘原播片頭片尾和劇中曲。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 683 批已在本機驗收，相對第 672 批正式基線有 103 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `43623ffd9f1bd5e077b096007a506cda03af277b`／[batch672-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch672-japanese-tv)。本機資料驗收到第 683 批。 |
-| 發布提交 | [PR #318](https://github.com/kyeunga25/anisonary/pull/318) 固定候選 `9929f1e`。正式 Workers 版本 `3b30de0e-3291-47dc-a5fd-aa41f7f5328b`，預覽版本 `72f10ccc-5e8f-40d9-ba64-58c9acd79f47`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 693 批已在本機驗收，相對第 683 批正式基線有 102 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `d28bb3f32f161c335b1af84310d9eae19e70c9d5`／[batch683-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch683-japanese-tv)。本機資料驗收到第 693 批。 |
+| 發布提交 | [PR #319](https://github.com/kyeunga25/anisonary/pull/319) 固定候選 `4137857`。正式 Workers 版本 `3056e719-50a5-4865-8490-4e4460e9a903`，預覽版本 `5a76b2d1-8067-4474-b5b1-cd623921af18`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -20194,4 +20194,87 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 - 製作人確認第8話〈To my Dearest〉排練場面播出鋼琴，唱片另收帶リリィ歌聲的練唱錄音。已按曲序核對Avex實體單曲、SAGA.1–3特典CD、原聲帶、精選及港台日Apple Music，另核對Spotify具體曲目。串流區域證據按曲目保存。
 - 首話〈Temptation from the Hell〉及第7話〈Peace&Love〉先記經逐話交叉核對的用法，待第一方掛字／獨立曲目。〈鹿島一声浮立〉原播演出名義、第1話アイアンフリル原錄音陣容及Riz☆Rie原廣告正版音源仍待核。
 - 本批用途：`zombie-land-saga-op-1`、`zombie-land-saga-ed-1`、`zombie-land-saga-ed-2`、`zombie-land-saga-ed-3`、`zombie-land-saga-ed-4`、`zombie-land-saga-ed-5`、`zombie-land-saga-in-1`、`zombie-land-saga-in-2`、`zombie-land-saga-in-3`、`zombie-land-saga-in-4`、`zombie-land-saga-in-5`、`zombie-land-saga-in-6`、`zombie-land-saga-in-7`、`zombie-land-saga-in-8`、`zombie-land-saga-in-9`、`zombie-land-saga-in-10`、`zombie-land-saga-in-11`、`zombie-land-saga-in-12`、`zombie-land-saga-in-13`、`zombie-land-saga-in-14`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第684批　《CONCEPTION》、《天空與海洋之間》及《RErideD》逐話歌曲、獨唱及正版音源
+
+- 3 部日本 TV、14 筆用途、10 首歌及 18 個不同音源。依日本播出表記錄《RErideD》TOKYO MX與KBS京都自10月3日25:05原播全12話，另記ひかりTV先行與海外授權上架。
+- 《CONCEPTION》第1、12話把片頭曲用於片末。〈I Love You〉首次核實位置為第4話插曲，第8話特別片尾為加隈亜衣角色演唱的〈セーラー服と機関銃〉。角色版獨立發行、片末剪輯及第1話原遊戲旋律是否以可辨識歌曲形式使用，待日本原播片源或掛字。
+- 《天空與海洋之間》第9話使用〈尾道恋時雨〉及同名片頭歌曲。後者劇中演唱與剪輯待正版音軌比對。〈蒼の彼方〉附香港 Apple Music 的原唱、Off Vocal 和約90秒 TV Size。專輯歌曲的動畫用途須逐話另證。
+- 《RErideD》核對〈トキノツバサ〉的合唱及兩個角色輪替唱法。藍光特典第29、30曲是獨唱，第1曲是內川佳子演唱的首話特別片尾。第12話是否重用該曲及實際位置，待對照日本電視音軌、授權日語片源或製作曲表。獨唱的串流與逐話剪輯對應仍待核。
+- 核對唱片曲序、公開平台目錄及官方影片標題和發行資訊。Spotify 曲目按確切網址連結，香港地區播放權未經登入驗證。
+- 本批用途：`conception-op-1`、`conception-ed-1`、`conception-ed-2`、`conception-ed-3`、`conception-in-1`、`sora-to-umi-no-aida-op-1`、`sora-to-umi-no-aida-ed-1`、`sora-to-umi-no-aida-in-1`、`sora-to-umi-no-aida-in-2`、`rerided-tokigoe-no-derrida-op-1`、`rerided-tokigoe-no-derrida-ed-1`、`rerided-tokigoe-no-derrida-ed-2`、`rerided-tokigoe-no-derrida-ed-3`、`rerided-tokigoe-no-derrida-ed-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第685批　《我喜歡的妹妹不是妹妹》、《學園BASARA》及《叛逆性百萬亞瑟王》第一期的逐話主題曲及錄音
+
+- 3 部日本 TV，10 筆用途、9 首歌及 28 個不同音源。區分AT-X第7話延期和末話提前、TBS首末話延長，以及TOKYO MX正片首播前的兩次介紹節目。
+- 《我喜歡的妹妹不是妹妹》第1話改用〈Secret Story〉作片末歌曲，第2–9話作片頭；〈起・承・転・結・序・破・急〉在第2–10話片尾。同曲整理原唱、TV Size、Off Vocal 和〈Secret Story〉2021年版。第1話實際剪輯及兩組的逐名人聲待合法日語正片、唱片內頁或團體錄音表。
+- 《學園BASARA》核對EIGHT OF TRIANGLE的三個CD版本與TV Size，〈Be Affected〉另收原唱伴奏和西川貴教2023年正式發行的演唱會版本。第12話片末位置等TBS原播或日版掛字覆核。
+- 《叛逆性百萬亞瑟王》第一期第9話輝夜版〈いとうつくしき光の中で〉沿用2019春已有歌曲與錄音ID。另登記第4、6話〈Falsetto My Heart〉及第5話〈I sing a song for you〉。原遊戲角色歌已有正版CD，動畫音軌具體剪輯及數位版待唱片方或逐話原片證實。整理常規片頭原版、器樂、TV Size、Acoustic及兩場現場音源，片尾常規版分開保存正式合唱與TV Size。
+- 影片核對權利方頻道、標題及說明。香港 Apple Music有直接曲目證據才標香港可用，部分2018年日本數位版提供購買。
+- 本批用途：`ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai-op-1`、`ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai-ed-1`、`ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai-ed-2`、`gakuen-basara-op-1`、`gakuen-basara-ed-1`、`hangyakusei-million-arthur-op-1`、`hangyakusei-million-arthur-ed-1`、`hangyakusei-million-arthur-ed-2`、`hangyakusei-million-arthur-in-1`、`hangyakusei-million-arthur-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第686批　核對《BAKUMATSU》及《梅露可物語：無精打采的少年與瓶中少女》逐話歌曲、特典CD及正版音源
+
+- 《BAKUMATSU》核實TBS第1及第12話改時段、Abema首話配信、MIKOTO及佐々木恵梨兩組實體與數位曲序、香港Apple Music全長、器樂、TV Size及官方影片。第6話〈Part of Me〉由演唱者訪談與日本原播資料交叉確認，第8及9話須以TBS正片或掛字解決分歧。片頭短單曲90秒與原聲帶93秒分列，片中實際剪輯待比對。
+- 《梅露可物語》核實ViuTV正式繁中名、AT-X日本原表及Blu-ray上卷早期預約特典曲目，分列第12話〈オリジン〉片尾及〈Bottleship〉插曲。第8及9話有六首音樂劇插曲和第9話特別片尾，作編曲由創作者作品表核對。待取得正式數位曲目、原聲帶可核曲序或正片完整掛字時續查各歌曲音源、〈私の声だ〉作詞及片中剪輯。
+- 本批用途：`bakumatsu-op-1`、`bakumatsu-ed-1`、`bakumatsu-ed-2`、`merc-storia-op-1`、`merc-storia-ed-1`、`merc-storia-ed-2`、`merc-storia-ed-3`、`merc-storia-in-1`、`merc-storia-in-2`、`merc-storia-in-3`、`merc-storia-in-4`、`merc-storia-in-5`、`merc-storia-in-6`、`merc-storia-in-7`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 683 批正式驗收
+
+第 673–683 批涵蓋 16 部日本電視作品與 103 筆不同歌曲用途。預覽候選 `4137857` 及正式提交 `d28bb3f` 的 CI、Workers 建置均通過。兩個環境各有 4,618 個 CI 產物與固定候選逐位元一致，各驗收 253 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,710 個用途。[PR #319](https://github.com/kyeunga25/anisonary/pull/319) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch683-japanese-tv)
+
+## 第687批　《虛擬入口：動畫版》、《閃乱カグラ SHINOVI MASTER》及《グラゼニ》第二季的原播主題曲與音源
+
+- 《虛擬入口：動畫版》由富士電視台原播全11話，Netflix日本同一曆日全話上架。海外版於2019年4月30日配上另一套劇伴。核實alt-J兩首原播主題、官方片頭與唱片影像、香港原唱、現場及混音。分列〈Tessellate〉動畫公告名義和原始全長錄音署名。海外劇中曲資料等候具體日本原播音軌或唱片掛字；Tower Records可核日本原聲帶第29軌〈AULD LANG SYNE ingress ver〉，仍待逐話位置及人聲證據。
+- 《閃乱カグラ SHINOVI MASTER》核實AT-X和第1話以〈SCARLET MASTER〉收尾，第2–12話用常規片頭及片尾。原聲帶CD和日本數位擴充版曲序不同，分列TV Size及有明列的弦樂改編。香港已核片頭全長，片尾全長與TV Size已核日本Apple Music，香港正式曲目待核。〈暁歌〉是原聲帶形象歌，待逐話證據。
+- 《グラゼニ》第二季沿全劇第13–24話編號，兩首主題沿用。確認《大海賊》《ドリーム銀座》、grooveman Spot Remix及《SAFARI》各音源和品番；正片片頭片尾未核實獨立TV Size發行。
+- 本批用途：`ingress-op-1`、`ingress-ed-1`、`senran-kagura-shinovi-master-op-1`、`senran-kagura-shinovi-master-ed-1`、`senran-kagura-shinovi-master-ed-2`、`gurazeni-2-op-1`、`gurazeni-2-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第688批　《尤利西斯 貞德與鍊金騎士》逐話片尾及《蒼天の拳 REGENESIS》第二期片頭片尾
+
+- 本批兩部日本TV作品、5個新用途、4首歌曲、18個錄音。〈リベラシオン〉分開保存一般片頭與第1話片末，附全長、伴奏、TV Size和演唱會Blu-ray。Lantis證實〈百年のメラム〉第1至第8歌分別用於第2–9話，每個錄音保留發行位置與編曲，另列原聲帶第9、10歌。第10–11話的確切錄音及末話〈リベラシオン〉場段等日本正版正片或掛字再比對。影片僅核公開標題、簡介與權利方公告。
+- 《蒼天の拳 REGENESIS》第二期核日本第13–24話原播及Prime Video日本前一週先行。兩首原版附香港、台灣及日本數位單曲，分別保存動畫與數位發行的作曲署名。兩首TV剪輯可在唱片方獨立發行或原播音軌可核時補記。
+- 本批用途：`ulysses-jeanne-darc-to-renkin-no-kishi-op-1`、`ulysses-jeanne-darc-to-renkin-no-kishi-ed-1`、`ulysses-jeanne-darc-to-renkin-no-kishi-ed-2`、`souten-no-ken-regenesis-2-op-1`、`souten-no-ken-regenesis-2-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第689批　《夕照少女》、《我讓最想被擁抱的男人給威脅了》及《DOUBLE DECKER! ダグ＆キリル》原播歌曲及發行版本
+
+- 三部日本TV作品共9個新用途、7首歌、22個錄音。《夕照少女》第1話移用片頭作片末，第11話有〈444～four forty-four～〉插曲。〈壊れかけのRadio〉同曲記和島あみ的全長、TV edit和伴奏，另附德永英明原版與2018年自翻唱。第9、11話無常規片尾。
+- 《我讓最想被擁抱的男人給威脅了》核2018原播及台灣正版篇名。〈不完全モノクローグ〉全長及伴奏核香港數位版，期間限定CD另有TV Size。〈ちゅんたか！〉第二卷附四個錄音，香港正版數位未核到。官方舞蹈影片只核標題及介紹。
+- 《DOUBLE DECKER!》第1話於9月2日先行上映及日本網路配信，9月30日TV首播，12月30日播第13話。第1話片頭曲在片末用。〈ステレオとモノローグ〉附原曲、伴奏、TV Size及角色合唱，〈Buntline Special〉附香港全長和原聲帶實體TV Size。角色版本及其餘角色歌的正片使用需逐話掛字另證；三話配信EXTRA另行盤點。
+- 本批用途：`akanesasu-shoujo-op-1`、`akanesasu-shoujo-ed-1`、`akanesasu-shoujo-ed-2`、`akanesasu-shoujo-in-1`、`dakaretai-otoko-1-i-ni-odosarete-imasu-op-1`、`dakaretai-otoko-1-i-ni-odosarete-imasu-ed-1`、`double-decker-doug-and-kirill-op-1`、`double-decker-doug-and-kirill-ed-1`、`double-decker-doug-and-kirill-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第690批　《宇宙戰艦ヤマト2202 愛の戦士たち》跨季電視版與《イナズマイレブン オリオンの刻印》首末話插曲
+
+- 本批兩部日本TV作品實質調整11個用途。《宇宙戦艦ヤマト2202》新增7用途，原播2018秋第1–13話、2019冬第14–26話。吹奏樂與第14話起的ささきいさお片頭整合於同一曲，分開記用途及兩套錄音。唱片明列主題歌全長、Short Size和TV Size，2019完整CD第19軌仍有〈ヤマトより愛をこめて〉，日本數位主題歌集缺該軌。香港另有沢田研二原版與〈君、ヒトヒラ〉2022版。未確認2022版的剪輯或重錄方式，初話片頭、兩段電視片頭與短剪輯的版本對應，以及末話有否特別剪輯，等日本原播正片、掛字或唱片資料再核。
+- 《イナズマイレブン オリオンの刻印》以兩份逐話資料確認〈舞台はデッカイほうがいい！〉第1話和〈地球をキック！〉第49話均在劇中使用。沿用兩首現有歌曲及錄音ID，新增兩個用途並收正原有兩筆片頭的例外。末話其餘候選保留到取得有場段的權利方資料或同版正片。
+- 本批用途：`uchuu-senkan-yamato-2202-ai-no-senshi-tachi-op-1`、`uchuu-senkan-yamato-2202-ai-no-senshi-tachi-op-2`、`uchuu-senkan-yamato-2202-ai-no-senshi-tachi-ed-1`、`uchuu-senkan-yamato-2202-ai-no-senshi-tachi-ed-2`、`uchuu-senkan-yamato-2202-ai-no-senshi-tachi-ed-3`、`uchuu-senkan-yamato-2202-ai-no-senshi-tachi-ed-4`、`uchuu-senkan-yamato-2202-ai-no-senshi-tachi-ed-5`、`inazuma-eleven-orion-no-kokuin-op-1`、`inazuma-eleven-orion-no-kokuin-op-2`、`inazuma-eleven-orion-no-kokuin-in-1`、`inazuma-eleven-orion-no-kokuin-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第691批　《刃牙》2018年全26話與《聖闘士星矢 セインティア翔》衛星原播、主題曲及音源
+
+- 本批新增兩部日本TV作品、7個用途、7首歌曲、18個錄音。《刃牙》先有Netflix日本版本，再核TOKYO MX1全26話編成及第14話實際換曲。四首主題曲按兩季度分列，整理全長、實體伴奏、大阪城ホール現場、香港TV Size及Warner授權版本。官方曾提供兩種畫面剪輯，香港Netflix頁只證作品地區與正式譯名。
+- 《聖闘士星矢 セインティア翔》核日本アニマックス12月24日晚首兩話及翌年週一續播全10話。常規片尾第7話改播角色歌〈争い死にゆく者たちに祝福を〉。三曲加伴奏、片頭ON AIR Size及兩種片尾ON AIR Size，保留香港數位及日本實體各自曲序，待原播音軌可核時補片尾剪輯的逐話對應。公開影片只核原發布方的標題、簡介及資料。
+- 本批用途：`baki-op-1`、`baki-op-2`、`baki-ed-1`、`baki-ed-2`、`saint-seiya-saintia-shou-op-1`、`saint-seiya-saintia-shou-ed-1`、`saint-seiya-saintia-shou-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第692批　《青春豬頭少年不會夢到兔女郎學姊》角色片尾及《BEATLESS》Final Stage跨季編成與插曲
+
+- 《青春豬頭少年不會夢到兔女郎學姊》依ABC逐話編成核對2018年10月3日至12月26日全13話，保留官網初告26:15與編成首末話26:20的差別。以Aniplex、動畫瘋及日本逐話曲表核對曲目、台灣授權名稱與第10話劇中歌。〈不可思議のカルテ〉同一歌曲歸集六人合唱、五位獨唱的話次、BD特典CD及香港正版曲目。第6話無片尾主題歌。〈BABY!〉區分動畫演唱、伴奏、the peggies原唱與2022年重新母帶發行。〈君のせい〉分列原單曲、現場與重新母帶。待正式音軌確認TV長度、獨唱數位首發日與若干版本署名。
+- 《BEATLESS》按製作方連續編號保留第1–24話同一作品。第21–24話為Final Stage，日本首播於2018年9月結束，另記MBS秋季本地首播時段及其預告／編成時間差。明記第1、24話無常規片頭，逐話對帳前後半四首及第2、13話的四首插入曲。第2話〈Resonator〉由創作者訪談確認實際場景，另比對香港原聲帶、OTOTOY及權利方YouTube Art Track。其餘三首含原企畫附CD曲序。已核日本動畫盤TV Size、TV MIX、Anime Edit，並分錄香港原唱、伴奏、現場及相關版本。來源只使用可核查的公開曲目、公告、訪談、編成或影片資料。需要當年掛字、唱片內頁及地區曲目才能補的欄位留待續查。
+- 本批用途：`seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-op-1`、`seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-ed-1`、`seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-in-1`、`beatless-op-1`、`beatless-op-2`、`beatless-ed-1`、`beatless-ed-2`、`beatless-in-1`、`beatless-in-2`、`beatless-in-3`、`beatless-in-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第693批　《BANANA FISH》、《中間管理録トネガワ》及《進擊的巨人》第三季前半跨季用曲與錄音
+
+- 《BANANA FISH》共6用途。〈found & lost〉的第2–13話片頭、第1話特別片尾及第24話劇中用途共用歌曲ID，末話保留〈FREEDOM〉並省略〈RED〉。第13話前半歌曲延入秋季，末話為富士電視台25:35 JST加長版。首話Prime Video先行。香港音源包含原唱、伴奏、Acoustic、2021年重錄及唱片方確認的〈lost & found〉改編。Acoustic的長度與實際播出剪輯另外保留待核。
+- 《中間管理録トネガワ》共4用途。第13話〈颯爽と走るトネガワ君〉改作片尾，第14話起部分集以《1日外出録ハンチョウ》在同欄目播出，延續同組主題曲和集數。補入香港三首全長、日版CD／黑膠以及〈狂言回し〉兩週期間限定的TV Size發行紀錄。短期數位版目前未核到可用的香港曲目。
+- 《進擊的巨人》第三季前半共4用途。第48話因颱風新聞延到10月7日，第49話為10月14日，均保留夏秋用途。第38話無常規片尾，第49話用〈暁の鎮魂歌〉並有特殊剪接。第44話依原聲帶與分集曲表補〈K21〉、〈Zero Eclipse〉，核香港兩首全長及伴奏、〈Red Swan〉全長及TV Edit、〈暁の鎮魂歌〉全長及TV Size。特殊剪輯需要原片或發行方公開資料才能補；影片核到權利方及公開標題或簡介。
+- 本批用途：`banana-fish-op-1`、`banana-fish-op-2`、`banana-fish-ed-1`、`banana-fish-ed-2`、`banana-fish-ed-3`、`banana-fish-in-1`、`chuukan-kanriroku-tonegawa-op-1`、`chuukan-kanriroku-tonegawa-ed-1`、`chuukan-kanriroku-tonegawa-ed-2`、`chuukan-kanriroku-tonegawa-ed-3`、`shingeki-no-kyojin-season-3-op-1`、`shingeki-no-kyojin-season-3-ed-1`、`shingeki-no-kyojin-season-3-in-1`、`shingeki-no-kyojin-season-3-in-2`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
