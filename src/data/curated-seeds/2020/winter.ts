@@ -1,4 +1,5 @@
 import type { CuratedCatalogAnimeSeed } from "@/data/curated-seeds/types";
+import { blackClover2017Seed } from "@/data/curated-seeds/2020/black-clover-2017";
 
 const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   {
@@ -37,7 +38,11 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "2019-winter",
     "2019-spring",
     "2019-summer",
-    "2019-fall"
+    "2019-fall",
+    "2018-winter",
+    "2018-spring",
+    "2018-summer",
+    "2018-fall"
   ],
   "startDate": "1988-10-03",
   "titleJa": "それいけ！アンパンマン",
@@ -51,13 +56,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "anilistUrl": "https://anilist.co/anime/1960/Sore-Ike-Anpanman",
   "editorialWeekday": 5,
   "broadcastTimeJst": "10:55",
-  "broadcastLabel": "1988/10/3日本電視台首播。關東日本電視台原播週五10:55–11:25 JST；2020/5/8至7月底改播舊話，8/7恢復新話。",
+  "broadcastLabel": "1988/10/3日本電視台首播。關東日本電視台原播週五10:55–11:25 JST；2020/5/8至7月底改播舊話，8/7恢復新話。 2018年日本電視台同為週五10:55–11:25 JST，10月5日第1424話為TV三十周年編成。",
   "status": "airing",
   "verifiedAt": "2026-11-16",
-  "metadataVerifiedAt": "2026-11-19",
+  "metadataVerifiedAt": "2026-11-20",
   "sourceReferenceUrls": [
     "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200408101703000_15757497.pdf",
-    "https://www.ntv.co.jp/anpanman/"
+    "https://www.ntv.co.jp/anpanman/",
+    "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+    "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+    "https://blog.tms-e.co.jp/archives/50544298.html",
+    "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html"
   ],
   "themes": [
     {
@@ -73,7 +82,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "VAP 日本原合輯歌手、曲序及版別",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
@@ -199,7 +208,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原播第31年度逐話 OP、ED 與插曲表",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.ntv.co.jp/anpanman/articles/128i1nacd36k0343jo7.html",
@@ -284,6 +293,76 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年逐話原播、劇場版拆播及聖誕編成",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "第30年度日本地上波逐話曲表｜2018年前三季片尾輪替",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》日本實體CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+          "label": "30周年製作委員會｜第1424話起新片頭畫面及原播時刻",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.anpanman.jp/30th/news/2018/1017_01.html",
+          "label": "30周年製作委員會｜原主題曲與官方片頭畫面宣傳",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83529",
+          "label": "VAP｜ドリーミング兩位演出者與30周年發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83536",
+          "label": "VAP｜日本英語版歌曲CD及獨立卡拉OK曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -361,6 +440,39 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-19",
           "releaseId": "vpcg-83556"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741606",
+          "label": "香港｜ANPANMANNO MAACHI",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741606",
+          "label": "台灣｜ANPANMANNO MAACHI",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741606",
+          "label": "日本｜アンパンマンのマーチ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -680,6 +792,238 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://store.vap.co.jp/syousai.asp?item=VPCG-83556"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+            "https://www.anpanman.jp/30th/news/2018/1017_01.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83529"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741606"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741606"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741606"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-english-2019"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83536"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-english-2019-karaoke"
         }
       ],
       "sourceMode": "explicit",
@@ -699,6 +1043,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "大谷和夫",
           "role": "arrangement"
+        },
+        {
+          "name": "寺田千代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
+        },
+        {
+          "name": "寺田嘉代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
         }
       ],
       "recordings": [
@@ -711,7 +1065,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "id": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
           "kind": "vocal",
-          "format": "unknown",
+          "format": "full",
           "title": "アンパンマンのマーチ"
         },
         {
@@ -759,6 +1113,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "アンパンマンのマーチ（レッツ！ダンス×３・カラオケ）",
           "format": "unknown",
           "kind": "instrumental"
+        },
+        {
+          "id": "sore-ike-anpanman-op-1-song-english-2019",
+          "title": "Anpanman's March",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "sore-ike-anpanman-op-1-song-english-2019-karaoke",
+          "title": "Anpanman’s march（karaoke）",
+          "kind": "instrumental",
+          "format": "unknown"
         }
       ],
       "seasonIds": [
@@ -793,10 +1159,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2026-winter",
         "2026-spring",
         "2026-summer",
-        "2026-fall"
+        "2026-fall",
+        "2018-winter",
+        "2018-spring",
+        "2018-summer",
+        "2018-fall"
       ],
-      "usageLabel": "日本電視版常規片頭，2020冬至2026秋（截至10/14）；2019年10月更新畫面時沿用本曲。VAP繁中題名為〈麵包超人進行曲〉。2019年日本原播常規片頭涵蓋冬季第1436–1447話、春季第1448–1460話、夏季第1461–1471話及秋季第1472–1483話。10月4日第1472話起更換片頭畫面。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本電視版常規片頭，2020冬至2026秋（截至10/14）；2019年10月更新畫面時沿用本曲。VAP繁中題名為〈麵包超人進行曲〉。2019年日本原播常規片頭涵蓋冬季第1436–1447話、春季第1448–1460話、夏季第1461–1471話及秋季第1472–1483話。10月4日第1472話起更換片頭畫面。 2018年常規片頭為冬季第1387–1399話、春季第1400–1412話、夏季第1413–1423話、秋季第1424–1435話。10月5日第1424話開始更換30周年片頭畫面，沿用同曲。7月13日及20日改播電影上下篇。",
+      "lastVerifiedAt": "2026-11-20",
       "releases": [
         {
           "id": "apple-hk-1609208257",
@@ -943,6 +1313,114 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "catalogNumber": "VPCG-83556",
           "label": "VAP"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ANPANMANNO MAACHI",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ANPANMANNO MAACHI",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "アンパンマンのマーチ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "アンパンマンのマーチ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "vpcg-83536",
+          "title": "それいけ！アンパンマン えいごでうたおう",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-06",
+            "precision": "day"
+          },
+          "edition": "日本英語知育 CD",
+          "tracks": [
+            {
+              "title": "Anpanman's March",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-english-2019"
+            },
+            {
+              "title": "Anpanman’s march（karaoke）",
+              "position": 15,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-english-2019-karaoke"
+            }
+          ],
+          "catalogNumber": "VPCG-83536"
         }
       ],
       "followUp": [
@@ -955,6 +1433,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "常規片頭有官方電視尺寸及合輯曲目。逐話特別畫面、其它語言和實播音軌版本待核。",
           "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "2017年發行的《ベストヒット’18》原唱與2020輯各平台比較為相同曲名、演唱與完整曲長，英文教學CD另列錄音。",
+          "resumeWhen": "找到2018原播或同年空白片頭片尾合法素材，對照市售TV Size的剪輯、各集切換及周年畫面的音軌。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -971,7 +1457,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "VAP 日本原合輯歌手、曲序及版別",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
@@ -1111,7 +1597,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原播第31年度逐話 OP、ED 與插曲表",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.ntv.co.jp/anpanman/articles/128i1nacd36k0343jo7.html",
@@ -1196,6 +1682,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年逐話原播、劇場版拆播及聖誕編成",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "第30年度日本地上波逐話曲表｜2018年前三季片尾輪替",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》日本實體CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話時段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83529",
+          "label": "VAP｜ドリーミング兩位演出者與30周年發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83536",
+          "label": "VAP｜日本英語版歌曲CD及獨立卡拉OK曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -1262,6 +1811,39 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-19",
           "releaseId": "vpcg-83556"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741635",
+          "label": "香港｜YUUKI RINRIN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741635",
+          "label": "台灣｜YUUKI RINRIN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741635",
+          "label": "日本｜勇気りんりん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -1543,6 +2125,225 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://store.vap.co.jp/syousai.asp?item=VPCG-83556"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83529"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741635"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741635"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741635"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-1-song-english-2019"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83536"
         }
       ],
       "sourceMode": "explicit",
@@ -1562,6 +2363,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "大谷和夫",
           "role": "arrangement"
+        },
+        {
+          "name": "寺田千代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
+        },
+        {
+          "name": "寺田嘉代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
         }
       ],
       "recordings": [
@@ -1574,7 +2385,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "id": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal",
           "kind": "vocal",
-          "format": "unknown",
+          "format": "full",
           "title": "勇気りんりん"
         },
         {
@@ -1606,6 +2417,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "勇気りんりん（レッツ！ダンス×３・カラオケ）",
           "format": "unknown",
           "kind": "instrumental"
+        },
+        {
+          "id": "sore-ike-anpanman-ed-1-song-english-2019",
+          "title": "Courage, Ringing",
+          "kind": "vocal",
+          "format": "unknown"
         }
       ],
       "seasonIds": [
@@ -1622,10 +2439,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2021-summer",
         "2026-winter",
         "2026-spring",
-        "2026-summer"
+        "2026-summer",
+        "2018-winter",
+        "2018-spring",
+        "2018-summer",
+        "2018-fall"
       ],
-      "usageLabel": "日本電視版輪替片尾。包括2020春第1500話、2021夏第1544話、2026冬第1721話。2019年輪替話數為冬季第1437、1441、1445話，春季第1449、1453、1457話，夏季第1461、1465、1469話，秋季第1473、1477、1481話。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本電視版輪替片尾。包括2020春第1500話、2021夏第1544話、2026冬第1721話。2019年輪替話數為冬季第1437、1441、1445話，春季第1449、1453、1457話，夏季第1461、1465、1469話，秋季第1473、1477、1481話。 2018年輪替為冬季第1389、1393、1397話；春季第1401、1405、1409話；夏季第1413、1417、1421話；秋季第1425、1429、1433話。 12月21日聖誕特別話另用〈ジングルベル〉。",
+      "lastVerifiedAt": "2026-11-20",
       "releases": [
         {
           "id": "apple-hk-1609208257",
@@ -1734,6 +2555,108 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "catalogNumber": "VPCG-83556",
           "label": "VAP"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "YUUKI RINRIN",
+              "position": 20,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "YUUKI RINRIN",
+              "position": 20,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "勇気りんりん",
+              "position": 20,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "勇気りんりん",
+              "position": 20,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "vpcg-83536",
+          "title": "それいけ！アンパンマン えいごでうたおう",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-06",
+            "precision": "day"
+          },
+          "edition": "日本英語知育 CD",
+          "tracks": [
+            {
+              "title": "Courage, Ringing",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-1-song-english-2019"
+            }
+          ],
+          "catalogNumber": "VPCG-83536"
         }
       ],
       "followUp": [
@@ -1746,6 +2669,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
           "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "2017年發行的《ベストヒット’18》原唱與2020輯各平台比較為相同曲名、演唱與完整曲長，英文教學CD另列錄音。",
+          "resumeWhen": "找到2018原播或同年空白片頭片尾合法素材，對照市售TV Size的剪輯、各集切換及周年畫面的音軌。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -1762,7 +2693,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "VAP 日本原合輯歌手、曲序及版別",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
@@ -1951,7 +2882,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原播第31年度逐話 OP、ED 與插曲表",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.ntv.co.jp/anpanman/articles/128i1nacd36k0343jo7.html",
@@ -2036,6 +2967,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年逐話原播、劇場版拆播及聖誕編成",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "第30年度日本地上波逐話曲表｜2018年前三季片尾輪替",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》日本實體CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話時段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83529",
+          "label": "VAP｜ドリーミング兩位演出者與30周年發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83536",
+          "label": "VAP｜日本英語版歌曲CD及獨立卡拉OK曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -2102,6 +3096,39 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-19",
           "releaseId": "vpcg-83556"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741609",
+          "label": "香港｜ANPANMAN TAISOU",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741609",
+          "label": "台灣｜ANPANMAN TAISOU",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741609",
+          "label": "日本｜アンパンマンたいそう",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -2390,6 +3417,225 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://store.vap.co.jp/syousai.asp?item=VPCG-83556"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83529"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741609"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741609"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741609"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-2-song-english-2019"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83536"
         }
       ],
       "sourceMode": "explicit",
@@ -2413,6 +3659,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "近藤浩章",
           "role": "arrangement"
+        },
+        {
+          "name": "寺田千代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
+        },
+        {
+          "name": "寺田嘉代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
         }
       ],
       "recordings": [
@@ -2425,7 +3681,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "id": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal",
           "kind": "vocal",
-          "format": "unknown",
+          "format": "full",
           "title": "アンパンマンたいそう"
         },
         {
@@ -2457,6 +3713,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "アンパンマンたいそう（レッツ！ダンス×３・カラオケ）",
           "format": "unknown",
           "kind": "instrumental"
+        },
+        {
+          "id": "sore-ike-anpanman-ed-2-song-english-2019",
+          "title": "Anpanman Exercise",
+          "kind": "vocal",
+          "format": "unknown"
         }
       ],
       "seasonIds": [
@@ -2482,10 +3744,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2026-winter",
         "2026-spring",
         "2026-summer",
-        "2026-fall"
+        "2026-fall",
+        "2018-winter",
+        "2018-spring",
+        "2018-summer",
+        "2018-fall"
       ],
-      "usageLabel": "日本電視版輪替片尾。包括2020夏第1503話、2021夏第1547話、2026春第1732話。另有電視台音樂部2023年春至秋、2024年冬夏秋、2025年春夏及2026年10月的具名曲表。2019年輪替話數為冬季第1436、1440、1444話，春季第1448、1452、1456、1460話，夏季第1464、1468話，秋季第1472、1476、1480、1483話。12月20日聖誕特輯未列片尾曲，12月27日第1483話使用本曲。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本電視版輪替片尾。包括2020夏第1503話、2021夏第1547話、2026春第1732話。另有電視台音樂部2023年春至秋、2024年冬夏秋、2025年春夏及2026年10月的具名曲表。2019年輪替話數為冬季第1436、1440、1444話，春季第1448、1452、1456、1460話，夏季第1464、1468話，秋季第1472、1476、1480、1483話。12月20日聖誕特輯未列片尾曲，12月27日第1483話使用本曲。 2018年輪替為冬季第1388、1392、1396話；春季第1400、1404、1408、1412話；夏季第1416、1420話；秋季第1424、1428、1432話。 12月21日聖誕特別話另用〈ジングルベル〉。",
+      "lastVerifiedAt": "2026-11-20",
       "releases": [
         {
           "id": "apple-hk-1609208257",
@@ -2594,6 +3860,108 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "catalogNumber": "VPCG-83556",
           "label": "VAP"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ANPANMAN TAISOU",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ANPANMAN TAISOU",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "アンパンマンたいそう",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "アンパンマンたいそう",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "vpcg-83536",
+          "title": "それいけ！アンパンマン えいごでうたおう",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-06",
+            "precision": "day"
+          },
+          "edition": "日本英語知育 CD",
+          "tracks": [
+            {
+              "title": "Anpanman Exercise",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-2-song-english-2019"
+            }
+          ],
+          "catalogNumber": "VPCG-83536"
         }
       ],
       "followUp": [
@@ -2606,6 +3974,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
           "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "2017年發行的《ベストヒット’18》原唱與2020輯各平台比較為相同曲名、演唱與完整曲長，英文教學CD另列錄音。",
+          "resumeWhen": "找到2018原播或同年空白片頭片尾合法素材，對照市售TV Size的剪輯、各集切換及周年畫面的音軌。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -2622,7 +3998,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "VAP 日本原合輯歌手、曲序及版別",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
@@ -2755,7 +4131,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原播第31年度逐話 OP、ED 與插曲表",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.ntv.co.jp/anpanman/articles/128i1nacd36k0343jo7.html",
@@ -2826,6 +4202,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年逐話原播、劇場版拆播及聖誕編成",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "第30年度日本地上波逐話曲表｜2018年前三季片尾輪替",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》日本實體CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話時段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83529",
+          "label": "VAP｜ドリーミング兩位演出者與30周年發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83536",
+          "label": "VAP｜日本英語版歌曲CD及獨立卡拉OK曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -2870,6 +4309,39 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-19",
           "releaseId": "vpcg-83556"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741633",
+          "label": "香港｜SANSAN TAISOU",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741633",
+          "label": "台灣｜SANSAN TAISOU",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741633",
+          "label": "日本｜サンサンたいそう",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -3113,6 +4585,225 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://store.vap.co.jp/syousai.asp?item=VPCG-83556"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83529"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741633"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741633"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741633"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-3-song-english-2019"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83536"
         }
       ],
       "sourceMode": "explicit",
@@ -3132,6 +4823,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "近藤浩章",
           "role": "arrangement"
+        },
+        {
+          "name": "寺田千代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
+        },
+        {
+          "name": "寺田嘉代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
         }
       ],
       "recordings": [
@@ -3144,7 +4845,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "id": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal",
           "kind": "vocal",
-          "format": "unknown",
+          "format": "full",
           "title": "サンサンたいそう"
         },
         {
@@ -3158,6 +4859,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "role": "arrangement"
             }
           ]
+        },
+        {
+          "id": "sore-ike-anpanman-ed-3-song-english-2019",
+          "title": "SUN SUN Exercise",
+          "kind": "vocal",
+          "format": "unknown"
         }
       ],
       "seasonIds": [
@@ -3174,10 +4881,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2021-summer",
         "2026-winter",
         "2026-spring",
-        "2026-summer"
+        "2026-summer",
+        "2018-winter",
+        "2018-spring",
+        "2018-summer",
+        "2018-fall"
       ],
-      "usageLabel": "日本電視版輪替片尾。包括2020冬第1485話、2021夏第1545話、2026夏第1738話。2019年輪替話數為冬季第1438、1442、1446話，春季第1450、1454、1458話，夏季第1462、1466、1470話，秋季第1474、1478、1482話。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本電視版輪替片尾。包括2020冬第1485話、2021夏第1545話、2026夏第1738話。2019年輪替話數為冬季第1438、1442、1446話，春季第1450、1454、1458話，夏季第1462、1466、1470話，秋季第1474、1478、1482話。 2018年輪替為冬季第1390、1394、1398話；春季第1402、1406、1410話；夏季第1414、1418、1422話；秋季第1426、1430、1434話。 12月21日聖誕特別話另用〈ジングルベル〉。",
+      "lastVerifiedAt": "2026-11-20",
       "releases": [
         {
           "id": "apple-hk-1609208257",
@@ -3288,6 +4999,108 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "catalogNumber": "VPCG-83556",
           "label": "VAP"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "SANSAN TAISOU",
+              "position": 18,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "SANSAN TAISOU",
+              "position": 18,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "サンサンたいそう",
+              "position": 18,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "サンサンたいそう",
+              "position": 18,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "vpcg-83536",
+          "title": "それいけ！アンパンマン えいごでうたおう",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-06",
+            "precision": "day"
+          },
+          "edition": "日本英語知育 CD",
+          "tracks": [
+            {
+              "title": "SUN SUN Exercise",
+              "position": 10,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-3-song-english-2019"
+            }
+          ],
+          "catalogNumber": "VPCG-83536"
         }
       ],
       "followUp": [
@@ -3300,6 +5113,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
           "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "2017年發行的《ベストヒット’18》原唱與2020輯各平台比較為相同曲名、演唱與完整曲長，英文教學CD另列錄音。",
+          "resumeWhen": "找到2018原播或同年空白片頭片尾合法素材，對照市售TV Size的剪輯、各集切換及周年畫面的音軌。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -3316,7 +5137,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "VAP 日本原合輯歌手、曲序及版別",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
@@ -3449,7 +5270,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原播第31年度逐話 OP、ED 與插曲表",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.ntv.co.jp/anpanman/articles/128i1nacd36k0343jo7.html",
@@ -3520,6 +5341,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年逐話原播、劇場版拆播及聖誕編成",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "第30年度日本地上波逐話曲表｜2018年前三季片尾輪替",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》日本實體CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話時段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83529",
+          "label": "VAP｜ドリーミング兩位演出者與30周年發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83536",
+          "label": "VAP｜日本英語版歌曲CD及獨立卡拉OK曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -3564,6 +5448,39 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-19",
           "releaseId": "vpcg-83556"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741632",
+          "label": "香港｜DOREMIFA ANPANMAN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741632",
+          "label": "台灣｜DOREMIFA ANPANMAN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741632",
+          "label": "日本｜ドレミファ アンパンマン",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -3793,6 +5710,225 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://store.vap.co.jp/syousai.asp?item=VPCG-83556"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83529"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741632"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741632"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741632"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83541"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-english-2019"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83536"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83536"
         }
       ],
       "sourceMode": "explicit",
@@ -3816,6 +5952,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "陶山隼",
           "role": "arrangement"
+        },
+        {
+          "name": "寺田千代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
+        },
+        {
+          "name": "寺田嘉代",
+          "role": "vocals",
+          "groupName": "ドリーミング"
         }
       ],
       "recordings": [
@@ -3828,7 +5974,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "id": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
           "kind": "vocal",
-          "format": "unknown",
+          "format": "full",
           "title": "ドレミファアンパンマン"
         },
         {
@@ -3842,6 +5988,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "role": "arrangement"
             }
           ]
+        },
+        {
+          "id": "sore-ike-anpanman-ed-4-song-english-2019",
+          "title": "Doremifa Anpanman",
+          "kind": "vocal",
+          "format": "unknown"
         }
       ],
       "seasonIds": [
@@ -3859,10 +6011,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2023-winter",
         "2026-winter",
         "2026-spring",
-        "2026-summer"
+        "2026-summer",
+        "2018-winter",
+        "2018-spring",
+        "2018-summer",
+        "2018-fall"
       ],
-      "usageLabel": "日本電視版輪替片尾。包括2020春第1498話、2021夏第1546話、2026冬第1719話。日本電視台音樂部2023年2月曲表亦列本曲。2019年輪替話數為冬季第1439、1443、1447話，春季第1451、1455、1459話，夏季第1463、1467、1471話，秋季第1475、1479話。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本電視版輪替片尾。包括2020春第1498話、2021夏第1546話、2026冬第1719話。日本電視台音樂部2023年2月曲表亦列本曲。2019年輪替話數為冬季第1439、1443、1447話，春季第1451、1455、1459話，夏季第1463、1467、1471話，秋季第1475、1479話。 2018年輪替為冬季第1387、1391、1395、1399話；春季第1403、1407、1411話；夏季第1415、1419、1423話；秋季第1427、1431、1435話。 12月21日聖誕特別話另用〈ジングルベル〉。",
+      "lastVerifiedAt": "2026-11-20",
       "releases": [
         {
           "id": "apple-hk-1609208257",
@@ -3947,6 +6103,108 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "catalogNumber": "VPCG-83556",
           "label": "VAP"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "DOREMIFA ANPANMAN",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "DOREMIFA ANPANMAN",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ドレミファ アンパンマン",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "ドレミファ アンパンマン",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "vpcg-83536",
+          "title": "それいけ！アンパンマン えいごでうたおう",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-03-06",
+            "precision": "day"
+          },
+          "edition": "日本英語知育 CD",
+          "tracks": [
+            {
+              "title": "Doremifa Anpanman",
+              "position": 13,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-english-2019"
+            }
+          ],
+          "catalogNumber": "VPCG-83536"
         }
       ],
       "followUp": [
@@ -3959,6 +6217,6047 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
           "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "2017年發行的《ベストヒット’18》原唱與2020輯各平台比較為相同曲名、演唱與完整曲長，英文教學CD另列錄音。",
+          "resumeWhen": "找到2018原播或同年空白片頭片尾合法素材，對照市售TV Size的剪輯、各集切換及周年畫面的音軌。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-1",
+      "songId": "sore-ike-anpanman-in-1-song",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "おなじみしょくぱんまん",
+      "artistDisplayName": "しょくぱんまん（島本須美）",
+      "seasonIds": [
+        "2018-winter",
+        "2018-spring"
+      ],
+      "usageLabel": "日本TV第1391話（2月2日）及第1406話（5月18日）劇中用曲。第1406話逐話紀錄於約5:25由島本須美以角色演出。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "島本須美"
+        },
+        {
+          "role": "lyrics",
+          "name": "やなせたかし"
+        },
+        {
+          "role": "composition",
+          "name": "いずみたく"
+        },
+        {
+          "role": "arrangement",
+          "name": "近藤浩章"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》收錄演唱與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4811236",
+          "label": "Tower Records｜《ベストヒット’19》逐曲演唱及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-84911",
+          "label": "VAP｜日本3CD島本須美單列與中尾隆聖原唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "日本TV第30年度｜逐話插曲曲目及位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30/ep/1406",
+          "label": "第1406話逐回紀錄｜島本須美劇中演出",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+          "label": "VAP｜《ベストヒット’19》發行及矢尾一樹新版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://tower.jp/item/4811236",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84911",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1406"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1406"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://tower.jp/item/4811236",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84911",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1406"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-2018-scene"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1406"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-2018-scene"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://tower.jp/item/4811236"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741613"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741613"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741613"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1445514039"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1445514039"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1445514039"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-in-1-song-shokupan-2018-scene",
+          "title": "おなじみしょくぱんまん（第1406話劇中演出）",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "島本須美",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "sore-ike-anpanman-in-1-song-shokupan-dreaming",
+          "title": "おなじみしょくぱんまん（角色歌及ドリーミング和聲）",
+          "kind": "character",
+          "format": "full",
+          "credits": [
+            {
+              "name": "島本須美",
+              "role": "vocals"
+            },
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "おなじみしょくぱんまん",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ONAJIMI SHOKUPANMAN",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ONAJIMI SHOKUPANMAN",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "おなじみしょくぱんまん",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83532",
+          "title": "それいけ！アンパンマン ベストヒット’19",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "おなじみしょくぱんまん",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ],
+          "catalogNumber": "VPCG-83532"
+        },
+        {
+          "id": "apple-hk-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ONAJIMI SHOKUPANMAN",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ONAJIMI SHOKUPANMAN",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "おなじみしょくぱんまん",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741613",
+          "label": "香港｜ONAJIMI SHOKUPANMAN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741613",
+          "label": "台灣｜ONAJIMI SHOKUPANMAN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741613",
+          "label": "日本｜おなじみしょくぱんまん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1445514039",
+          "label": "香港｜ONAJIMI SHOKUPANMAN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming",
+          "releaseId": "apple-hk-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1445514039",
+          "label": "台灣｜ONAJIMI SHOKUPANMAN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming",
+          "releaseId": "apple-tw-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1445514039",
+          "label": "日本｜おなじみしょくぱんまん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-1-song-shokupan-dreaming",
+          "releaseId": "apple-jp-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。第1391話精確演出者與兩話是否使用市售錄音仍待核。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-2",
+      "songId": "sore-ike-anpanman-in-2-song",
+      "type": "IN",
+      "sequence": 2,
+      "titleJa": "うれしいひなまつり",
+      "artistDisplayName": "劇中演唱名義待核",
+      "seasonIds": [
+        "2018-winter"
+      ],
+      "usageLabel": "日本TV第1395話（3月2日）於〈ささだんごちゃんとひなの里〉劇中使用。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "サトウハチロー"
+        },
+        {
+          "role": "composition",
+          "name": "河村光陽"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/artist-info/yamadashimai/discography/COCQ-85438.html",
+          "label": "日本コロムビア｜〈うれしいひなまつり〉原詞曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "日本TV第30年度｜逐話插曲曲目及位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30/ep/1395",
+          "label": "第1395話逐回紀錄｜插入歌曲及時間",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/yamadashimai/discography/COCQ-85438.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1395"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1395"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/yamadashimai/discography/COCQ-85438.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1395"
+          ],
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。電視使用音源演唱名義未獲證實。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-3",
+      "songId": "sore-ike-anpanman-op-1-song",
+      "type": "IN",
+      "sequence": 3,
+      "titleJa": "アンパンマンのマーチ",
+      "artistDisplayName": "劇中使用版本待核",
+      "seasonIds": [
+        "2018-winter",
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV第1398話（3月23日）與第1424話（10月5日三十周年）於本篇再用片頭歌曲，周年話劇中約13:10使用。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "やなせたかし"
+        },
+        {
+          "role": "composition",
+          "name": "三木たかし"
+        },
+        {
+          "role": "arrangement",
+          "name": "大谷和夫"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》收錄演唱與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "日本TV第30年度｜逐話插曲曲目及位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31",
+          "label": "日本TV第31年度｜逐話插曲及聖誕片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+          "label": "日本TV 30周年官方｜10月5日原播編成",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424",
+          "label": "第1424話逐回紀錄｜兩首插曲位置及角色",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+            "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+            "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+            "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741606"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741606"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741606"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+          "title": "アンパンマンのマーチ",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "アンパンマンのマーチ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "ANPANMANNO MAACHI",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "ANPANMANNO MAACHI",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "アンパンマンのマーチ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741606",
+          "label": "香港｜ANPANMANNO MAACHI",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741606",
+          "label": "台灣｜ANPANMANNO MAACHI",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741606",
+          "label": "日本｜アンパンマンのマーチ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。商品曲位為ドリーミング演唱，兩話的劇中混音待比對。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-4",
+      "songId": "sore-ike-anpanman-in-4-song",
+      "type": "IN",
+      "sequence": 4,
+      "titleJa": "走れ！SLマン",
+      "artistDisplayName": "ドリーミング（市售錄音）",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第1415話（8月3日）於〈SLマンとゴロンゴロ〉劇中使用，市售版由ドリーミング演唱。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "ドリーミング"
+        },
+        {
+          "role": "lyrics",
+          "name": "やなせたかし"
+        },
+        {
+          "role": "composition",
+          "name": "丸山武彦"
+        },
+        {
+          "role": "arrangement",
+          "name": "近藤浩章"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+          "label": "VAP｜《ベストヒット’19》發行及矢尾一樹新版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4811236",
+          "label": "Tower Records｜《ベストヒット’19》逐曲演唱及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "日本TV第30年度｜逐話插曲曲目及位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+            "https://tower.jp/item/4811236",
+            "https://www.mau2.com/anime/soreikeanpanman-30"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+            "https://tower.jp/item/4811236",
+            "https://www.mau2.com/anime/soreikeanpanman-30"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4-song-dreaming"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4-song-dreaming"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4-song-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4-song-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1445514201"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4-song-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1445514201"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-4-song-dreaming"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1445514201"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-in-4-song-dreaming",
+          "title": "走れ!SLマン",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-83532",
+          "title": "それいけ！アンパンマン ベストヒット’19",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "走れ!SLマン",
+              "position": 15,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-4-song-dreaming"
+            }
+          ],
+          "catalogNumber": "VPCG-83532"
+        },
+        {
+          "id": "apple-hk-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "HASHIRE ESU ERU MAN",
+              "position": 15,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-4-song-dreaming"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "HASHIRE ESU ERU MAN",
+              "position": 15,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-4-song-dreaming"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "走れ!SLマン",
+              "position": 15,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-4-song-dreaming"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1445514201",
+          "label": "香港｜HASHIRE ESU ERU MAN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-4-song-dreaming",
+          "releaseId": "apple-hk-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1445514201",
+          "label": "台灣｜HASHIRE ESU ERU MAN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-4-song-dreaming",
+          "releaseId": "apple-tw-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1445514201",
+          "label": "日本｜走れ!SLマン",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-4-song-dreaming",
+          "releaseId": "apple-jp-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。待確認2018年原播剪輯與市售全長是否同一演出。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-5",
+      "songId": "sore-ike-anpanman-ed-4-song",
+      "type": "IN",
+      "sequence": 5,
+      "titleJa": "ドレミファアンパンマン",
+      "artistDisplayName": "ドリーミング／ドレミ姫（川澄綾子）",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第1417話（8月17日）前段三次使用。約1:25ドリーミング，約6:40ドレミ姫獨唱，約11:00ドレミ姫與ドリーミング。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "ドリーミング"
+        },
+        {
+          "role": "vocals",
+          "name": "川澄綾子"
+        },
+        {
+          "role": "lyrics",
+          "name": "やなせたかし"
+        },
+        {
+          "role": "composition",
+          "name": "TSUKASA"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》收錄演唱與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "日本TV第30年度｜逐話插曲曲目及位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30/ep/1417",
+          "label": "第1417話逐回紀錄｜三處用曲及分別演唱",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1417"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1417"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1417"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-doremi-dreaming-1417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1417"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-doremi-dreaming-1417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-doremi-princess-1417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1417"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-doremi-princess-1417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-doremi-duet-1417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1417"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-doremi-duet-1417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741632"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741632"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741632"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-ed-4-song-doremi-dreaming-1417",
+          "title": "ドレミファアンパンマン（第1417話・ドリーミング）",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "sore-ike-anpanman-ed-4-song-doremi-princess-1417",
+          "title": "ドレミファアンパンマン（第1417話・ドレミ姫）",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "川澄綾子",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "sore-ike-anpanman-ed-4-song-doremi-duet-1417",
+          "title": "ドレミファアンパンマン（第1417話・ドレミ姫與ドリーミング）",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "川澄綾子",
+              "role": "vocals"
+            },
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+          "title": "ドレミファ アンパンマン",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "ドレミファ アンパンマン",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "DOREMIFA ANPANMAN",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "DOREMIFA ANPANMAN",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ドレミファ アンパンマン",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741632",
+          "label": "香港｜DOREMIFA ANPANMAN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741632",
+          "label": "台灣｜DOREMIFA ANPANMAN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741632",
+          "label": "日本｜ドレミファ アンパンマン",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。角色獨唱與合唱尚無獨立曲位，三個片段與市售錄音的關係待比對。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-6",
+      "songId": "sore-ike-anpanman-in-6-song",
+      "type": "IN",
+      "sequence": 6,
+      "titleJa": "アロハオエ",
+      "artistDisplayName": "ニガウリマン・ロコちゃん・モコちゃん",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第1420話（9月7日）前段約6:20起使用。大塚明夫、川澄綾子、能登麻美子以角色演唱。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "大塚明夫"
+        },
+        {
+          "role": "vocals",
+          "name": "川澄綾子"
+        },
+        {
+          "role": "vocals",
+          "name": "能登麻美子"
+        },
+        {
+          "role": "lyrics",
+          "name": "Liliʻuokalani"
+        },
+        {
+          "role": "composition",
+          "name": "Liliʻuokalani"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://digitalarchives.hawaii.gov/item/ark%3A70111/0bwc",
+          "label": "夏威夷州檔案館｜Liliʻuokalani創作原稿",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30",
+          "label": "日本TV第30年度｜逐話插曲曲目及位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-30/ep/1420",
+          "label": "第1420話逐回紀錄｜劇中翻唱的三位演出者",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://digitalarchives.hawaii.gov/item/ark%3A70111/0bwc",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1420"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-6-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1420"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://digitalarchives.hawaii.gov/item/ark%3A70111/0bwc",
+            "https://www.mau2.com/anime/soreikeanpanman-30",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1420"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-6-song-rokomoko-trio-1420"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-30/ep/1420"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-6-song-rokomoko-trio-1420"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-in-6-song-rokomoko-trio-1420",
+          "title": "アロハオエ（第1420話劇中三人演唱）",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "大塚明夫",
+              "role": "vocals"
+            },
+            {
+              "name": "川澄綾子",
+              "role": "vocals"
+            },
+            {
+              "name": "能登麻美子",
+              "role": "vocals"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-7",
+      "songId": "sore-ike-anpanman-in-7-song",
+      "type": "IN",
+      "sequence": 7,
+      "titleJa": "いくぞ！ばいきんまん",
+      "artistDisplayName": "ばいきんまん・ホラーマン（中尾隆聖・矢尾一樹）",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV第1424話（10月5日）約10:45由兩個角色合唱，並有中尾隆聖的市售獨唱版。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "中尾隆聖"
+        },
+        {
+          "role": "vocals",
+          "name": "矢尾一樹"
+        },
+        {
+          "role": "lyrics",
+          "name": "やなせたかし"
+        },
+        {
+          "role": "composition",
+          "name": "いずみたく"
+        },
+        {
+          "role": "arrangement",
+          "name": "近藤浩章"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+          "label": "VAP｜《ベストヒット’18》收錄演唱與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-84911",
+          "label": "VAP｜日本3CD島本須美單列與中尾隆聖原唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4811236",
+          "label": "Tower Records｜《ベストヒット’19》逐曲演唱及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31",
+          "label": "日本TV第31年度｜逐話插曲及聖誕片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424",
+          "label": "第1424話逐回紀錄｜兩首插曲位置及角色",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+          "label": "日本TV 30周年官方｜10月5日原播編成",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+          "label": "VAP｜《ベストヒット’19》發行及矢尾一樹新版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84911",
+            "https://tower.jp/item/4811236",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84911",
+            "https://tower.jp/item/4811236",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-baikin-horror-2018"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-31/ep/1424",
+            "https://www.anpanman.jp/30th/news/2018/0928_01.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-baikin-horror-2018"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84911"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83525"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83525"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1321741610"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1321741610"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1321741605"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1321741605&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1321741610"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1445514037"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1445514037"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-7-song-nakao-solo"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1445514037"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-in-7-song-baikin-horror-2018",
+          "title": "いくぞ！ばいきんまん（第1424話角色合唱）",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "中尾隆聖",
+              "role": "vocals"
+            },
+            {
+              "name": "矢尾一樹",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "sore-ike-anpanman-in-7-song-nakao-solo",
+          "title": "いくぞ！ばいきんまん（中尾隆聖原唱）",
+          "kind": "character",
+          "format": "full",
+          "credits": [
+            {
+              "name": "中尾隆聖",
+              "role": "vocals"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-83525",
+          "title": "それいけ！アンパンマン ベストヒット’18",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "いくぞ！ばいきんまん",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ],
+          "catalogNumber": "VPCG-83525"
+        },
+        {
+          "id": "apple-hk-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "IKUZO BAIKINMAN",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "IKUZO BAIKINMAN",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1321741605",
+          "title": "ANPANMAN BEST HITS '18",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2017-12-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "いくぞ!ばいきんまん",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83532",
+          "title": "それいけ！アンパンマン ベストヒット’19",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "いくぞ！ばいきんまん",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ],
+          "catalogNumber": "VPCG-83532"
+        },
+        {
+          "id": "apple-hk-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "IKUZO BAIKINMAN",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "IKUZO BAIKINMAN",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "いくぞ!ばいきんまん",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1321741610",
+          "label": "香港｜IKUZO BAIKINMAN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo",
+          "releaseId": "apple-hk-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1321741610",
+          "label": "台灣｜IKUZO BAIKINMAN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo",
+          "releaseId": "apple-tw-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1321741610",
+          "label": "日本｜いくぞ!ばいきんまん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo",
+          "releaseId": "apple-jp-1321741605",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1445514037",
+          "label": "香港｜IKUZO BAIKINMAN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo",
+          "releaseId": "apple-hk-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1445514037",
+          "label": "台灣｜IKUZO BAIKINMAN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo",
+          "releaseId": "apple-tw-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1445514037",
+          "label": "日本｜いくぞ!ばいきんまん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-7-song-nakao-solo",
+          "releaseId": "apple-jp-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-8",
+      "songId": "sore-ike-anpanman-in-8-song",
+      "type": "IN",
+      "sequence": 8,
+      "titleJa": "ホラーマンメチャクチャチャ",
+      "artistDisplayName": "ホラーマン（矢尾一樹）",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV第1433話（12月7日）劇中使用。2018唱片由矢尾一樹另錄，亦有肝付兼太與岡本幸輔的不同唱片版本。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "矢尾一樹"
+        },
+        {
+          "role": "lyrics",
+          "name": "やなせたかし"
+        },
+        {
+          "role": "composition",
+          "name": "いずみたく"
+        },
+        {
+          "role": "composition",
+          "name": "近藤浩章"
+        },
+        {
+          "role": "arrangement",
+          "name": "近藤浩章"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+          "label": "VAP｜《ベストヒット’19》發行及矢尾一樹新版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83546",
+          "label": "VAP｜《ベストヒット’21》矢尾一樹及和聲署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4811236",
+          "label": "Tower Records｜《ベストヒット’19》逐曲演唱及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/7663975",
+          "label": "Tower Records｜岡本幸輔2026錄音及創作者",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31",
+          "label": "日本TV第31年度｜逐話插曲及聖誕片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1542941111&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1542941111&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1542941111&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://music.amazon.co.jp/tracks/B08PFR44TC",
+          "label": "Amazon Music日本｜矢尾一樹及ドリーミング2018錄音",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83507",
+          "label": "VAP｜肝付兼太較早收錄版及曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83578",
+          "label": "VAP｜岡本幸輔2026版本及日本唱片曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://music.amazon.co.jp/tracks/B0G5X19KL5",
+          "label": "Amazon Music日本｜岡本幸輔2026版本曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83546",
+            "https://tower.jp/item/4811236",
+            "https://tower.jp/item/7663975",
+            "https://www.mau2.com/anime/soreikeanpanman-31"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.mau2.com/anime/soreikeanpanman-31"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83546",
+            "https://tower.jp/item/4811236",
+            "https://tower.jp/item/7663975",
+            "https://www.mau2.com/anime/soreikeanpanman-31"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83546",
+            "https://tower.jp/item/4811236"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83532"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/4811236"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83532"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1445514040"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1445514040"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1445514031"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1445514031&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1445514040"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1542941111"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1542941119"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1542941111"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1542941119"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-yao-2018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1542941111"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1542941111&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1542941119"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.amazon.co.jp/tracks/B08PFR44TC"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.amazon.co.jp/tracks/B08PFR44TC"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83507"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-kimotsuki-original"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83507"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-kimotsuki-original"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83507"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-kimotsuki-original"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83507"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83507"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83578"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-okamoto-2026"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83578",
+            "https://tower.jp/item/7663975"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-okamoto-2026"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83578"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-okamoto-2026"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/7663975",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83578"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-8-song-okamoto-2026"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-83578"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83578"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/7663975"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-83578"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.amazon.co.jp/tracks/B0G5X19KL5"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.amazon.co.jp/tracks/B0G5X19KL5"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-in-8-song-yao-2018",
+          "title": "ホラーマンメチャクチャチャ2018",
+          "kind": "character",
+          "format": "full",
+          "credits": [
+            {
+              "name": "矢尾一樹",
+              "role": "vocals"
+            },
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "sore-ike-anpanman-in-8-song-kimotsuki-original",
+          "title": "ホラーマンメチャクチャチャ（肝付兼太）",
+          "kind": "character",
+          "format": "full",
+          "credits": [
+            {
+              "name": "肝付兼太",
+              "role": "vocals"
+            },
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "sore-ike-anpanman-in-8-song-okamoto-2026",
+          "title": "ホラーマンメチャクチャチャ 2026",
+          "kind": "character",
+          "format": "full",
+          "credits": [
+            {
+              "name": "岡本幸輔",
+              "role": "vocals"
+            },
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-83532",
+          "title": "それいけ！アンパンマン ベストヒット’19",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "ホラーマンメチャクチャチャ2018",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-yao-2018"
+            }
+          ],
+          "catalogNumber": "VPCG-83532"
+        },
+        {
+          "id": "apple-hk-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "HORAAMAN MECHAKUCHACHA 2018",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-yao-2018"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "HORAAMAN MECHAKUCHACHA 2018",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-yao-2018"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1445514031",
+          "title": "ANPANMAN BEST HITS '19",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-19",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ホラーマンメチャクチャチャ2018",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-yao-2018"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1542941111",
+          "title": "ANPANMAN BEST HITS '21",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2020-12-16",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "HORAAMAN MECHAKUCHACHA 2018",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-yao-2018"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1542941111",
+          "title": "ANPANMAN BEST HITS '21",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2020-12-16",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "HORAAMAN MECHAKUCHACHA 2018",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-yao-2018"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1542941111",
+          "title": "ANPANMAN BEST HITS '21",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2020-12-16",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ホラーマンメチャクチャチャ2018",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-yao-2018"
+            }
+          ]
+        },
+        {
+          "id": "vpcg-83507",
+          "title": "それいけ！アンパンマン ベストヒット’16",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2015-12-23",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "ホラーマンメチャクチャチャ",
+              "position": 9,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-kimotsuki-original"
+            }
+          ],
+          "catalogNumber": "VPCG-83507"
+        },
+        {
+          "id": "vpcg-83578",
+          "title": "それいけ！アンパンマン ベストヒット’26",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2025-12-24",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "ホラーマンメチャクチャチャ 2026",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-8-song-okamoto-2026"
+            }
+          ],
+          "catalogNumber": "VPCG-83578"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1445514040",
+          "label": "香港｜HORAAMAN MECHAKUCHACHA 2018",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-yao-2018",
+          "releaseId": "apple-hk-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1445514040",
+          "label": "台灣｜HORAAMAN MECHAKUCHACHA 2018",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-yao-2018",
+          "releaseId": "apple-tw-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1445514040",
+          "label": "日本｜ホラーマンメチャクチャチャ2018",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-yao-2018",
+          "releaseId": "apple-jp-1445514031",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1542941119",
+          "label": "香港｜HORAAMAN MECHAKUCHACHA 2018",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-yao-2018",
+          "releaseId": "apple-hk-1542941111",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1542941119",
+          "label": "台灣｜HORAAMAN MECHAKUCHACHA 2018",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-yao-2018",
+          "releaseId": "apple-tw-1542941111",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1542941119",
+          "label": "日本｜ホラーマンメチャクチャチャ2018",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-yao-2018",
+          "releaseId": "apple-jp-1542941111",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Amazon Music",
+          "url": "https://music.amazon.co.jp/tracks/B08PFR44TC",
+          "label": "Amazon Music｜ホラーマンメチャクチャチャ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-yao-2018",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Amazon Music",
+          "url": "https://music.amazon.co.jp/tracks/B0G5X19KL5",
+          "label": "Amazon Music｜ホラーマンメチャクチャチャ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-8-song-okamoto-2026",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。第1433話屬矢尾一樹時期。是否使用2018商品錄音，仍須核對原播音軌。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-ed-5",
+      "songId": "chibi-maruko-chan-1995-jingle-bells-song",
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "ジングルベル",
+      "artistDisplayName": "日本播出演唱名義待核",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV 2018年12月21日〈アンパンマンとはじめてのクリスマスナイト〉片尾。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "James Lord Pierpont"
+        },
+        {
+          "role": "composition",
+          "name": "James Lord Pierpont"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/2023812429/",
+          "label": "美國國會圖書館｜James Pierpont初版樂譜",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+          "label": "VAP｜日本聖誕歌CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+          "label": "VAP｜聖誕特別話日本DVD及原主題歌",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31",
+          "label": "日本TV第31年度｜逐話插曲及聖誕片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tgws.plus/anpandb/tv-xmas2018",
+          "label": "《麵包超人》逐話DB｜2018聖誕特別話片頭、片尾與播出日",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html",
+          "label": "聖誕特別話回看紀錄｜節目音樂及回目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.yodobashi.com/product/100000009001952440/",
+          "label": "日本CD曲序及各音源錄音署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.loc.gov/item/2023812429/",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-ed-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.loc.gov/item/2023812429/",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.yodobashi.com/product/100000009001952440/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.yodobashi.com/product/100000009001952440/",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-84956"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.yodobashi.com/product/100000009001952440/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-84956"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/738901365"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/738901365"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/738901365"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "title": "ジングルベル（ドリーミング市售版）",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            },
+            {
+              "name": "宮沢章二",
+              "role": "translation"
+            },
+            {
+              "name": "近藤浩章",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-84956",
+          "title": "それいけ！アンパンマン アンパンマンといっしょにクリスマス",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "ジングルベル",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ],
+          "catalogNumber": "VPCG-84956"
+        },
+        {
+          "id": "apple-hk-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "JINGURU BERU",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "JINGURU BERU",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ジングルベル",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/738901365",
+          "label": "香港｜JINGURU BERU",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "releaseId": "apple-hk-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/738901365",
+          "label": "台灣｜JINGURU BERU",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "releaseId": "apple-tw-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/738901365",
+          "label": "日本｜ジングルベル",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "releaseId": "apple-jp-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。市售ドリーミング錄音另列日本語譯詞，劇中與片尾的演唱及編曲仍待對照。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-9",
+      "songId": "chibi-maruko-chan-1995-jingle-bells-song",
+      "type": "IN",
+      "sequence": 9,
+      "titleJa": "ジングルベル",
+      "artistDisplayName": "日本播出演唱名義待核",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV 2018年12月21日〈アンパンマンとはじめてのクリスマスナイト〉亦在故事內使用。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "James Lord Pierpont"
+        },
+        {
+          "role": "composition",
+          "name": "James Lord Pierpont"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/2023812429/",
+          "label": "美國國會圖書館｜James Pierpont初版樂譜",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+          "label": "VAP｜日本聖誕歌CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+          "label": "VAP｜聖誕特別話日本DVD及原主題歌",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31",
+          "label": "日本TV第31年度｜逐話插曲及聖誕片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tgws.plus/anpandb/tv-xmas2018",
+          "label": "《麵包超人》逐話DB｜2018聖誕特別話片頭、片尾與播出日",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html",
+          "label": "聖誕特別話回看紀錄｜節目音樂及回目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.yodobashi.com/product/100000009001952440/",
+          "label": "日本CD曲序及各音源錄音署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.loc.gov/item/2023812429/",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-9"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.loc.gov/item/2023812429/",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.yodobashi.com/product/100000009001952440/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.yodobashi.com/product/100000009001952440/",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-84956"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.yodobashi.com/product/100000009001952440/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-84956"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/738901365"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/738901365"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/738901365"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "title": "ジングルベル（ドリーミング市售版）",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            },
+            {
+              "name": "宮沢章二",
+              "role": "translation"
+            },
+            {
+              "name": "近藤浩章",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-84956",
+          "title": "それいけ！アンパンマン アンパンマンといっしょにクリスマス",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "ジングルベル",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ],
+          "catalogNumber": "VPCG-84956"
+        },
+        {
+          "id": "apple-hk-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "JINGURU BERU",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "JINGURU BERU",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ジングルベル",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/738901365",
+          "label": "香港｜JINGURU BERU",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "releaseId": "apple-hk-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/738901365",
+          "label": "台灣｜JINGURU BERU",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "releaseId": "apple-tw-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/738901365",
+          "label": "日本｜ジングルベル",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "chibi-maruko-chan-1995-jingle-bells-song-anpanman-dreaming-2013",
+          "releaseId": "apple-jp-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。市售ドリーミング錄音另列日本語譯詞，劇中與片尾的演唱及編曲仍待對照。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-10",
+      "songId": "sore-ike-anpanman-in-10-song",
+      "type": "IN",
+      "sequence": 10,
+      "titleJa": "クリスマスの谷",
+      "artistDisplayName": "ドリーミング（市售錄音）",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV 2018年12月21日聖誕特別話的劇中用曲。收錄版歌手為ドリーミング。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "ドリーミング"
+        },
+        {
+          "role": "lyrics",
+          "name": "やなせたかし"
+        },
+        {
+          "role": "composition",
+          "name": "いずみたく"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://tgws.plus/anpandb/music-72",
+          "label": "《麵包超人》音樂DB｜〈クリスマスの谷〉詞曲與演唱",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/311000",
+          "label": "Billboard Japan｜VPCG-80902唱片曲序與歌手",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601",
+          "label": "港區立圖書館｜VPCG-80902唱片發行及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+          "label": "VAP｜聖誕特別話日本DVD及原主題歌",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31",
+          "label": "日本TV第31年度｜逐話插曲及聖誕片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tgws.plus/anpandb/tv-xmas2018",
+          "label": "《麵包超人》逐話DB｜2018聖誕特別話片頭、片尾與播出日",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html",
+          "label": "聖誕特別話回看紀錄｜節目音樂及回目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tgws.plus/anpandb/music-72",
+            "https://www.billboard-japan.com/goods/detail/311000",
+            "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-10-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-10"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tgws.plus/anpandb/music-72",
+            "https://www.billboard-japan.com/goods/detail/311000",
+            "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-10-song-dreaming-valley"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601",
+            "https://www.billboard-japan.com/goods/detail/311000",
+            "https://tgws.plus/anpandb/music-72"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-10-song-dreaming-valley"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-10-song-dreaming-valley"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/311000",
+            "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-10-song-dreaming-valley"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lib.city.minato.tokyo.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=3000000002601"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-80902"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/311000"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-80902"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-in-10-song-dreaming-valley",
+          "title": "クリスマスの谷（ドリーミング市售錄音）",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-80902",
+          "title": "それいけ！アンパンマン みんなでクリスマス",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2004-11-25",
+            "precision": "day"
+          },
+          "edition": "日本繪本附CD",
+          "tracks": [
+            {
+              "title": "クリスマスの谷",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-10-song-dreaming-valley"
+            }
+          ],
+          "catalogNumber": "VPCG-80902"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。未核到可播放的港區曲位。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "sore-ike-anpanman-in-11",
+      "songId": "sore-ike-anpanman-in-11-song",
+      "type": "IN",
+      "sequence": 11,
+      "titleJa": "サンタが町にやってくる",
+      "artistDisplayName": "日本播出演唱名義待核",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV 2018年12月21日聖誕特別話的劇中用曲。市售的ドレミ姫及ドリーミング版本另載。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "ヘイヴン・ガレスピー"
+        },
+        {
+          "role": "composition",
+          "name": "J.フレッド・クーツ"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+          "label": "VAP｜日本聖誕歌CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.yodobashi.com/product/100000009001952440/",
+          "label": "日本CD曲序及各音源錄音署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+          "label": "日本電視台｜2018年12月21日聖誕特別話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+          "label": "VAP｜聖誕特別話日本DVD及原主題歌",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/soreikeanpanman-31",
+          "label": "日本TV第31年度｜逐話插曲及聖誕片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tgws.plus/anpandb/tv-xmas2018",
+          "label": "《麵包超人》逐話DB｜2018聖誕特別話片頭、片尾與播出日",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html",
+          "label": "聖誕特別話回看紀錄｜節目音樂及回目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+          "label": "日本電視台｜2018年原播日期及回目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.yodobashi.com/product/100000009001952440/",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.yodobashi.com/product/100000009001952440/",
+            "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+            "https://store.vap.co.jp/syousai.asp?item=VPBE-14876",
+            "https://www.mau2.com/anime/soreikeanpanman-31",
+            "https://tgws.plus/anpandb/tv-xmas2018",
+            "https://ameblo.jp/jibajibatafutafu/entry-12939801404.html"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956",
+            "https://www.yodobashi.com/product/100000009001952440/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.yodobashi.com/product/100000009001952440/",
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.vap.co.jp/syousai.asp?item=VPCG-84956"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-84956"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.yodobashi.com/product/100000009001952440/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "vpcg-84956"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/738901367"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/738901367"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-738901267"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=738901267&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/738901367"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013",
+          "title": "サンタが町にやってくる（ドレミ姫與ドリーミング市售版）",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "川澄綾子",
+              "role": "vocals"
+            },
+            {
+              "name": "ドリーミング",
+              "role": "vocals"
+            },
+            {
+              "name": "神戸孝夫",
+              "role": "translation"
+            },
+            {
+              "name": "近藤浩章",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "vpcg-84956",
+          "title": "それいけ！アンパンマン アンパンマンといっしょにクリスマス",
+          "artistDisplayName": "V.A.",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "日本 CD",
+          "tracks": [
+            {
+              "title": "サンタが町にやってくる",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+            }
+          ],
+          "catalogNumber": "VPCG-84956"
+        },
+        {
+          "id": "apple-hk-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "SANTA CLAUS IS COMING TO TOWN",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "Dreaming",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "SANTA CLAUS IS COMING TO TOWN",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-738901267",
+          "title": "ANPANMAN TO ISSHO NI CHRISTMAS",
+          "artistDisplayName": "ドリーミング",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2013-11-20",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "サンタが町にやってくる",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/738901367",
+          "label": "香港｜SANTA CLAUS IS COMING TO TOWN",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013",
+          "releaseId": "apple-hk-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/738901367",
+          "label": "台灣｜SANTA CLAUS IS COMING TO TOWN",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013",
+          "releaseId": "apple-tw-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/738901367",
+          "label": "日本｜サンタが町にやってくる",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sore-ike-anpanman-in-11-song-doremi-dreaming-2013",
+          "releaseId": "apple-jp-738901267",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "已記電視使用及已查到的其他發行。劇中演出者及日語唱詞須由合法正篇對照。",
+          "resumeWhen": "取得該話日本原播、正版DVD或權利方逐曲記錄時，核對精確音軌、編曲與各平台的發行對應。",
+          "checkedAt": "2026-11-20"
         }
       ]
     }
@@ -3990,7 +12289,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "label": "香港翡翠台節目表使用《麵包超人》",
       "role": "first_party",
       "language": "zh-Hant",
-      "verifiedAt": "2026-11-16"
+      "verifiedAt": "2026-11-20"
     },
     {
       "url": "https://www.ntv.co.jp/anpanman/articles/1285horciamu7groncu.html",
@@ -4082,6 +12381,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.ntv.co.jp/anpanman/tv_info/2018.html",
+      "label": "日本電視台｜2018年逐話原播、劇場版拆播及聖誕編成",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.anpanman.jp/30th/news/2018/0928_01.html",
+      "label": "30周年製作委員會｜第1424話起新片頭畫面及原播時刻",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://blog.tms-e.co.jp/archives/50544298.html",
+      "label": "TMS娛樂｜2016年起日本電視台移至週五10:55",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.ntv.co.jp/anpanman/articles/128h5h6vvnxfy1u4n33.html",
+      "label": "日本電視台｜2018年12月21日聖誕特別話時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
     }
   ]
 },
@@ -4121,7 +12448,11 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "2019-winter",
     "2019-spring",
     "2019-summer",
-    "2019-fall"
+    "2019-fall",
+    "2018-winter",
+    "2018-spring",
+    "2018-summer",
+    "2018-fall"
   ],
   "startDate": "1969-10-05",
   "titleJa": "サザエさん",
@@ -4135,13 +12466,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "status": "airing",
   "officialSiteUrl": "https://www.fujitv.co.jp/sazaesan/intro.html",
   "anilistUrl": "https://anilist.co/anime/2406/Sazae-san",
-  "broadcastLabel": "1969/10/5富士電視台首播。日本電視週日18:30–19:00 JST。2020/5/17–6/14以重播代替新話，6/21恢復新話。",
+  "broadcastLabel": "1969/10/5富士電視台首播。日本電視週日18:30–19:00 JST。2020/5/17–6/14以重播代替新話，6/21恢復新話。 2018年富士電視台同為週日18:30–19:00 JST。9月9日於FNS27小時特別節目內播出。",
   "sourceReferenceUrls": [
     "https://www.momokids.com.tw/program-view.php?infoid=402&lmenuid=2&qpmid=1",
-    "https://anilist.co/anime/2406/Sazae-san"
+    "https://anilist.co/anime/2406/Sazae-san",
+    "https://www.fujitv.co.jp/company/action/pdf/201803.pdf",
+    "https://www.fujitv.co.jp/muscat/20180582.html",
+    "https://www.sazaesan.jp/history.html",
+    "https://eiken-anime.jp/?p=1852",
+    "https://www.fujitv.co.jp/fujitv/news/20250959.html",
+    "https://ani.gamer.com.tw/animeVideo.php?sn=51050"
   ],
   "verifiedAt": "2026-11-16",
-  "metadataVerifiedAt": "2026-11-19",
+  "metadataVerifiedAt": "2026-11-20",
   "themes": [
     {
       "type": "OP",
@@ -4254,14 +12591,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "動畫官方50周年年表與播出日",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.mau2.com/anime/sazaesan-50",
           "label": "原播第50年度分集題名與 OP／ED 對照",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.mau2.com/anime/sazaesan-51",
@@ -4332,6 +12669,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.fujitv.co.jp/company/action/pdf/201803.pdf",
+          "label": "富士電視台2018年3月節目分類｜週日18:30–19:00",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.fujitv.co.jp/muscat/20180582.html",
+          "label": "富士電視台｜9月9日FNS27小時節目特別話及播出時刻",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.sazaesan.jp/trip.html",
+          "label": "日本TV官方片頭紀錄｜岡山縣、鹿兒島縣與靜岡縣",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://eiken-anime.jp/?p=1852",
+          "label": "エイケン｜日本常規播出及官方片頭畫面沿革",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/sazaesan-49",
+          "label": "第49年度日本原播分集及片頭片尾歌曲紀錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://eiken-anime.jp/?p=1988",
+          "label": "エイケン｜宇野ゆう子歌曲作詞及筒美京平曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba",
+          "label": "Qobuz日本數位版｜不同長度、編曲、聲演及唱片標示",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -4396,6 +12796,60 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-19",
           "releaseId": "spotify-0oyfnykirejcvhepkfsk7n"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/829758740",
+          "label": "台灣｜Sazaesan",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-op-1-song-1992-vocal",
+          "releaseId": "apple-tw-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/829758740",
+          "label": "日本｜サザエさん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-op-1-song-1992-vocal",
+          "releaseId": "apple-jp-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/829758744",
+          "label": "台灣｜Sazaesan (Karaoke)",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-op-1-song-1992-karaoke",
+          "releaseId": "apple-tw-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/829758744",
+          "label": "日本｜サザエさん (カラオケ)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-op-1-song-1992-karaoke",
+          "releaseId": "apple-jp-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Qobuz",
+          "url": "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba",
+          "label": "Qobuz日本｜サザエさん數位購買",
+          "region": "JP",
+          "linkType": "digital_purchase",
+          "releaseId": "qobuz-jp-sj1f6ctumvfba",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -4629,6 +13083,140 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://open.spotify.com/album/0OYfnYKIrEjcvHEPkfSK7n"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.fujitv.co.jp/company/action/pdf/201803.pdf",
+            "https://www.fujitv.co.jp/muscat/20180582.html",
+            "https://www.sazaesan.jp/history.html",
+            "https://www.sazaesan.jp/trip.html",
+            "https://eiken-anime.jp/?p=1852",
+            "https://www.mau2.com/anime/sazaesan-49",
+            "https://www.mau2.com/anime/sazaesan-50"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sazae-san-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://eiken-anime.jp/?p=1988",
+            "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-829758714"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/829758740"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-829758714"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/829758740"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/829758744"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/829758744"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "qobuz-jp-sj1f6ctumvfba"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
         }
       ],
       "sourceMode": "explicit",
@@ -4644,6 +13232,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "筒美京平",
           "role": "composition"
+        },
+        {
+          "name": "筒美京平",
+          "role": "arrangement"
         }
       ],
       "seasonIds": [
@@ -4678,10 +13270,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2026-winter",
         "2026-spring",
         "2026-summer",
-        "2026-fall"
+        "2026-fall",
+        "2018-winter",
+        "2018-spring",
+        "2018-summer",
+        "2018-fall"
       ],
-      "usageLabel": "富士電視台原系列常規片頭，2020冬至2026秋（截至2026/10/14）。2020年畫面依次為愛知冬篇、東京春篇、東京夏篇、大分與熊本阿蘇。2019年富士台原播例包括冬季3月31日第2498回〈アポなしの達人〉、春季4月7日第2499回〈波平ダンス教室〉、夏季8月25日第2519回〈悩ましき日記〉及秋季10月6日第2525回〈ぼくは正直者〉。集數依日本節目指南，分集用曲表分別編為2527、2528、2548、2554，以各回故事題名對應。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "富士電視台原系列常規片頭，2020冬至2026秋（截至2026/10/14）。2020年畫面依次為愛知冬篇、東京春篇、東京夏篇、大分與熊本阿蘇。2019年富士台原播例包括冬季3月31日第2498回〈アポなしの達人〉、春季4月7日第2499回〈波平ダンス教室〉、夏季8月25日第2519回〈悩ましき日記〉及秋季10月6日第2525回〈ぼくは正直者〉。集數依日本節目指南，分集用曲表分別編為2527、2528、2548、2554，以各回故事題名對應。 2018年富士電視台四季常規原播沿用，包括7月1日含作品No.7777〈あさひが丘の織姫さま〉及9月9日FNS27小時節目〈わが家のみそ汁紀行〉。 2018年冬岡山縣、春夏鹿兒島縣及秋靜岡縣為畫面變更。",
+      "lastVerifiedAt": "2026-11-20",
       "recordings": [
         {
           "id": "sazae-san-op-1-song-tycn60100-vocal",
@@ -4796,6 +13392,78 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "EMI Music Japan Inc."
+        },
+        {
+          "id": "apple-tw-829758714",
+          "title": "Sazaesan - EP",
+          "artistDisplayName": "Yuko Uno",
+          "type": "ep",
+          "region": "TW",
+          "date": {
+            "value": "1992-09-23",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Sazaesan",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sazae-san-op-1-song-1992-vocal"
+            },
+            {
+              "title": "Sazaesan (Karaoke)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "sazae-san-op-1-song-1992-karaoke"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-829758714",
+          "title": "Sazaesan - EP",
+          "artistDisplayName": "宇野ゆう子",
+          "type": "ep",
+          "region": "JP",
+          "date": {
+            "value": "1992-09-23",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "サザエさん",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "sazae-san-op-1-song-1992-vocal"
+            },
+            {
+              "title": "サザエさん (カラオケ)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "sazae-san-op-1-song-1992-karaoke"
+            }
+          ]
+        },
+        {
+          "id": "qobuz-jp-sj1f6ctumvfba",
+          "title": "サザエさん",
+          "type": "single",
+          "artistDisplayName": "宇野ゆう子",
+          "region": "JP",
+          "date": {
+            "value": "2015-05-20",
+            "precision": "day"
+          },
+          "edition": "Qobuz日本數位版",
+          "label": "Universal Music LLC",
+          "tracks": [
+            {
+              "title": "サザエさん",
+              "disc": 1,
+              "position": 1
+            }
+          ]
         }
       ],
       "followUp": [
@@ -4811,6 +13479,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "已核2020至截止日的常規原電視用途及日本兩版曲位。電視、CD及黑膠的音源版本關係待查。已對照香港 Apple Music 及 Spotify 的1992年數位單曲，平台另列卡拉OK。",
           "resumeWhen": "待具名特輯或逐話換曲、台灣配音版歌曲署名、權利方音源尺寸、各平台母帶對應或香港完整播放可核。",
           "checkedAt": "2026-11-19"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "Qobuz日本第1曲列2分55秒、宇野ゆう子及筒美京平編曲，香港Apple Music曲長有差異。",
+          "resumeWhen": "取得原播音軌、原盤內頁或權利方音源對照後，確認不同平台母帶與電視剪輯；另比對9月9日FNS版畫面。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -4883,14 +13559,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "動畫官方50周年年表與播出日",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.mau2.com/anime/sazaesan-50",
           "label": "原播第50年度分集題名與 OP／ED 對照",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.mau2.com/anime/sazaesan-51",
@@ -4961,6 +13637,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.fujitv.co.jp/company/action/pdf/201803.pdf",
+          "label": "富士電視台2018年3月節目分類｜週日18:30–19:00",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.fujitv.co.jp/muscat/20180582.html",
+          "label": "富士電視台｜9月9日FNS27小時節目特別話及播出時刻",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.sazaesan.jp/trip.html",
+          "label": "日本TV官方片頭紀錄｜岡山縣、鹿兒島縣與靜岡縣",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://eiken-anime.jp/?p=1852",
+          "label": "エイケン｜日本常規播出及官方片頭畫面沿革",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/sazaesan-49",
+          "label": "第49年度日本原播分集及片頭片尾歌曲紀錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://eiken-anime.jp/?p=1988",
+          "label": "エイケン｜宇野ゆう子歌曲作詞及筒美京平曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba",
+          "label": "Qobuz日本數位版｜不同長度、編曲、聲演及唱片標示",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -5025,6 +13764,60 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-19",
           "releaseId": "spotify-0oyfnykirejcvhepkfsk7n"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/829758742",
+          "label": "台灣｜Sazawsan Ikka",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-ed-1-song-1992-vocal",
+          "releaseId": "apple-tw-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/829758742",
+          "label": "日本｜サザエさん一家",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-ed-1-song-1992-vocal",
+          "releaseId": "apple-jp-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/829758745",
+          "label": "台灣｜Sazaesan Ikka (Karaoke)",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-ed-1-song-1992-karaoke",
+          "releaseId": "apple-tw-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/829758745",
+          "label": "日本｜サザエさん一家 (カラオケ)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "sazae-san-ed-1-song-1992-karaoke",
+          "releaseId": "apple-jp-829758714",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Qobuz",
+          "url": "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba",
+          "label": "Qobuz日本｜サザエさん一家數位購買",
+          "region": "JP",
+          "linkType": "digital_purchase",
+          "releaseId": "qobuz-jp-sj1f6ctumvfba",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -5252,6 +14045,140 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://open.spotify.com/album/0OYfnYKIrEjcvHEPkfSK7n"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.fujitv.co.jp/company/action/pdf/201803.pdf",
+            "https://www.fujitv.co.jp/muscat/20180582.html",
+            "https://www.sazaesan.jp/history.html",
+            "https://www.sazaesan.jp/trip.html",
+            "https://eiken-anime.jp/?p=1852",
+            "https://www.mau2.com/anime/sazaesan-49",
+            "https://www.mau2.com/anime/sazaesan-50"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "sazae-san-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://eiken-anime.jp/?p=1988",
+            "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-829758714"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/829758742"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-829758714"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/829758742"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/829758745"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=829758714&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/829758745"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "qobuz-jp-sj1f6ctumvfba"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://www.qobuz.com/jp-ja/album/sazae-san-yuko-uno/sj1f6ctumvfba"
         }
       ],
       "sourceMode": "explicit",
@@ -5267,6 +14194,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "筒美京平",
           "role": "composition"
+        },
+        {
+          "name": "筒美京平",
+          "role": "arrangement"
         }
       ],
       "seasonIds": [
@@ -5301,10 +14232,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2026-winter",
         "2026-spring",
         "2026-summer",
-        "2026-fall"
+        "2026-fall",
+        "2018-winter",
+        "2018-spring",
+        "2018-summer",
+        "2018-fall"
       ],
-      "usageLabel": "富士電視台原系列常規片尾，2020冬至2026秋（截至2026/10/14）。2019年富士台原播例包括冬季3月31日第2498回〈アポなしの達人〉、春季4月7日第2499回〈波平ダンス教室〉、夏季8月25日第2519回〈悩ましき日記〉及秋季10月6日第2525回〈ぼくは正直者〉。集數依日本節目指南，分集用曲表分別編為2527、2528、2548、2554，以各回故事題名對應。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "富士電視台原系列常規片尾，2020冬至2026秋（截至2026/10/14）。2019年富士台原播例包括冬季3月31日第2498回〈アポなしの達人〉、春季4月7日第2499回〈波平ダンス教室〉、夏季8月25日第2519回〈悩ましき日記〉及秋季10月6日第2525回〈ぼくは正直者〉。集數依日本節目指南，分集用曲表分別編為2527、2528、2548、2554，以各回故事題名對應。 2018年富士電視台四季常規原播沿用，包括7月1日含作品No.7777〈あさひが丘の織姫さま〉及9月9日FNS27小時節目〈わが家のみそ汁紀行〉。",
+      "lastVerifiedAt": "2026-11-20",
       "recordings": [
         {
           "id": "sazae-san-ed-1-song-tycn60100-vocal",
@@ -5419,6 +14354,78 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "EMI Music Japan Inc."
+        },
+        {
+          "id": "apple-tw-829758714",
+          "title": "Sazaesan - EP",
+          "artistDisplayName": "Yuko Uno",
+          "type": "ep",
+          "region": "TW",
+          "date": {
+            "value": "1992-09-23",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Sazawsan Ikka",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "sazae-san-ed-1-song-1992-vocal"
+            },
+            {
+              "title": "Sazaesan Ikka (Karaoke)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "sazae-san-ed-1-song-1992-karaoke"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-829758714",
+          "title": "Sazaesan - EP",
+          "artistDisplayName": "宇野ゆう子",
+          "type": "ep",
+          "region": "JP",
+          "date": {
+            "value": "1992-09-23",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "サザエさん一家",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "sazae-san-ed-1-song-1992-vocal"
+            },
+            {
+              "title": "サザエさん一家 (カラオケ)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "sazae-san-ed-1-song-1992-karaoke"
+            }
+          ]
+        },
+        {
+          "id": "qobuz-jp-sj1f6ctumvfba",
+          "title": "サザエさん",
+          "type": "single",
+          "artistDisplayName": "宇野ゆう子",
+          "region": "JP",
+          "date": {
+            "value": "2015-05-20",
+            "precision": "day"
+          },
+          "edition": "Qobuz日本數位版",
+          "label": "Universal Music LLC",
+          "tracks": [
+            {
+              "title": "サザエさん一家",
+              "disc": 1,
+              "position": 2
+            }
+          ]
         }
       ],
       "followUp": [
@@ -5434,6 +14441,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "已核2020至截止日的常規原電視用途及日本兩版曲位。電視、CD及黑膠的音源版本關係待查。已對照香港 Apple Music 及 Spotify 的1992年數位單曲，平台另列卡拉OK。",
           "resumeWhen": "待具名特輯或逐話換曲、台灣配音版歌曲署名、權利方音源尺寸、各平台母帶對應或香港完整播放可核。",
           "checkedAt": "2026-11-19"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "Qobuz日本第2曲列3分24秒、宇野ゆう子及角色聲演，香港Apple Music曲長有差異。",
+          "resumeWhen": "取得原播音軌、原盤內頁或權利方音源對照後，確認不同平台母帶與電視剪輯；另比對9月9日FNS版畫面。",
+          "checkedAt": "2026-11-20"
         }
       ]
     }
@@ -5500,7 +14515,42 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "label": "動畫官方50周年年表與播出日",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-11-19"
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/company/action/pdf/201803.pdf",
+      "label": "富士電視台2018年3月節目分類｜週日18:30–19:00",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/muscat/20180582.html",
+      "label": "富士電視台｜9月9日FNS27小時節目特別話及播出時刻",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://eiken-anime.jp/?p=1852",
+      "label": "エイケン｜日本常規播出及官方片頭畫面沿革",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/fujitv/news/20250959.html",
+      "label": "富士電視台｜FOD與U-NEXT 1997–2018年精選配信",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://ani.gamer.com.tw/animeVideo.php?sn=51050",
+      "label": "動畫瘋｜授權繁中片名及代理商",
+      "role": "localized_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-20"
     }
   ]
 },
@@ -123334,4114 +132384,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
 
-  {
-  "catalogKey": -201723701,
-  "id": "curated-pierrot-black-clover-2017",
-  "slug": "black-clover-2017",
-  "seasonIds": [
-    "2020-winter",
-    "2020-summer",
-    "2021-winter",
-    "2020-spring",
-    "2020-fall",
-    "2019-winter",
-    "2019-spring",
-    "2019-summer",
-    "2019-fall"
-  ],
-  "verifiedAt": "2026-10-31",
-  "metadataVerifiedAt": "2026-10-31",
-  "metadataSources": [
-    {
-      "url": "https://pierrot.jp/archive/2015/tv10_29.html",
-      "label": "原日本TV作品識別、播出期間與節目形式：スタジオぴえろ公式サイト",
-      "role": "identifier",
-      "language": "ja",
-      "verifiedAt": "2026-10-31"
-    },
-    {
-      "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/onair/",
-      "label": "原版每週播出日與開始時刻：テレビ東京アニメ公式",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-31"
-    },
-    {
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/24644_201711211825.html",
-      "label": "原版歷史單話完整播出時段：テレビ東京",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-31"
-    },
-    {
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-      "label": "原版歷史播出與後續版本交叉核對：中文維基百科",
-      "role": "broadcast_cross_check",
-      "language": "multi",
-      "verifiedAt": "2026-10-31"
-    },
-    {
-      "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/news/",
-      "label": "原版2020至2021年換曲與新話恢復公告：テレビ東京アニメ公式",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-31"
-    }
-  ],
-  "themeAvailability": "documented",
-  "startDate": "2017-10-03",
-  "titleJa": "ブラッククローバー",
-  "editorialWeekday": 2,
-  "broadcastTimeJst": "18:25",
-  "broadcastLabel": "原日本TV系列：2017-10-03至2021-03-30，全170話。製作方標示每話30分鐘為節目格式，非淨片長；原版週二18:25，2017-11-21歷史獨立時段18:25–18:55。與電影及2026年第二季分開。",
-  "status": "finished",
-  "officialSiteUrl": "https://bclover.jp/season1/music/",
-  "identifierSource": {
-    "label": "原日本TV作品識別與播出記錄：スタジオぴえろ公式サイト",
-    "url": "https://pierrot.jp/archive/2015/tv10_29.html",
-    "language": "ja"
-  },
-  "sourceReferenceUrls": [
-    "https://pierrot.jp/archive/2015/tv10_29.html",
-    "https://www.tv-tokyo.co.jp/anime/bclover_1st/onair/",
-    "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/24644_201711211825.html",
-    "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-    "https://www.tv-tokyo.co.jp/anime/bclover_1st/news/"
-  ],
-  "themes": [
-    {
-      "id": "black-clover-2017-op-10",
-      "songId": "black-clover-2017-op-10-song",
-      "type": "OP",
-      "sequence": 10,
-      "titleJa": "Black Catcher",
-      "artistDisplayName": "ビッケブランカ",
-      "seasonIds": [
-        "2020-winter"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第10クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第10クールOP曲名、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://www.joysound.com/web/s/karaoke/contents/anime/list_2001",
-          "label": "原版第10クールOP演唱名義交叉核對：JOYSOUND.com",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1080065",
-          "label": "製作方第10季度兩首曲及2020/1/7原TV換曲",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
-          "label": "東京電視台原播集數及日期",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-3",
-          "label": "逐話曲表對照第116–128話時段",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-3/ep/118",
-          "label": "第118話逐話曲表記片頭及片尾差異",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1017617",
-          "label": "Chapter XII第113–120話及無字幕片頭片尾",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1017725",
-          "label": "Chapter XIII第121–129話及Type B畫面",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1018920",
-          "label": "製作方主題曲精選2收錄曲序及無字幕Type B",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://vickeblanka.com/discography/detail.php?id=1017368",
-          "label": "藝人原期單曲發行與第116話起用",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://vickeblanka.com/discography/detail.php?id=1017356",
-          "label": "藝人專輯三個實體版及第7曲",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.vickeblanka.com/news/detail.php?id=1080471",
-          "label": "藝人公告動畫畫面版MV",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=uHsy2egKjlU",
-          "label": "授權方影片資料｜Black Catcher｜官方單曲音源影片",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=hP6VM6YAMIE",
-          "label": "授權方影片資料｜Black Catcher｜官方 MV",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=akHMQOgGrd8",
-          "label": "授權方影片資料｜Black Catcher｜官方動畫畫面版 MV",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1492026896",
-          "label": "Apple Music 香港區發行及曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1492026897",
-          "label": "Apple Music 香港區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1498206289",
-          "label": "Apple Music 香港區發行及曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1498206296",
-          "label": "Apple Music 香港區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-10-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-10",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-10-song",
-          "fields": [
-            "title"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-10",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-10-song",
-          "fields": [
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.joysound.com/web/s/karaoke/contents/anime/list_2001"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-10",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1080065",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
-            "https://www.mau2.com/anime/blackclover-3"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-10-song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://vickeblanka.com/discography/detail.php?id=1017368"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "targetId": "uHsy2egKjlU",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=uHsy2egKjlU"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=uHsy2egKjlU"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "targetId": "black-clover-2017-op-10-song-single",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://vickeblanka.com/discography/detail.php?id=1017368"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "targetId": "hP6VM6YAMIE",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=hP6VM6YAMIE"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "targetId": "akHMQOgGrd8",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=akHMQOgGrd8"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "apple-hk-1492026896",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://vickeblanka.com/discography/detail.php?id=1017368",
-            "https://music.apple.com/hk/album/1492026896"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "link",
-          "targetId": "https://music.apple.com/hk/song/1492026897",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1492026897"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "apple-hk-1498206289",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://vickeblanka.com/discography/detail.php?id=1017356",
-            "https://music.apple.com/hk/album/1498206289"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "link",
-          "targetId": "https://music.apple.com/hk/song/1498206296",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1498206296"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "avcd-96457-b",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://vickeblanka.com/discography/detail.php?id=1017356"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "avcd-96458-b",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://vickeblanka.com/discography/detail.php?id=1017356"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "avcd-96459",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://vickeblanka.com/discography/detail.php?id=1017356"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "eyca-13301",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1018920"
-          ],
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "usageLabel": "第10季度片頭（第116–128話，2020/1/7起）。影碟收錄兩套片頭畫面；第118話是否沿用常規開場待核。",
-      "releaseDate": "2020-01-08",
-      "credits": [
-        {
-          "name": "ビッケブランカ",
-          "role": "vocals"
-        },
-        {
-          "name": "ビッケブランカ",
-          "role": "lyrics"
-        },
-        {
-          "name": "ビッケブランカ",
-          "role": "composition"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "black-clover-2017-op-10-song-single",
-          "title": "Black Catcher",
-          "format": "unknown",
-          "kind": "vocal"
-        }
-      ],
-      "releases": [
-        {
-          "id": "apple-hk-1492026896",
-          "title": "Black Catcher",
-          "type": "single",
-          "artistDisplayName": "ビッケブランカ",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "label": "avex trax",
-          "date": {
-            "value": "2020-01-08",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "Black Catcher",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "black-clover-2017-op-10-song-single"
-            }
-          ]
-        },
-        {
-          "id": "apple-hk-1498206289",
-          "title": "Devil",
-          "type": "album",
-          "artistDisplayName": "ビッケブランカ",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "label": "avex trax",
-          "date": {
-            "value": "2020-03-04",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "Black Catcher",
-              "position": 7,
-              "disc": 1
-            }
-          ]
-        },
-        {
-          "id": "avcd-96457-b",
-          "title": "Devil",
-          "type": "album",
-          "artistDisplayName": "ビッケブランカ",
-          "edition": "日本 CD＋DVD",
-          "region": "JP",
-          "label": "avex trax",
-          "date": {
-            "value": "2020-03-04",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "Black Catcher",
-              "position": 7,
-              "disc": 1
-            }
-          ],
-          "catalogNumber": "AVCD-96457/B"
-        },
-        {
-          "id": "avcd-96458-b",
-          "title": "Devil",
-          "type": "album",
-          "artistDisplayName": "ビッケブランカ",
-          "edition": "日本 CD＋Blu-ray",
-          "region": "JP",
-          "label": "avex trax",
-          "date": {
-            "value": "2020-03-04",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "Black Catcher",
-              "position": 7,
-              "disc": 1
-            }
-          ],
-          "catalogNumber": "AVCD-96458/B"
-        },
-        {
-          "id": "avcd-96459",
-          "title": "Devil",
-          "type": "album",
-          "artistDisplayName": "ビッケブランカ",
-          "edition": "日本 CD",
-          "region": "JP",
-          "label": "avex trax",
-          "date": {
-            "value": "2020-03-04",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "Black Catcher",
-              "position": 7,
-              "disc": 1
-            }
-          ],
-          "catalogNumber": "AVCD-96459"
-        },
-        {
-          "id": "eyca-13301",
-          "title": "ブラッククローバー主題歌ベスト2",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "label": "avex pictures",
-          "date": {
-            "value": "2022-05-25",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "Black Catcher",
-              "position": 3,
-              "disc": 1
-            }
-          ],
-          "catalogNumber": "EYCA-13301"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "Black Catcher｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1492026897",
-          "region": "HK",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1492026896",
-          "recordingId": "black-clover-2017-op-10-song-single",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "Black Catcher｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1498206296",
-          "region": "HK",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1498206289",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "recording_format",
-            "platform_availability"
-          ],
-          "note": "動畫MV、影碟兩種畫面及商業音源已分列。香港單曲與專輯曲目時長顯示相差一秒。",
-          "resumeWhen": "待原播第118話及Type A／B切換前後的正版音畫或掛字，確認開場與換畫面話數；另待母帶或版別說明及香港完整播放證據。",
-          "checkedAt": "2026-11-19"
-        }
-      ]
-    },
-    {
-      "id": "black-clover-2017-ed-10",
-      "songId": "black-clover-2017-ed-10-song",
-      "type": "ED",
-      "sequence": 10,
-      "titleJa": "New Page",
-      "artistDisplayName": "INTERSECTION",
-      "seasonIds": [
-        "2020-winter"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第10クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第10クールED曲名、演唱名義、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1080065",
-          "label": "製作方第10季度兩首曲及2020/1/7原TV換曲",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
-          "label": "東京電視台原播集數及日期",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-3",
-          "label": "逐話曲表對照第116–128話時段",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-3/ep/118",
-          "label": "第118話逐話曲表記片頭及片尾差異",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1017617",
-          "label": "Chapter XII第113–120話及無字幕片頭片尾",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1017725",
-          "label": "Chapter XIII第121–129話及Type B畫面",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1018920",
-          "label": "製作方主題曲精選2收錄曲序及無字幕Type B",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://intersection-tokyo.jp/discography/detail.php?id=1017375",
-          "label": "INTERSECTION原期數位單曲發行日",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=uy32xz1cr8Y",
-          "label": "授權方影片資料｜New Page｜官方單曲音源影片",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=65_exPZjAKg",
-          "label": "授權方影片資料｜New Page｜授權片尾影像",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1492239986",
-          "label": "Apple Music 香港區發行及曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1492239989",
-          "label": "Apple Music 香港區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-10-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-10",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-10-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-10",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-10",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1080065",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
-            "https://www.mau2.com/anime/blackclover-3"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-10-song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://intersection-tokyo.jp/discography/detail.php?id=1017375"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "targetId": "uy32xz1cr8Y",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=uy32xz1cr8Y"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=uy32xz1cr8Y"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "recording",
-          "targetId": "black-clover-2017-ed-10-song-single",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=uy32xz1cr8Y"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "video",
-          "targetId": "65_exPZjAKg",
-          "fields": [
-            "title",
-            "type",
-            "url"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=65_exPZjAKg"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "apple-hk-1492239986",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=uy32xz1cr8Y",
-            "https://music.apple.com/hk/album/1492239986"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "link",
-          "targetId": "https://music.apple.com/hk/song/1492239989",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1492239989"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "targetId": "eyca-13301",
-          "fields": [
-            "title",
-            "date",
-            "edition",
-            "tracklist",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1018920"
-          ],
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "usageLabel": "第10季度片尾（第116–128話範圍，2020/1/7起）。逐話曲表記第118話無常規片尾，待原播音畫核實。",
-      "releaseDate": "2020-01-08",
-      "credits": [
-        {
-          "name": "INTERSECTION",
-          "role": "vocals"
-        },
-        {
-          "name": "Nao'ymt",
-          "role": "lyrics"
-        },
-        {
-          "name": "Nao'ymt",
-          "role": "composition"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "black-clover-2017-ed-10-song-single",
-          "title": "New Page",
-          "format": "unknown",
-          "kind": "vocal"
-        }
-      ],
-      "releases": [
-        {
-          "id": "apple-hk-1492239986",
-          "title": "New Page",
-          "type": "single",
-          "artistDisplayName": "INTERSECTION",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "label": "AVEX ENTERTAINMENT INC.",
-          "date": {
-            "value": "2020-01-08",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "New Page",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "black-clover-2017-ed-10-song-single"
-            }
-          ]
-        },
-        {
-          "id": "eyca-13301",
-          "title": "ブラッククローバー主題歌ベスト2",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "label": "avex pictures",
-          "date": {
-            "value": "2022-05-25",
-            "precision": "day"
-          },
-          "tracks": [
-            {
-              "title": "New Page",
-              "position": 4,
-              "disc": 1
-            }
-          ],
-          "catalogNumber": "EYCA-13301"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "New Page｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1492239989",
-          "region": "HK",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1492239986",
-          "recordingId": "black-clover-2017-ed-10-song-single",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "arrangement",
-            "recordings",
-            "recording_format",
-            "platform_availability"
-          ],
-          "note": "Chapter XII列無字幕片尾，Chapter XIII另列Type B。分話來源記第118話沒有常規片尾。",
-          "resumeWhen": "待第118話原播片尾、第119話前後或Type B首次使用的正版音畫／掛字，確認例外及版本；編曲、商業TV錄音及地區播放待第一方明示。",
-          "checkedAt": "2026-11-19"
-        }
-      ]
-    },
-    {
-      "id": "black-clover-2017-op-11",
-      "songId": "black-clover-2017-op-11-song",
-      "type": "OP",
-      "sequence": 11,
-      "titleJa": "Stories",
-      "artistDisplayName": "Snow Man",
-      "seasonIds": [
-        "2020-spring",
-        "2020-summer"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第11クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第11クールOP曲名、演唱名義、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://mentrecording.jp/snowman/news/detail.php?id=1082699",
-          "label": "Snow Man官方原2020/4/3公告：Stories自4/7起TV OP",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.animatetimes.com/news/details.php?id=1585876846",
-          "label": "Animate Times原2020/4/3報導：4/7第129話起Stories／アンサー為OP／ED",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
-          "label": "テレビ東京原逐話：第141話9/1、第142話9/8、第146～150話秋季（日期證據）",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-11-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-11",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-11-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-11",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-11-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://mentrecording.jp/snowman/news/detail.php?id=1082699"
-          ],
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-11",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://mentrecording.jp/snowman/news/detail.php?id=1082699"
-          ],
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-11-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.animatetimes.com/news/details.php?id=1585876846"
-          ],
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-11",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.animatetimes.com/news/details.php?id=1585876846"
-          ],
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-11",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html"
-          ],
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-05",
-      "usageLabel": "原TV OP11（第129～141話）；2020-04-07編排啟用，末話原播2020-09-01"
-    },
-    {
-      "id": "black-clover-2017-ed-11",
-      "songId": "black-clover-2017-ed-11-song",
-      "type": "ED",
-      "sequence": 11,
-      "titleJa": "アンサー",
-      "artistDisplayName": "花譜",
-      "seasonIds": [
-        "2020-spring",
-        "2020-summer"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第11クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第11クールED曲名、演唱名義、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.animatetimes.com/news/details.php?id=1585876846",
-          "label": "Animate Times原2020/4/3報導：4/7第129話起Stories／アンサー為OP／ED",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_4.html",
-          "label": "テレビ東京原逐話：第133～140話為2020/7/7～8/25（日期證據）",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-11-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-11",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-11-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-11",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-11-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.animatetimes.com/news/details.php?id=1585876846"
-          ],
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-11",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.animatetimes.com/news/details.php?id=1585876846"
-          ],
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-11",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_4.html"
-          ],
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-05",
-      "usageLabel": "原TV ED11（第129～140話）；2020-04-07編排啟用，第140話原播2020-08-25"
-    },
-    {
-      "id": "black-clover-2017-op-12",
-      "songId": "black-clover-2017-op-12-song",
-      "type": "OP",
-      "sequence": 12,
-      "titleJa": "永遠に光れ(Everlasting Shine)",
-      "artistDisplayName": "TOMORROW X TOGETHER",
-      "seasonIds": [
-        "2020-summer",
-        "2020-fall"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第12クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第12クールOP演唱名義、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-3",
-          "label": "原版第12クールOP曲名交叉核對：まうまう☆ アニメ声優情報",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
-          "label": "テレビ東京原逐話：第141話9/1、第142話9/8、第146～150話秋季（日期證據）",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html",
-          "label": "テレビ東京原逐話：第157話2020/12/22，與158話2021/1/5分開（日期證據）",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-12-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-12",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-12-song",
-          "fields": [
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-12",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-12-song",
-          "fields": [
-            "title"
-          ],
-          "sourceUrls": [
-            "https://www.mau2.com/anime/blackclover-3"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-12",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html"
-          ],
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-05",
-      "usageLabel": "原TV OP12（第142～157話）；原播話數2020-09-08～2020-12-22"
-    },
-    {
-      "id": "black-clover-2017-ed-12",
-      "songId": "black-clover-2017-ed-12-song",
-      "type": "ED",
-      "sequence": 12,
-      "titleJa": "A Walk",
-      "artistDisplayName": "梶原岳人",
-      "seasonIds": [
-        "2020-summer",
-        "2020-fall"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第12クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第12クールED曲名、演唱名義、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
-          "label": "テレビ東京原逐話：第141話9/1、第142話9/8、第146～150話秋季（日期證據）",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html",
-          "label": "テレビ東京原逐話：第157話2020/12/22，與158話2021/1/5分開（日期證據）",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-12-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-12",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-12-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-12",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-12",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html"
-          ],
-          "verifiedAt": "2026-11-05"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-05",
-      "usageLabel": "原TV ED12（第141～157話）；原播話數2020-09-01～2020-12-22"
-    },
-    {
-      "id": "black-clover-2017-op-13",
-      "songId": "black-clover-2017-op-13-song",
-      "type": "OP",
-      "sequence": 13,
-      "titleJa": "Grandeur",
-      "artistDisplayName": "Snow Man",
-      "seasonIds": [
-        "2021-winter"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第13クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第13クールOP曲名、演唱名義、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-10-31"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-13-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-13",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-op-13-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-op-13",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        }
-      ],
-      "lastVerifiedAt": "2026-10-31"
-    },
-    {
-      "id": "black-clover-2017-ed-13",
-      "songId": "black-clover-2017-ed-13-song",
-      "type": "ED",
-      "sequence": 13,
-      "titleJa": "BEAUTIFUL",
-      "artistDisplayName": "TREASURE",
-      "seasonIds": [
-        "2021-winter"
-      ],
-      "sourceMode": "explicit",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "原版第13クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
-          "label": "原版第13クールED曲名、演唱名義、用途交叉核對：中文維基百科",
-          "role": "cross_check",
-          "language": "multi",
-          "verifiedAt": "2026-10-31"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-13-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-13",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "song",
-          "targetId": "black-clover-2017-ed-13-song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        },
-        {
-          "target": "anime_use",
-          "targetId": "black-clover-2017-ed-13",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
-          ],
-          "verifiedAt": "2026-10-31"
-        }
-      ],
-      "lastVerifiedAt": "2026-10-31"
-    },
-    {
-      "type": "OP",
-      "sequence": 6,
-      "id": "black-clover-2017-op-6",
-      "titleJa": "落書きペイジ",
-      "artistDisplayName": "感覚ピエロ",
-      "songId": "black-clover-2017-op-6-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1068863",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-2",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_11.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1016924",
-          "label": "動畫官方主題歌精選輯、通常盤 CD 與初回版 DVD 收錄內容",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1582334934",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1582334935",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "落書きペイジ｜落書きペイジ - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1582334935",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1582334934",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1068863",
-            "https://www.mau2.com/anime/blackclover-2",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_11.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-6"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1068863",
-            "https://www.mau2.com/anime/blackclover-2"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-6-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1016924"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "eyca-12496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1582334934",
-            "https://music.apple.com/hk/song/1582334935"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1582334934"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1582334935"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1582334935"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 65–76 話片頭（1/8–3/26）。",
-      "seasonIds": [
-        "2019-winter"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "感覚ピエロ"
-        },
-        {
-          "role": "lyrics",
-          "name": "秋月琢登"
-        },
-        {
-          "role": "composition",
-          "name": "秋月琢登"
-        },
-        {
-          "role": "arrangement",
-          "name": "感覚ピエロ"
-        }
-      ],
-      "releases": [
-        {
-          "id": "eyca-12496",
-          "title": "ブラッククローバー 主題歌ベスト",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "落書きペイジ",
-              "position": 11
-            }
-          ],
-          "date": {
-            "value": "2019-09-25",
-            "precision": "day"
-          },
-          "catalogNumber": "EYCA-12496"
-        },
-        {
-          "id": "apple-hk-1582334934",
-          "title": "落書きペイジ - Single",
-          "type": "single",
-          "artistDisplayName": "KANKAKU PIERO",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "落書きペイジ",
-              "position": 1
-            }
-          ],
-          "date": {
-            "value": "2019-02-04",
-            "precision": "day"
-          }
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 6,
-      "id": "black-clover-2017-ed-6",
-      "titleJa": "My Song My Days",
-      "artistDisplayName": "SOLIDEMO with 桜men",
-      "songId": "black-clover-2017-ed-6-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1068863",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-2",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_11.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1016924",
-          "label": "動畫官方主題歌精選輯、通常盤 CD 與初回版 DVD 收錄內容",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1456261331",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1456261332",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1456261334",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "My Song My Days｜My Song My Days - EP｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1456261332",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1456261331",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "My Song My Days(Instrumental)｜My Song My Days - EP｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1456261334",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1456261331",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "recordingId": "black-clover-2017-ed-6-song-apple-1456261334"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1068863",
-            "https://www.mau2.com/anime/blackclover-2",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_11.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-6"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1068863",
-            "https://www.mau2.com/anime/blackclover-2"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-6-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1016924"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "eyca-12496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1456261331",
-            "https://music.apple.com/hk/song/1456261332"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1456261331"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1456261332"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1456261332"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1456261334",
-            "https://music.apple.com/hk/album/1456261331"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-6-song-apple-1456261334"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1456261331",
-            "https://music.apple.com/hk/song/1456261334"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1456261331"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1456261334"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1456261334"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 65–76 話片尾（1/8–3/26）。",
-      "seasonIds": [
-        "2019-winter"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "SOLIDEMO with 桜men"
-        },
-        {
-          "role": "lyrics",
-          "name": "藤原優樹"
-        },
-        {
-          "role": "composition",
-          "name": "和音"
-        },
-        {
-          "role": "composition",
-          "name": "江上浩太郎"
-        },
-        {
-          "role": "arrangement",
-          "name": "和音"
-        },
-        {
-          "role": "arrangement",
-          "name": "中村仁樹"
-        }
-      ],
-      "releases": [
-        {
-          "id": "eyca-12496",
-          "title": "ブラッククローバー 主題歌ベスト",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "My Song My Days",
-              "position": 12
-            }
-          ],
-          "date": {
-            "value": "2019-09-25",
-            "precision": "day"
-          },
-          "catalogNumber": "EYCA-12496"
-        },
-        {
-          "id": "apple-hk-1456261331",
-          "title": "My Song My Days - EP",
-          "type": "ep",
-          "artistDisplayName": "SOLIDEMO with 桜men",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "My Song My Days",
-              "position": 1
-            },
-            {
-              "title": "My Song My Days(Instrumental)",
-              "position": 3,
-              "recordingId": "black-clover-2017-ed-6-song-apple-1456261334"
-            }
-          ],
-          "date": {
-            "value": "2019-03-27",
-            "precision": "day"
-          }
-        }
-      ],
-      "recordings": [
-        {
-          "id": "black-clover-2017-ed-6-song-apple-1456261334",
-          "title": "My Song My Days(Instrumental)",
-          "format": "unknown",
-          "kind": "instrumental"
-        }
-      ]
-    },
-    {
-      "type": "OP",
-      "sequence": 7,
-      "id": "black-clover-2017-op-7",
-      "titleJa": "JUSTadICE",
-      "artistDisplayName": "大森靖子",
-      "songId": "black-clover-2017-op-7-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-2",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_9.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_8.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1016924",
-          "label": "動畫官方主題歌精選輯、通常盤 CD 與初回版 DVD 收錄內容",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1456591729",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1456591730",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "JUSTadICE｜JUSTadICE - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1456591730",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1456591729",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/",
-            "https://www.mau2.com/anime/blackclover-2",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_9.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_8.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-7"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/",
-            "https://www.mau2.com/anime/blackclover-2"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-7-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1016924"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "eyca-12496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1456591729",
-            "https://music.apple.com/hk/song/1456591730"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1456591729"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1456591730"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1456591730"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 77–89 話為春季，7/2 第 90 話起沿用至 7/30 第 94 話。初回影碟另列片頭畫面 Type A、B。",
-      "seasonIds": [
-        "2019-spring",
-        "2019-summer"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "大森靖子"
-        },
-        {
-          "role": "lyrics",
-          "name": "大森靖子"
-        },
-        {
-          "role": "composition",
-          "name": "大森靖子"
-        },
-        {
-          "role": "arrangement",
-          "name": "ANCHOR"
-        }
-      ],
-      "releases": [
-        {
-          "id": "eyca-12496",
-          "title": "ブラッククローバー 主題歌ベスト",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "JUSTadICE",
-              "position": 13
-            }
-          ],
-          "date": {
-            "value": "2019-09-25",
-            "precision": "day"
-          },
-          "catalogNumber": "EYCA-12496"
-        },
-        {
-          "id": "apple-hk-1456591729",
-          "title": "JUSTadICE - Single",
-          "type": "single",
-          "artistDisplayName": "Seiko Oomori",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "JUSTadICE",
-              "position": 1
-            }
-          ],
-          "date": {
-            "value": "2019-04-05",
-            "precision": "day"
-          }
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 7,
-      "id": "black-clover-2017-ed-7",
-      "titleJa": "花が咲く道",
-      "artistDisplayName": "THE CHARM PARK",
-      "songId": "black-clover-2017-ed-7-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/music/",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-2",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_9.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1016924",
-          "label": "動畫官方主題歌精選輯、通常盤 CD 與初回版 DVD 收錄內容",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1458325886",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1458325887",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1491325737",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1491325743",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "花が咲く道｜花が咲く道 - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1458325887",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1458325886",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "花が咲く道 Live at Billboard Live 2019.07.05｜Live at Billboard Live 2019.07.05｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1491325743",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1491325737",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "recordingId": "black-clover-2017-ed-7-song-apple-1491325743"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/",
-            "https://www.mau2.com/anime/blackclover-2",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_10.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_9.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-7"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/music/",
-            "https://www.mau2.com/anime/blackclover-2"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-7-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1016924"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "eyca-12496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1458325886",
-            "https://music.apple.com/hk/song/1458325887"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1458325886"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1458325887"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1458325887"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1491325743",
-            "https://music.apple.com/hk/album/1491325737"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-7-song-apple-1491325743"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1491325737",
-            "https://music.apple.com/hk/song/1491325743"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1491325737"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1491325743"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1491325743"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 77–89 話片尾（4/2–6/25）。",
-      "seasonIds": [
-        "2019-spring"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "THE CHARM PARK"
-        },
-        {
-          "role": "lyrics",
-          "name": "THE CHARM PARK"
-        },
-        {
-          "role": "composition",
-          "name": "THE CHARM PARK"
-        },
-        {
-          "role": "arrangement",
-          "name": "THE CHARM PARK"
-        }
-      ],
-      "releases": [
-        {
-          "id": "eyca-12496",
-          "title": "ブラッククローバー 主題歌ベスト",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "花が咲く道",
-              "position": 14
-            }
-          ],
-          "date": {
-            "value": "2019-09-25",
-            "precision": "day"
-          },
-          "catalogNumber": "EYCA-12496"
-        },
-        {
-          "id": "apple-hk-1458325886",
-          "title": "花が咲く道 - Single",
-          "type": "single",
-          "artistDisplayName": "THE CHARM PARK",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "花が咲く道",
-              "position": 1
-            }
-          ],
-          "date": {
-            "value": "2019-04-10",
-            "precision": "day"
-          }
-        },
-        {
-          "id": "apple-hk-1491325737",
-          "title": "Live at Billboard Live 2019.07.05",
-          "type": "album",
-          "artistDisplayName": "THE CHARM PARK",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "花が咲く道 Live at Billboard Live 2019.07.05",
-              "position": 6,
-              "recordingId": "black-clover-2017-ed-7-song-apple-1491325743"
-            }
-          ],
-          "date": {
-            "value": "2020-01-01",
-            "precision": "day"
-          }
-        }
-      ],
-      "recordings": [
-        {
-          "id": "black-clover-2017-ed-7-song-apple-1491325743",
-          "title": "花が咲く道 Live at Billboard Live 2019.07.05",
-          "format": "unknown",
-          "kind": "live"
-        }
-      ]
-    },
-    {
-      "type": "OP",
-      "sequence": 8,
-      "id": "black-clover-2017-op-8",
-      "titleJa": "sky & blue",
-      "artistDisplayName": "GIRLFRIEND",
-      "songId": "black-clover-2017-op-8-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1074254",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-2",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_8.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1016924",
-          "label": "動畫官方主題歌精選輯、通常盤 CD 與初回版 DVD 收錄內容",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1475472333",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1475472336",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1474118653",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1474118654",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "sky & blue｜sky & blue - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1475472336",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1475472333",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "sky & blue アニメサイズver.｜sky & blue アニメサイズver. - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1474118654",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1474118653",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "recordingId": "black-clover-2017-op-8-song-apple-1474118654"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1074254",
-            "https://www.mau2.com/anime/blackclover-2",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_8.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-8"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1074254",
-            "https://www.mau2.com/anime/blackclover-2"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-8-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1016924"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "eyca-12496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1475472333",
-            "https://music.apple.com/hk/song/1475472336"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1475472333"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1475472336"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1475472336"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1474118654",
-            "https://music.apple.com/hk/album/1474118653"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-8-song-apple-1474118654"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1474118653",
-            "https://music.apple.com/hk/song/1474118654"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1474118653"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1474118654"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1474118654"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 95–102 話片頭（8/6–9/24）；比同季片尾晚五話換曲。",
-      "seasonIds": [
-        "2019-summer"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "GIRLFRIEND"
-        },
-        {
-          "role": "lyrics",
-          "name": "SAKIKA"
-        },
-        {
-          "role": "lyrics",
-          "name": "大知正紘"
-        },
-        {
-          "role": "composition",
-          "name": "大知正紘"
-        },
-        {
-          "role": "composition",
-          "name": "NAOKI-T"
-        },
-        {
-          "role": "arrangement",
-          "name": "NAOKI-T"
-        }
-      ],
-      "releases": [
-        {
-          "id": "eyca-12496",
-          "title": "ブラッククローバー 主題歌ベスト",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "sky & blue",
-              "position": 15
-            }
-          ],
-          "date": {
-            "value": "2019-09-25",
-            "precision": "day"
-          },
-          "catalogNumber": "EYCA-12496"
-        },
-        {
-          "id": "apple-hk-1475472333",
-          "title": "sky & blue - Single",
-          "type": "single",
-          "artistDisplayName": "GIRLFRIEND",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "sky & blue",
-              "position": 1
-            }
-          ],
-          "date": {
-            "value": "2019-08-28",
-            "precision": "day"
-          }
-        },
-        {
-          "id": "apple-hk-1474118653",
-          "title": "sky & blue アニメサイズver. - Single",
-          "type": "single",
-          "artistDisplayName": "GIRLFRIEND",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "sky & blue アニメサイズver.",
-              "position": 1,
-              "recordingId": "black-clover-2017-op-8-song-apple-1474118654"
-            }
-          ],
-          "date": {
-            "value": "2019-08-07",
-            "precision": "day"
-          }
-        }
-      ],
-      "recordings": [
-        {
-          "id": "black-clover-2017-op-8-song-apple-1474118654",
-          "title": "sky & blue アニメサイズver.",
-          "format": "tv",
-          "kind": "vocal"
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 8,
-      "id": "black-clover-2017-ed-8",
-      "titleJa": "against all gods",
-      "artistDisplayName": "m-flo",
-      "songId": "black-clover-2017-ed-8-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1074254",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-2",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_9.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1016924",
-          "label": "動畫官方主題歌精選輯、通常盤 CD 與初回版 DVD 收錄內容",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1473420989",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1473420993",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1473420994",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1473420995",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "against all gods｜against all gods - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1473420993",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1473420989",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "against all gods (Instrumental)｜against all gods - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1473420994",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1473420989",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "recordingId": "black-clover-2017-ed-8-song-apple-1473420994"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "against all gods (Acappella)｜against all gods - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1473420995",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1473420989",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "recordingId": "black-clover-2017-ed-8-song-apple-1473420995"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1074254",
-            "https://www.mau2.com/anime/blackclover-2",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_9.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-8"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1074254",
-            "https://www.mau2.com/anime/blackclover-2"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-8-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1016924"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "eyca-12496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1473420989",
-            "https://music.apple.com/hk/song/1473420993"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1473420989"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1473420993"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1473420993"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1473420994",
-            "https://music.apple.com/hk/album/1473420989"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-8-song-apple-1473420994"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1473420989",
-            "https://music.apple.com/hk/song/1473420994"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1473420989"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1473420994"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1473420994"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1473420995",
-            "https://music.apple.com/hk/album/1473420989"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-8-song-apple-1473420995"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1473420989",
-            "https://music.apple.com/hk/song/1473420995"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1473420989"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1473420995"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1473420995"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 90–102 話片尾（7/2–9/24）。第 90–94 話片頭仍為〈JUSTadICE〉。",
-      "seasonIds": [
-        "2019-summer"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "m-flo"
-        },
-        {
-          "role": "lyrics",
-          "name": "m-flo"
-        },
-        {
-          "role": "composition",
-          "name": "m-flo"
-        },
-        {
-          "role": "arrangement",
-          "name": "☆Taku Takahashi"
-        }
-      ],
-      "releases": [
-        {
-          "id": "eyca-12496",
-          "title": "ブラッククローバー 主題歌ベスト",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "against all gods",
-              "position": 16
-            }
-          ],
-          "date": {
-            "value": "2019-09-25",
-            "precision": "day"
-          },
-          "catalogNumber": "EYCA-12496"
-        },
-        {
-          "id": "apple-hk-1473420989",
-          "title": "against all gods - Single",
-          "type": "single",
-          "artistDisplayName": "M-Flo",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "against all gods",
-              "position": 1
-            },
-            {
-              "title": "against all gods (Instrumental)",
-              "position": 2,
-              "recordingId": "black-clover-2017-ed-8-song-apple-1473420994"
-            },
-            {
-              "title": "against all gods (Acappella)",
-              "position": 3,
-              "recordingId": "black-clover-2017-ed-8-song-apple-1473420995"
-            }
-          ],
-          "date": {
-            "value": "2019-07-31",
-            "precision": "day"
-          }
-        }
-      ],
-      "recordings": [
-        {
-          "id": "black-clover-2017-ed-8-song-apple-1473420994",
-          "title": "against all gods (Instrumental)",
-          "format": "unknown",
-          "kind": "instrumental"
-        },
-        {
-          "id": "black-clover-2017-ed-8-song-apple-1473420995",
-          "title": "against all gods (Acappella)",
-          "format": "unknown",
-          "kind": "vocal"
-        }
-      ]
-    },
-    {
-      "type": "OP",
-      "sequence": 9,
-      "id": "black-clover-2017-op-9",
-      "titleJa": "RiGHT NOW",
-      "artistDisplayName": "EMPiRE",
-      "songId": "black-clover-2017-op-9-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1077045",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-3",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1479152927",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1479152928",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "RiGHT NOW｜RiGHT NOW - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1479152928",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1479152927",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1077045",
-            "https://www.mau2.com/anime/blackclover-3",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-9"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1077045",
-            "https://www.mau2.com/anime/blackclover-3"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-9-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1479152927",
-            "https://music.apple.com/hk/song/1479152928"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1479152927"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1479152928"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1479152928"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 103–115 話片頭（10/1–12/24）。",
-      "seasonIds": [
-        "2019-fall"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "EMPiRE"
-        },
-        {
-          "role": "lyrics",
-          "name": "JxSxK"
-        },
-        {
-          "role": "composition",
-          "name": "松隈ケンタ"
-        },
-        {
-          "role": "arrangement",
-          "name": "SCRAMBLES"
-        }
-      ],
-      "releases": [
-        {
-          "id": "apple-hk-1479152927",
-          "title": "RiGHT NOW - Single",
-          "type": "single",
-          "artistDisplayName": "EMPiRE",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "RiGHT NOW",
-              "position": 1
-            }
-          ],
-          "date": {
-            "value": "2019-10-16",
-            "precision": "day"
-          }
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 9,
-      "id": "black-clover-2017-ed-9",
-      "titleJa": "人生は戦場だ",
-      "artistDisplayName": "安斉かれん",
-      "songId": "black-clover-2017-ed-9-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1077045",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-3",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://kalenanzai.com/discography/detail.php?id=1017883",
-          "label": "安斉かれん官方第三張單曲，數位版及 8cm CD",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://avexnet.jp/contents/KALEN-XXXX-XXXX/discography/1017892",
-          "label": "avex 官方 TAKU INOUE 混音版與發行日",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1677317553",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1677317562",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "人生は戦場だ (Prod.by TAKU INOUE)｜僕らはきっと偽りだらけの世界で強くなる。｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1677317562",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1677317553",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19",
-          "recordingId": "black-clover-2017-ed-9-song-apple-1677317562"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1077045",
-            "https://www.mau2.com/anime/blackclover-3",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_7.html",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-9"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1077045",
-            "https://www.mau2.com/anime/blackclover-3"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-9-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://kalenanzai.com/discography/detail.php?id=1017883"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "kalen-anzai-jinsei-20191001"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1677317562",
-            "https://music.apple.com/hk/album/1677317553"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-9-song-apple-1677317562"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1677317553",
-            "https://music.apple.com/hk/song/1677317562"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1677317553"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1677317562"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1677317562"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://avexnet.jp/contents/KALEN-XXXX-XXXX/discography/1017892"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-ed-9-song-apple-1677317562"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 103–115 話片尾（10/1–12/24）。商業發行另有 TAKU INOUE 混音版。",
-      "seasonIds": [
-        "2019-fall"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "安斉かれん"
-        },
-        {
-          "role": "lyrics",
-          "name": "Kalen Anzai"
-        },
-        {
-          "role": "composition",
-          "name": "Kazuhito Kikuchi"
-        },
-        {
-          "role": "composition",
-          "name": "Tetsuya Yukumi"
-        },
-        {
-          "role": "arrangement",
-          "name": "ats-"
-        }
-      ],
-      "releases": [
-        {
-          "id": "kalen-anzai-jinsei-20191001",
-          "title": "人生は戦場だ",
-          "type": "single",
-          "artistDisplayName": "安斉かれん",
-          "edition": "日本數位單曲",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "人生は戦場だ"
-            }
-          ],
-          "date": {
-            "value": "2019-10-01",
-            "precision": "day"
-          }
-        },
-        {
-          "id": "apple-hk-1677317553",
-          "title": "僕らはきっと偽りだらけの世界で強くなる。",
-          "type": "album",
-          "artistDisplayName": "Kalen Anzai",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "人生は戦場だ (Prod.by TAKU INOUE)",
-              "position": 8,
-              "recordingId": "black-clover-2017-ed-9-song-apple-1677317562"
-            }
-          ],
-          "date": {
-            "value": "2023-03-29",
-            "precision": "day"
-          }
-        }
-      ],
-      "recordings": [
-        {
-          "id": "black-clover-2017-ed-9-song-apple-1677317562",
-          "title": "人生は戦場だ (Prod.by TAKU INOUE)",
-          "format": "unknown",
-          "kind": "remix"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 1,
-      "id": "black-clover-2017-in-1",
-      "titleJa": "ハルカミライ",
-      "artistDisplayName": "感覚ピエロ",
-      "songId": "black-clover-2017-op-1-song",
-      "sources": [
-        {
-          "url": "https://bclover.jp/season1/news/detail.php?id=1053422",
-          "label": "作品方、藝人或電視台的主題曲與演唱名義",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.mau2.com/anime/blackclover-2",
-          "label": "按原播話數核對用途與換曲",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_8.html",
-          "label": "日本電視台原播分集及日期",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/4717",
-          "label": "逐話署名與製作人員",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://bclover.jp/season1/discography/detail.php?id=1016924",
-          "label": "動畫官方主題歌精選輯、通常盤 CD 與初回版 DVD 收錄內容",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1582334673",
-          "label": "Apple Music 香港區數位版、曲序與發行日",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1582334675",
-          "label": "Apple Music 香港區曲目與版本標示",
-          "language": "zh-Hant",
-          "role": "first_party",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "ハルカミライ｜ハルカミライ - Single｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1582334675",
-          "linkType": "direct_track",
-          "releaseId": "apple-hk-1582334673",
-          "region": "HK",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-19"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1053422",
-            "https://www.mau2.com/anime/blackclover-2",
-            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_8.html"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-in-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/news/detail.php?id=1053422",
-            "https://www.mau2.com/anime/blackclover-2"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "black-clover-2017-op-1-song"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://cal.syoboi.jp/tid/4717"
-          ],
-          "verifiedAt": "2026-11-19"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bclover.jp/season1/discography/detail.php?id=1016924"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "eyca-12496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "edition",
-            "date",
-            "tracklist"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1582334673",
-            "https://music.apple.com/hk/song/1582334675"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "apple-hk-1582334673"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1582334675"
-          ],
-          "verifiedAt": "2026-11-19",
-          "targetId": "https://music.apple.com/hk/song/1582334675"
-        }
-      ],
-      "sourceMode": "explicit",
-      "usageLabel": "日本 TV 原播第 100 話（9/10）劇中插曲；當話片頭為〈sky & blue〉。",
-      "seasonIds": [
-        "2019-summer"
-      ],
-      "lastVerifiedAt": "2026-11-19",
-      "credits": [
-        {
-          "role": "vocals",
-          "name": "感覚ピエロ"
-        },
-        {
-          "role": "lyrics",
-          "name": "秋月琢登"
-        },
-        {
-          "role": "composition",
-          "name": "秋月琢登"
-        },
-        {
-          "role": "composition",
-          "name": "横山直弘"
-        },
-        {
-          "role": "arrangement",
-          "name": "感覚ピエロ"
-        }
-      ],
-      "releases": [
-        {
-          "id": "eyca-12496",
-          "title": "ブラッククローバー 主題歌ベスト",
-          "type": "compilation",
-          "artistDisplayName": "Various Artists",
-          "edition": "日本通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ハルカミライ",
-              "position": 1
-            }
-          ],
-          "date": {
-            "value": "2019-09-25",
-            "precision": "day"
-          },
-          "catalogNumber": "EYCA-12496"
-        },
-        {
-          "id": "apple-hk-1582334673",
-          "title": "ハルカミライ - Single",
-          "type": "single",
-          "artistDisplayName": "KANKAKU PIERO",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "ハルカミライ",
-              "position": 1
-            }
-          ],
-          "date": {
-            "value": "2017-10-24",
-            "precision": "day"
-          }
-        }
-      ]
-    }
-  ]
-},
+  blackClover2017Seed,
 {
   "catalogKey": -2020011401,
   "id": "curated-gonzo-7seeds-tv-2020",

@@ -148552,4 +148552,6331 @@ export const curated2018SummerSeeds: CuratedCatalogAnimeSeed[] = [
     "themes": [],
     "themeAvailability": "pending_verification"
   },
+  {
+    "anilistId": 21237,
+    "anilistUrl": "https://anilist.co/anime/21237",
+    "id": "curated-21237",
+    "slug": "kamisama-minarai-himitsu-no-cocotama",
+    "titleJa": "かみさまみならい ヒミツのここたま",
+    "titleZhHant": "見習神仙精靈",
+    "titleRomaji": "Kamisama Minarai: Himitsu no Cocotama",
+    "seasonIds": [
+      "2018-summer",
+      "2018-spring",
+      "2018-winter"
+    ],
+    "startDate": "2015-10-01",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "17:55",
+    "broadcastLabel": "OLM製作。東京電視台2015年10月1日週四18:00 JST首播，2016年4月7日起改為週四17:55。全139話於2018年6月28日播畢。2018年7–8月原時段播出精選重編《ヒミツのここたま 夏だ！おおはしゃぎスペシャル》，含新作欄目《みならいここたま道》。",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201806/23764_201806281755.html",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "status": "finished",
+    "themes": [
+      {
+        "id": "kamisama-minarai-himitsu-no-cocotama-op-2",
+        "songId": "kamisama-minarai-himitsu-no-cocotama-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "ここたまハッピ～パラダイス！",
+        "artistDisplayName": "ERIKA",
+        "seasonIds": [
+          "2018-winter"
+        ],
+        "usageLabel": "第77–126話片頭；2018年冬季自第115話續用。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ERIKA"
+          },
+          {
+            "role": "lyrics",
+            "name": "真崎エリカ"
+          },
+          {
+            "role": "composition",
+            "name": "桑原聖"
+          },
+          {
+            "role": "arrangement",
+            "name": "酒井拓也"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lantis.jp/release-item/LACM-14598.html",
+            "label": "Lantis｜2017年兩首主題歌、長度及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3",
+            "label": "まうまう☆｜第102–139話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/23764_201711091755.html",
+            "label": "東京電視台｜2017年度OP與ED署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://renote.net/articles/3287/page/11",
+            "label": "RENOTE｜逐話曲目與夏季重編剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543858554&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543858558&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/24034/",
+            "label": "畑亜貴｜精選專輯、創作者及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/LACA-15729",
+            "label": "CDJapan｜精選實體曲序與電視剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234",
+            "label": "オリミュウ｜精選下載曲目及曲長",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728228&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859638&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html",
+              "https://www.mau2.com/anime/himitunokokotama-3"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/23764_201711091755.html",
+              "https://www.mau2.com/anime/himitunokokotama-3",
+              "https://renote.net/articles/3287/page/11"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14598"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858554&country=jp",
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858554&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543858553"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858554&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543858554"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858558&country=jp",
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858558&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543858553"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858558&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543858558"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728228&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728228&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728228&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE%E3%83%8F%E3%83%83%E3%83%94-%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728228&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859638&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859638&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859638&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859638"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal",
+            "title": "ここたまハッピ～パラダイス！",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "lyrics",
+                "name": "真崎エリカ"
+              },
+              {
+                "role": "composition",
+                "name": "桑原聖"
+              },
+              {
+                "role": "arrangement",
+                "name": "酒井拓也"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv",
+            "title": "ここたまハッピ～パラダイス！（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "lyrics",
+                "name": "真崎エリカ"
+              },
+              {
+                "role": "composition",
+                "name": "桑原聖"
+              },
+              {
+                "role": "arrangement",
+                "name": "酒井拓也"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-op-2-song-karaoke",
+            "title": "ここたまハッピ～パラダイス！（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14598",
+            "title": "ここたまハッピ～パラダイス！ / うたおう♪ここったまーち！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2017-04-26",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ここたまハッピ～パラダイス！",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal"
+              },
+              {
+                "title": "ここたまハッピ～パラダイス！（TVサイズ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+              },
+              {
+                "title": "ここたまハッピ～パラダイス！（カラオケ）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14598"
+          },
+          {
+            "id": "apple-jp-1543858553",
+            "title": "ここたまハッピ〜パラダイス!/うたおう♪ここったまーち! - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2017-04-26",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ここたまハッピ〜パラダイス!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal"
+              },
+              {
+                "title": "ここたまハッピ〜パラダイス! (テレビサイズ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "laca-15729",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ここたまハッピ～パラダイス！（テレビサイズ）",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15729"
+          },
+          {
+            "id": "apple-jp-1410727592",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ここたまハッピ~パラダイス! (テレビサイズ)",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543859626",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ここたまハッピ〜パラダイス! (テレビサイズ)",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543858554",
+            "label": "日本｜ここたまハッピ〜パラダイス!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-vocal",
+            "releaseId": "apple-jp-1543858553",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543858558",
+            "label": "日本｜ここたまハッピ〜パラダイス! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv",
+            "releaseId": "apple-jp-1543858553",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE%E3%83%8F%E3%83%83%E3%83%94-%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728228&app=itunes",
+            "label": "日本｜ここたまハッピ~パラダイス! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859638",
+            "label": "日本｜ここたまハッピ〜パラダイス! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-op-2-song-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對的Apple音源有日本發行；香港與台灣未找到相同主題原盤的對應音軌。",
+            "resumeWhen": "香港或台灣Apple、Spotify、KKBOX等平台有可確認相同原盤的曲目或發行方地域公告後補入。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kamisama-minarai-himitsu-no-cocotama-ed-3",
+        "songId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "うたおう♪ここったまーち！",
+        "artistDisplayName": "四葉こころ（本渡楓） with ここたま9＋ライチ",
+        "seasonIds": [
+          "2018-winter"
+        ],
+        "usageLabel": "第77–126話片尾；2018年冬季自第115話續用。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "本渡楓"
+          },
+          {
+            "role": "vocals",
+            "name": "潘めぐみ"
+          },
+          {
+            "role": "vocals",
+            "name": "豊崎愛生"
+          },
+          {
+            "role": "vocals",
+            "name": "かかずゆみ"
+          },
+          {
+            "role": "vocals",
+            "name": "愛河里花子"
+          },
+          {
+            "role": "vocals",
+            "name": "柚木涼香"
+          },
+          {
+            "role": "vocals",
+            "name": "村瀬迪与"
+          },
+          {
+            "role": "vocals",
+            "name": "藤村歩"
+          },
+          {
+            "role": "vocals",
+            "name": "白鳥由里"
+          },
+          {
+            "role": "vocals",
+            "name": "折笠富美子"
+          },
+          {
+            "role": "vocals",
+            "name": "七瀬彩夏"
+          },
+          {
+            "role": "lyrics",
+            "name": "松井洋平"
+          },
+          {
+            "role": "composition",
+            "name": "佐野宏晃"
+          },
+          {
+            "role": "arrangement",
+            "name": "佐野宏晃"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lantis.jp/release-item/LACM-14598.html",
+            "label": "Lantis｜2017年兩首主題歌、長度及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3",
+            "label": "まうまう☆｜第102–139話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/23764_201711091755.html",
+            "label": "東京電視台｜2017年度OP與ED署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://renote.net/articles/3287/page/11",
+            "label": "RENOTE｜逐話曲目與夏季重編剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543858556&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543858560&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/24034/",
+            "label": "畑亜貴｜精選專輯、創作者及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/LACA-15729",
+            "label": "CDJapan｜精選實體曲序與電視剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234",
+            "label": "オリミュウ｜精選下載曲目及曲長",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728471&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859639&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9uc527kNkXo",
+            "label": "NexTone／YouTube｜うたおう♪ここったまーち!",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=L22_u207sWY",
+            "label": "NexTone／YouTube｜うたおう♪ここったまーち! (テレビサイズ)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html",
+              "https://www.mau2.com/anime/himitunokokotama-3"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/23764_201711091755.html",
+              "https://www.mau2.com/anime/himitunokokotama-3",
+              "https://renote.net/articles/3287/page/11"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14598"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858556&country=jp",
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858556&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543858553"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858556&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543858556"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858560&country=jp",
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858560&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543858553"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858560&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543858560"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728471&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728471&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728471&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%86%E3%81%9F%E3%81%8A%E3%81%86-%E3%81%93%E3%81%93%E3%81%A3%E3%81%9F%E3%81%BE%E3%83%BC%E3%81%A1-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA-with-%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE9-%E3%83%A9%E3%82%A4%E3%83%81/1410727592?i=1410728471&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859639&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859639&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859639&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859639"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14598.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=9uc527kNkXo"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "9uc527kNkXo"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=L22_u207sWY"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "L22_u207sWY"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal",
+            "title": "うたおう♪ここったまーち！",
+            "kind": "character",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "本渡楓"
+              },
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "vocals",
+                "name": "豊崎愛生"
+              },
+              {
+                "role": "vocals",
+                "name": "かかずゆみ"
+              },
+              {
+                "role": "vocals",
+                "name": "愛河里花子"
+              },
+              {
+                "role": "vocals",
+                "name": "柚木涼香"
+              },
+              {
+                "role": "vocals",
+                "name": "村瀬迪与"
+              },
+              {
+                "role": "vocals",
+                "name": "藤村歩"
+              },
+              {
+                "role": "vocals",
+                "name": "白鳥由里"
+              },
+              {
+                "role": "vocals",
+                "name": "折笠富美子"
+              },
+              {
+                "role": "vocals",
+                "name": "七瀬彩夏"
+              },
+              {
+                "role": "lyrics",
+                "name": "松井洋平"
+              },
+              {
+                "role": "composition",
+                "name": "佐野宏晃"
+              },
+              {
+                "role": "arrangement",
+                "name": "佐野宏晃"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv",
+            "title": "うたおう♪ここったまーち！（TVサイズ）",
+            "kind": "character",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "本渡楓"
+              },
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "vocals",
+                "name": "豊崎愛生"
+              },
+              {
+                "role": "vocals",
+                "name": "かかずゆみ"
+              },
+              {
+                "role": "vocals",
+                "name": "愛河里花子"
+              },
+              {
+                "role": "vocals",
+                "name": "柚木涼香"
+              },
+              {
+                "role": "vocals",
+                "name": "村瀬迪与"
+              },
+              {
+                "role": "vocals",
+                "name": "藤村歩"
+              },
+              {
+                "role": "vocals",
+                "name": "白鳥由里"
+              },
+              {
+                "role": "vocals",
+                "name": "折笠富美子"
+              },
+              {
+                "role": "vocals",
+                "name": "七瀬彩夏"
+              },
+              {
+                "role": "lyrics",
+                "name": "松井洋平"
+              },
+              {
+                "role": "composition",
+                "name": "佐野宏晃"
+              },
+              {
+                "role": "arrangement",
+                "name": "佐野宏晃"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-karaoke",
+            "title": "うたおう♪ここったまーち！（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14598",
+            "title": "ここたまハッピ～パラダイス！ / うたおう♪ここったまーち！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2017-04-26",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "うたおう♪ここったまーち！",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal"
+              },
+              {
+                "title": "うたおう♪ここったまーち！（TVサイズ）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+              },
+              {
+                "title": "うたおう♪ここったまーち！（カラオケ）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14598"
+          },
+          {
+            "id": "apple-jp-1543858553",
+            "title": "ここたまハッピ〜パラダイス!/うたおう♪ここったまーち! - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2017-04-26",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "うたおう♪ここったまーち! (with ここたま9 & ライチ)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal"
+              },
+              {
+                "title": "うたおう♪ここったまーち! (テレビサイズ) [with ここたま9 & ライチ]",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "laca-15729",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "うたおう♪ここったまーち！（テレビサイズ）",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15729"
+          },
+          {
+            "id": "apple-jp-1410727592",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "うたおう♪ここったまーち! (テレビサイズ) [with ここたま9+ライチ]",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543859626",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "うたおう♪ここったまーち! (テレビサイズ) [with ここたま9 & ライチ]",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543858556",
+            "label": "日本｜うたおう♪ここったまーち! (with ここたま9 & ライチ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-vocal",
+            "releaseId": "apple-jp-1543858553",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543858560",
+            "label": "日本｜うたおう♪ここったまーち! (テレビサイズ) [with ここたま9 & ライチ]",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv",
+            "releaseId": "apple-jp-1543858553",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%86%E3%81%9F%E3%81%8A%E3%81%86-%E3%81%93%E3%81%93%E3%81%A3%E3%81%9F%E3%81%BE%E3%83%BC%E3%81%A1-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA-with-%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE9-%E3%83%A9%E3%82%A4%E3%83%81/1410727592?i=1410728471&app=itunes",
+            "label": "日本｜うたおう♪ここったまーち! (テレビサイズ) [with ここたま9+ライチ]",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859639",
+            "label": "日本｜うたおう♪ここったまーち! (テレビサイズ) [with ここたま9 & ライチ]",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-3-song-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對的Apple音源有日本發行；香港與台灣未找到相同主題原盤的對應音軌。",
+            "resumeWhen": "香港或台灣Apple、Spotify、KKBOX等平台有可確認相同原盤的曲目或發行方地域公告後補入。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kamisama-minarai-himitsu-no-cocotama-op-3",
+        "songId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song",
+        "type": "OP",
+        "sequence": 3,
+        "titleJa": "ころころここたま！～なかなかなかよしバージョン～",
+        "artistDisplayName": "四葉こころ（本渡楓）・ラキたま（潘めぐみ）",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "第127–139話片頭。四葉こころ與ラキたま的重編及新演唱。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "本渡楓"
+          },
+          {
+            "role": "vocals",
+            "name": "潘めぐみ"
+          },
+          {
+            "role": "lyrics",
+            "name": "畑亜貴"
+          },
+          {
+            "role": "composition",
+            "name": "山口朗彦"
+          },
+          {
+            "role": "arrangement",
+            "name": "酒井陽一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lantis.jp/release-item/LACM-14736.html",
+            "label": "Lantis｜2018年新編片頭及片尾、演唱及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3",
+            "label": "まうまう☆｜第102–139話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2018-6/",
+            "label": "テレビ東京ミュージック｜2018年6月OP與ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3/ep/139",
+            "label": "まうまう☆｜第139話原播片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1370355499&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543858563&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/24034/",
+            "label": "畑亜貴｜精選專輯、創作者及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/LACA-15729",
+            "label": "CDJapan｜精選實體曲序與電視剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234",
+            "label": "オリミュウ｜精選下載曲目及曲長",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728212&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859632&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728208&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859627&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728209&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859629&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/7596/",
+            "label": "畑亜貴｜ERIKA原版片頭與首張單曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+            "label": "Lantis｜首張雙主題單曲、演唱及品番",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html",
+            "label": "YesAsia｜首張實體單曲及卡拉OK曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1054283850&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/9523/",
+            "label": "畑亜貴｜2016年單曲、演唱與曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1122432595&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCE-39633/index.html",
+            "label": "日本コロムビア｜瀧本瞳與兒童合唱團翻唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1131139463&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html",
+              "https://www.mau2.com/anime/himitunokokotama-3"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html",
+              "https://www.ttmnet.co.jp/theme/2018-6/",
+              "https://www.mau2.com/anime/himitunokokotama-3",
+              "https://www.mau2.com/anime/himitunokokotama-3/ep/139"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14736"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355499&country=jp",
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355499&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1370355399"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355499&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3/1370355399?i=1370355499&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858563&country=jp",
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858563&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543858562"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858563&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543858563"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728212&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728212&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728212&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728212&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859632&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859632&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859632&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859632"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728208&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728208&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728208&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728208&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859627&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859627&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859627&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859627"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728209&country=jp",
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728209&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728209&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-2017-%E6%98%A0%E7%94%BB%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728209&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859629&country=jp",
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859629&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859629&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859629"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/",
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14419"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/",
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14419"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283850&country=jp",
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283850&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1054282915"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283850&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE/1054282915?i=1054283850&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/9523/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/9523/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14492"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1122432595&country=jp",
+              "https://akihata.jp/works/music/9523/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1122432595&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1122431721"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1122432595&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-tv%E3%82%B5%E3%82%A4%E3%82%BA/1122431721?i=1122432595&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "coce-39633"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1131139463&country=jp",
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1131139463&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1131139213"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1131139463&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1131139463"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal",
+            "title": "ころころここたま！～なかなかなかよしバージョン～",
+            "kind": "rearrangement",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "本渡楓"
+              },
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "酒井陽一"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-karaoke",
+            "title": "ころころここたま！～なかなかなかよしバージョン～（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv",
+            "title": "ころころここたま！～なかなかなかよしバージョン～（テレビサイズ）",
+            "kind": "rearrangement",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "本渡楓"
+              },
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "酒井陽一"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "title": "ころころここたま！（テレビサイズ）",
+            "kind": "vocal",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "山口朗彦"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama",
+            "title": "ころころここたま！2017（映画サイズ）",
+            "kind": "rearrangement",
+            "format": "short",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "vocals",
+                "name": "ここたま9"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "中西亮輔"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full",
+            "title": "ころころここたま！（ERIKA）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "山口朗彦"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-karaoke",
+            "title": "ころころここたま！（ERIKA版カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover",
+            "title": "ころころここたま！（瀧本瞳・ことのみ児童合唱団）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "瀧本瞳"
+              },
+              {
+                "role": "vocals",
+                "name": "ことのみ児童合唱団"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14736",
+            "title": "ころころここたま！～なかなかなかよしバージョン～ / いこうよ！ここたま界！！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！～なかなかなかよしバージョン～",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+              },
+              {
+                "title": "ころころここたま！～なかなかなかよしバージョン～（カラオケ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14736"
+          },
+          {
+            "id": "apple-jp-1370355399",
+            "title": "ころころここたま!~なかなかなかよしバージョン~ / いこうよ!ここたま界!! - Single",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!~なかなかなかよしバージョン~",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543858562",
+            "title": "ころころここたま!〜なかなかなかよしバージョン〜 / いこうよ!ここたま界!! - Single",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ころころここたま!〜なかなかなかよしバージョン〜",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "laca-15729",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！～なかなかなかよしバージョン～（テレビサイズ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+              },
+              {
+                "title": "ころころここたま！（テレビサイズ）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              },
+              {
+                "title": "ころころここたま！2017（映画サイズ）",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+              }
+            ],
+            "catalogNumber": "LACA-15729"
+          },
+          {
+            "id": "apple-jp-1410727592",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!~なかなかなかよしバージョン~ (テレビサイズ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+              },
+              {
+                "title": "ころころここたま! (テレビサイズ)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              },
+              {
+                "title": "ころころここたま!2017 (映画サイズ)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543859626",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ころころここたま!〜なかなかなかよしバージョン〜 (テレビサイズ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+              },
+              {
+                "title": "ころころここたま! (テレビサイズ)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              },
+              {
+                "title": "ころころここたま!2017 (映画サイズ)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+              }
+            ]
+          },
+          {
+            "id": "lacm-14419",
+            "title": "ころころここたま！ / ここんぽいぽいここったま！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2015-11-11",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！（ERIKA）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+              },
+              {
+                "title": "ころころここたま！（ERIKA版カラオケ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14419"
+          },
+          {
+            "id": "apple-jp-1054282915",
+            "title": "ころころここたま!/ここんぽいぽいここったま! - Single",
+            "artistDisplayName": "ERIKA, メロリー & ここたまファイブ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2015-11-11",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+              }
+            ]
+          },
+          {
+            "id": "lacm-14492",
+            "title": "こころだいすきここったま！",
+            "artistDisplayName": "四葉こころ（本渡楓）・ラキたま（潘めぐみ）",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2016-06-22",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！（TVサイズ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              }
+            ],
+            "catalogNumber": "LACM-14492"
+          },
+          {
+            "id": "apple-jp-1122431721",
+            "title": "こころだいすきここったま! - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2016-06-22",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!(TVサイズ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              }
+            ]
+          },
+          {
+            "id": "coce-39633",
+            "title": "2016 はっぴょう会(3) ころころここたま！",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2016-07-27",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！（瀧本瞳・ことのみ児童合唱団）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+              }
+            ],
+            "catalogNumber": "COCE-39633"
+          },
+          {
+            "id": "apple-jp-1131139213",
+            "title": "2016 はっぴょう会 (3) ころころここたま! - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2016-07-27",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ころころここたま! (かみさまみならい ヒミツのここたま)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3/1370355399?i=1370355499&app=itunes",
+            "label": "日本｜ころころここたま!~なかなかなかよしバージョン~",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal",
+            "releaseId": "apple-jp-1370355399",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543858563",
+            "label": "日本｜ころころここたま!〜なかなかなかよしバージョン〜",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal",
+            "releaseId": "apple-jp-1543858562",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728212&app=itunes",
+            "label": "日本｜ころころここたま!~なかなかなかよしバージョン~ (テレビサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859632",
+            "label": "日本｜ころころここたま!〜なかなかなかよしバージョン〜 (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728208&app=itunes",
+            "label": "日本｜ころころここたま! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859627",
+            "label": "日本｜ころころここたま! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-2017-%E6%98%A0%E7%94%BB%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728209&app=itunes",
+            "label": "日本｜ころころここたま!2017 (映画サイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859629",
+            "label": "日本｜ころころここたま!2017 (映画サイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE/1054282915?i=1054283850&app=itunes",
+            "label": "日本｜ころころここたま!",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full",
+            "releaseId": "apple-jp-1054282915",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-tv%E3%82%B5%E3%82%A4%E3%82%BA/1122431721?i=1122432595&app=itunes",
+            "label": "日本｜ころころここたま!(TVサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "releaseId": "apple-jp-1122431721",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1131139463",
+            "label": "日本｜ころころここたま! (かみさまみならい ヒミツのここたま)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover",
+            "releaseId": "apple-jp-1131139213",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對的Apple音源有日本發行；香港與台灣未找到相同主題原盤的對應音軌。",
+            "resumeWhen": "香港或台灣Apple、Spotify、KKBOX等平台有可確認相同原盤的曲目或發行方地域公告後補入。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kamisama-minarai-himitsu-no-cocotama-ed-4",
+        "songId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song",
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "いこうよ！ここたま界！！",
+        "artistDisplayName": "ラキたま（潘めぐみ）・メロリー（豊崎愛生）・カンナ（藤田咲）",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "第127–138話片尾。第139話改回第一首片尾歌。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "潘めぐみ"
+          },
+          {
+            "role": "vocals",
+            "name": "豊崎愛生"
+          },
+          {
+            "role": "vocals",
+            "name": "藤田咲"
+          },
+          {
+            "role": "lyrics",
+            "name": "松井洋平"
+          },
+          {
+            "role": "composition",
+            "name": "黒田賢一"
+          },
+          {
+            "role": "arrangement",
+            "name": "黒田賢一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lantis.jp/release-item/LACM-14736.html",
+            "label": "Lantis｜2018年新編片頭及片尾、演唱及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3",
+            "label": "まうまう☆｜第102–139話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2018-6/",
+            "label": "テレビ東京ミュージック｜2018年6月OP與ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3/ep/139",
+            "label": "まうまう☆｜第139話原播片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1370355511&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543858565&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/24034/",
+            "label": "畑亜貴｜精選專輯、創作者及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/LACA-15729",
+            "label": "CDJapan｜精選實體曲序與電視剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234",
+            "label": "オリミュウ｜精選下載曲目及曲長",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728477&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859641&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html",
+              "https://www.mau2.com/anime/himitunokokotama-3"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html",
+              "https://www.ttmnet.co.jp/theme/2018-6/",
+              "https://www.mau2.com/anime/himitunokokotama-3",
+              "https://www.mau2.com/anime/himitunokokotama-3/ep/139"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14736"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355511&country=jp",
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355511&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1370355399"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355511&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%84%E3%81%93%E3%81%86%E3%82%88-%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE%E7%95%8C/1370355399?i=1370355511&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858565&country=jp",
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858565&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543858562"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858565&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543858565"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728477&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728477&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728477&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%84%E3%81%93%E3%81%86%E3%82%88-%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE%E7%95%8C-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728477&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859641&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859641&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859641&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859641"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal",
+            "title": "いこうよ！ここたま界！！",
+            "kind": "character",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "vocals",
+                "name": "豊崎愛生"
+              },
+              {
+                "role": "vocals",
+                "name": "藤田咲"
+              },
+              {
+                "role": "lyrics",
+                "name": "松井洋平"
+              },
+              {
+                "role": "composition",
+                "name": "黒田賢一"
+              },
+              {
+                "role": "arrangement",
+                "name": "黒田賢一"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-karaoke",
+            "title": "いこうよ！ここたま界！！（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv",
+            "title": "いこうよ！ここたま界！！（テレビサイズ）",
+            "kind": "character",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "vocals",
+                "name": "豊崎愛生"
+              },
+              {
+                "role": "vocals",
+                "name": "藤田咲"
+              },
+              {
+                "role": "lyrics",
+                "name": "松井洋平"
+              },
+              {
+                "role": "composition",
+                "name": "黒田賢一"
+              },
+              {
+                "role": "arrangement",
+                "name": "黒田賢一"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14736",
+            "title": "ころころここたま！～なかなかなかよしバージョン～ / いこうよ！ここたま界！！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "いこうよ！ここたま界！！",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+              },
+              {
+                "title": "いこうよ！ここたま界！！（カラオケ）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14736"
+          },
+          {
+            "id": "apple-jp-1370355399",
+            "title": "ころころここたま!~なかなかなかよしバージョン~ / いこうよ!ここたま界!! - Single",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "いこうよ!ここたま界!!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543858562",
+            "title": "ころころここたま!〜なかなかなかよしバージョン〜 / いこうよ!ここたま界!! - Single",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "いこうよ!ここたま界!!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "laca-15729",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "いこうよ！ここたま界！！（テレビサイズ）",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15729"
+          },
+          {
+            "id": "apple-jp-1410727592",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "いこうよ!ここたま界!! (テレビサイズ)",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543859626",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "いこうよ!ここたま界!! (テレビサイズ)",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%84%E3%81%93%E3%81%86%E3%82%88-%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE%E7%95%8C/1370355399?i=1370355511&app=itunes",
+            "label": "日本｜いこうよ!ここたま界!!",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal",
+            "releaseId": "apple-jp-1370355399",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543858565",
+            "label": "日本｜いこうよ!ここたま界!!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-vocal",
+            "releaseId": "apple-jp-1543858562",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%84%E3%81%93%E3%81%86%E3%82%88-%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE%E7%95%8C-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728477&app=itunes",
+            "label": "日本｜いこうよ!ここたま界!! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859641",
+            "label": "日本｜いこうよ!ここたま界!! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-4-song-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對的Apple音源有日本發行；香港與台灣未找到相同主題原盤的對應音軌。",
+            "resumeWhen": "香港或台灣Apple、Spotify、KKBOX等平台有可確認相同原盤的曲目或發行方地域公告後補入。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kamisama-minarai-himitsu-no-cocotama-ed-1",
+        "songId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ここんぽいぽいここったま！",
+        "artistDisplayName": "メロリーとここたまファイブ",
+        "seasonIds": [
+          "2018-spring"
+        ],
+        "usageLabel": "第一首片尾歌曾用於第1–34話，2018年第139話配上尾聲影像再用。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "潘めぐみ"
+          },
+          {
+            "role": "vocals",
+            "name": "豊崎愛生"
+          },
+          {
+            "role": "vocals",
+            "name": "かかずゆみ"
+          },
+          {
+            "role": "vocals",
+            "name": "愛河里花子"
+          },
+          {
+            "role": "vocals",
+            "name": "柚木涼香"
+          },
+          {
+            "role": "vocals",
+            "name": "村瀬迪与"
+          },
+          {
+            "role": "lyrics",
+            "name": "松井洋平"
+          },
+          {
+            "role": "composition",
+            "name": "shilo"
+          },
+          {
+            "role": "arrangement",
+            "name": "shilo"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+            "label": "Lantis｜首張雙主題單曲、演唱及品番",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/24034/",
+            "label": "畑亜貴｜精選專輯、創作者及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3/ep/139",
+            "label": "まうまう☆｜第139話原播片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201806/23764_201806281755.html",
+            "label": "東京電視台｜第139話地面波播出",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://renote.net/articles/3287/page/11",
+            "label": "RENOTE｜逐話曲目與夏季重編剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html",
+            "label": "YesAsia｜首張實體單曲及卡拉OK曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1054283854&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/LACA-15729",
+            "label": "CDJapan｜精選實體曲序與電視剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234",
+            "label": "オリミュウ｜精選下載曲目及曲長",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728213&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859635&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.mau2.com/anime/himitunokokotama-3/ep/139"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201806/23764_201806281755.html",
+              "https://www.mau2.com/anime/himitunokokotama-3/ep/139",
+              "https://renote.net/articles/3287/page/11"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14419"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14419"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283854&country=jp",
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283854&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1054282915"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283854&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%81%93%E3%82%93%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84%E3%81%93%E3%81%93%E3%81%A3%E3%81%9F%E3%81%BE/1054282915?i=1054283854&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728213&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728213&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728213&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%81%93%E3%82%93%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84%E3%81%93%E3%81%93%E3%81%A3%E3%81%9F%E3%81%BE-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728213&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859635&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859635&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859635&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859635"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal",
+            "title": "ここんぽいぽいここったま！",
+            "kind": "character",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "vocals",
+                "name": "豊崎愛生"
+              },
+              {
+                "role": "vocals",
+                "name": "かかずゆみ"
+              },
+              {
+                "role": "vocals",
+                "name": "愛河里花子"
+              },
+              {
+                "role": "vocals",
+                "name": "柚木涼香"
+              },
+              {
+                "role": "vocals",
+                "name": "村瀬迪与"
+              },
+              {
+                "role": "lyrics",
+                "name": "松井洋平"
+              },
+              {
+                "role": "composition",
+                "name": "shilo"
+              },
+              {
+                "role": "arrangement",
+                "name": "shilo"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-karaoke",
+            "title": "ここんぽいぽいここったま！（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv",
+            "title": "ここんぽいぽいここったま！（テレビサイズ）",
+            "kind": "character",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "vocals",
+                "name": "豊崎愛生"
+              },
+              {
+                "role": "vocals",
+                "name": "かかずゆみ"
+              },
+              {
+                "role": "vocals",
+                "name": "愛河里花子"
+              },
+              {
+                "role": "vocals",
+                "name": "柚木涼香"
+              },
+              {
+                "role": "vocals",
+                "name": "村瀬迪与"
+              },
+              {
+                "role": "lyrics",
+                "name": "松井洋平"
+              },
+              {
+                "role": "composition",
+                "name": "shilo"
+              },
+              {
+                "role": "arrangement",
+                "name": "shilo"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14419",
+            "title": "ころころここたま！ / ここんぽいぽいここったま！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2015-11-11",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ここんぽいぽいここったま！",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal"
+              },
+              {
+                "title": "ここんぽいぽいここったま！（カラオケ）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14419"
+          },
+          {
+            "id": "apple-jp-1054282915",
+            "title": "ころころここたま!/ここんぽいぽいここったま! - Single",
+            "artistDisplayName": "ERIKA, メロリー & ここたまファイブ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2015-11-11",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ここんぽいぽいここったま!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "laca-15729",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ここんぽいぽいここったま！（テレビサイズ）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-15729"
+          },
+          {
+            "id": "apple-jp-1410727592",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ここんぽいぽいここったま! (テレビサイズ)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543859626",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ここんぽいぽいここったま! (テレビサイズ)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%81%93%E3%82%93%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84%E3%81%93%E3%81%93%E3%81%A3%E3%81%9F%E3%81%BE/1054282915?i=1054283854&app=itunes",
+            "label": "日本｜ここんぽいぽいここったま!",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-vocal",
+            "releaseId": "apple-jp-1054282915",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%81%93%E3%82%93%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84%E3%81%93%E3%81%93%E3%81%A3%E3%81%9F%E3%81%BE-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728213&app=itunes",
+            "label": "日本｜ここんぽいぽいここったま! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859635",
+            "label": "日本｜ここんぽいぽいここったま! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-ed-1-song-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對的Apple音源有日本發行；香港與台灣未找到相同主題原盤的對應音軌。",
+            "resumeWhen": "香港或台灣Apple、Spotify、KKBOX等平台有可確認相同原盤的曲目或發行方地域公告後補入。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kamisama-minarai-himitsu-no-cocotama-op-4",
+        "songId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song",
+        "type": "OP",
+        "sequence": 4,
+        "titleJa": "ころころここたま！～なかなかなかよしバージョン～",
+        "artistDisplayName": "四葉こころ（本渡楓）・ラキたま（潘めぐみ）",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "2018年7–8月《夏だ！おおはしゃぎスペシャル》重編版片頭；交叉紀錄為同曲約15秒剪輯。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "本渡楓"
+          },
+          {
+            "role": "vocals",
+            "name": "潘めぐみ"
+          },
+          {
+            "role": "lyrics",
+            "name": "畑亜貴"
+          },
+          {
+            "role": "composition",
+            "name": "山口朗彦"
+          },
+          {
+            "role": "arrangement",
+            "name": "酒井陽一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lantis.jp/release-item/LACM-14736.html",
+            "label": "Lantis｜2018年新編片頭及片尾、演唱及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/himitunokokotama-3",
+            "label": "まうまう☆｜第102–139話片頭與片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1370355499&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543858563&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/24034/",
+            "label": "畑亜貴｜精選專輯、創作者及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/LACA-15729",
+            "label": "CDJapan｜精選實體曲序與電視剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234",
+            "label": "オリミュウ｜精選下載曲目及曲長",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728212&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859632&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728208&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859627&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1410728209&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1543859629&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/7596/",
+            "label": "畑亜貴｜ERIKA原版片頭與首張單曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+            "label": "Lantis｜首張雙主題單曲、演唱及品番",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html",
+            "label": "YesAsia｜首張實體單曲及卡拉OK曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1054283850&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://akihata.jp/works/music/9523/",
+            "label": "畑亜貴｜2016年單曲、演唱與曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1122432595&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCE-39633/index.html",
+            "label": "日本コロムビア｜瀧本瞳與兒童合唱團翻唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1131139463&country=jp",
+            "label": "Apple 日本｜發行品、曲序與地區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2018-8/",
+            "label": "テレビ東京ミュージック｜2018年8月重編版OP",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/25056_201808091755.html",
+            "label": "東京電視台｜夏季重編版與新短篇欄目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://renote.net/articles/3287/page/11",
+            "label": "RENOTE｜逐話曲目與夏季重編剪輯",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://csp.2-d.jp/animecm/2018_6.html",
+            "label": "同期電視紀錄｜夏季重編播放預告",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html",
+              "https://www.mau2.com/anime/himitunokokotama-3"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14736"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355499&country=jp",
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355499&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1370355399"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1370355499&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3/1370355399?i=1370355499&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858563&country=jp",
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858563&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543858562"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543858563&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543858563"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-15729"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728212&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728212&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728212&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728212&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859632&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859632&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859632&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859632"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728208&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728208&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728208&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728208&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859627&country=jp",
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859627&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859627&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859627"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/",
+              "https://www.cdjapan.co.jp/product/LACA-15729",
+              "https://music.orimyu.com/php/cd/CdTop.php?cd=SPB00207234"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728209&country=jp",
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728209&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1410727592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1410728209&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-2017-%E6%98%A0%E7%94%BB%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728209&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859629&country=jp",
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859629&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1543859626"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1543859629&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1543859629"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/",
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14419"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/",
+              "https://www.lantis.jp/title/cocotama/news_1446685201.html",
+              "https://www.yesasia.com/us/tv-anime-kamisamaminarai-himitsu-no-cocotama-op-ed-korokorokokotama/1044978661-0-0-0-en/info.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14419"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283850&country=jp",
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283850&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1054282915"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1054283850&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE/1054282915?i=1054283850&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/9523/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/9523/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14492"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1122432595&country=jp",
+              "https://akihata.jp/works/music/9523/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1122432595&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1122431721"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1122432595&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-tv%E3%82%B5%E3%82%A4%E3%82%BA/1122431721?i=1122432595&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "coce-39633"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1131139463&country=jp",
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1131139463&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1131139213"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1131139463&country=jp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1131139463"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lantis.jp/release-item/LACM-14736.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/7596/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://akihata.jp/works/music/24034/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCE-39633/index.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2018-8/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/25056_201808091755.html",
+              "https://renote.net/articles/3287/page/11",
+              "https://csp.2-d.jp/animecm/2018_6.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kamisama-minarai-himitsu-no-cocotama-op-4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal",
+            "title": "ころころここたま！～なかなかなかよしバージョン～",
+            "kind": "rearrangement",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "本渡楓"
+              },
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "酒井陽一"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-karaoke",
+            "title": "ころころここたま！～なかなかなかよしバージョン～（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv",
+            "title": "ころころここたま！～なかなかなかよしバージョン～（テレビサイズ）",
+            "kind": "rearrangement",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "本渡楓"
+              },
+              {
+                "role": "vocals",
+                "name": "潘めぐみ"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "酒井陽一"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "title": "ころころここたま！（テレビサイズ）",
+            "kind": "vocal",
+            "format": "tv",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "山口朗彦"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama",
+            "title": "ころころここたま！2017（映画サイズ）",
+            "kind": "rearrangement",
+            "format": "short",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "vocals",
+                "name": "ここたま9"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "中西亮輔"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full",
+            "title": "ころころここたま！（ERIKA）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ERIKA"
+              },
+              {
+                "role": "lyrics",
+                "name": "畑亜貴"
+              },
+              {
+                "role": "composition",
+                "name": "山口朗彦"
+              },
+              {
+                "role": "arrangement",
+                "name": "山口朗彦"
+              }
+            ]
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-karaoke",
+            "title": "ころころここたま！（ERIKA版カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover",
+            "title": "ころころここたま！（瀧本瞳・ことのみ児童合唱団）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "瀧本瞳"
+              },
+              {
+                "role": "vocals",
+                "name": "ことのみ児童合唱団"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14736",
+            "title": "ころころここたま！～なかなかなかよしバージョン～ / いこうよ！ここたま界！！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！～なかなかなかよしバージョン～",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+              },
+              {
+                "title": "ころころここたま！～なかなかなかよしバージョン～（カラオケ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14736"
+          },
+          {
+            "id": "apple-jp-1370355399",
+            "title": "ころころここたま!~なかなかなかよしバージョン~ / いこうよ!ここたま界!! - Single",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!~なかなかなかよしバージョン~",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543858562",
+            "title": "ころころここたま!〜なかなかなかよしバージョン〜 / いこうよ!ここたま界!! - Single",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ころころここたま!〜なかなかなかよしバージョン〜",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "laca-15729",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！～なかなかなかよしバージョン～（テレビサイズ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+              },
+              {
+                "title": "ころころここたま！（テレビサイズ）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              },
+              {
+                "title": "ころころここたま！2017（映画サイズ）",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+              }
+            ],
+            "catalogNumber": "LACA-15729"
+          },
+          {
+            "id": "apple-jp-1410727592",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!~なかなかなかよしバージョン~ (テレビサイズ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+              },
+              {
+                "title": "ころころここたま! (テレビサイズ)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              },
+              {
+                "title": "ころころここたま!2017 (映画サイズ)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1543859626",
+            "title": "TVアニメ『かみさまみならい ヒミツのここたま』ベストセレクション♪",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2018-07-25",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ころころここたま!〜なかなかなかよしバージョン〜 (テレビサイズ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv"
+              },
+              {
+                "title": "ころころここたま! (テレビサイズ)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              },
+              {
+                "title": "ころころここたま!2017 (映画サイズ)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama"
+              }
+            ]
+          },
+          {
+            "id": "lacm-14419",
+            "title": "ころころここたま！ / ここんぽいぽいここったま！",
+            "artistDisplayName": "Various Artists",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2015-11-11",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！（ERIKA）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+              },
+              {
+                "title": "ころころここたま！（ERIKA版カラオケ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-karaoke"
+              }
+            ],
+            "catalogNumber": "LACM-14419"
+          },
+          {
+            "id": "apple-jp-1054282915",
+            "title": "ころころここたま!/ここんぽいぽいここったま! - Single",
+            "artistDisplayName": "ERIKA, メロリー & ここたまファイブ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2015-11-11",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full"
+              }
+            ]
+          },
+          {
+            "id": "lacm-14492",
+            "title": "こころだいすきここったま！",
+            "artistDisplayName": "四葉こころ（本渡楓）・ラキたま（潘めぐみ）",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2016-06-22",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！（TVサイズ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              }
+            ],
+            "catalogNumber": "LACM-14492"
+          },
+          {
+            "id": "apple-jp-1122431721",
+            "title": "こころだいすきここったま! - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2016-06-22",
+              "precision": "day"
+            },
+            "edition": "日本下載版",
+            "tracks": [
+              {
+                "title": "ころころここたま!(TVサイズ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv"
+              }
+            ]
+          },
+          {
+            "id": "coce-39633",
+            "title": "2016 はっぴょう会(3) ころころここたま！",
+            "artistDisplayName": "Various Artists",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2016-07-27",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "ころころここたま！（瀧本瞳・ことのみ児童合唱団）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+              }
+            ],
+            "catalogNumber": "COCE-39633"
+          },
+          {
+            "id": "apple-jp-1131139213",
+            "title": "2016 はっぴょう会 (3) ころころここたま! - EP",
+            "artistDisplayName": "Various Artists",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2016-07-27",
+              "precision": "day"
+            },
+            "edition": "日本串流版",
+            "tracks": [
+              {
+                "title": "ころころここたま! (かみさまみならい ヒミツのここたま)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3/1370355399?i=1370355499&app=itunes",
+            "label": "日本｜ころころここたま!~なかなかなかよしバージョン~",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal",
+            "releaseId": "apple-jp-1370355399",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543858563",
+            "label": "日本｜ころころここたま!〜なかなかなかよしバージョン〜",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-vocal",
+            "releaseId": "apple-jp-1543858562",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728212&app=itunes",
+            "label": "日本｜ころころここたま!~なかなかなかよしバージョン~ (テレビサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859632",
+            "label": "日本｜ころころここたま!〜なかなかなかよしバージョン〜 (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-%E3%83%86%E3%83%AC%E3%83%93%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728208&app=itunes",
+            "label": "日本｜ころころここたま! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859627",
+            "label": "日本｜ころころここたま! (テレビサイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-2017-%E6%98%A0%E7%94%BB%E3%82%B5%E3%82%A4%E3%82%BA/1410727592?i=1410728209&app=itunes",
+            "label": "日本｜ころころここたま!2017 (映画サイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama",
+            "releaseId": "apple-jp-1410727592",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1543859629",
+            "label": "日本｜ころころここたま!2017 (映画サイズ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-movie-erika-kokotama",
+            "releaseId": "apple-jp-1543859626",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE/1054282915?i=1054283850&app=itunes",
+            "label": "日本｜ころころここたま!",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-full",
+            "releaseId": "apple-jp-1054282915",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/%E3%81%93%E3%82%8D%E3%81%93%E3%82%8D%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE-tv%E3%82%B5%E3%82%A4%E3%82%BA/1122431721?i=1122432595&app=itunes",
+            "label": "日本｜ころころここたま!(TVサイズ)",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-erika-tv",
+            "releaseId": "apple-jp-1122431721",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1131139463",
+            "label": "日本｜ころころここたま! (かみさまみならい ヒミツのここたま)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kamisama-minarai-himitsu-no-cocotama-korokoro-cocotama-song-columbia-cover",
+            "releaseId": "apple-jp-1131139213",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format"
+            ],
+            "note": "節目列有片頭歌及交叉紀錄的短剪輯；未確認獨立發行的約15秒母帶或各話獨立片尾。",
+            "resumeWhen": "可查地面波、BS授權正片或音樂使用表後逐次核對剪輯、錄音及各話片末。",
+            "checkedAt": "2026-11-20"
+          },
+          {
+            "fields": [
+              "platform_links"
+            ],
+            "note": "已核對的Apple音源有日本發行；香港與台灣未找到相同主題原盤的對應音軌。",
+            "resumeWhen": "香港或台灣Apple、Spotify、KKBOX等平台有可確認相同原盤的曲目或發行方地域公告後補入。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ],
+    "sourceReferenceUrls": [
+      "https://bandai-a.akamaihd.net/corp/press/100000315844871.pdf",
+      "https://www.youtube.com/watch?v=GR9dfhPaSrs",
+      "https://bandai-a.akamaihd.net/corp/press/100000409580393.pdf",
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201806/23764_201806281755.html",
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/25056_201808091755.html",
+      "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2018_07_03.pdf",
+      "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2018_08_03.pdf",
+      "https://static.viu.tv/tOZ2R1pf3twttgMb.pdf"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://bandai-a.akamaihd.net/corp/press/100000315844871.pdf",
+        "label": "萬代｜日本動畫企劃與電視原播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=GR9dfhPaSrs",
+        "label": "萬代官方頻道｜原TV告知PV及首播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://bandai-a.akamaihd.net/corp/press/100000409580393.pdf",
+        "label": "萬代｜2016年4月7日起播出時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201806/23764_201806281755.html",
+        "label": "東京電視台｜第139話地面波播出",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201808/25056_201808091755.html",
+        "label": "東京電視台｜夏季重編版與新短篇欄目",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2018_07_03.pdf",
+        "label": "東京電視台｜2018年7月各日編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2018_08_03.pdf",
+        "label": "東京電視台｜2018年8月各日編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://static.viu.tv/tOZ2R1pf3twttgMb.pdf",
+        "label": "ViuTV｜香港節目表與正式繁中名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.allcinema.net/cinema/353309",
+        "label": "allcinema｜作品製作地與日本首播、終播日",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/21237",
+        "label": "AniList｜作品識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ]
+  },
 ];

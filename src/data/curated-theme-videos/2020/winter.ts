@@ -2831,4 +2831,8 @@ export const curated2020WinterThemeVideos = {
       "embedAvailability": "unknown"
     }
   ],
+  "-201723701:OP:3": [{"youtubeVideoId": "V_yI8Tjx_Xo", "title": "Black Rover", "channelName": "VK Blanka", "type": "art_track", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "black-clover-2017-op-3-song-vocal"}],
+  "-201723701:ED:3": [{"youtubeVideoId": "OpjokfOSP7w", "title": "EMPiRE / Black to the dreamlight [OFFiCiAL ViDEO]", "channelName": "ExWHYZ", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}, {"youtubeVideoId": "_1iCxILA2G0", "title": "Black to the dreamlight", "channelName": "EMPiRE - Topic", "type": "art_track", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "black-clover-2017-ed-3-song-vocal"}],
+  "-201723701:OP:4": [{"youtubeVideoId": "UbIB3hK1IhY", "title": "Guess Who Is Back (TV-SIZE)", "channelName": "倖田來未", "type": "art_track", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "black-clover-2017-op-4-song-tv-size"}],
+  "-201723701:ED:4": [{"youtubeVideoId": "_FqYK2Tu0H0", "title": "four", "channelName": "FAKY", "type": "art_track", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "black-clover-2017-ed-4-song-vocal"}],
 } satisfies CuratedThemeVideoOverrideMap;

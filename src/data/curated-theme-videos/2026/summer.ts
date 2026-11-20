@@ -478,4 +478,9 @@ export const curated2026SummerThemeVideos = {
       embeddable: true,
     },
   ],
+  "235:OP:46": [{"youtubeVideoId": "b1Kbii9Tn_g", "title": "Cellchrome / Everything OK!! [Official Music Video]", "channelName": "Cellchrome Official Channel", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "235:OP:47": [{"youtubeVideoId": "uSnGxtnSDjc", "title": "NormCore「カウントダウン」MusicVideo", "channelName": "NormCore", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "235:OP:48": [{"youtubeVideoId": "-YsoMJYznKk", "title": "dps「タイムライン」Music Video", "channelName": "dps", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "235:ED:56": [{"youtubeVideoId": "3fuIkpN3Jwo", "title": "焚吐×みやかわくん「神風エクスプレス」", "channelName": "焚吐", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "235:ED:58": [{"youtubeVideoId": "Y0eimsedxaQ", "title": "Cellchrome / Aozolighter [Official Music Video]", "channelName": "Cellchrome Official Channel", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;
