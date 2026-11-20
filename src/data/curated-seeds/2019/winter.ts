@@ -35620,7 +35620,10 @@ export const curated2019WinterSeeds: CuratedCatalogAnimeSeed[] = [
           }
         ],
         "lastVerifiedAt": "2026-11-20",
-        "youtubeUrl": "https://www.youtube.com/watch?v=AmA0JxcVFrY"
+        "youtubeUrl": "https://www.youtube.com/watch?v=AmA0JxcVFrY",
+        "seasonIds": [
+          "2019-winter"
+        ]
       },
       {
         "id": "kemurikusa-ed-1",
@@ -36512,6 +36515,9 @@ export const curated2019WinterSeeds: CuratedCatalogAnimeSeed[] = [
             "resumeWhen": "香港或日本平台公開授權原聲帶的曲目級串流頁時，補入第12話剪輯及各角色獨唱。",
             "checkedAt": "2026-11-20"
           }
+        ],
+        "seasonIds": [
+          "2019-winter"
         ]
       },
       {
@@ -37153,7 +37159,10 @@ export const curated2019WinterSeeds: CuratedCatalogAnimeSeed[] = [
           }
         ],
         "lastVerifiedAt": "2026-11-20",
-        "youtubeUrl": "https://www.youtube.com/watch?v=AmA0JxcVFrY"
+        "youtubeUrl": "https://www.youtube.com/watch?v=AmA0JxcVFrY",
+        "seasonIds": [
+          "2019-winter"
+        ]
       },
       {
         "id": "kemurikusa-ed-3",
@@ -38059,6 +38068,9 @@ export const curated2019WinterSeeds: CuratedCatalogAnimeSeed[] = [
             "resumeWhen": "香港或日本平台公開授權原聲帶的曲目級串流頁時，補入第12話剪輯及各角色獨唱。",
             "checkedAt": "2026-11-20"
           }
+        ],
+        "seasonIds": [
+          "2019-winter"
         ]
       }
     ]

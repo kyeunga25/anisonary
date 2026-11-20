@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第673批接續《キラッとプリ☆チャン》第一年日本電視原播。 |
+| 下批位置 | 第684批續查2018秋標準日本TV。《CONCEPTION》優先核對正式片頭、片尾與第8話〈I Love You〉，再查《ソラとウミのアイダ》各話用曲。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 672 批已在本機驗收，相對第 662 批正式基線有 101 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `6486c3d676f46650609bc5013ba0ef94596a2a74`／[batch662-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch662-japanese-tv)。本機資料驗收到第 672 批。 |
-| 發布提交 | [PR #317](https://github.com/kyeunga25/anisonary/pull/317) 固定候選 `1771f66`。正式 Workers 版本 `95825a99-8a34-4cec-872f-c507d564c72f`，預覽版本 `71c42bee-0215-40fa-847a-c163c92b7675`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 683 批已在本機驗收，相對第 672 批正式基線有 103 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `43623ffd9f1bd5e077b096007a506cda03af277b`／[batch672-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch672-japanese-tv)。本機資料驗收到第 683 批。 |
+| 發布提交 | [PR #318](https://github.com/kyeunga25/anisonary/pull/318) 固定候選 `9929f1e`。正式 Workers 版本 `3b30de0e-3291-47dc-a5fd-aa41f7f5328b`，預覽版本 `72f10ccc-5e8f-40d9-ba64-58c9acd79f47`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -20112,4 +20112,86 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 - 日本電視台首播跨九季。第65、66話同屬2019春，分別採換曲前、後編排。〈ピカ☆ちんタイム〉三個實播用途共用歌曲與音源ID，保留實體盤TV剪輯及伴奏。〈ドラセナ〉另有動畫尺寸、數位原唱及各場現場版，〈No.1〉第14、49、110話確認由角色演唱，原播當話的剪輯仍待原片。
 - 本批用途：`pochitto-hatsumei-pikachin-kit-op-1`、`pochitto-hatsumei-pikachin-kit-op-2`、`pochitto-hatsumei-pikachin-kit-ed-1`、`pochitto-hatsumei-pikachin-kit-ed-2`、`pochitto-hatsumei-pikachin-kit-ed-3`、`pochitto-hatsumei-pikachin-kit-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第673批　《キラッとプリ☆チャン》首年片頭片尾與五首角色舞台
+
+- 首年2018年4月8日至2019年3月31日共51話。第39話於2019年1月6日原播仍沿用第二組；第50話無常規片頭。六首主題曲均有官方原聲帶TV尺寸，另整合同首原唱、伴奏和角色舞台單曲。五首角色舞台按原播集數登錄，跨期重演與其餘首年舞台在下一批補齊。
+- 本批用途：`kiratto-prichan-op-1`、`kiratto-prichan-op-2`、`kiratto-prichan-op-3`、`kiratto-prichan-ed-1`、`kiratto-prichan-ed-2`、`kiratto-prichan-ed-3`、`kiratto-prichan-in-1`、`kiratto-prichan-in-2`、`kiratto-prichan-in-3`、`kiratto-prichan-in-4`、`kiratto-prichan-in-5`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第674批　《キラッとプリ☆チャン》首年後段舞台、劇中重用及歌曲ID複核
+
+- 補六首具名舞台、兩個主題曲劇中用途、三首既有角色曲的原播話數。第50話沒有常規片頭，劇中使用〈キラッとスタート〉，與第三年已有歌曲ID相連。〈Play Sound☆〉記錄兩場獨唱與商業合唱版。首年與後續年度共用已核同曲的歌曲ID。自創劇中短歌及〈Dream Goes On〉翻唱的掛字和音源列待續查。
+- 本批用途：`kiratto-prichan-op-1`、`kiratto-prichan-in-1`、`kiratto-prichan-in-2`、`kiratto-prichan-in-3`、`kiratto-prichan-in-6`、`kiratto-prichan-in-7`、`kiratto-prichan-in-8`、`kiratto-prichan-in-9`、`kiratto-prichan-in-10`、`kiratto-prichan-in-11`、`kiratto-prichan-in-12`、`kiratto-prichan-in-13`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第675批　《ケムリクサ》歌曲季度與《多啦A夢》2019冬特別片尾
+
+- 2019冬的電視版《ケムリクサ》四筆已核用途補登實際播出季，原曲、發行品及音源維持原證據。《多啦A夢》2019年3月15日使用mao〈夢をかなえてドラえもん〉作特別片尾，沿用已存在的歌曲與商業錄音ID。原播剪輯待核，當季正篇的常規片頭缺口不以後來重播或2024年的重新啟用填補。
+- 本批用途：`kemurikusa-op-1`、`kemurikusa-ed-1`、`kemurikusa-ed-2`、`kemurikusa-ed-3`、`doraemon-2005-ed-13`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第676批　《SSSS.GRIDMAN》主題曲與《終將成為妳》首尾話例外
+
+- 《SSSS.GRIDMAN》首播WOWOW 24:00 JST，TOKYO MX及BS11 25:00。首末話無常規片頭，〈UNION〉第1、3、12話劇中播放。〈youthful beautiful〉原唱、電視剪輯、伴奏及數位曲目連到同曲。
+- 《終將成為妳》第1話將後續片頭曲用於片末，第13話特別片尾為〈好き、以外の言葉で〉，第9話使用〈rise〉。四首均核對歌手、詞曲編、單曲曲序和香港、日本曲目。
+- 本批用途：`ssss-gridman-op-1`、`ssss-gridman-ed-1`、`ssss-gridman-in-1`、`yagate-kimi-ni-naru-op-1`、`yagate-kimi-ni-naru-ed-1`、`yagate-kimi-ni-naru-ed-2`、`yagate-kimi-ni-naru-ed-3`、`yagate-kimi-ni-naru-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第677批　《SSSS.GRIDMAN》終話器樂片尾、教室用曲及1993年原曲
+
+- 終話掛字用〈Believe〉器樂版，與其他話的劇中用途沿用同曲。另補具名合唱曲與第4、8話〈夢飛行〉；正式專輯與特攝宣傳用兩種TV剪輯均列版本。〈夢のヒーロー〉第6話鋼琴、第12話坂井紀雄原唱、OxT翻唱的商業錄音各自連到同一首歌，第12話〈もっと君を知れば〉保留播出鋼琴版與原唱的差異。唱片未具名的播出錄音見續查。
+- 本批用途：`ssss-gridman-ed-1`、`ssss-gridman-ed-2`、`ssss-gridman-in-2`、`ssss-gridman-in-3`、`ssss-gridman-in-4`、`ssss-gridman-in-5`、`ssss-gridman-in-6`、`ssss-gridman-in-7`、`ssss-gridman-in-8`、`ssss-gridman-in-9`、`ssss-gridman-in-10`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第678批　《哥布林殺手》首期插曲與《RELEASE THE SPYCE》角色錄音
+
+- 《哥布林殺手》第1話無常規主題歌，第7、12話Mili劇中歌按權利方逐話標示。第10.5話總集篇保留逐曲待核。收錄清唱、器樂特典、日版單曲及區域串流。
+- 《RELEASE THE SPYCE》首末話無常規片頭，第4話〈月結び〉特別片尾與同曲自彈自唱分列，三組角色唱片另有片頭翻唱。主要歌曲和角色作品保留正規、TV及伴奏版。
+- 本批用途：`goblin-slayer-op-1`、`goblin-slayer-ed-1`、`goblin-slayer-in-1`、`goblin-slayer-in-2`、`release-the-spyce-op-1`、`release-the-spyce-ed-1`、`release-the-spyce-ed-2`、`release-the-spyce-in-1`、`release-the-spyce-in-2`、`release-the-spyce-in-3`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 672 批正式驗收
+
+第 663–672 批涵蓋 14 部日本電視作品與 101 筆不同歌曲用途。預覽候選 `9929f1e` 及正式提交 `43623ff` 的 CI、Workers 建置均通過。兩個環境各有 4,590 個 CI 產物與固定候選逐位元一致，各驗收 165 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,611 個用途。[PR #318](https://github.com/kyeunga25/anisonary/pull/318) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch672-japanese-tv)
+
+## 第679批　《寄宿學校的茱麗葉》與《我家的女僕有夠煩！》首末話例外
+
+- 《寄宿學校的茱麗葉》首話無常規片尾，兩首歌核對首發各實體版、伴奏及港台日曲目。《我家的女僕有夠煩！》第12話在片末使用原片頭，原唱及伴奏沿用同一歌曲ID。影碟OVA與純角色發行另待相應用途證據。
+- 本批用途：`kishuku-gakkou-no-juliet-op-1`、`kishuku-gakkou-no-juliet-ed-1`、`uchi-no-maid-ga-uzasugiru-op-1`、`uchi-no-maid-ga-uzasugiru-ed-1`、`uchi-no-maid-ga-uzasugiru-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第680批　《隔壁的吸血鬼美眉》《只要別西卜大小姐喜歡就好》與《來自繽紛世界的明日》的主題曲及發行版本
+
+- 《隔壁的吸血鬼美眉》的兩首主題曲均核對第1–12話及詞曲編、四名角色聲優、實體卡拉OK和四種個人混音。唱片方連至Spotify，已按曲序核對直接曲目，港區可播性未有直接證據。
+- 《只要別西卜大小姐喜歡就好》已核對ABC首播與AbemaTV同時配信、兩首主題歌及第3話。片頭動畫限定盤第4軌為TV size，另兩種實體盤同軌為instrumental。片尾有三人合唱與三種角色獨唱，均以原曲識別碼連接。首末話等逐話位置待ABC或正版分集畫面／可信逐話記錄，未以唱片資訊推定播出。
+- 《來自繽紛世界的明日》已核對〈17才〉第1、13話片末及第2–12話片頭、常規片尾及第13話〈color capsule〉。鋼琴版僅確認實體限定盤曲序，待兩話正版片段比對其實際剪輯。YouTube只核對權利方帳號及影片標題／描述，未把無字幕影片視為商業TV size或原播核驗。
+- 本批用途：`tonari-no-kyuuketsuki-san-op-1`、`tonari-no-kyuuketsuki-san-ed-1`、`beelzebub-jou-no-okinimesu-mama-op-1`、`beelzebub-jou-no-okinimesu-mama-ed-1`、`irozuku-sekai-no-ashita-kara-op-1`、`irozuku-sekai-no-ashita-kara-ed-1`、`irozuku-sekai-no-ashita-kara-ed-2`、`irozuku-sekai-no-ashita-kara-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第681批　《Anima Yell!》首話片尾、九首插曲及正版音源
+
+- 〈ジャンプアップ↑エール！！〉第2–12話為片頭，第1話在片末使用；〈One for All〉為第2–12話片尾。兩首均核對全長商品曲、器樂曲、獨立TV size及原聲帶TV size，按發行品與地區連上Apple Music、Spotify與OTOTOY。
+- 九首插曲核對逐話用途、六首啦啦隊場面翻唱、原聲帶及第1卷特典CD曲序、香港Apple Music逐曲。〈じょいふる〉與〈LOVE2000〉沿用目錄已有的作品歌曲識別碼，分開保存本作演唱版本與已存在的其他動畫演唱版本。
+- 〈The Journey〉有Astha Shrestha演唱錄音及堤博明署名短版，逐話紀錄未列各次剪輯。〈One Day〉按實體與港台Apple的演唱資料保留MB Padfield，另記日本Apple與Spotify所用曲目署名。兩首主題的獨立TV size與OST時長略異，待音源資料或合法聲音比對確定剪輯差異。
+- 部分翻唱專用編曲待東寶內頁或授權平台的逐曲credits；Spotify香港可播性仍待地區證據。無字幕影片只核對TOHO官方標題與渠道資料。
+- 本批用途：`anima-yell-op-1`、`anima-yell-ed-1`、`anima-yell-ed-2`、`anima-yell-in-1`、`anima-yell-in-2`、`anima-yell-in-3`、`anima-yell-in-4`、`anima-yell-in-5`、`anima-yell-in-6`、`anima-yell-in-7`、`anima-yell-in-8`、`anima-yell-in-9`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第682批　《黃金神威》第二期與《東京喰種：re》最終章的逐話主題曲及音源
+
+- 《黃金神威》第二期確認TOKYO MX原播、FOD同步和第13話片段先行。〈レイメイ〉為第14–23話片頭、第13及24話片尾，兩次片尾沿用同一歌曲識別碼；〈時計台の鐘〉為第14–21及23話片尾，第22話無歌曲片尾。兩次片末〈レイメイ〉的具體剪輯待原播音軌。合唱、動畫限定盤TV版與さユり重錄弾き語り分列。
+- 《東京喰種：re》最終章確認日本電視第13–24話、9月折返到10月正式電視首播的區別，以及第24話SaKy插曲。實體與港台日數位曲序分列，〈katharsis〉另有sainou mix、先行及CD的兩項不同時長TV edit，逐話用到哪個剪輯待原播比對。〈楽園の君〉的原版、器樂、TV edit及新錄Acoustic ver.分列，編曲專項署名待權利方內頁。
+- Spotify已核對對應曲目，香港可播性未以美術封面或公開頁面推定。YouTube只核對官方頁的標題和發布渠道，未用MV推定音源長度或逐話位置。
+- 本批用途：`golden-kamuy-2nd-season-op-1`、`golden-kamuy-2nd-season-ed-1`、`golden-kamuy-2nd-season-ed-2`、`tokyo-ghoul-re-2-op-1`、`tokyo-ghoul-re-2-ed-1`、`tokyo-ghoul-re-2-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第683批　《佐賀偶像是傳奇》第一期逐話歌曲、特殊片尾及角色音源
+
+- 確認MAPPA製作、AT-X日本原播與AbemaTV同步、兩首常規主題及其掛字名義。〈徒花ネクロマンシー〉區分單曲錄音、TV size、源さくら口上專輯版及instrumental，〈光へ〉保存單曲、TV size及instrumental。
+- 按逐話紀錄與日本BD特典，分列第7話〈目覚めRETURNER〉Electric Returner、第8話〈To my Dearest〉、第9話〈特攻DANCE〉及第12話〈FLAGをはためかせろ！〉的片末使用；〈ヨミガエレ〉保留第12話舞台插曲。第5話〈ドライブイン鳥〉原廣告與新錄的フランシュシュ版共用歌曲識別碼。
+- 製作人確認第8話〈To my Dearest〉排練場面播出鋼琴，唱片另收帶リリィ歌聲的練唱錄音。已按曲序核對Avex實體單曲、SAGA.1–3特典CD、原聲帶、精選及港台日Apple Music，另核對Spotify具體曲目。串流區域證據按曲目保存。
+- 首話〈Temptation from the Hell〉及第7話〈Peace&Love〉先記經逐話交叉核對的用法，待第一方掛字／獨立曲目。〈鹿島一声浮立〉原播演出名義、第1話アイアンフリル原錄音陣容及Riz☆Rie原廣告正版音源仍待核。
+- 本批用途：`zombie-land-saga-op-1`、`zombie-land-saga-ed-1`、`zombie-land-saga-ed-2`、`zombie-land-saga-ed-3`、`zombie-land-saga-ed-4`、`zombie-land-saga-ed-5`、`zombie-land-saga-in-1`、`zombie-land-saga-in-2`、`zombie-land-saga-in-3`、`zombie-land-saga-in-4`、`zombie-land-saga-in-5`、`zombie-land-saga-in-6`、`zombie-land-saga-in-7`、`zombie-land-saga-in-8`、`zombie-land-saga-in-9`、`zombie-land-saga-in-10`、`zombie-land-saga-in-11`、`zombie-land-saga-in-12`、`zombie-land-saga-in-13`、`zombie-land-saga-in-14`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
